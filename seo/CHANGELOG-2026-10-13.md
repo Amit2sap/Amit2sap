@@ -23,3 +23,8 @@ The full pre-change export of all 245 products (title, description, SEO, tags) i
 - Duplicate titles remain for the 10 "Handwoven Sabai Grass Wall Plate Decor" listings. Add each one's colour/pattern to its title; this needs the product photos.
 - Check that `/pages/contact` exists. The Diwali collection's bulk-order link points there.
 - Optionally add bulk gift products to the "Corporate Gifts | Handcrafted Gifts" collection, which is currently empty of copy.
+
+## Follow-up changes
+- **Shipping:** the General profile's India rules changed from ₹120 below ₹999 / free from ₹1,000 to ₹120 below ₹1,300 / free from ₹1,300. This matches the "Free Shipping Condition" profile and closes the ₹999.01–₹999.99 gap.
+- **Diwali collection:** added a "Free shipping above ₹1,300 across India" line.
+- **Corporate Gifts collection** (`/collections/corporate-gifts-handcrafted-gifts`): renamed to "Corporate Gifts | Handcrafted Eco-Friendly Gifts" and added 20 products (now 27). Wrote a description with budget tiers and a bulk/custom-order call-to-action, set an SEO title and meta description, and set sort to best-selling. The URL is unchanged.
