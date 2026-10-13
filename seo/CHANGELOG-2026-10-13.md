@@ -28,3 +28,5 @@ The full pre-change export of all 245 products (title, description, SEO, tags) i
 - **Shipping:** the General profile's India rules changed from ₹120 below ₹999 / free from ₹1,000 to ₹120 below ₹1,300 / free from ₹1,300. This matches the "Free Shipping Condition" profile and closes the ₹999.01–₹999.99 gap.
 - **Diwali collection:** added a "Free shipping above ₹1,300 across India" line.
 - **Corporate Gifts collection** (`/collections/corporate-gifts-handcrafted-gifts`): renamed to "Corporate Gifts | Handcrafted Eco-Friendly Gifts" and added 20 products (now 27). Wrote a description with budget tiers and a bulk/custom-order call-to-action, set an SEO title and meta description, and set sort to best-selling. The URL is unchanged.
+- **Main menu:** added "Diwali Gift Hampers" as the first item under THE GIFT ATELIER. All other items are unchanged; the previous menu is backed up in `backups/menus/main-menu_2026-10-13.json`.
+- Confirmed: `/pages/contact` exists.
