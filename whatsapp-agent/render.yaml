@@ -1,0 +1,59 @@
+# Render Blueprint for the GrassCrafts WhatsApp agent.
+# In Render: New + > Blueprint > pick this repo. Render reads this file.
+services:
+  - type: web
+    name: grasscrafts-whatsapp-agent
+    runtime: docker
+    dockerfilePath: ./whatsapp-agent/Dockerfile
+    dockerContext: ./whatsapp-agent
+    buildFilter:
+      paths:
+        - whatsapp-agent/**
+    plan: free            # free plan: no persistent disk, sleeps after 15 min idle
+    region: singapore
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      # SQLite location. On the free plan /tmp is wiped on every restart/redeploy,
+      # which clears chat history and /pause settings (they rebuild automatically).
+      # For persistence switch to plan: starter, uncomment the disk block below and
+      # set DATABASE_PATH to /var/data/agent.db.
+      - key: DATABASE_PATH
+        value: /tmp/agent.db
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: ANTHROPIC_EFFORT
+        value: low
+      - key: SHOPIFY_STORE_DOMAIN
+        value: 605e40-ba.myshopify.com
+      - key: SHOPIFY_API_VERSION
+        value: "2025-01"
+      - key: WHATSAPP_API_VERSION
+        value: v21.0
+      - key: DEFAULT_COUNTRY_CODE
+        value: "91"
+      - key: RATE_LIMIT_PER_HOUR
+        value: "20"
+      - key: PAUSED
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      # Secrets: "sync: false" means you type the value in the Render dashboard.
+      - key: WHATSAPP_VERIFY_TOKEN
+        generateValue: true
+      - key: WHATSAPP_APP_SECRET
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: OWNER_WHATSAPP_NUMBER
+        sync: false
+      - key: SHOPIFY_ADMIN_TOKEN
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+    # disk:
+    #   name: agent-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
