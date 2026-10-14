@@ -31,3 +31,4 @@ The full pre-change export of all 245 products (title, description, SEO, tags) i
 - **Main menu:** added "Diwali Gift Hampers" as the first item under THE GIFT ATELIER. All other items are unchanged; the previous menu is backed up in `backups/menus/main-menu_2026-10-13.json`.
 - Confirmed: `/pages/contact` exists.
 - **Main menu reordered (14 Oct):** THE GIFT ATELIER moved to first position. Inside it: Diwali → Corporate → Wedding → She Creates → Rakhi (moved last, not removed). Other sections keep their order.
+- **Collection SEO (14 Oct):** wrote SEO titles + meta descriptions for 19 collections that had none, and corrected "free shipping above ₹999" to ₹1,300 in Water Hyacinth, Jute and Madurkathi meta descriptions. Values in `seo/collection_seo_2026-10-14.json`.
