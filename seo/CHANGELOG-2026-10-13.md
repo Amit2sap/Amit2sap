@@ -41,3 +41,6 @@ GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%
 - **Collections:** new descriptions with FAQs and internal links for Sabai grass, Kauna (now consistently Manipur), Cane, Cane planters, Baby shower, Table mats, Bamboo; new SEO title/meta for Kauna and Kash grass.
 - **Sitemap:** submitted https://grasscrafts.com/sitemap.xml to the sc-domain property. Three old sitemap entries with errors remain in GSC (remove manually: /sitemap, /sitemap.xml/grasscrafts.com/sitemap.xml, www /sitemap_index.xml).
 - Backup of all article/page bodies before edits: `backups/content/articles_pages_2026-10-14.json`.
+- **New blog drafts (UNPUBLISHED, review before publishing)** in "The Grass Guide":
+  - `eco-friendly-diwali-corporate-gifts-india`: "Eco-Friendly Diwali Corporate Gifts in India (2026 Guide)". Budget tiers, bulk-order section, FAQs, SEO title/meta.
+  - `jute-vs-water-hyacinth-vs-sabai-vs-cane-baskets`: material comparison table + FAQs, SEO title/meta.
