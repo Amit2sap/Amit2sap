@@ -32,3 +32,12 @@ The full pre-change export of all 245 products (title, description, SEO, tags) i
 - Confirmed: `/pages/contact` exists.
 - **Main menu reordered (14 Oct):** THE GIFT ATELIER moved to first position. Inside it: Diwali → Corporate → Wedding → She Creates → Rakhi (moved last, not removed). Other sections keep their order.
 - **Collection SEO (14 Oct):** wrote SEO titles + meta descriptions for 19 collections that had none, and corrected "free shipping above ₹999" to ₹1,300 in Water Hyacinth, Jute and Madurkathi meta descriptions. Values in `seo/collection_seo_2026-10-14.json`.
+
+## SEO fixes from Search Console data (14 Oct)
+GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%, 92% of clicks from India.
+- **Redirects:** created 30 new 301 redirects for broken internal links (old collection handles, products linked by numeric ID, Rakhi blog product links, /pages/what-is-* links) and repointed 5 existing redirects that led to dead pages (mats-coasters, bed-runners, jute-mat, tissue-box, sling-bag).
+- **Articles:** fixed broken collection links in the Madurkathi article (2nd highest-traffic page) and the Kauna article.
+- **Sabai grass page** (`/pages/grass-weaving-sustainability`, 3.5k impressions): new SEO title + meta description.
+- **Collections:** new descriptions with FAQs and internal links for Sabai grass, Kauna (now consistently Manipur), Cane, Cane planters, Baby shower, Table mats, Bamboo; new SEO title/meta for Kauna and Kash grass.
+- **Sitemap:** submitted https://grasscrafts.com/sitemap.xml to the sc-domain property. Three old sitemap entries with errors remain in GSC (remove manually: /sitemap, /sitemap.xml/grasscrafts.com/sitemap.xml, www /sitemap_index.xml).
+- Backup of all article/page bodies before edits: `backups/content/articles_pages_2026-10-14.json`.
