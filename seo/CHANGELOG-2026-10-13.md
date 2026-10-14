@@ -44,3 +44,11 @@ GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%
 - **New blog drafts (UNPUBLISHED, review before publishing)** in "The Grass Guide":
   - `eco-friendly-diwali-corporate-gifts-india`: "Eco-Friendly Diwali Corporate Gifts in India (2026 Guide)". Budget tiers, bulk-order section, FAQs, SEO title/meta.
   - `jute-vs-water-hyacinth-vs-sabai-vs-cane-baskets`: material comparison table + FAQs, SEO title/meta.
+
+## Duplicate products merged (14 Oct)
+- **Wall plates:** 10 listings → `/products/wall-plates` (Design 1–10 × Small/Medium/Large/Set of 3, 40 variants, stock 75).
+- **Dry flower wreaths:** 7 listings → `/products/dry-flower-wreath` (Style: Classic, Mini, Petite, Rustic, Harvest, Garden, Meadow; stock 14).
+- **Cane planters:** 4 duplicate listings → `/products/handwoven-cane-planter-set` (Design 1–4; stock 13). Distinct cane planters left as they were.
+- 18 old listings ARCHIVED (not deleted), with 301 redirects to the merged products. Prices, stock and images carried over.
+- Pre-merge backup: `backups/products/merged_duplicates_2026-10-14.json`.
+- Corporate gifting catalogue PDF (7 pages, 18 products, 23 clients) emailed to the store owner; outreach emails sent to prospects with public emails.
