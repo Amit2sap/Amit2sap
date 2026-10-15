@@ -47,6 +47,19 @@ Customer <──WhatsApp── Meta Cloud API <──reply───────�
 
 ---
 
+## Status as of 15 Oct 2026
+
+| Item | Status |
+|---|---|
+| +91 8100447884 | Registered on the Cloud API (**CONNECTED**). Display name "Gift Hamper" is under Meta review; rename to "Grasscrafts" in WhatsApp Manager if wanted. |
+| Phone number ID (`WHATSAPP_PHONE_NUMBER_ID`) | `1292616473939901` |
+| WABA ID (`WHATSAPP_BUSINESS_ACCOUNT_ID`) | `28037860215843187` |
+| Templates | All 11 (6 templates, en + hi) submitted, waiting for Meta approval. Check with `python -m app.templates_sync --status`. |
+| Old duplicate entry of 8100447884 | Phone ID `800035566521159` in WABA `24086536527714735`, code expired. The API cannot delete it: remove it in WhatsApp Manager → Phone numbers. |
+| Two-step verification PIN | Set during registration and given to the owner. It is not stored here. |
+
+So in step 2 below, **skip "Add your real number"**: the number is already added and verified. Do the rest: create your own Meta app (step 1), then the system user and permanent token, and assign WABA `28037860215843187` to it. Then follow steps 3–7.
+
 ## Before you start
 
 Have these ready:
