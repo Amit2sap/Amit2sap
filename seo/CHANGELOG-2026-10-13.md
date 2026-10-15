@@ -55,3 +55,6 @@ GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%
 
 ## Makhana Google Maps link (15 Oct)
 - Added "Find Makhana by Grasscrafts on Google Maps" link (https://share.google/zzV2YdvRPsrO9Vw0n) at the end of the Makhana product description and the /collections/makhana description. Backup: `backups/content/makhana_before_maps_link_2026-10-15.json`.
+- **Makhana health claims removed (15 Oct):** replaced "Low Glycaemic Index — suitable for diabetics", "Rich in Antioxidants — supports healthy ageing and immunity", "High in Protein & Fibre — keeps you full" and "superfood/guilt-free" wording with neutral, factual bullets (nothing added in the pack, fasting-friendly, gift-worthy, storage). SEO title/meta no longer say "high-protein, low-calorie". Original text in `backups/content/makhana_before_maps_link_2026-10-15.json`.
+- **"Happy Diwali" ₹0 product archived** (gid://shopify/Product/8353899839661); it can be restored from Archived products in Shopify.
+- Confirmed both blog articles (Diwali corporate gifts guide; jute vs water hyacinth vs sabai vs cane) are published.
