@@ -96,7 +96,8 @@ def test_tool_loop_runs_tools_and_returns_final_text(settings):
     assert first["output_config"] == {"effort": "low"}
     assert first["betas"] == [FALLBACK_BETA] and first["fallbacks"] == "default"
     assert {t["name"] for t in first["tools"]} == {
-        "search_products", "get_product", "get_order_status", "escalate_to_owner", "send_product_image"}
+        "search_products", "get_product", "get_order_status", "escalate_to_owner", "send_product_image",
+        "save_lead"}  # lead capture is on by default; send_catalogue only appears with CATALOGUE_PDF_URL
     assert "Free shipping across India on orders above ₹1,300" in first["system"][0]["text"]
     assert first["messages"][:2] == history
     assert first["messages"][2]["role"] == "user"

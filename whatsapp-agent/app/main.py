@@ -1,4 +1,5 @@
-"""FastAPI app: Meta webhook endpoints and the message-processing pipeline."""
+"""FastAPI app: Meta and Shopify webhook endpoints, the message-processing pipeline,
+the background scheduler and the admin dashboard."""
 
 from __future__ import annotations
 
@@ -7,14 +8,20 @@ import json
 import logging
 from collections import defaultdict
 from contextlib import asynccontextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from fastapi import BackgroundTasks, FastAPI, Request
 from fastapi.responses import JSONResponse, PlainTextResponse
 
+from .admin import build_admin_router
 from .agent import FALLBACK_REPLY, Agent
+from .automations import TOPICS, Notifier, ShopifyAutomations
 from .config import Settings, get_settings, mask_phone, normalize_phone
-from .shopify import ShopifyClient
+from .consent import OPT_IN_REPLY, OPT_OUT_REPLY, consent_command
+from .digest import classify_question
+from .emailer import send_email
+from .scheduler import Scheduler
+from .shopify import ShopifyClient, verify_webhook_hmac
 from .store import Store
 from .whatsapp import IncomingMessage, WhatsAppClient, parse_webhook, verify_signature
 
@@ -43,13 +50,27 @@ class Services:
     whatsapp: WhatsAppClient
     shopify: ShopifyClient
     agent: Agent
+    notifier: Notifier = field(default=None)  # type: ignore[assignment]
+    automations: ShopifyAutomations = field(default=None)  # type: ignore[assignment]
+    scheduler: Scheduler = field(default=None)  # type: ignore[assignment]
+
+    def __post_init__(self) -> None:
+        if self.notifier is None:
+            self.notifier = Notifier(self.settings, self.store, self.whatsapp)
+        if self.automations is None:
+            self.automations = ShopifyAutomations(self.settings, self.store, self.notifier)
+        if self.scheduler is None:
+            email = (lambda subject, body: send_email(self.settings, subject, body))
+            self.scheduler = Scheduler(
+                self.settings, self.store, self.automations, self.whatsapp, email
+            )
 
 
 def build_services(settings: Settings) -> Services:
     store = Store(settings.database_path, settings.history_turns, settings.history_ttl_hours)
     wa = WhatsAppClient(settings)
     shop = ShopifyClient(settings)
-    return Services(settings, store, wa, shop, Agent(settings, shop, wa))
+    return Services(settings, store, wa, shop, Agent(settings, shop, wa, store=store))
 
 
 class Processor:
@@ -86,6 +107,24 @@ class Processor:
         if settings.owner_phone and phone == settings.owner_phone:
             await self.owner_command(msg.text or "")
             return
+
+        # Compliance first: STOP / START work even while the bot is paused.
+        command = consent_command(msg.text) if settings.opt_out_enabled else None
+        if command == "opt_out":
+            store.set_marketing(phone, "opted_out", "whatsapp_stop", msg.name)
+            store.log_event("opt_out", phone)
+            await wa.send_text(phone, OPT_OUT_REPLY)
+            log.info("opt-out from %s", mask_phone(phone))
+            return
+        if command == "opt_in":
+            store.set_marketing(phone, "opted_in", "whatsapp_start", msg.name)
+            store.log_event("opt_in", phone)
+            await wa.send_text(phone, OPT_IN_REPLY)
+            log.info("opt-in from %s", mask_phone(phone))
+            return
+        # A customer who messages us first has opted in (an earlier STOP is kept).
+        store.record_opt_in(phone, "whatsapp_inbound", msg.name)
+        store.log_event("inbound", phone, classify_question(msg.text or ""))
 
         if settings.paused or store.is_paused(phone):
             if msg.text:
@@ -162,6 +201,7 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
     )
     # httpx logs full request URLs at INFO; keep them quiet.
     logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("httpx2").setLevel(logging.WARNING)
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
@@ -169,7 +209,10 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
             app.state.services = build_services(settings)
         app.state.processor = Processor(app.state.services)
         app.state.services.store.prune()
+        if settings.scheduler_needed:
+            app.state.services.scheduler.start()
         yield
+        await app.state.services.scheduler.stop()
         await app.state.services.whatsapp.aclose()
         await app.state.services.shopify.aclose()
 
@@ -178,9 +221,36 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
     app.state.processor = Processor(services) if services else None
 
     @app.get("/")
+    @app.get("/health")
     @app.get("/healthz")
     async def health():
+        # Also the target for an external uptime ping that keeps a sleeping Render instance awake.
         return {"status": "ok"}
+
+    @app.post("/shopify/webhook")
+    async def shopify_webhook(request: Request, background: BackgroundTasks):
+        body = await request.body()
+        if not verify_webhook_hmac(
+            settings.shopify_webhook_secret, body, request.headers.get("X-Shopify-Hmac-Sha256")
+        ):
+            log.warning("rejected Shopify webhook with invalid HMAC")
+            return JSONResponse({"error": "invalid signature"}, status_code=401)
+        topic = (request.headers.get("X-Shopify-Topic") or "").lower()
+        try:
+            payload = json.loads(body)
+        except ValueError:
+            return JSONResponse({"error": "invalid json"}, status_code=400)
+        services: Services = app.state.services
+        webhook_id = request.headers.get("X-Shopify-Webhook-Id") or request.headers.get("X-Shopify-Event-Id")
+        if webhook_id and not services.store.mark_processed(f"shopify:{webhook_id}"):
+            return {"status": "duplicate"}
+        if topic not in TOPICS or not isinstance(payload, dict):
+            return {"status": "ignored"}
+        result = services.automations.handle_webhook(topic, payload)
+        log.info("shopify webhook %s: %s", topic, result)
+        # Send anything due right now (order confirmation, shipping update) after replying to Shopify.
+        background.add_task(services.scheduler.tick)
+        return {"status": result}
 
     @app.get("/webhook")
     async def verify(request: Request):
@@ -215,6 +285,7 @@ def create_app(settings: Settings | None = None, services: Services | None = Non
             background.add_task(processor.handle, msg)
         return {"status": "ok"}
 
+    app.include_router(build_admin_router(settings, lambda: app.state.services.store))
     return app
 
 

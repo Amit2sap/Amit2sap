@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
 COPY store_facts.md .
+COPY templates ./templates
 
 RUN mkdir -p /app/data
 

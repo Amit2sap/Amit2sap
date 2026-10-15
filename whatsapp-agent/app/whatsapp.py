@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 import logging
+import re
 from dataclasses import dataclass
 
 import httpx
@@ -98,6 +99,14 @@ def split_message(text: str, limit: int = MAX_TEXT_LEN) -> list[str]:
     return chunks
 
 
+def template_param(value: object, limit: int = 1000) -> str:
+    """Meta rejects template variables containing newlines, tabs or 4+ spaces in a row."""
+    text = str(value if value is not None else "").replace("\r", "")
+    text = re.sub(r"\s*\n\s*", " | ", text.strip())
+    text = re.sub(r"[\t ]{2,}", " ", text)
+    return (text or "-")[:limit]
+
+
 # ------------------------------------------------------------------- sending
 class WhatsAppClient:
     def __init__(self, settings: Settings, http: httpx.AsyncClient | None = None):
@@ -160,8 +169,23 @@ class WhatsAppClient:
         )
         log.info("sent image to=%s", mask_phone(to))
 
-    async def send_template(self, to: str, name: str, lang: str, body_params: list[str]) -> None:
+    async def send_document(self, to: str, link: str, filename: str, caption: str = "") -> None:
+        document: dict = {"link": link, "filename": filename}
+        if caption:
+            document["caption"] = caption[:1024]
         await self._post(
+            {
+                "messaging_product": "whatsapp",
+                "recipient_type": "individual",
+                "to": to,
+                "type": "document",
+                "document": document,
+            }
+        )
+        log.info("sent document to=%s", mask_phone(to))
+
+    async def send_template(self, to: str, name: str, lang: str, body_params: list[str]) -> dict:
+        return await self._post(
             {
                 "messaging_product": "whatsapp",
                 "to": to,
@@ -172,7 +196,9 @@ class WhatsAppClient:
                     "components": [
                         {
                             "type": "body",
-                            "parameters": [{"type": "text", "text": p[:1000]} for p in body_params],
+                            "parameters": [
+                                {"type": "text", "text": template_param(p)} for p in body_params
+                            ],
                         }
                     ],
                 },

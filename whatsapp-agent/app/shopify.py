@@ -1,7 +1,10 @@
-"""Read-only Shopify Admin GraphQL client used by the agent's tools."""
+"""Read-only Shopify Admin GraphQL client used by the agent's tools, and webhook verification."""
 
 from __future__ import annotations
 
+import base64
+import hashlib
+import hmac
 import logging
 import re
 
@@ -71,6 +74,15 @@ query GetOrder($q: String!) {
   }
 }
 """
+
+
+def verify_webhook_hmac(secret: str, body: bytes, header: str | None) -> bool:
+    """Check Shopify's ``X-Shopify-Hmac-Sha256`` (base64 HMAC-SHA256 of the raw body)."""
+    if not secret or not header:
+        return False
+    digest = hmac.new(secret.encode(), body, hashlib.sha256).digest()
+    expected = base64.b64encode(digest).decode()
+    return hmac.compare_digest(expected, header.strip())
 
 
 def _sanitize_search(text: str) -> str:

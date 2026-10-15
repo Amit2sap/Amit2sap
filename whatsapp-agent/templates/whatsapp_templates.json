@@ -1,0 +1,99 @@
+{
+  "_readme": "WhatsApp message templates for GrassCrafts. Create them in Meta with `python -m app.templates_sync`. Variables {{1}}, {{2}} ... are filled in by the bot in the order listed under 'params'. A variable may not be the very first or last thing in a body. UTILITY = transactional updates about an order the customer placed. MARKETING = offers, reminders and anything promotional; only sent to opted-in customers. After Meta approves a template you cannot change its category; edit the text here, then delete and re-create it in WhatsApp Manager if needed.",
+  "templates": [
+    {
+      "name": "order_confirmation",
+      "category": "UTILITY",
+      "params": ["customer first name", "order number", "order total"],
+      "languages": {
+        "en": {
+          "body": "Hi {{1}}, thank you for your order {{2}} with GrassCrafts! We have received your payment of {{3}} and our artisans are getting it ready. We will message you here when it ships.",
+          "example": ["Asha", "#1042", "₹2,499"]
+        },
+        "hi": {
+          "body": "नमस्ते {{1}}, GrassCrafts से ऑर्डर {{2}} के लिए धन्यवाद! हमें आपका {{3}} का भुगतान मिल गया है और हमारे कारीगर इसे तैयार कर रहे हैं। ऑर्डर भेजे जाने पर हम आपको यहीं बताएंगे।",
+          "example": ["आशा", "#1042", "₹2,499"]
+        }
+      },
+      "footer": "GrassCrafts · grasscrafts.com"
+    },
+    {
+      "name": "order_shipped",
+      "category": "UTILITY",
+      "params": ["customer first name", "order number", "courier name", "tracking number or link"],
+      "languages": {
+        "en": {
+          "body": "Good news {{1}}! Your GrassCrafts order {{2}} has shipped with {{3}}. Track it here: {{4}} . Reply to this message if you need any help.",
+          "example": ["Asha", "#1042", "Delhivery", "https://www.delhivery.com/track/package/1234567890"]
+        },
+        "hi": {
+          "body": "खुशखबरी {{1}}! आपका GrassCrafts ऑर्डर {{2}} {{3}} से भेज दिया गया है। यहाँ ट्रैक करें: {{4}} . किसी भी मदद के लिए इस संदेश का जवाब दें।",
+          "example": ["आशा", "#1042", "Delhivery", "https://www.delhivery.com/track/package/1234567890"]
+        }
+      },
+      "footer": "GrassCrafts · grasscrafts.com"
+    },
+    {
+      "name": "abandoned_cart",
+      "category": "MARKETING",
+      "params": ["customer first name", "checkout link"],
+      "languages": {
+        "en": {
+          "body": "Hi {{1}}, you left some handwoven treasures in your GrassCrafts cart. They are saved for you here: {{2}} . Any questions about size, colour or gifting? Just reply to this message.",
+          "example": ["Asha", "https://grasscrafts.com/checkouts/abc123/recover"]
+        },
+        "hi": {
+          "body": "नमस्ते {{1}}, आपकी GrassCrafts कार्ट में कुछ हस्तनिर्मित चीज़ें रह गई हैं। वे यहाँ आपके लिए सहेजी गई हैं: {{2}} . साइज़, रंग या गिफ़्टिंग के बारे में कोई सवाल हो तो इस संदेश का जवाब दें।",
+          "example": ["आशा", "https://grasscrafts.com/checkouts/abc123/recover"]
+        }
+      },
+      "footer": "Reply STOP to unsubscribe",
+      "buttons": [{"type": "QUICK_REPLY", "text": "Stop promotions"}]
+    },
+    {
+      "name": "review_request",
+      "category": "MARKETING",
+      "params": ["customer first name", "order number", "review link"],
+      "languages": {
+        "en": {
+          "body": "Hi {{1}}, we hope you are enjoying your GrassCrafts order {{2}}! Every piece is handwoven by artisans, and your review helps them reach more homes. Could you spare a minute? {{3}} Thank you!",
+          "example": ["Asha", "#1042", "https://grasscrafts.com/pages/reviews"]
+        },
+        "hi": {
+          "body": "नमस्ते {{1}}, उम्मीद है आपको GrassCrafts ऑर्डर {{2}} पसंद आ रहा है! हर चीज़ कारीगरों ने हाथ से बुनी है, और आपका रिव्यू उन्हें और लोगों तक पहुँचाता है। क्या आप एक मिनट दे सकते हैं? {{3}} धन्यवाद!",
+          "example": ["आशा", "#1042", "https://grasscrafts.com/pages/reviews"]
+        }
+      },
+      "footer": "Reply STOP to unsubscribe",
+      "buttons": [{"type": "QUICK_REPLY", "text": "Stop promotions"}]
+    },
+    {
+      "name": "owner_alert",
+      "category": "UTILITY",
+      "params": ["who / what", "details"],
+      "languages": {
+        "en": {
+          "body": "GrassCrafts bot alert for {{1}}: {{2}} . Open WhatsApp to follow up.",
+          "example": ["Ravi +919876543210", "Corporate lead | 200 gift boxes | budget ₹500 each | needed by 20 Oct"]
+        }
+      }
+    },
+    {
+      "name": "diwali_offer",
+      "category": "MARKETING",
+      "params": ["customer first name", "discount code"],
+      "languages": {
+        "en": {
+          "body": "Happy Diwali {{1}}! 🪔 Light up your gifting with handwoven baskets, hampers and gift boxes from GrassCrafts. Use code {{2}} for 10% off orders of ₹1,999 or more, until 12 Nov. Shop now: https://grasscrafts.com",
+          "example": ["Asha", "DIWALI10"]
+        },
+        "hi": {
+          "body": "दीपावली की शुभकामनाएं {{1}}! 🪔 GrassCrafts की हस्तनिर्मित टोकरियों, हैम्पर और गिफ़्ट बॉक्स के साथ तोहफ़ों को खास बनाइए। ₹1,999 या उससे ज़्यादा के ऑर्डर पर 10% छूट के लिए कोड {{2}} इस्तेमाल करें, 12 नवंबर तक। अभी खरीदें: https://grasscrafts.com",
+          "example": ["आशा", "DIWALI10"]
+        }
+      },
+      "footer": "Reply STOP to unsubscribe",
+      "buttons": [{"type": "QUICK_REPLY", "text": "Stop promotions"}]
+    }
+  ]
+}
