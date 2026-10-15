@@ -1,6 +1,6 @@
 {
  "sender": "amit2sap@gmail.com",
- "sent_count": 148,
+ "sent_count": 149,
  "sent": [
   "admin@agrawaljeweller.com",
   "adscrafting@gmail.com",
@@ -149,6 +149,7 @@
   "weddingpackingservices@gmail.com",
   "weddings@eventcrafter.com",
   "wrapnwows@gmail.com",
+  "yogesh@farmley.com",
   "zayadryfruits@gmail.com"
  ],
  "do_not_send": [
@@ -163,5 +164,17 @@
   "2026-10-14": 48,
   "2026-10-15": 100
  },
- "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending."
+ "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending.",
+ "warm_leads": [
+  {
+   "company": "Farmley",
+   "contact": "yogesh@farmley.com",
+   "status": "Proposal + catalogue sent 15 Oct 2026 (referred by wecare@farmley.com)"
+  },
+  {
+   "company": "Bombay Sweet Shop / Hunger Inc.",
+   "contact": "marketing@hungerinc.in",
+   "status": "Proposal + catalogue sent 15 Oct 2026 (referred by gifting team)"
+  }
+ ]
 }
