@@ -52,3 +52,6 @@ GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%
 - 18 old listings ARCHIVED (not deleted), with 301 redirects to the merged products. Prices, stock and images carried over.
 - Pre-merge backup: `backups/products/merged_duplicates_2026-10-14.json`.
 - Corporate gifting catalogue PDF (7 pages, 18 products, 23 clients) emailed to the store owner; outreach emails sent to prospects with public emails.
+
+## Makhana Google Maps link (15 Oct)
+- Added "Find Makhana by Grasscrafts on Google Maps" link (https://share.google/zzV2YdvRPsrO9Vw0n) at the end of the Makhana product description and the /collections/makhana description. Backup: `backups/content/makhana_before_maps_link_2026-10-15.json`.
