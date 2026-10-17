@@ -1,0 +1,61 @@
+{%- comment -%}
+  GrassCrafts: Google reviews strip.
+  Data: shop metafield custom.google_reviews (JSON). Refreshed weekly by the Google Business agent from the Google Business Profile API.
+  Shows every review that has text, newest first, including the lower ratings. No review schema markup: Google doesn't allow third-party or self-serving review markup.
+{%- endcomment -%}
+{%- assign gr = shop.metafields.custom.google_reviews.value -%}
+{%- if gr and gr.reviews.size > 0 -%}
+<div class="gc-greviews page-width" aria-label="Google reviews of GrassCrafts">
+  <div class="gc-greviews__head">
+    <div>
+      <p class="gc-greviews__eyebrow">What customers say on Google</p>
+      <p class="gc-greviews__score"><span class="gc-greviews__avg">{{ gr.average }}</span>
+        <span class="gc-greviews__stars" aria-hidden="true">★★★★★</span></p>
+      <p class="gc-greviews__count">Based on {{ gr.count }} Google reviews for GrassCrafts by Abalone</p>
+    </div>
+    <div class="gc-greviews__links">
+      <a href="{{ gr.place_url }}" target="_blank" rel="noopener">Read all on Google</a>
+      <a href="{{ gr.write_url }}" target="_blank" rel="noopener" class="gc-greviews__btn">Write a review</a>
+    </div>
+  </div>
+  <div class="gc-greviews__track" tabindex="0">
+    {%- for r in gr.reviews -%}
+      <figure class="gc-greviews__card">
+        <div class="gc-greviews__who">
+          <span class="gc-greviews__avatar" aria-hidden="true">{{ r.name | slice: 0 | upcase }}</span>
+          <div>
+            <p class="gc-greviews__name">{{ r.name | escape }}</p>
+            <p class="gc-greviews__meta">
+              <span class="gc-greviews__rstars" aria-label="{{ r.rating }} out of 5 stars">{%- for i in (1..5) -%}{%- if i <= r.rating -%}★{%- else -%}<span class="gc-off">★</span>{%- endif -%}{%- endfor -%}</span>
+              · {{ r.date }}</p>
+          </div>
+        </div>
+        <blockquote class="gc-greviews__text">{{ r.text | escape }}</blockquote>
+        <figcaption class="gc-greviews__src">Posted on Google</figcaption>
+      </figure>
+    {%- endfor -%}
+  </div>
+</div>
+<style>
+  .gc-greviews{padding-top:8px;padding-bottom:8px}
+  .gc-greviews__head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:18px}
+  .gc-greviews__eyebrow{margin:0;font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;color:#6b8e4e}
+  .gc-greviews__score{margin:4px 0 0;display:flex;align-items:center;gap:10px}
+  .gc-greviews__avg{font-size:3.2rem;line-height:1;color:#3e2723;font-weight:600}
+  .gc-greviews__stars{color:#e0a526;font-size:2rem;letter-spacing:2px}
+  .gc-greviews__count{margin:4px 0 0;font-size:1.3rem;color:#6d5b55}
+  .gc-greviews__links{display:flex;gap:14px;align-items:center;font-size:1.4rem}
+  .gc-greviews__links a{color:#3e2723}
+  .gc-greviews__btn{padding:9px 16px;border-radius:4px;background:#6b8e4e;color:#fff!important;text-decoration:none}
+  .gc-greviews__track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+  .gc-greviews__card{flex:0 0 min(320px,82%);scroll-snap-align:start;margin:0;padding:18px;background:#fff;border:1px solid rgba(62,39,35,.12);border-radius:6px;display:flex;flex-direction:column}
+  .gc-greviews__who{display:flex;gap:10px;align-items:center}
+  .gc-greviews__avatar{flex:0 0 38px;height:38px;border-radius:50%;background:#e8dfd5;color:#3e2723;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:1.6rem}
+  .gc-greviews__name{margin:0;font-weight:600;font-size:1.4rem;color:#3e2723}
+  .gc-greviews__meta{margin:0;font-size:1.2rem;color:#6d5b55}
+  .gc-greviews__rstars{color:#e0a526;letter-spacing:1px}
+  .gc-off{color:#d9d2c7}
+  .gc-greviews__text{margin:12px 0 10px;padding:0;border:0;font-size:1.4rem;line-height:1.55;color:#3e2723;font-style:normal;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+  .gc-greviews__src{margin-top:auto;font-size:1.1rem;color:#8a7b74}
+</style>
+{%- endif -%}

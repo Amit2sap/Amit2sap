@@ -33,3 +33,12 @@ Rules for posts:
 - Theme: an occasion within 21 days in `agents/calendar.md`, otherwise the rotation above.
 
 **Log:** `reports/agents/google_business.md`. Posts made so far: wedding baskets, cane planters and corporate gifts (17 Oct).
+
+## Weekly (Monday): refresh the Google reviews shown on the website
+1. GET the main listing's reviews (v4 `.../locations/7612515921482745833/reviews`, pageSize 50).
+2. Rebuild `seo/google_reviews/google_reviews.json`:
+   - `average` and `count` come from the API's averageRating and totalReviewCount.
+   - Include every review that has text, newest first, including low ratings. Copy the text exactly; use the Google translation where the API gives one.
+   - Use first name + surname exactly as Google shows them, and the date as "Mon YYYY".
+3. Write the file to the shop metafield `custom.google_reviews` (type json) with metafieldsSet, owner `gid://shopify/Shop/65880031405`.
+4. The product pages render it through `snippets/google-reviews.liquid` (section "Google reviews" in templates/product.json). Never add review schema markup for these reviews.

@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text": {"type": "text", "settings": {"text": "{{ product.vendor }}", "text_style": "body"}},
+        "title": {"type": "title", "settings": {}},
+        "price": {"type": "price", "settings": {}},
+        "variant_picker": {"type": "variant_picker", "settings": {"picker_type": "button", "swatch_shape": "circle"}},
+        "quantity_selector": {"type": "quantity_selector", "settings": {}},
+        "buy_buttons": {"type": "buy_buttons", "settings": {"show_dynamic_checkout": true, "show_gift_card_recipient": true}},
+        "description": {"type": "description", "settings": {}},
+        "share": {"type": "share", "settings": {"share_label": "Share"}},
+        "klaviyo_reviews_average_rating_hGCWkb": {"type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9", "settings": {"product": "{{product}}"}}
+      },
+      "block_order": ["text", "title", "price", "variant_picker", "quantity_selector", "buy_buttons", "description", "share", "klaviyo_reviews_average_rating_hGCWkb"],
+      "settings": {"enable_sticky_info": true, "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0", "media_size": "medium", "constrain_to_viewport": true, "media_fit": "contain", "gallery_layout": "stacked", "mobile_thumbnails": "hide", "media_position": "left", "image_zoom": "lightbox", "hide_variants": false, "enable_video_looping": false, "padding_top": 36, "padding_bottom": 44}
+    },
+    "google_reviews_gc": {
+      "type": "custom-liquid",
+      "name": "Google reviews",
+      "settings": {"custom_liquid": "{% render 'google-reviews' %}", "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0", "padding_top": 24, "padding_bottom": 24}
+    },
+    "circular_legacy_nKGCj4": {
+      "type": "circular-legacy",
+      "blocks": {
+        "impact_pillar_7wBQzm": {"type": "impact_pillar", "disabled": true, "settings": {"data_source": "metafield", "metafield_key": "energy_source", "manual_value": "", "api_endpoint": "", "icon": "☀️", "unit": "Production Method", "label": "Energy Stewardship", "subtext": "Zero industrial energy in the finishing process.", "tooltip": "Traditional textile dyeing consumes 200L per kg. Our sun-dried grass process uses near-zero added water.", "show_always": false, "fallback_value": ""}},
+        "impact_pillar_CAgXgf": {"type": "impact_pillar", "settings": {"data_source": "metafield", "metafield_key": "women_artisans_pct", "manual_value": "", "api_endpoint": "", "icon": "👩", "unit": "% Women Weavers", "label": "Gender Equity", "subtext": "Majority women-led craft clusters sustaining generational skills", "tooltip": "Traditional textile dyeing consumes 200L per kg. Our sun-dried grass process uses near-zero added water.", "show_always": false, "fallback_value": ""}},
+        "impact_pillar_Q9NeHf": {"type": "impact_pillar", "settings": {"data_source": "metafield", "metafield_key": "water_saved_litres", "manual_value": "2400", "api_endpoint": "", "icon": "💧", "unit": "Litres Saved", "label": "Resource Preservation", "subtext": "Pure artisan processing without industrial runoff.", "tooltip": "Traditional textile dyeing consumes 200L per kg. Our sun-dried grass process uses near-zero added water.", "show_always": false, "fallback_value": ""}},
+        "impact_pillar_wwyxyE": {"type": "impact_pillar", "settings": {"data_source": "metafield", "metafield_key": "carbon_reduction_kg", "manual_value": "3.2", "api_endpoint": "", "icon": "🌿", "unit": "kg CO₂e Avoided", "label": "Climate Contribution", "subtext": "Favoring rapidly renewable fibers over synthetics.", "tooltip": "Natural grass sequesters carbon during growth, unlike petroleum-based synthetic fibers.", "show_always": false, "fallback_value": ""}},
+        "impact_pillar_CGU6M8": {"type": "impact_pillar", "settings": {"data_source": "metafield", "metafield_key": "plastic_diverted_grams", "manual_value": "850", "api_endpoint": "", "icon": "🌊", "unit": "g Plastic Diverted", "label": "Ocean Health", "subtext": "Zero microplastics; 100% home-compostable materials.", "tooltip": "Synthetic textiles shed microplastics with every wash. Our materials biodegrade completely within 2–5 years.", "show_always": false, "fallback_value": ""}},
+        "impact_pillar_4xTrLr": {"type": "impact_pillar", "settings": {"data_source": "metafield", "metafield_key": "artisan_families", "manual_value": "2", "api_endpoint": "", "icon": "🤝", "unit": "Families Empowered", "label": "Social Patronage", "subtext": "Directly sustaining master weavers in rural clusters.", "tooltip": "Each purchase funds fair wages, skill preservation, and generational craft continuity in weaving communities.", "show_always": false, "fallback_value": ""}}
+      },
+      "block_order": ["impact_pillar_7wBQzm", "impact_pillar_CAgXgf", "impact_pillar_Q9NeHf", "impact_pillar_wwyxyE", "impact_pillar_CGU6M8", "impact_pillar_4xTrLr"],
+      "name": "Circular Legacy Dashboard",
+      "settings": {"show_header": true, "title": "The Circular Legacy", "subtitle": "Every Grasscrafts piece is a silent guardian of the environment. Here is the footprint of your selection.", "header_align": "center", "title_size": 28, "subtitle_size": 15, "title_color": "#2f2f2f", "subtitle_color": "#6b6b6b", "bg_color": "#f9f8f5", "pillar_bg": "#f9f8f5", "pillar_radius": 0, "columns_desktop": 4, "columns_mobile": 2, "grid_gap": 32, "padding_vertical": 48, "padding_horizontal": 32, "accent_color": "#b8a97a", "value_color": "#2f2f2f", "unit_color": "#2f2f2f", "subtext_color": "#6b6b6b", "icon_size": 32, "value_size": 28, "unit_size": 13, "label_size": 11, "subtext_size": 13, "tooltip_bg": "#2f2f2f", "tooltip_text_color": "#f9f8f5", "show_footer": true, "footer_source_fallback": "Grasscrafts Internal Audit 2026", "methodology_url": "", "methodology_link_text": "Learn more about our Calculation Methodology", "footer_size": 10, "footer_color": "#aaaaaa"}
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {"heading": "You may also like", "heading_size": "h2", "products_to_show": 4, "columns_desktop": 4, "columns_mobile": "2", "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0", "image_ratio": "square", "image_shape": "default", "show_secondary_image": false, "show_vendor": false, "show_rating": false, "padding_top": 36, "padding_bottom": 68}
+    },
+    "17250734650e3a69d3": {
+      "type": "apps",
+      "blocks": {"klaviyo_reviews_product_reviews_RQ48UY": {"type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9", "settings": {}}},
+      "block_order": ["klaviyo_reviews_product_reviews_RQ48UY"],
+      "settings": {"include_margins": true}
+    },
+    "172576627180ab8adc": {"type": "apps", "settings": {"include_margins": true}},
+    "179222351201f394d3": {
+      "type": "apps",
+      "blocks": {"judge_me_reviews_review_widget_rHPXRf": {"type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8", "settings": {"review_data": "sample_data", "max_width": 1200, "show_shop_reviews": false, "empty_state": "empty_widget"}}},
+      "block_order": ["judge_me_reviews_review_widget_rHPXRf"],
+      "settings": {"include_margins": true}
+    }
+  },
+  "order": ["main", "google_reviews_gc", "circular_legacy_nKGCj4", "related-products", "17250734650e3a69d3", "172576627180ab8adc", "179222351201f394d3"]
+}
