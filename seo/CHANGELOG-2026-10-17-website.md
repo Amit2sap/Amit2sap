@@ -53,3 +53,15 @@ Publish the previous theme, "Grasscrafts Live + Google reviews (17 Oct 2026)".
 **Owner to paste:** shipping and contact policies (the API lacks the `write_legal_policies` scope). Text is in `seo/policy_text_to_paste_2026-10-17.md`.
 
 **Not done:** the refund policy (3 days + unboxing video) still conflicts with the FAQ (48 hours). The owner must choose which one is correct.
+
+## Returns: "3 days with unboxing video" everywhere (owner confirmed, 17 Oct)
+- **/pages/faq (live):**
+  - The return answer now says 3 days with an unboxing video, proof of purchase, unused and original packaging, refund in 5–7 business days, return shipping paid by the customer, plus a link to the Refund policy. It used to say "48 hours with photos".
+  - The international answer now gives the real flat ₹1,700 rate; it used to say "focused on India".
+  - The India answer now states the ₹1,300 free-shipping threshold.
+  - The bulk answer now links to the wholesale quote form.
+  - Backup: `backups/pages/faq_2026-10-17_before.html`.
+- **Draft theme trust points:** added "3-day returns with unboxing video", linking to the refund policy.
+- **Scanned:** all products, 31 articles and theme.liquid. There are no other return-window statements; the only "48 hours" left is weaving time on the indigo jute mat.
+- **Refund policy itself (owner to edit):** it says "3 days from the date of purchase" in one place and "3 days after delivery" in another. Pick one, ideally "3 days from delivery".
+- **Pre-publish check of the draft:** home, collection, product, FAQ, wholesale, blog, article, search, cart and the cart drawer with add-to-cart all return 200 with 0 Liquid errors.
