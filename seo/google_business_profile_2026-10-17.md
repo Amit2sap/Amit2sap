@@ -63,3 +63,8 @@ Connection: **Zapier "Google Business Profile"** (GoogleMyBusinessCLIAPI), not W
 - **Duplicate Makhana record deleted** at the owner's request, after review.
   - Deleted: `locations/10428154262453512338` ("Makhana by grasscrafts"). It had 0 reviews, was not verified (no Voice of Merchant), and had no phone or description. It shared place ID ChIJaTAdYkSf-DkR_eOcRy_huoI with the verified record.
   - Checked after deletion: the verified record `locations/12224672824102233760` ("Makhana by GrassCrafts", 1 review, 5★) is still in place with Voice of Merchant.
+- **Second Google post: cane planters.**
+  - Post ID: localPosts/9211711032954667024. Button "Shop" → /collections/cane-planter. Photo of the Majuli cane planter.
+  - Prices quoted are catalogue prices of active products only: sets from ₹690, table-top from ₹875, 8 in stand ₹1,799, 12 in floor ₹2,199, 38 in tall ₹3,580.
+  - Includes a B2B line for hotels, cafés, offices and designers.
+  - Link: https://local.google.com/place?id=4682086082868490064&use=posts&lpsid=CIHM0ogKEIvhsJ--h7S1aw
