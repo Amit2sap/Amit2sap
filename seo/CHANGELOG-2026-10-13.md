@@ -58,3 +58,13 @@ GSC (Jul–Oct 2026): ~10–18k impressions/month, avg position 7–8, CTR ~1.5%
 - **Makhana health claims removed (15 Oct):** replaced "Low Glycaemic Index — suitable for diabetics", "Rich in Antioxidants — supports healthy ageing and immunity", "High in Protein & Fibre — keeps you full" and "superfood/guilt-free" wording with neutral, factual bullets (nothing added in the pack, fasting-friendly, gift-worthy, storage). SEO title/meta no longer say "high-protein, low-calorie". Original text in `backups/content/makhana_before_maps_link_2026-10-15.json`.
 - **"Happy Diwali" ₹0 product archived** (gid://shopify/Product/8353899839661); it can be restored from Archived products in Shopify.
 - Confirmed both blog articles (Diwali corporate gifts guide; jute vs water hyacinth vs sabai vs cane) are published.
+
+## Google and AI search work (17 Oct)
+- **New page** `/pages/wholesale-corporate-gifting` (Page 166751240365, published): a B2B landing page with clear statements AI tools can quote, the segments we supply, the client list, a gifting calendar, an FAQ, FAQPage JSON-LD, its own SEO title and description. No MOQ or lead times are stated.
+- **Corporate Gifts collection:** "Contact us with your quantity…" became "See our wholesale & corporate gifting page, or contact us with your quantity…". Nothing else changed.
+- **About page:** the bulk-orders answer now links to the wholesale page. Old text: "<a href="/pages/contact">Contact us</a> to discuss your requirements and receive a personalized quote."
+- **Our Story page:** Organization JSON-LD corrected.
+  - Old: name "Grasscrafts", logo "https://grasscrafts.com/logo.png" (missing file), sameAs instagram.com/grasscrafts and facebook.com/grasscrafts (both wrong accounts).
+  - New: name "GrassCrafts", a fuller description, addressRegion West Bengal, sameAs instagram.com/grasscrafts.com_ and the Facebook profile id 100088339917762, logo removed.
+  - Added a link to the wholesale page in the "Bespoke Luxury" paragraph.
+- Search Console baseline and the AI-visibility check are recorded in `seo/growth_seo_aeo_plan.md`.
