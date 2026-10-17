@@ -15,7 +15,7 @@
 3. **Performance.** Every Monday, GET `businessprofileperformance.googleapis.com/v1/locations/<id>:getDailyMetricsTimeSeries` for BUSINESS_IMPRESSIONS_MOBILE_SEARCH and WEBSITE_CLICKS, plus `/searchkeywords/impressions/monthly`. Log the totals.
 
 ## Posts (main listing)
-Post on Mon, Thu and Sat with action `create_post`, STANDARD type, button SHOP linked to the matching collection, and a photo from the product's Shopify featured image (cdn.shopify.com URL without `?v=`).
+Post **on posting days** (every alternate day from 18 Oct) with action `create_post`, STANDARD type, button SHOP linked to the matching collection, and a photo from the product's Shopify featured image (cdn.shopify.com URL without `?v=`).
 
 Rotate the topics:
 1. Corporate gifts → /collections/corporate-gifts-handcrafted-gifts
@@ -28,6 +28,8 @@ Rotate the topics:
 Rules for posts:
 - Use catalogue prices of ACTIVE products only.
 - No phone numbers in the description field of the listing; phone numbers are fine in posts.
-- Makhana listing: 1 post a week (Wednesday) → /collections/makhana.
+- Makhana listing: 1 post a week, on the first posting day of each week (Mon–Sun) → /collections/makhana.
+- **Competitor watch:** check the Google Maps listings of competitors and local handicraft sellers that show for "handicraft shop kolkata" and "corporate gift supplier kolkata": their rating, review count, categories and recent posts. Log to `reports/competitor_watch.md`.
+- Theme: an occasion within 21 days in `agents/calendar.md`, otherwise the rotation above.
 
 **Log:** `reports/agents/google_business.md`. Posts made so far: wedding baskets, cane planters and corporate gifts (17 Oct).

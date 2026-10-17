@@ -47,6 +47,36 @@ def render(seg, co):
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven decor in seven natural fibres – Sabai grass, Kauna grass, GI-tagged Madurkathi, cane, water hyacinth, bamboo and jute: baskets, wall plates, planters, trays, madur mats and boxes, woven by Indian artisans.\n\n"
              "If your brand stocks sustainable home decor, we can supply ready designs for your store or online shop on a repeat basis. Small mixed trial orders are fine.\n\n"
              f"{CLIENTS} Our catalogue is attached.\n\nWould a trial assortment for your next season be useful?")
+    elif seg == "Diamond jewellery boxes & baskets":
+        s = f"Handwoven jewellery boxes and bridal baskets for {name}" if name else "Handwoven jewellery boxes and bridal baskets for your showroom"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Sabai and Kauna grass jewellery boxes, boxes with lids, display trays and bridal hamper baskets, woven by Indian artisans with no plastic.\n\n"
+             "For bridal sets, festive collections and client gifting, a handwoven box becomes part of the gift and is kept long after the purchase. We take bulk orders with custom sizes and colours on request, and can mix designs in one order.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nWould you be open to a quick call to see whether this suits your wedding-season or Akshaya Tritiya packaging?")
+    elif seg == "Luxury watches":
+        s = f"Handwoven client-gifting boxes for {name}" if name else "Handwoven client-gifting boxes for your watch boutique"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven cane and grass boxes with lids, trays and desk organisers, woven by Indian artisans with no plastic.\n\n"
+             "Watch boutiques use pieces like these as a gift-with-purchase, for VIP client gifting at Diwali and New Year, or as display trays. We take bulk orders, and sizes can be customised on request.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nWould a shortlist for your next client-gifting occasion be useful?")
+    elif seg == "Hotels & resorts":
+        s = f"Handwoven room and lobby pieces for {name}" if name else "Handwoven, plastic-free room and lobby pieces for your property"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven laundry and storage baskets, tissue box covers, cane trays, cane planters, table mats and Madurkathi mats, woven by Indian artisans with no plastic.\n\n"
+             "For rooms, spas, restaurants and lobbies they add natural texture and support a property's sustainability story, and they're easy to repeat across every room. We take project and repeat orders and can match sizes across a set.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nShall I send a shortlist for your rooms or your festive lobby décor this season?")
+    elif seg == "Spas & wellness":
+        s = f"Handwoven Madurkathi mats and baskets for {name}" if name else "Handwoven Madurkathi mats and baskets for your spa or studio"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make GI-tagged Madurkathi grass mats, straw yoga mats, grass trays, tissue box covers and baskets, woven by artisans in Bengal with no plastic.\n\n"
+             "Spas, wellness centres and yoga studios use them for treatment rooms, meditation and retail shelves, as a natural alternative to synthetic mats. We take bulk and repeat orders.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nWould you like a shortlist for your treatment rooms or retail corner?")
+    elif seg == "Real estate developers":
+        s = f"Handwoven homebuyer gifts for {name}" if name else "Handwoven key-handover and festive gifts for your homebuyers"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Sabai grass gift boxes, Kauna hamper baskets and grass and cane planters, woven by Indian artisans with no plastic.\n\n"
+             "Developers use gifts like these at key handover, for housewarmings, and for festive greetings to homebuyers and channel partners. They're useful in a new home and show a sustainability touch. We take bulk orders.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nWould a shortlist for your next handover or festive campaign help?")
+    elif seg == "Ethnic wear boutiques":
+        s = f"Handwoven trousseau baskets and boxes for {name}" if name else "Handwoven trousseau baskets and boxes for your bridal clients"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven trousseau baskets, Sabai grass boxes and hamper baskets, woven by Indian artisans with no plastic.\n\n"
+             "Bridal and saree boutiques use them for trousseau packing and premium packaging for their best clients. The basket becomes part of the wedding. We take bulk orders with custom sizes and colours on request.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nCould we share options for this wedding season?")
     else:
         s = f"Handwoven baskets, planters and decor for {name}" if name else "Handwoven baskets, planters and decor for your store"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven baskets, planters, wall plates, trays and gift boxes from Kauna, Sabai grass, cane, bamboo and water hyacinth, woven by Indian artisans with no plastic.\n\n"

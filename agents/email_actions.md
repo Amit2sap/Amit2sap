@@ -12,4 +12,10 @@ Main playbook: `outreach/DAILY_RUNBOOK.md` (send, reply, follow up, hot leads to
    - When a buyer replies with praise, thank them and send the Google review link: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA
    - With their permission, save the review text in `outreach/reviews_collected.json`.
 
+4. **Daily strategy update.**
+   - Read today's `reports/competitor_watch.md` entries, yesterday's agent logs, email reply rates by segment (`sent_log.json`) and the leads added (`outreach/leads/`).
+   - Update `agents/STRATEGY.md`: current focus, competitor notes, and segment weights (±3 points a week at most). Add a dated line to its "Changes" log saying what changed and why.
+   - Put the top 3 competitor moves and the strategy changes in the daily owner email.
+5. **Lead pipeline.** In the owner email, report leads found by segment (Lead Research), emailed, replied and hot.
+
 **Weekends and holidays:** replies and hot leads only; no new outreach.

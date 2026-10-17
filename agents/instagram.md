@@ -6,9 +6,11 @@
 
 If neither works for @grasscrafts.com_, log a blocker ("reconnect Instagram @grasscrafts.com_ in Composio" or "Windsor free plan limit") and stop.
 
+**Cadence update (17 Oct): post only on posting days** (every alternate day from 18 Oct; see the shared rules in `agents/README.md`). Replies run every day. Theme priority: (1) an occasion within the next 21 days in `agents/calendar.md`; (2) the current focus in `agents/STRATEGY.md`; (3) the mix below, taken in order across posting days (not weekdays). Every run: the competitor watch for this channel goes to `reports/competitor_watch.md`.
+
 ## Daily
 1. Reply to new comments on our posts: answer questions with catalogue facts and links. Price-list or bulk requests are hot leads, so add them to the handoff.
-2. Post one item following the weekly mix:
+2. **On a posting day**, post one item following the mix (rotating across posting days):
 
 | Day | Post |
 |---|---|

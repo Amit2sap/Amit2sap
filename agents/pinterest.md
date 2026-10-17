@@ -32,11 +32,15 @@
 - Do not use: 974114663090775029 "garden flower ideas" (owned by another user), 1127800000375155294 "hOME" (empty), 1127800000375336882 Hogla.
 - **New boards to create once** (B2B gap): "Wedding Return Gift Baskets" and "Corporate Gifts India".
 
+**Cadence update (17 Oct): post only on posting days** (every alternate day from 18 Oct; see the shared rules in `agents/README.md`). Replies run every day. Theme priority: (1) an occasion within the next 21 days in `agents/calendar.md`; (2) the current focus in `agents/STRATEGY.md`; (3) the mix below, taken in order across posting days (not weekdays). Every run: the competitor watch for this channel goes to `reports/competitor_watch.md`.
+
 ## Daily
 Create up to 5 pins, one ACTIVE product per pin.
 - **Title** (max 100 characters): product + material + use.
 - **Description:** 2 sentences of keywords, then "From ₹X at GrassCrafts", plus a B2B line where it fits.
 - **Alt text:** describe the product.
 - **Link:** the product URL.
+
+**Competitor watch:** Pinterest search for "sabai grass basket", "cane planter" and "wedding return gift basket". Which brands rank, and which pin formats (video, idea pins, infographics) do they use?
 
 Rotate: cane planters, wedding/hamper baskets, corporate gifts, Sabai, Kauna, Madurkathi, water hyacinth, bamboo. Log pinned handles in `reports/agents/pinterest.md` and do not repin a product within 30 days. After the products, pin each blog guide.

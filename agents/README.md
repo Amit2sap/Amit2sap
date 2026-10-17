@@ -4,6 +4,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 
 | Agent | Playbook | Runs (IST) | Channels |
 |---|---|---|---|
+| Lead Research (11 segment agents, run in parallel) | `agents/lead_research.md` | 09:07 daily | Web search, Hunter.io → `outreach/leads/*.json` |
 | Email & Actions (lead agent) | `outreach/DAILY_RUNBOOK.md` + `agents/email_actions.md` | 09:52 daily | Gmail, WhatsApp alerts to Sristi, hot leads |
 | Google Business | `agents/google_business.md` | 10:44 daily | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
 | Website & Search | `agents/website.md` | 11:22 daily | Shopify, Search Console, AI-search check |
@@ -13,7 +14,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 
 ## Setup at the start of every run
 1. If the repo is missing, clone `https://github.com/amit2sap/amit2sap`. Then `git checkout claude/grassctafts-sales-growth-d8azah && git pull origin claude/grassctafts-sales-growth-d8azah`.
-2. Read this file and your own playbook. Read `reports/agents/` for the last 3 days of your own log.
+2. Read this file, `agents/STRATEGY.md` (live strategy), `agents/calendar.md` (festivals and seasons) and your own playbook. Read the last 3 days of your own log in `reports/agents/`.
 3. Tools come from the MCP servers: Composio (Gmail session, Search Console, Facebook Graph, workbench web_search), Shopify, Zapier (Google Business Profile), Windsor.ai. If a tool you need is missing or refused, **do not work around it**. Log it as a blocker for the owner.
 
 ## Shared rules (every agent)
@@ -21,7 +22,18 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 - **No commitments.** Never quote trade or volume prices, discounts, lead times, samples or partnerships. Route those to the Email & Actions agent: add a line to `reports/agents/handoff.md`.
 - **Hot leads.** Anyone asking for a price list, bulk quote or samples is a hot lead. Hand it off the same day (see `outreach/DAILY_RUNBOOK.md` section 1b).
 - **Contact details.** WhatsApp/phone: +91 62907 44782. Website: grasscrafts.com. Brand name: "GrassCrafts" (Google listing: "GrassCrafts by Abalone").
-- **Posting limits.** At most 1 feed post per channel per day. No duplicate text across channels on the same day; adapt it per channel.
+- **Posting days (owner, 17 Oct): every alternate day.**
+  - Posting days are 18, 20, 22 Oct 2026 and so on: post only when `(today - 2026-10-18).days % 2 == 0`.
+  - On a posting day: at most 1 feed post per channel (Pinterest: up to 5 pins). No duplicate text across channels; adapt it per channel.
+  - Blog articles follow the same posting days.
+  - **Off days:** reply to comments, reviews and messages; run the competitor watch; prepare the next post. No feed posts.
+  - Replies, reviews, hot leads and emails still run **every day**.
+- **Festivals and seasons.** Pick the theme from `agents/calendar.md`. An occasion within the next 21 days wins; otherwise use the weekly mix. B2B pitches go 6–8 weeks before the occasion.
+- **Competitor watch (every agent, every day).**
+  - Spend about 10 minutes checking the competitors in `agents/STRATEGY.md` **on your own channel**. What did they post or publish, what offer or new product did they launch, which keywords or pages rank, what got engagement?
+  - Append 2–5 dated bullets to `reports/competitor_watch.md` under your agent name. Each bullet gives the observation, a source URL, and "→ what we should do".
+  - Use only public information: web search snippets, public pages and public posts. No logging in to competitor accounts, no fake accounts, no copying their images or text.
+  - The lead agent turns these findings into updates to `agents/STRATEGY.md` every day.
 - **B2B priorities** (owner, 17 Oct): corporate gifts, cane planters, wedding baskets, sustainable décor brands. Every channel gives these about 60% of its content.
 - **Logging.** Before finishing, append a dated entry to `reports/agents/<agent>.md` covering what you did, numbers seen, and blockers. Commit with message "<agent>: daily run <date>", then push to the branch.
 - **Owner email.** Only email amit2sap@gmail.com when the owner must act (a blocker, a complaint, a hot lead). The Email & Actions agent sends the one daily summary.
@@ -31,6 +43,7 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation. So e
 
 | Agent | Task ID | Time (IST) |
 |---|---|---|
+| Lead Research (11 segment agents) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 |
 | Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 09:52 |
 | Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 10:44 |
 | Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:22 |

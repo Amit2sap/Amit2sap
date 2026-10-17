@@ -44,7 +44,28 @@ Within the same run:
 ## 3. New outreach (weekdays)
 - 150 per day total from the personal Gmail (do not exceed ~200).
 - Up to 20 personal emails to named decision-makers (playbook section 1 roles), found via Hunter.io domain search or the company site, verified (Hunter verifier or SMTP RCPT check). One personal email each.
-- The rest go to verified info@/sales@ addresses from web search, mixed per the owner's priority (updated 17 Oct): **30% corporate gifting** (gifting companies + HR/admin at companies with 200+ staff), **25% cane planter buyers** (hotels, resorts, cafés, co-working spaces, interior designers, landscapers; template 'Cane planters (hotels, cafes, designers)'), **25% wedding baskets** (wedding planners, venues, trousseau packers; template 'Wedding & event planners'), **20% sustainable décor brands and stores** (eco/handmade décor brands, concept stores; template 'Sustainable decor brands'). Festive hamper brands and jewellers only when a strong lead turns up.
+- **Leads first.** Email the `status: "new"` leads in `outreach/leads/*.json`, found by the Lead Research segment agents that morning, before any generic address.
+  - Use the personal-email rule for named contacts.
+  - After sending, set `status` to `"emailed"` with the date.
+- **The rest** go to verified info@/sales@ addresses from web search.
+- **Segment mix (owner, 17 Oct):** use the "Mix %" column in `agents/lead_research.md`, adjusted by `agents/STRATEGY.md`. The 11 segments are corporate 18, wedding 14, hotels & resorts 12, diamond jewellery 12, cane planters 9, sustainable décor 8, luxury watches 7, gourmet 7, wellness 5, real estate 4, ethnic wear 4.
+- **Template for each segment slug:**
+
+  | Slug | Template |
+  |---|---|
+  | corporate | "Corporate gifting companies" |
+  | wedding | "Wedding & event planners" |
+  | hotels | "Hotels & resorts" |
+  | diamond_jewellery | "Diamond jewellery boxes & baskets" |
+  | cane_planters | "Cane planters (hotels, cafes, designers)" |
+  | sustainable_decor | "Sustainable decor brands" |
+  | luxury_watches | "Luxury watches" |
+  | gourmet | "Festive hamper brands" |
+  | wellness | "Spas & wellness" |
+  | real_estate | "Real estate developers" |
+  | ethnic_wear | "Ethnic wear boutiques" |
+
+- **Occasion line:** add one sentence on the segment's next occasion from `agents/calendar.md` (6–8 weeks out). Example: "ahead of the wedding season" or "for Christmas and New Year client gifting"
 - Always: skip anything in `sent` or `do_not_send`; one address per company domain; SMTP-verify; attach the catalogue PDF (re-download from the Sent folder if the workbench reset).
 
 ## 4. Save + report

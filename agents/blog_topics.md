@@ -1,0 +1,47 @@
+# Blog topic backlog (Website & Search agent)
+
+**How to use it:** tick each topic when it is published, and add new topics from Search Console gaps and the competitor watch.
+
+**Order:** take topics in order, unless an occasion within 21 days needs one sooner (see `agents/calendar.md`).
+
+Each topic shows its main keyword and the link target.
+
+## Topics
+
+### Up first (wedding, Christmas and B2B)
+- [ ] Return gift baskets for weddings in India: ideas by budget → /collections/wedding-gift-hamper
+- [ ] Haldi and Mehendi ceremony basket decoration ideas → Haldi / Mehendi collections
+- [ ] Bulk hamper baskets for Diwali and corporate gifting: how to choose → /collections/corporate-gifts-handcrafted-gifts
+- [ ] Sabai grass products: buyer's guide (uses, prices, care) → Sabai collection
+- [ ] Kauna grass bags and baskets: buying guide → Kauna collection
+- [ ] Cane planters guide: sizes, plants and care → /collections/cane-planter
+
+### B2B segment guides
+- [ ] Eco-friendly hotel room amenities: baskets, trays and tissue covers (B2B hotels) → laundry baskets, cane trays
+- [ ] Sustainable jewellery packaging: handwoven boxes for jewellers (B2B jewellers) → boxes
+- [ ] Year-end and New Year client gifts that aren't plastic (B2B corporate) → corporate gifts
+- [ ] Trousseau packing ideas: baskets and boxes for the bride (ethnic-wear and wedding) → trousseau baskets
+- [ ] Handwoven décor for cafés and restaurants: planters, table mats and baskets → cane planters, table mats
+- [ ] Madurkathi mats for spas and yoga studios (GI no. 567) → Madurkathi collection
+- [ ] Gift ideas for homebuyers: key-handover gifts for real-estate developers → gift boxes
+- [ ] Luxury client gifting: handwoven boxes and organisers as gift-with-purchase → cane boxes, desk organisers
+
+### Seasonal
+- [ ] Christmas décor with natural fibres: baskets, trays and table styling → Christmas décor
+- [ ] Makar Sankranti and Pongal gifts: harvest baskets → Kauna baskets
+- [ ] Women's Day corporate gifts that support women artisans → corporate gifts
+- [ ] Holi gift hampers: reusable basket ideas → hampers
+
+### Materials, buying guides and comparisons
+- [ ] Water hyacinth baskets: what they are and how to care for them → water hyacinth
+- [ ] Kash grass crafts of Bengal: trays, baskets and planters → Kash collection
+- [ ] Sitalpati mats: history, uses and care → Sitalpati
+- [ ] Jute vs Sabai vs Kauna: which natural fibre is right for you? → material collections
+- [ ] How to clean and store grass and cane baskets (care guide) → all
+- [ ] Handwoven wall plates: a styling guide for Indian homes → wall plates
+- [ ] Eco-friendly employee onboarding kits in India → corporate gifts
+- [ ] Puja mats: choosing an asana for daily puja and meditation → puja mats
+- [ ] Makhana gift boxes for festivals → /collections/makhana
+- [ ] Laundry and storage baskets: natural alternatives to plastic → laundry baskets
+- [ ] Plastic-free gift packaging ideas for D2C brands (B2B gourmet) → hamper baskets
+- [ ] Indian handicraft gifts for foreign clients and NRIs → corporate gifts
