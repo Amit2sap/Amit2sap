@@ -49,3 +49,9 @@ AI answers quote pages that state facts plainly, and brands that **other sites m
 4. **Google Business Profile:** ask every buyer for a review. Fix the main profile's name and categories (see seo/makhana_google_business_kit.md).
 5. **Marketplaces:** list on Brown Living, Tribes India, Amazon Karigar and IndiaMART. AI answers cite these sites.
 6. **Search Console:** click "Validate fix" on the structured data issue.
+
+## Update 17 Oct: competitor study
+See `seo/competitor_study_2026-10-17.md`.
+- **Friday "get cited":** pitch 2–3 targets a week from section 4 of the study. One personal email per editor, no chains.
+- **Wednesday articles:** next in line are the Diwali bulk hamper baskets guide and the Sabai grass buyer's guide (section 6).
+- **Biggest revenue lever is outside SEO.** 94% of checkouts are abandoned and COD is not offered (owner actions, section 3).
