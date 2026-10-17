@@ -48,6 +48,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
   - No logging in to competitor or customer accounts, no fake identities, no buying lists of personal data.
 - **B2B priorities** (owner, 17 Oct): corporate gifts, cane planters, wedding baskets, sustainable décor brands. Every channel gives these about 60% of its content.
 - **Logging.** Before finishing, append a dated entry to `reports/agents/<agent>.md` covering what you did, numbers seen, and blockers. Commit with message "<agent>: daily run <date>", then push to the branch.
+- **Reviews (owner, 17 Oct).** Follow `outreach/REVIEW_KIT.md`. Agents never write or post reviews as a customer. They only collect real reviews with permission, reply to reviews, and reuse permitted reviews in posts (quoted exactly).
 - **Owner email.** Only email amit2sap@gmail.com when the owner must act (a blocker, a complaint, a hot lead). The Email & Actions agent sends the one daily summary.
 
 ## Scheduled tasks (created 17 Oct 2026)
