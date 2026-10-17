@@ -50,3 +50,8 @@ Within the same run:
 ## 4. Save + report
 - Append new sends to `sent`, update `log[date]`, `warm_leads`, `do_not_send`; commit and push to `claude/grassctafts-sales-growth-d8azah`.
 - Email the owner (amit2sap@gmail.com) a short report: sent today, replies, hot leads with draft links, bounces, anything that needs a decision.
+
+## Daily (every day, including weekends), added 17 Oct
+- **AI-visibility check:** run `seo/ai_visibility_check.py` in the workbench, append to `seo/ai_visibility_log.json`, and include the score in the daily report.
+- **Replies to media pitches** (`outreach/pr_pitches.json`): flag them to the owner the same day.
+- **Replies to review requests** (`outreach/review_requests.json`): thank the customer. If they give permission, save the review to `outreach/reviews_collected.json`. Send any complaints to the owner straight away.

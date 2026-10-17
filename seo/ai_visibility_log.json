@@ -1,0 +1,7 @@
+[
+  {"date": "2026-10-16", "method": "manual buyer questions", "score": 0, "of": 7, "note": "GrassCrafts only found for 'what is GrassCrafts'"},
+  {"date": "2026-10-17", "method": "workbench web_search, 10 questions", "score": 1, "of": 9,
+   "found_for": ["Where to buy kauna grass bags and baskets online India"],
+   "competitors_cited": {"sabai": ["Brown Living", "Kadam Haat", "Amazon"], "madur mat": ["iTokri", "Zishta", "Tribes India", "Amazon"], "kauna": ["Brown Living"]},
+   "note": "6 questions returned no brand names (generic answers); brand question finds GrassCrafts"}
+]
