@@ -21,3 +21,21 @@ All 208 products were checked (5 pages of Admin GraphQL). 356 product images had
 - One storage basket image (30799246852269, Water Hyacinth Storage Basket) is described as a "handbag". Check that the photo belongs to that product.
 
 The old alt values are in the session transcript; they were short generic labels, so restoring them is not recommended.
+
+## Follow-up (17 Oct)
+- **The 9 single wall plate products are all ARCHIVED and unpublished**, so they were never live in search. The earlier note that they "compete in search" was wrong. They were renamed anyway at the owner's request, so the names are ready if any is reactivated. Handles are unchanged. Title, SEO title and image alt were all changed from "Handwoven Sabai Grass Wall Plate Decor" to:
+
+| Product | Handle | New name |
+|---|---|---|
+| 8088281743533 | plates-basket | Hooghly Design |
+| 8088377852077 | plates-i-basket-1 | Nadia Design |
+| 8088459641005 | wall-plates-1 | Birbhum Design |
+| 8088490180781 | wall-plates-basket-2 | Malda Design |
+| 8088503517357 | plates-basket-2 | Cooch Behar Design |
+| 8088613322925 | plates-basket-4 | Dinajpur Design |
+| 8140088836269 | plates-basket-1 | Howrah Design |
+| 8140090671277 | wall-plates-basket-3 | Bardhaman Design |
+| 8140091850925 | wall-plates-basket-4 | Krishnanagar Design |
+
+- Old SEO title, shared by all 9: "Sabai Grass Wall Plate Decor | Handwoven Wall Art".
+- **"Happy Diwali" (8353899839661)** is already ARCHIVED: ₹0, no images, no description, never published. Customers can't see it, so no change was needed.
