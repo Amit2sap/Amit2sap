@@ -54,3 +54,12 @@ Connection: **Zapier "Google Business Profile"** (GoogleMyBusinessCLIAPI), not W
 - **Title:** "Makhana by grassctafts" → **"Makhana by GrassCrafts"**.
 - **Website:** https://grassctafts.com/ (misspelt and broken) → https://grasscrafts.com/collections/makhana.
 - Second record `locations/10428154262453512338` ("Makhana by grasscrafts") points to the **same** place ID, is not verified, and has no phone. It is a stray duplicate record; it can be removed in business.google.com once the owner confirms. Left untouched.
+
+## 17 Oct, later
+- **First Google post** (STANDARD, button "Shop" → /collections/wedding-gift-hamper, with a photo of the Handwoven Wedding Gift Hamper Basket).
+  - Post ID: localPosts/5512531567488379295.
+  - Link: https://local.google.com/place?id=4682086082868490064&use=posts&lpsid=CIHM0ogKEPbkjLPqg5vc0AE
+  - Text covers Haldi, Mehendi, Sangeet, return gifts, trousseau and Godh Bharai; Kauna hampers from ₹340, Haldi/Mehendi from ₹550, cane trousseau ₹1,599; bulk orders via WhatsApp.
+- **Duplicate Makhana record deleted** at the owner's request, after review.
+  - Deleted: `locations/10428154262453512338` ("Makhana by grasscrafts"). It had 0 reviews, was not verified (no Voice of Merchant), and had no phone or description. It shared place ID ChIJaTAdYkSf-DkR_eOcRy_huoI with the verified record.
+  - Checked after deletion: the verified record `locations/12224672824102233760` ("Makhana by GrassCrafts", 1 review, 5★) is still in place with Voice of Merchant.
