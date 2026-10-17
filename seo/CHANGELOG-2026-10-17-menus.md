@@ -10,4 +10,4 @@ The names are taken from places known for each craft. They make no claim about c
 - **Wall Plates** (8088418943149), option "Design" (17662736335021). Design 1 to 10 are now Medinipur, Bishnupur, Shantiniketan, Bankura, Jhargram, Sundarban, Murshidabad, Darjeeling, Kalimpong, Purulia.
 - **Cane Planter Set** (8125556293805), option "Design" (17662736728237). Design 1 to 4 are now Majuli, Kaziranga, Shillong, Agartala.
 - To undo: productOptionUpdate with the same value IDs, setting the names back to "Design N".
-- Not done: updating the image alt text to include the design names (the action was blocked in this session). The alt texts still say "– Design N".
+- Image alt text updated with fileUpdate on all 18 product images (10 wall plate, 8 cane planter), e.g. "Handwoven Sabai grass wall plate, Bishnupur design – GrassCrafts". Old alt texts were "Handwoven Sabai grass wall plate – Design N", "Handwoven cane planter – Design N", "wall plates", and two descriptive cane planter alts, which were kept with the design name added.
