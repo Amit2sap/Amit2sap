@@ -25,3 +25,15 @@ Publish the previous theme, "Grasscrafts Live + Google reviews (17 Oct 2026)".
 ## Known limits
 - Makhana-only carts already ship free (separate profile), but the bar still shows the ₹1,300 message for them.
 - The Shopify contact form goes to the store's contact email. Check that it is an inbox Sristi reads.
+
+## Fix: blog articles broken on the live theme (found by the audit, 17 Oct)
+- **Cause:** when the live theme was copied for the Google reviews change, `templates/article.json` was dropped. The original file had a `share` block that the theme's custom `main-article` section does not define, so Shopify skipped the invalid file during the copy. As a result, all article URLs showed the blog list (title "Blogs").
+- **Fix, in draft theme 189377052845:**
+  - Restored `templates/article.json` without the invalid `share` block.
+  - Restored `sections/footer-group.context.in.json`, which is empty but was also dropped.
+  - Rewrote `sections/main-article.liquid`:
+    - removed the hard-coded Mother's Day FAQPage schema and Mother's Day description that appeared on every article (it also claimed "carbon-neutral");
+    - the article schema now uses the real article excerpt and author;
+    - the image is optional (this fixes the "invalid url input" Liquid error).
+- **Verified in preview:** both new guides render their body with 0 Liquid errors and no Mother's Day text.
+- **Live status:** the live theme cannot be edited through the API. Publishing the draft fixes the live site.

@@ -71,6 +71,7 @@
 - **Before editing a product, collection, page, article or menu:** save its current JSON to `backups/<type>/<handle>_<date>.json` and commit it.
 - **Before a theme change:** run `themeDuplicate` on the live theme, named "Grasscrafts – <change> (DRAFT <date>)". The previous live theme stays as a draft backup. Keep the last 3 backups and list older drafts for the owner to delete.
 - Keep the source of every custom snippet in `seo/theme_draft_<date>/` in the repo.
+- **After every `themeDuplicate`, compare the file lists** of the source theme and the copy, and check every page type in the preview: home, collection, product, cart, page, blog, article and search. On 17 Oct a copy silently dropped `templates/article.json`, which broke every blog article. Restore any missing file before asking the owner to publish.
 
 **4. Change, then verify**
 - Apply the change.
