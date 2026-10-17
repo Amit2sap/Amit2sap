@@ -37,3 +37,19 @@ Publish the previous theme, "Grasscrafts Live + Google reviews (17 Oct 2026)".
     - the image is optional (this fixes the "invalid url input" Liquid error).
 - **Verified in preview:** both new guides render their body with 0 Liquid errors and no Mother's Day text.
 - **Live status:** the live theme cannot be edited through the API. Publishing the draft fixes the live site.
+
+## Owner-approved batch: items 3, 7, 8 and 10, plus AVADA (17 Oct, evening)
+**Live now (content changes; backups in backups/):**
+- **Main menu:** removed "She Creates: Artisan Tribute", "Rakhi Gift Edit" and "Maternal Heritage" (the collections still exist). Fixed "Earth Edit - Dinning" to "Earth Edit — Dining". Backup: `backups/menus/main_menu_before_cleanup_2026-10-17.json`.
+- **Brand name:** vendor changed to "GrassCrafts" on 239 products (it was "grasscrafts.com" or "Grasscrafts"). The product page now shows "GrassCrafts", and the JSON-LD brand is "GrassCrafts". Backup: `backups/products/vendor_handles_before_2026-10-17.txt`.
+- **12 "-copy" product URLs:** these were real, distinct products, so none were hidden. Each got a descriptive handle, with an automatic 301 redirect from the old URL (verified).
+- **/pages/wholesale-corporate-gifting:** added a 4-photo product grid, a "Get a bulk quote" jump link, a WhatsApp link and a native Shopify quote form that emails the store contact address. Backup of the changed part: `backups/pages/`.
+
+**In draft theme 189377052845 (owner publishes):**
+- Announcement bar now reads "Free shipping in India on orders of ₹1,300+" (was ₹1250) and links to the shipping policy.
+- Homepage: hero buttons "Shop Bestsellers" and "Bulk & Corporate Orders", and the Google 4.7★ reviews strip below the intro.
+- AVADA meta template neutralised (`snippets/avada-seo-meta.liquid`). Note: on the live site the override was **not** active (titles and descriptions were already correct), so this is preventive only. The audit's claim was wrong.
+
+**Owner to paste:** shipping and contact policies (the API lacks the `write_legal_policies` scope). Text is in `seo/policy_text_to_paste_2026-10-17.md`.
+
+**Not done:** the refund policy (3 days + unboxing video) still conflicts with the FAQ (48 hours). The owner must choose which one is correct.
