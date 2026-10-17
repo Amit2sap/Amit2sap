@@ -63,8 +63,11 @@
     "contact_name": "...", "role": "...", "email": "...", "email_source": "https://... or hunter",
     "verified": "hunter_valid", "business_phone": "+91...", "phone_source": "https://...",
     "products_to_pitch": ["laundry basket", "tissue box cover", "cane planters"],
-    "occasion": "Christmas lobby décor / new property opening", "status": "new"}
+    "occasion": "Christmas lobby décor / new property opening",
+    "competitor_used": "e.g. Brown Living (source URL) or unknown", "current_products": "...", "budget_signal": "their retail hamper ₹1,499–4,999 (source) or estimate: <basis>",
+    "buying_pattern": "festive + wedding, ~2x/year (source or estimate)", "status": "new"}
    ```
+4b. **Competitor customers.** Spend part of every run finding buyers who already buy this segment's products from competitors (see the shared rule in `agents/README.md`). Log them in `outreach/competitor_customers.json` and add them as leads. They are the warmest leads we have: they already buy the category.
 5. **Write a log entry.** Add a dated line to `reports/agents/lead_research.md`: segment, leads added, best opportunity of the day, and any blocker.
 6. **Flag hot opportunities.** A very strong signal (for example a new hotel opening within 60 days, or a jeweller launching bridal packaging) gets a line in `reports/agents/handoff.md` for a personal email.
 

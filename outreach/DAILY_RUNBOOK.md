@@ -31,6 +31,12 @@ Within the same run:
    4. **How to approach**: the angle to lead with, options to offer, what not to promise, questions to ask.
    5. **Steps & timeline**: dated steps. TODAY within 2 h: WhatsApp or call (give a ready-to-send message). Day 1: call. Day 2: price list + MOQ + lead time. Day 3–4: samples. Day 5–7: trial order, with delivery before the occasion. Then the repeat-business plan (next occasions from the calendar).
    6. **What Sristi needs ready**: price list, photos, samples, etc.
+   7. **Purchasing background and competitors**:
+      - their position in the organisation and their decision power;
+      - which vendors or competitors they buy from or stock today, and which products;
+      - budget signals (their own retail price points, tender values, order sizes), each with a source, estimates labelled;
+      - their buying pattern (occasions and months).
+      Use `outreach/competitor_customers.json`, `outreach/leads/*.json` and `sales/lead_intel_*.md`.
    End with: "Reply DONE <step> after each step."
 3. **WhatsApp alert to Sristi (+91 62907 44782)** from the API number 8100447884, using the approved `owner_alert` template ({{1}} = company + contact name and role, {{2}} = "HOT LEAD" + what they want + the first action with phone number + "full brief sent to sristi@grasscrafts.com"; no line breaks, under ~600 characters). If the template is not approved yet, skip this step and say so in the report.
 4. Mark the lead `"stage": "hot - with Sristi"` in `warm_leads` (sent_log.json). Stop automatic follow-ups to that company; Sristi owns the conversation from here.

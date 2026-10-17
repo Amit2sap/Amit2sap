@@ -34,6 +34,18 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
   - Append 2–5 dated bullets to `reports/competitor_watch.md` under your agent name. Each bullet gives the observation, a source URL, and "→ what we should do".
   - Use only public information: web search snippets, public pages and public posts. No logging in to competitor accounts, no fake accounts, no copying their images or text.
   - The lead agent turns these findings into updates to `agents/STRATEGY.md` every day.
+- **Competitor customer intelligence (every agent, every day, owner 17 Oct).** Find **who buys from our competitors**, what they buy, how often, and at what price. Then we can target them and shape our offer.
+  - **Business buyers** (companies, hotels, jewellers, planners, gifting firms). Public evidence only, each with a source URL:
+    - client logos and "our clients" pages;
+    - case studies, testimonials and press ("X partners with Brown Living for Diwali hampers");
+    - LinkedIn and Instagram posts where a company shows a competitor's gift or tags them;
+    - GeM and tender awards; trade-fair buyer lists;
+    - IndiaMART buy requirements.
+  - Record each one in `outreach/competitor_customers.json` with these fields: buyer, segment, competitor used, products, occasion, timing (month), quantity, budget or price signal, decision-maker role, source URL, date found.
+  - Also add the buyer as a lead in `outreach/leads/<segment>.json`, with `"competitor_used"` filled in.
+  - **Consumers.** Only **aggregate patterns** from public reviews and ratings (Google, Amazon, Trustpilot, Instagram comments): what people buy, price bands, occasions, complaints, and what they praise. **Never profile or contact individual consumers** from a competitor's reviews.
+  - **Budget.** Use real figures only: tender value, the competitor's published price, or the buyer's own retail price. Anything else is labelled `"estimate: <basis>"`. Never present a guess as fact.
+  - No logging in to competitor or customer accounts, no fake identities, no buying lists of personal data.
 - **B2B priorities** (owner, 17 Oct): corporate gifts, cane planters, wedding baskets, sustainable décor brands. Every channel gives these about 60% of its content.
 - **Logging.** Before finishing, append a dated entry to `reports/agents/<agent>.md` covering what you did, numbers seen, and blockers. Commit with message "<agent>: daily run <date>", then push to the branch.
 - **Owner email.** Only email amit2sap@gmail.com when the owner must act (a blocker, a complaint, a hot lead). The Email & Actions agent sends the one daily summary.
