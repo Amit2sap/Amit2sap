@@ -21,3 +21,4 @@
 - **All reviews:** the `jdgm-all-reviews-widget` on /pages/review-us loads through the core embed (verified on the live page).
 - **Klaviyo Reviews:** the widget does not render on live (the app is likely inactive), so there is no duplicate.
 - **Facebook Reviews tab:** cannot be switched on through the Graph API. The owner must do it manually.
+- **17 Oct, live:** the owner published theme 189376495789 and turned on the Facebook Page reviews. Verified live: product pages show 18 Google review cards plus the header 'Based on 21 Google reviews', the Judge.me widget and the star badge, with no Liquid errors. /pages/review-us shows the Judge.me all-reviews widget. facebook.com/142803116227246/reviews redirects to /abalonehomedecor/reviews (200).
