@@ -25,3 +25,20 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 - **B2B priorities** (owner, 17 Oct): corporate gifts, cane planters, wedding baskets, sustainable décor brands. Every channel gives these about 60% of its content.
 - **Logging.** Before finishing, append a dated entry to `reports/agents/<agent>.md` covering what you did, numbers seen, and blockers. Commit with message "<agent>: daily run <date>", then push to the branch.
 - **Owner email.** Only email amit2sap@gmail.com when the owner must act (a blocker, a complaint, a hot lead). The Email & Actions agent sends the one daily summary.
+
+## Scheduled tasks (created 17 Oct 2026)
+Fresh-session scheduled tasks cannot carry connectors in this organisation. So every task fires into the main session `session_01CExgX3LnZkdy4AwdW7vCVh`, which holds Composio, Shopify, Zapier and Windsor. Each task then launches its own background subagent with this playbook.
+
+| Agent | Task ID | Time (IST) |
+|---|---|---|
+| Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 09:52 |
+| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 10:44 |
+| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:22 |
+| Instagram | trig_013nvpY1RgSiVREyaGQW3y3U | 12:11 |
+| Facebook | trig_014gkGWjNj9vrFmFdFnmnQc8 | 12:43 |
+| Pinterest | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | 13:18 |
+
+**Known blockers at set-up:**
+- **Instagram:** Composio is connected to the wrong account (@terraleatherco). Windsor reads are paused (free plan, 8 accounts connected).
+- **Pinterest:** only Windsor is connected (paused).
+- **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
