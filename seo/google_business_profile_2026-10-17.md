@@ -37,3 +37,20 @@ Connection: **Zapier "Google Business Profile"** (GoogleMyBusinessCLIAPI), not W
 4. Add Saturday hours if the business opens on Saturdays.
 5. Post weekly Google updates (offer, new product, bulk orders) with a link to the matching collection.
 6. Merge or remove the two duplicate makhana listings.
+
+## Changes made 17 Oct (owner said "go")
+**Main listing** (`locations/7612515921482745833`):
+- **Title:** "Grasscrafts.com by ABALONE: Corporate gift, home decor, wedding decor and corporate events decoration" → **"GrassCrafts by Abalone"**.
+- **Categories:**
+  - Before: primary Corporate gift supplier; additional Handicraft, Organic shop, Gift basket shop, Health food shop, Handicraft Exporter.
+  - After: primary **Handicraft**; additional Corporate gift supplier, Gift basket shop, Handicraft Exporter. Food categories removed, since makhana has its own listing.
+- **Description:** rewritten (no URLs or phone numbers, as Google requires) to cover all 7 fibres and the B2B segments.
+  - Old text: "Discover Grasscrafts, a haven of authentic Indian handicrafts established in 2015. We celebrate the artistry of skilled artisans through a curated collection of eco-friendly decor. From elegant handbags and baskets to unique home furnishings like cane furniture and lampshades, each piece is meticulously crafted from natural materials like water hyacinth, jute, and bamboo. Our diverse offerings are perfect for thoughtful gifts, weddings, and corporate events. Explore our range, which also includes dried flowers. We recently introduced healthy and nutritious premium quality MAKHANA. We honor tradition by bringing you products that are both beautiful and sustainable."
+- **Hours:** added Saturday 10:00–18:30. Mon–Fri unchanged.
+- Status: hasPendingEdits = true, waiting for Google's review.
+
+**Makhana listing:**
+- Verified record `locations/12224672824102233760`, place ChIJaTAdYkSf-DkR_eOcRy_huoI. This is the listing the owner shared.
+- **Title:** "Makhana by grassctafts" → **"Makhana by GrassCrafts"**.
+- **Website:** https://grassctafts.com/ (misspelt and broken) → https://grasscrafts.com/collections/makhana.
+- Second record `locations/10428154262453512338` ("Makhana by grasscrafts") points to the **same** place ID, is not verified, and has no phone. It is a stray duplicate record; it can be removed in business.google.com once the owner confirms. Left untouched.
