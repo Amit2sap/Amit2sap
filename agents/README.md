@@ -40,5 +40,5 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation. So e
 
 **Known blockers at set-up:**
 - **Instagram:** Composio is connected to the wrong account (@terraleatherco). Windsor reads are paused (free plan, 8 accounts connected).
-- **Pinterest:** only Windsor is connected (paused).
+- **Pinterest:** connected via Composio (`pinterest_whosen-hoose`) on 17 Oct; test pin 1127799931724040361 posted.
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
