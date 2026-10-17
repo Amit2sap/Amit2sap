@@ -46,3 +46,40 @@
    - Add a line to `reports/agents/handoff.md` so the Pinterest, Instagram and Facebook agents can use the article on their next posting day.
    - Request indexing: resubmit the sitemap in Search Console, then inspect the URL.
 7. **Log it** in `seo/CHANGELOG-blog.md`: date, title, URL, keyword, images used, and internal links.
+
+## Continuous website improvement: notify, back up, then change (owner rule, 17 Oct)
+
+**Goal:** improve conversion (add-to-cart, checkout, B2B enquiries) and search every week, without ever surprising the owner or breaking the live site.
+
+**1. Find**
+- Every **Monday** (and after any big change):
+  - Run a quick audit: PageSpeed mobile for the homepage and 1 product page; the Clarity / Shopify funnel; broken links and images; 404s in Search Console.
+  - Look at what competitors changed (`reports/competitor_watch.md`).
+- Pick at most **3 improvements a week**. Log them in `seo/website_backlog.md` with: the problem, the evidence, the proposed change, the expected impact, and the risk.
+
+**2. Notify first**
+- Email the owner (amit2sap@gmail.com) **before** changing anything visible. Subject: "Website change proposal: <title>". Include:
+  - what will change and why (with evidence);
+  - a before/after description;
+  - for theme changes, the preview link of the draft theme;
+  - how to undo it.
+- **Content and SEO changes** (product/collection text, meta titles, alt text, blog, menus): you may apply them **48 hours after notifying** unless the owner says "stop". Batch them into the daily email.
+- **Theme and design changes:** build them **only in a new draft theme copy**. The owner reviews the preview and presses Publish. **Never ask to publish over a theme the owner has edited since the copy was made.** Re-copy the live theme instead.
+- **Never touch** prices, discounts, inventory, payments, checkout settings, shipping rates or app settings. Those are proposals only.
+
+**3. Back up**
+- **Before editing a product, collection, page, article or menu:** save its current JSON to `backups/<type>/<handle>_<date>.json` and commit it.
+- **Before a theme change:** run `themeDuplicate` on the live theme, named "Grasscrafts – <change> (DRAFT <date>)". The previous live theme stays as a draft backup. Keep the last 3 backups and list older drafts for the owner to delete.
+- Keep the source of every custom snippet in `seo/theme_draft_<date>/` in the repo.
+
+**4. Change, then verify**
+- Apply the change.
+- Check the preview or live page through the Composio workbench:
+  - the element renders;
+  - there is no "Liquid error";
+  - cart and checkout buttons still work (add-to-cart test).
+- Log it in `seo/CHANGELOG-<date>-website.md`, with the undo steps.
+
+**5. Measure**
+- 7 and 14 days later, compare the metric the change was meant to move: add-to-cart rate, checkout reached, bulk enquiries, CTR.
+- Report "kept", "rolled back" or "iterate" in the Monday email.
