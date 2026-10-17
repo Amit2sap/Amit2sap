@@ -42,6 +42,8 @@ Within the same run:
 4. Mark the lead `"stage": "hot - with Sristi"` in `warm_leads` (sent_log.json). Stop automatic follow-ups to that company; Sristi owns the conversation from here.
 5. Put it at the top of the daily report.
 
+**Owner rule (17 Oct): Sristi sends all price lists, quotes and samples herself.** Agents prepare the brief and the timeline, then track her progress. They never send price lists.
+
 ## 2. Follow-ups (weekdays)
 - First email with no human reply after 5 business days: one short follow-up in the same thread (no attachment), naming the next occasion from the playbook calendar.
 - Still nothing 7 days later: a second, final follow-up offering 2–3 samples. Then stop for good.
