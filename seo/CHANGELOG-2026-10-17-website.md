@@ -69,3 +69,4 @@ Publish the previous theme, "Grasscrafts Live + Google reviews (17 Oct 2026)".
 ## 17 Oct, live
 - Owner published theme 189377052845. Verified live: home (hero buttons, Google strip, ₹1,300+), product (bulk form, 3-day returns, Google reviews, no Circular Legacy), both new articles render, FAQ, wholesale form, collection, cart, search and the cart drawer with add-to-cart. All return 200 with 0 Liquid errors.
 - Refund policy updated by the owner (3 days from delivery + unboxing video). The shipping and contact policies were still the old text at the time of this check.
+- Policies verified live (17 Oct): shipping (₹1,300/₹120/₹1,700), refund (3 days from delivery + unboxing video) and contact (sristi@grasscrafts.com) are correct. The privacy policy still lists amit2sap@gmail.com (optional fix).
