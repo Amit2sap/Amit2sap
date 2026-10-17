@@ -13,3 +13,11 @@
   - The Judge.me product widget block has `review_data: sample_data`. Check in the theme editor that no sample reviews show on the live site.
   - Product pages also carry a Klaviyo Reviews widget, so there are two review widgets. Keep one.
   - The "Circular Legacy" section shows numbers (2400 L water, 3.2 kg CO₂e, 850 g plastic) attributed to "Grasscrafts Internal Audit 2026". Make sure these can be backed up, or remove them (greenwashing risk).
+
+## Judge.me check (17 Oct, later)
+- **Core embed:** the Judge.me core app embed is already ON in the live theme (settings_data `judgeme_core`, enabled).
+- **Product review widget:** already on live product pages (`#judgeme_product_reviews`). `review_data: sample_data` applies to the theme editor only; the live page carries real data.
+- **Star rating badge:** added under the product title in the theme copy 189376495789 (custom_liquid block `jdgm_star_badge`). Judge.me hides it until a product has at least 1 review.
+- **All reviews:** the `jdgm-all-reviews-widget` on /pages/review-us loads through the core embed (verified on the live page).
+- **Klaviyo Reviews:** the widget does not render on live (the app is likely inactive), so there is no duplicate.
+- **Facebook Reviews tab:** cannot be switched on through the Graph API. The owner must do it manually.
