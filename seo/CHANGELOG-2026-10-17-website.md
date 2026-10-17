@@ -65,3 +65,7 @@ Publish the previous theme, "Grasscrafts Live + Google reviews (17 Oct 2026)".
 - **Scanned:** all products, 31 articles and theme.liquid. There are no other return-window statements; the only "48 hours" left is weaving time on the indigo jute mat.
 - **Refund policy itself (owner to edit):** it says "3 days from the date of purchase" in one place and "3 days after delivery" in another. Pick one, ideally "3 days from delivery".
 - **Pre-publish check of the draft:** home, collection, product, FAQ, wholesale, blog, article, search, cart and the cart drawer with add-to-cart all return 200 with 0 Liquid errors.
+
+## 17 Oct, live
+- Owner published theme 189377052845. Verified live: home (hero buttons, Google strip, ₹1,300+), product (bulk form, 3-day returns, Google reviews, no Circular Legacy), both new articles render, FAQ, wholesale form, collection, cart, search and the cart drawer with add-to-cart. All return 200 with 0 Liquid errors.
+- Refund policy updated by the owner (3 days from delivery + unboxing video). The shipping and contact policies were still the old text at the time of this check.
