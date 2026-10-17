@@ -37,6 +37,16 @@ def render(seg, co):
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Kauna grass hamper baskets, bamboo baskets and trays, and Sabai grass gift boxes, woven by Indian artisans with no plastic.\n\n"
              "For Diwali and gifting hampers, they can replace cardboard or plastic packaging with something customers keep and reuse. We supply in bulk with custom sizes and colours on request; hamper baskets start under ₹500.\n\n"
              f"{CLIENTS} Our catalogue is attached.\n\nWould you like samples of two or three basket styles to try?")
+    elif seg == "Cane planters (hotels, cafes, designers)":
+        s = f"Handwoven cane planters for {name}'s spaces" if name else "Handwoven cane planters for hotels, cafés and interiors"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven cane planters – table-top, floor planters with stands, tall 38-inch statement planters and sets of three – along with cane baskets, trays and ottomans, all woven by Indian artisans.\n\n"
+             "For lobbies, rooms, cafés, offices and design projects, they bring natural texture without plastic and are easy to repeat across a whole property. We take project and repeat orders, and can match sizes across a set.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nShall I send a shortlist of planter sizes for your next project or refresh?")
+    elif seg == "Sustainable decor brands":
+        s = f"Handwoven natural-fibre decor for {name}'s range" if name else "Handwoven natural-fibre decor for your store"
+        b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven decor in seven natural fibres – Sabai grass, Kauna grass, GI-tagged Madurkathi, cane, water hyacinth, bamboo and jute: baskets, wall plates, planters, trays, madur mats and boxes, woven by Indian artisans.\n\n"
+             "If your brand stocks sustainable home decor, we can supply ready designs for your store or online shop on a repeat basis. Small mixed trial orders are fine.\n\n"
+             f"{CLIENTS} Our catalogue is attached.\n\nWould a trial assortment for your next season be useful?")
     else:
         s = f"Handwoven baskets, planters and decor for {name}" if name else "Handwoven baskets, planters and decor for your store"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven baskets, planters, wall plates, trays and gift boxes from Kauna, Sabai grass, cane, bamboo and water hyacinth, woven by Indian artisans with no plastic.\n\n"

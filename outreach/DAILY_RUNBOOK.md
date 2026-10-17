@@ -44,7 +44,7 @@ Within the same run:
 ## 3. New outreach (weekdays)
 - 150 per day total from the personal Gmail (do not exceed ~200).
 - Up to 20 personal emails to named decision-makers (playbook section 1 roles), found via Hunter.io domain search or the company site, verified (Hunter verifier or SMTP RCPT check). One personal email each.
-- The rest go to verified info@/sales@ addresses from web search, mixed per the playbook: ~30% corporate gifting firms, 25% food/sweets/tea/D2C gift brands, 15% hotels/resorts, 15% wedding planners, 15% jewellers/decor stores.
+- The rest go to verified info@/sales@ addresses from web search, mixed per the owner's priority (updated 17 Oct): **30% corporate gifting** (gifting companies + HR/admin at companies with 200+ staff), **25% cane planter buyers** (hotels, resorts, cafés, co-working spaces, interior designers, landscapers; template 'Cane planters (hotels, cafes, designers)'), **25% wedding baskets** (wedding planners, venues, trousseau packers; template 'Wedding & event planners'), **20% sustainable décor brands and stores** (eco/handmade décor brands, concept stores; template 'Sustainable decor brands'). Festive hamper brands and jewellers only when a strong lead turns up.
 - Always: skip anything in `sent` or `do_not_send`; one address per company domain; SMTP-verify; attach the catalogue PDF (re-download from the Sent folder if the workbench reset).
 
 ## 4. Save + report

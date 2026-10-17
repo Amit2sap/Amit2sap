@@ -70,3 +70,14 @@ Pitch **6–8 weeks before** each occasion.
 - Whether logo branding is possible (printed tags, stamped boxes).
 - Real lead times for 100 / 500 / 1,000 units.
 - GST number on invoices (corporates ask for it).
+
+## 6. Owner priority (17 Oct 2026): regular B2B orders in 4 segments
+| Segment | Who decides | Repeat driver | Hero products (catalogue prices) | Where to find them |
+|---|---|---|---|---|
+| Corporate gifts | HR/Admin head, gifting-company founder or sourcing | 6–8 gifting moments a year plus onboarding | Kauna hamper baskets ₹340–599, Sabai gift box ₹750, bamboo trays, desk organisers | Gifting companies (Google "corporate gifting company <city>"), LinkedIn HR heads, IndiaMART buyers |
+| Cane planters | Hotel GM or purchase manager, café owner, interior designer, landscaper | Property refreshes, new outlets, project-by-project | Cane planters (table, stand, 38 in floor, sets of 3), cane ottomans | Hotel and resort lists, café chains, Houzz/IIID designer directories, landscaping firms |
+| Wedding baskets | Wedding planner, venue, trousseau packer | 2 wedding seasons a year, many weddings each | Haldi/Mehendi baskets ₹550+, Kauna hampers ₹340+, cane trousseau baskets ₹1,599 | WedMeGood/WeddingWire planner lists, Instagram planners, banquet venues |
+| Sustainable décor brands and stores | Founder or buyer | Seasonal assortment refills | Wall plates ₹450+, madur mats ₹300+, water hyacinth baskets, Sabai boxes | "sustainable home decor brand India", concept stores, Instagram décor brands, Brown Living sellers |
+
+**Conversion path:** first email (segment template) → follow-up on day 5 with a sample offer → hot lead → Sristi brief. Never quote trade prices or MOQ until the owner sets them.
+**Owner input needed to close repeat orders:** a trade price list (tiers at 25, 50 and 100+ pieces), MOQ, real lead times, and a GST invoice. Every hot lead asks for these.
