@@ -55,3 +55,10 @@ Within the same run:
 - **AI-visibility check:** run `seo/ai_visibility_check.py` in the workbench, append to `seo/ai_visibility_log.json`, and include the score in the daily report.
 - **Replies to media pitches** (`outreach/pr_pitches.json`): flag them to the owner the same day.
 - **Replies to review requests** (`outreach/review_requests.json`): thank the customer. If they give permission, save the review to `outreach/reviews_collected.json`. Send any complaints to the owner straight away.
+
+## Google Business Profile (daily, via Zapier), added 17 Oct
+- Check for new reviews (Zapier `new_review_v3`, location `locations/7612515921482745833`, account `accounts/113404890366334703365`). Reply to every review within 24 hours and sign it "– Sristi, GrassCrafts".
+  - **4–5★:** thank them and mention the product they wrote about.
+  - **1–3★:** apologise, offer to fix it, ask them to WhatsApp +91 62907 44782, and alert the owner the same day.
+- When a past buyer replies to a review request with praise, thank them and send the Google review link: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA
+- **Weekly (Thursday):** one Google post (`create_post`) linking to a collection: wedding baskets, cane planters, corporate gifts, or a new arrival. Only facts and prices from the catalogue.
