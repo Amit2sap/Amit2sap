@@ -24,8 +24,15 @@ State lives in this repo: `outreach/sent_log.json`, `outreach/reserve_prospects.
 A reply is a **HOT LEAD** if the prospect shows buying interest: asks for a price list, quote, MOQ, samples, catalogue details for an order, a call or meeting, or names a quantity, occasion or date.
 Within the same run:
 1. **Reply to the prospect** in the same thread, **CC sristi@grasscrafts.com**: thank them and say that Sristi Dey, founder of GrassCrafts, is copied and will share the price list / details personally. Mention her WhatsApp +91 62907 44782. No prices from us.
-2. **Email Sristi** (sristi@grasscrafts.com, subject "HOT LEAD: <company>"): company, contact name and email, what they asked, the occasion and quantity if known, a link to the thread, and the suggested next step.
-3. **WhatsApp alert to Sristi (+91 62907 44782)** from the API number 8100447884, using the approved `owner_alert` template ({{1}} = company + contact, {{2}} = what they asked). If the template is not approved yet, skip this step and say so in the report.
+2. **Email Sristi a HOT LEAD BRIEF** (sristi@grasscrafts.com, subject "HOT LEAD BRIEF: <company> — persona, steps & timeline"). Always include these 6 sections (example: the Hamperology brief, 17 Oct):
+   1. **Lead details**: organisation, contact name and role, phone/WhatsApp, email, source (which email or campaign, date), subject of the thread.
+   2. **Buyer persona**: type of business, size, values, whether this person decides, likely needs and worries (use `sales/b2b_targeting_playbook.md`).
+   3. **Buying intention**: what they actually asked for, in their own words; the occasion, quantity and date if known; signal strength (strong / medium); what we want it to become (trial order, repeat seasonal buyer, reseller).
+   4. **How to approach**: the angle to lead with, options to offer, what not to promise, questions to ask.
+   5. **Steps & timeline**: dated steps. TODAY within 2 h: WhatsApp or call (give a ready-to-send message). Day 1: call. Day 2: price list + MOQ + lead time. Day 3–4: samples. Day 5–7: trial order, with delivery before the occasion. Then the repeat-business plan (next occasions from the calendar).
+   6. **What Sristi needs ready**: price list, photos, samples, etc.
+   End with: "Reply DONE <step> after each step."
+3. **WhatsApp alert to Sristi (+91 62907 44782)** from the API number 8100447884, using the approved `owner_alert` template ({{1}} = company + contact name and role, {{2}} = "HOT LEAD" + what they want + the first action with phone number + "full brief sent to sristi@grasscrafts.com"; no line breaks, under ~600 characters). If the template is not approved yet, skip this step and say so in the report.
 4. Mark the lead `"stage": "hot - with Sristi"` in `warm_leads` (sent_log.json). Stop automatic follow-ups to that company; Sristi owns the conversation from here.
 5. Put it at the top of the daily report.
 
