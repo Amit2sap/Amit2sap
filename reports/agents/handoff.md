@@ -60,3 +60,10 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - **Chandukaka Saraf Jewels** (jewellery): 25th showroom opens 18 Oct. MD Samyak Shah, care@chandukakasaraf.in.
 - **Snusha, Pune** (ethnic wear): new 10,000+ sq ft bridal store. info@snusha.com.
 - **Timing:** corporate gifting firms (Saif Gifting) want New Year orders confirmed by 1 Dec, so year-end corporate emails should go out by about 7 Nov.
+
+## 18 Oct: email_actions (lead agent) actions
+- [x] 2026-10-18 hot leads from lead research (Riomara, ELE|NA Ayur, Century, Sattva, Swageazy, Chandukaka Saraf, Snusha): sent to Sristi as a list for her personal email this week, inside the HOT LEAD BRIEF email (Gmail 1a14d788d45192da). No prices, lead times or samples in writing. The agent emails the remaining leads from Mon 19 Oct.
+- [x] 2026-10-18 NEW inbound HOT LEAD, Ekta Bagla Agarwal, Mumbai (website form): 500 water hyacinth placemats, corporate gifting, needed by 2 Nov. Acknowledged her with Sristi in CC (1a14d788c7373623), brief to Sristi, WhatsApp owner_alert accepted. Stock is about 108 mats, so Sristi must check weaving capacity before confirming the date.
+- [ ] 2026-10-18 from:email_actions to:owner | Klaviyo lost its Shopify authentication (email 18 Oct). Reconnect it if Klaviyo sends the abandoned-checkout emails.
+- [ ] 2026-10-18 from:email_actions to:owner | 17 Oct items above are still open: Sristi's price list, MOQ and lead times (due 20 Oct; no DONE replies yet) and the review set-up steps. Repeated in today's owner email.
+- [x] 2026-10-18 owner items for ranking, listings, address/conversion and Google Business clean-up: included in the daily owner email (1a14d7a55b521e14).

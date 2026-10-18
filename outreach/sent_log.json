@@ -314,7 +314,9 @@
   "contact@decoreds.com",
   "info@colorknitevents.com",
   "hello@elewrap.com",
-  "contact@hyderabadevents.com"
+  "contact@hyderabadevents.com",
+  "info@bhasinsluxuryweddings.com",
+  "looseends.store@gmail.com"
  ],
  "log": {
   "2026-10-14": 48,
@@ -323,6 +325,13 @@
  },
  "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending.",
  "warm_leads": [
+  {
+   "company": "Ekta Bagla Agarwal (website bulk enquiry, Mumbai; company not given)",
+   "contact": "ekta.smile@gmail.com",
+   "phone": "+919820214335",
+   "status": "17 Oct (form, 01:25 IST 18 Oct): bulk quote for 500 water hyacinth rectangular placemats, corporate gifting, needed by 2026-11-02. 18 Oct: acknowledged with Sristi in CC (Gmail 1a14d788c7373623), HOT LEAD BRIEF to Sristi (1a14d788d45192da), WhatsApp owner_alert accepted. No prices/dates promised.",
+   "stage": "hot - with Sristi"
+  },
   {
    "company": "Farmley",
    "contact": "yogesh@farmley.com",
