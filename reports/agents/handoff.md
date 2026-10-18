@@ -14,3 +14,12 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 6. **Sristi:** marketplace applications to Brown Living, Tribes India, Ethica Online, iTokri and BongHaat.
 7. **Homepage title** (Online Store → Preferences): "GrassCrafts | Handwoven Kauna, Sabai Grass & Cane Baskets, Decor & Gifts".
 8. **Windsor:** disconnect 7 of 8 accounts (keep GA4) so the agents can read data again.
+
+## 18 Oct (later)
+- llms.txt fix published and verified live.
+- **Finish the Composio connections:** Bing Webmaster Tools and Google Analytics. The links expire in 10 minutes; ask Claude for fresh ones.
+- **Bing Webmaster:** at bing.com/webmasters → "Import from Google Search Console" (1 click; GSC is already verified).
+- **Google Business products:** paste them from seo/gbp_products_to_add.md.
+- **Second phone 062915 14742:** is it ours? Claude will accept or reject it once you answer.
+- **Merchant Center:** open the Shopify Google & YouTube app and check product approval and free listings (owner login only).
+- **Directories:** Justdial, IndiaMART, TradeIndia, Bing Places and Apple Business Connect need OTP or identity checks on the owner's phone. Use seo/citation_kit.md.

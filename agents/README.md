@@ -69,3 +69,4 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation. So e
 - **Pinterest:** connected via Composio (`pinterest_whosen-hoose`) on 17 Oct; test pin 1127799931724040361 posted.
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
 - **AI Search agent** (agents/ai_search.md): daily at 13:47 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
+- **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): daily at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
