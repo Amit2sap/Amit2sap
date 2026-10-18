@@ -23,3 +23,13 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - **Second phone 062915 14742:** is it ours? Claude will accept or reject it once you answer.
 - **Merchant Center:** open the Shopify Google & YouTube app and check product approval and free listings (owner login only).
 - **Directories:** Justdial, IndiaMART, TradeIndia, Bing Places and Apple Business Connect need OTP or identity checks on the owner's phone. Use seo/citation_kit.md.
+
+## 18 Oct: listings
+- **Owner reports:** Justdial, IndiaMART, TradeIndia, Bing Places and Bing Webmaster are done. Apple Business Connect is blocked at phone verification.
+- **Web search (18 Oct):**
+  - The new listings are not indexed yet; that is normal, and directories take days to weeks.
+  - Search answers link GrassCrafts to "near Belghoria Expressway" and "Nimta", while the Google listing says Dum Dum / Nabapally 700079. An old listing with a different address may exist, so check that every listing uses the same address.
+- **Apple:**
+  - Use document verification (GST certificate, Udyam certificate or a utility bill in the business name).
+  - Or contact Apple support inside Business Connect, and retry the phone call after 24 hours.
+- The data agent re-checks indexing weekly.
