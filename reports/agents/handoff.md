@@ -67,3 +67,12 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [x] 2026-10-18 from:email_actions to:owner | Klaviyo "lost Shopify authentication" email: expected, because the owner asked for Klaviyo to be removed on 17 Oct. No action needed. Turn on Shopify's free abandoned-checkout email instead (Marketing → Automations).
 - [ ] 2026-10-18 from:email_actions to:owner | 17 Oct items above are still open: Sristi's price list, MOQ and lead times (due 20 Oct; no DONE replies yet) and the review set-up steps. Repeated in today's owner email.
 - [x] 2026-10-18 owner items for ranking, listings, address/conversion and Google Business clean-up: included in the daily owner email (1a14d7a55b521e14).
+
+## 18 Oct: Google Business post clean-up (owner asked to delete)
+- **Deleted** (backups in `backups/gbp/`):
+  - Makhana listing: 973100885301879564, the restaurant-style "Navratri Special Menu".
+  - Main listing: 4339161242158721601 and 4641698097118530058 ("[Your City]" placeholder / "fair-trade certified" claim).
+- **Still to delete:** 2927915436701370500 (27 Sep, "World Tourism Day & World Rivers Day") and 2277602207260524481 (1 Oct, "Premium Sustainable Packaging, Corporate Gifting…").
+  - Zapier hit its monthly task limit, and Windsor has no delete action.
+  - Owner can delete these in the Google Business app (Posts → ⋮ → Delete), or the agent retries when the Zapier tasks reset.
+- **Rejected by Google:** today's Makhana Diwali post (7834306535527080087). Likely cause: prices or a phone number in the text. The agent should repost without the WhatsApp number on the next posting day.
