@@ -12,8 +12,8 @@ It uses the store's own connections, so there are no account limits and no paid 
 | Rank tracker (30 target keywords), clicks, impressions, CTR | Google Search Console (`sc-domain:grasscrafts.com`) | Connected |
 | Striking-distance keywords, low-CTR pages, cannibalisation | Derived from GSC | Connected |
 | Sitemap and index health, URL inspection | GSC | Connected |
-| Backlinks and referring pages, Bing keywords, crawl issues | Bing Webmaster Tools | Owner must finish the connection |
-| Traffic by channel, revenue | GA4 property 358606571 | Owner must finish the connection |
+| Backlinks and referring pages, Bing keywords, crawl issues | Bing Webmaster Tools | Connected; site verified |
+| Traffic by channel, revenue | GA4 property 358606571 | Connected |
 | Sales, sessions, conversion | Shopify analytics (Shopify MCP `run-analytics-query`) | Connected |
 | Google Business views, clicks, search keywords | Zapier GoogleMyBusinessCLIAPI | Connected |
 | Instagram, Facebook, Pinterest | Composio | Connected |

@@ -1,5 +1,26 @@
 # data_seo agent log
 
+## 2026-10-18: Bing + GA4 connected (second run)
+- **Bing Webmaster Tools:** connected; grasscrafts.com is already verified.
+  - Inbound links: **0**. Bing confirms the site has no backlinks yet; authority work is the top priority.
+  - Bing impressions are small (mostly "sabai grass" and jute information queries).
+- **GA4 (last 28 days):**
+
+| Channel | Sessions |
+|---|---|
+| Direct | 604 |
+| Organic Search | 188 |
+| Organic Social | 69 |
+| **AI Assistant** | 38 |
+| **Organic Shopping** | 28 |
+| Referral | 15 |
+| Unassigned | 14 |
+
+  - AI Assistant visits mean AI tools already send some visits.
+  - Organic Shopping visits mean Google free listings are live, so some products are approved in Merchant Center.
+- **Sales:** 0 transactions in GA4. **Shopify agrees: 0 orders since 20 Sep.** Traffic is converting to nothing. Flag to the owner: checkout and conversion review (COD, price trust, 94% abandoned checkouts noted on 17 Oct).
+- **Google Business:** the 2nd phone number 062915 14742 was added to the main listing (owner confirmed it is theirs).
+
 ## 2026-10-18: first run (main session)
 
 ### Google, last 28 days (18 Sep – 15 Oct)

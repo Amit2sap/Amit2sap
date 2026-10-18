@@ -44,3 +44,10 @@ Plain Mithila makhana (fox nuts / lotus seeds) from Bihar, sun-dried with no oil
 | 12 | Pinterest business profile, linked to the website | Social profile | Done (agent posts) |
 
 **Rule:** never buy links, never use link farms or PBNs, and never post fake reviews.
+
+## Sign-up links (checked 18 Oct)
+- **Justdial:** https://www.justdial.com/Free-Listing
+- **IndiaMART:** https://seller.indiamart.com
+- **TradeIndia:** https://seller.tradeindia.com (the /my-tradeindia/registration link returns 404)
+- **Bing Places:** https://www.bing.com/forbusiness. Choose "Import from Google Business Profile".
+- **Apple Business Connect:** https://business.apple.com
