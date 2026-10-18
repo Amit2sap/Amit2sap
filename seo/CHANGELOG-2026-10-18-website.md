@@ -57,3 +57,14 @@
 - **No discount banners.** Competitors run "upto 70% off", but prices and discounts are the owner's decision.
 - **Store name** is "grasscrafts.com", which feeds schema and page titles. The owner can change it under Settings → Store details → Store name.
 - **Uninstall unused apps**, under Settings → Apps: Klaviyo (if email isn't used), Instafeed, UpPromote, POWR.
+
+## 18 Oct: published and verified
+- The owner published 189380886701, and it is now MAIN.
+- Live checks, all with no Liquid errors and no Klaviyo code:
+  - Home: Why GrassCrafts strip, Shop by Category, Gift by Occasion, Shop by Price, FAQ and SEO text all render.
+  - A product page.
+  - The Earth Edit (14 products).
+  - The under-₹999 price filter (84 products).
+- Restocked items are now available to buy: the Sitalpati Tote Bag and all 3 rug sizes.
+- Both were moved back to their original Earth Edit positions (tote first, rug 8th).
+- Previous live theme 189377052845 is kept unpublished as the rollback.
