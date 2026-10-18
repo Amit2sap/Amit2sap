@@ -8,3 +8,13 @@
   - Makhana listing: description rewritten (unverified "GI-tagged" removed) and 4 services added.
   - Keyword report Jul–Sep: abalone 167, flower vase 44, table runner 21; no product or material keywords. Strategy added to agents/google_business.md.
   - Google suggests a 2nd phone, 062915 14742: owner to accept or reject.
+
+## 2026-10-18 (daily run, scheduled agent; posting day 0, Sunday)
+- **Reviews:** main listing 21 reviews, avg 4.7, all 21 already have replies → 0 new replies. Makhana listing 1 review (5★), API returns totals only, no review body → nothing to reply to. No 1–3★ reviews → no owner alert.
+- **Pending edits:** main listing title "GrassCrafts by Abalone" is live, no `hasPendingEdits`/`hasGoogleUpdated`; categories Handicraft + Corporate gift supplier, Gift basket shop, Handicraft Exporter; description has no URLs/phone. Makhana listing `hasPendingEdits: true` (the 18 Oct description rewrite is still under Google review); no `hasGoogleUpdated`.
+- **Posts (theme: Diwali 8 Nov, within 21 days):**
+  - Main: localPosts/2740850834105275854, "Handwoven Kauna grass Diwali gift hamper basket, Kolkata – from ₹340", SHOP → /products/kauna-grass-gift-hamper-basket (₹340 / ₹599 variants, Shopify featured image).
+  - Makhana (first posting day of the week Mon 12–Sun 18): localPosts/7834306535527080087, "Makhana gift hamper for Diwali – plain Mithila makhana, Kolkata", 250 g ₹499 / 500 g ₹849 / 1 kg ₹1,599, SHOP → /collections/makhana. No GI claim.
+- **Competitor watch:** 4 bullets in reports/competitor_watch.md. No Maps/Places tool, so competitor ratings/review counts not available (web snippets only).
+- **Handoff:** flagged misleading old Makhana post ("Navratri Special Menu", restaurant-style) and placeholder/"fair-trade certified" text in older main posts for owner OK to delete/edit; weekly owner reminders repeated.
+- **Blockers:** none for GBP (Zapier GET/POST and create_post worked). Next: Mon 19 Oct performance pull + website reviews refresh; next main post 20 Oct (Sabai item, Dussehra/Diwali).

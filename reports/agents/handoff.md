@@ -46,3 +46,8 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
   - The store address was saved with its two lines mixed up, so the privacy policy reads "Manikpur, Sporting Club, Dum Dum,, Nabapally, near Nabapally". Fix: line 1 "Ananta Dutta Lane, Manikpur, Nabapally"; line 2 "Near Nabapally Sporting Club, Dum Dum".
   - The privacy policy still shows amit2sap@gmail.com (the store contact email).
   - The shop location is still Belghoria 700081 (pickup).
+
+## 18 Oct: Google Business (daily run)
+- **No new reviews, no low-rating alerts.** Main 4.7★ / 21 reviews, all replied. Makhana 5★ / 1 review (rating only, the API returns no review body, so nothing to reply to).
+- **Owner, optional clean-up on the Makhana listing:** old post localPosts/973100885301879564 (14 Oct) advertises a "Navratri Special Menu" (sabudana khichdi, kheer, "Pure Veg Restaurant", "[Insert Google Maps Link]"). We don't sell those, so it can mislead buyers and break Google's post policy. Several older main-listing posts (Sep–Oct) also contain "[Your City]" placeholders and an unverified "fair-trade certified" claim (posts 4339161242158721601, 4641698097118530058, 2927915436701370500, 2277602207260524481). Suggest deleting or editing them; the agent will do it on your OK.
+- Weekly reminders: add Products in the Google Business app (seo/gbp_products_to_add.md); accept or reject the suggested 2nd phone 062915 14742; turn on Merchant Center free listings.
