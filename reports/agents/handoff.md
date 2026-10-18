@@ -41,3 +41,8 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
   3. Justdial, IndiaMART, TradeIndia, Bing Places and Apple: use the same address string.
   4. Settings → Locations → "Shop location" (Belghoria 700081, the courier pickup point): change it only if goods are now dispatched from Dum Dum.
 - **Conversion:** see `seo/conversion_diagnosis_2026-10-18.md`. The top fixes are COD, tax-inclusive prices, a free-shipping threshold of ₹1,299 or lower, and turning on the abandoned-checkout email.
+- **Checked 18 Oct, after the owner's update:**
+  - The contact-information page is correct.
+  - The store address was saved with its two lines mixed up, so the privacy policy reads "Manikpur, Sporting Club, Dum Dum,, Nabapally, near Nabapally". Fix: line 1 "Ananta Dutta Lane, Manikpur, Nabapally"; line 2 "Near Nabapally Sporting Club, Dum Dum".
+  - The privacy policy still shows amit2sap@gmail.com (the store contact email).
+  - The shop location is still Belghoria 700081 (pickup).
