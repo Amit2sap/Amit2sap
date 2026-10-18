@@ -51,3 +51,12 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - **No new reviews, no low-rating alerts.** Main 4.7★ / 21 reviews, all replied. Makhana 5★ / 1 review (rating only, the API returns no review body, so nothing to reply to).
 - **Owner, optional clean-up on the Makhana listing:** old post localPosts/973100885301879564 (14 Oct) advertises a "Navratri Special Menu" (sabudana khichdi, kheer, "Pure Veg Restaurant", "[Insert Google Maps Link]"). We don't sell those, so it can mislead buyers and break Google's post policy. Several older main-listing posts (Sep–Oct) also contain "[Your City]" placeholders and an unverified "fair-trade certified" claim (posts 4339161242158721601, 4641698097118530058, 2927915436701370500, 2277602207260524481). Suggest deleting or editing them; the agent will do it on your OK.
 - Weekly reminders: add Products in the Google Business app (seo/gbp_products_to_add.md); accept or reject the suggested 2nd phone 062915 14742; turn on Merchant Center free listings.
+
+## 18 Oct: hot leads from lead research (for a personal email from Sristi; no prices, lead times or samples in writing)
+- **Riomara Kochi** (hotels): opens Dec 2026, pre-opening fit-out plus Christmas décor. reservations@riomara.com (https://riomara.com).
+- **ELE|NA Ayur, Ajabgarh** (wellness): spa opens 1 Nov 2026. info@ele-na.com (https://destinationdeluxe.com/elena-ayur-ajabgarh-wellness-retreat/).
+- **Century Real Estate and Sattva Group** (real estate): already buy key-handover hampers from BoxUp. Pitch a handwoven housewarming hamper. Sattva: connect@sattvagroup.in. Century: phone only.
+- **Swageazy** (corporate): new funding, 800+ enterprise clients. Hemant Arora, Senior Sourcing Manager (Hunter-valid). Pitch for New Year 2027.
+- **Chandukaka Saraf Jewels** (jewellery): 25th showroom opens 18 Oct. MD Samyak Shah, care@chandukakasaraf.in.
+- **Snusha, Pune** (ethnic wear): new 10,000+ sq ft bridal store. info@snusha.com.
+- **Timing:** corporate gifting firms (Saif Gifting) want New Year orders confirmed by 1 Dec, so year-end corporate emails should go out by about 7 Nov.
