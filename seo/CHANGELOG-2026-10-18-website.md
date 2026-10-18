@@ -68,3 +68,4 @@
 - Restocked items are now available to buy: the Sitalpati Tote Bag and all 3 rug sizes.
 - Both were moved back to their original Earth Edit positions (tote first, rug 8th).
 - Previous live theme 189377052845 is kept unpublished as the rollback.
+- 18 Oct: the owner uninstalled Instafeed and UpPromote. Live check: no nfcube, Instafeed or UpPromote scripts and no Klaviyo script. Script tags dropped from 80 to 76 on the homepage. The live theme was renamed "Grasscrafts Live – 18 Oct 2026".
