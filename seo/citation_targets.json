@@ -35,6 +35,13 @@
    "source": "bioQ / Handmade Havens listicles",
    "why": "cited for eco corporate Diwali gifts",
    "action": "1:1 email offering facts and photos"
+  },
+  {
+   "source": "Unlinked brand mentions (web_search, 18 Oct)",
+   "why": "Web results describe 'Grasscrafts' / 'GrassCrafts by Abalone' (Kolkata, natural-fibre home décor) from third-party pages, but Bing Webmaster Tools reports 0 inbound links to grasscrafts.com",
+   "action": "AI Search/Email agents: open the cited pages from the 18 Oct brand_mentions results in seo/data/2026-10-18.json, find the ones that name the brand without linking, and ask each for a link to grasscrafts.com",
+   "added_by": "data_seo",
+   "date": "2026-10-18"
   }
  ]
 }

@@ -45,3 +45,11 @@ Each topic shows its main keyword and the link target.
 - [ ] Laundry and storage baskets: natural alternatives to plastic → laundry baskets
 - [ ] Plastic-free gift packaging ideas for D2C brands (B2B gourmet) → hamper baskets
 - [ ] Indian handicraft gifts for foreign clients and NRIs → corporate gifts
+
+### From data_seo, 18 Oct 2026 (Search Console striking-distance queries, last 28 days)
+- [ ] Straw mats for sleeping and floor seating: Madurkathi, Sitalpati and Kauna compared ("straw mat", 150 impressions, pos 10.1; "straw mat for sleeping", pos 6.3) → /collections/madurkathi-grass, /collections/bed-mats-1
+- [ ] Cane storage boxes: sizes, uses and care ("cane box" 55 impr / "cane boxes" 26 / "cane storage box" 36, homepage ranks at pos 8–9) → /collections/cane-boxes
+- [ ] Jute table mats and placemats: how to choose and clean them ("jute mat for table" 51 impr, "jute table mat" 42, homepage ranks) → /collections/table-mats, /collections/jute-mats
+- [ ] DIY wedding hamper ideas with handwoven baskets ("diy wedding hamper ideas", 23 impr, pos 12.3) → /products/wedding-gift-hamper-basket-2
+- [ ] Madurkathi curtains and blinds: what to know before buying ("madurkathi curtains", 36 impr, pos 9). Only link to products the store actually stocks; do not invent a curtain range → /collections/madurkathi-grass
+- [ ] Jute wall rugs and wall hangings: styling ideas ("wall rug", 29 impr, pos 10) → /collections/jute-mats
