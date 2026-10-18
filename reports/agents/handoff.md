@@ -33,3 +33,11 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
   - Use document verification (GST certificate, Udyam certificate or a utility bill in the business name).
   - Or contact Apple support inside Business Connect, and retry the phone call after 24 hours.
 - The data agent re-checks indexing weekly.
+
+## 18 Oct: address and conversion (owner to-do)
+- **Address, so the Google address is used everywhere.** This connection cannot edit store details or policies (`write_legal_policies` scope missing). Please make these changes:
+  1. Settings → Store details → Address: Ananta Dutta Lane, Manikpur, Nabapally, near Nabapally Sporting Club, Dum Dum, Kolkata 700079, West Bengal. The auto-generated privacy policy picks this up.
+  2. Settings → Policies → Contact information: replace it with the text in `seo/conversion_diagnosis_2026-10-18.md` (address section of the chat reply). Old text is backed up in `backups/policies/`.
+  3. Justdial, IndiaMART, TradeIndia, Bing Places and Apple: use the same address string.
+  4. Settings → Locations → "Shop location" (Belghoria 700081, the courier pickup point): change it only if goods are now dispatched from Dum Dum.
+- **Conversion:** see `seo/conversion_diagnosis_2026-10-18.md`. The top fixes are COD, tax-inclusive prices, a free-shipping threshold of ₹1,299 or lower, and turning on the abandoned-checkout email.
