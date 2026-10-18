@@ -125,5 +125,46 @@
    ]
   },
   "note": "Baseline for the AI Search agent. Ethica Online and IndiaMART appear across several questions: priority citation targets."
+ },
+ {
+  "date": "2026-10-18",
+  "agent": "website",
+  "method": "workbench web_search, seo/ai_visibility_check.py (10 questions)",
+  "score": 1,
+  "of": 9,
+  "found_for": [
+   "Where to buy kauna grass bags and baskets online India"
+  ],
+  "brands_seen": {
+   "sabai": [
+    "brown living",
+    "kadam haat",
+    "amazon"
+   ],
+   "madur mat": [
+    "itokri",
+    "zishta",
+    "tribes india",
+    "amazon"
+   ],
+   "kauna": [
+    "grasscrafts",
+    "brown living",
+    "ethica"
+   ],
+   "cane planters": [
+    "ethica"
+   ],
+   "wedding return gifts": [
+    "kottanz",
+    "sirohi"
+   ],
+   "sustainable decor brands": [
+    "ethica"
+   ]
+  },
+  "brand_query_ok": true,
+  "extra": "Unscored blog-research query 'wedding hamper basket buy online India handmade' named grasscrafts.com (Kash grass baskets) first, with Basket Bridge, Adscraft, Titlli, Kadam Haat.",
+  "note": "Same 1/9 as the 17 Oct run. No change after 1 day; the bulk hamper guide published today targets 'Bulk hamper baskets for Diwali India supplier' (0 brands cited, open gap)."
  }
 ]
