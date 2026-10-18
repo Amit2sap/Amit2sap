@@ -42,3 +42,21 @@ Rules for posts:
    - Use first name + surname exactly as Google shows them, and the date as "Mon YYYY".
 3. Write the file to the shop metafield `custom.google_reviews` (type json) with metafieldsSet, owner `gid://shopify/Shop/65880031405`.
 4. The product pages render it through `snippets/google-reviews.liquid` (section "Google reviews" in templates/product.json). Never add review schema markup for these reviews.
+
+## Ranking strategy (added 18 Oct)
+**Why we don't rank:** the Jul–Sep search-keyword report shows Google links us to "abalone", "flower vase" and "table runner", not to our products.
+
+Fix it with:
+1. **Post copy:**
+   - The first line names the exact product and material plus "Kolkata" or "India", e.g. "Handwoven Sabai grass laundry basket, Kolkata – ₹…".
+   - The SHOP button links to that **product** page, not the homepage.
+   - Alternate the materials: Sabai → Madurkathi → Kauna → cane → corporate hampers → wedding baskets.
+2. **Services:** keep the 12 specific services (main) and 4 (Makhana) set on 18 Oct. Never put URLs or phone numbers in descriptions.
+3. **Reviews:** in the reply, repeat the product name the buyer wrote about, naturally (no keyword stuffing).
+4. **Monthly (1st):** pull `searchkeywords/impressions/monthly` for both listings and log the top 20. Success = product/material keywords appear.
+5. **Makhana posts** use long-tail topics: "plain Mithila makhana", "makhana for vrat", "makhana gift hamper", "bulk makhana Kolkata".
+6. **Never claim** "GI-tagged" for makhana without the owner's proof.
+7. **Owner items to chase weekly in handoff.md:**
+   - add Products in the Google Business app;
+   - accept or reject the Google-suggested 2nd phone number;
+   - turn on Merchant Center free listings.

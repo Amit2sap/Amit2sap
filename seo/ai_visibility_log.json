@@ -1,7 +1,129 @@
 [
-  {"date": "2026-10-16", "method": "manual buyer questions", "score": 0, "of": 7, "note": "GrassCrafts only found for 'what is GrassCrafts'"},
-  {"date": "2026-10-17", "method": "workbench web_search, 10 questions", "score": 1, "of": 9,
-   "found_for": ["Where to buy kauna grass bags and baskets online India"],
-   "competitors_cited": {"sabai": ["Brown Living", "Kadam Haat", "Amazon"], "madur mat": ["iTokri", "Zishta", "Tribes India", "Amazon"], "kauna": ["Brown Living"]},
-   "note": "6 questions returned no brand names (generic answers); brand question finds GrassCrafts"}
+ {
+  "date": "2026-10-16",
+  "method": "manual buyer questions",
+  "score": 0,
+  "of": 7,
+  "note": "GrassCrafts only found for 'what is GrassCrafts'"
+ },
+ {
+  "date": "2026-10-17",
+  "method": "workbench web_search, 10 questions",
+  "score": 1,
+  "of": 9,
+  "found_for": [
+   "Where to buy kauna grass bags and baskets online India"
+  ],
+  "competitors_cited": {
+   "sabai": [
+    "Brown Living",
+    "Kadam Haat",
+    "Amazon"
+   ],
+   "madur mat": [
+    "iTokri",
+    "Zishta",
+    "Tribes India",
+    "Amazon"
+   ],
+   "kauna": [
+    "Brown Living"
+   ]
+  },
+  "note": "6 questions returned no brand names (generic answers); brand question finds GrassCrafts"
+ },
+ {
+  "date": "2026-10-18",
+  "method": "workbench web_search, 15 questions (incl. 4 makhana)",
+  "score": 1,
+  "of": 14,
+  "found_for": [
+   "Where to buy kauna grass bags and baskets online India"
+  ],
+  "competitors_cited": {
+   "sabai": [
+    "Brown Living",
+    "Handmade Earth",
+    "Kadam Haat",
+    "Shuchi Heritage",
+    "Utkal Amrita"
+   ],
+   "madur mat": [
+    "Zishta",
+    "iTokri",
+    "My Bengal",
+    "Tribes India",
+    "Amazon"
+   ],
+   "kauna": [
+    "Ethica Online",
+    "The Villagecraft Store",
+    "Dharini",
+    "Now & Zen"
+   ],
+   "corporate diwali": [
+    "Handmade Havens",
+    "MaLeema",
+    "Aipankari",
+    "bioQ"
+   ],
+   "cane planters": [
+    "Akway",
+    "ArtyCraftz",
+    "India Handmade",
+    "Ethica Online"
+   ],
+   "hamper baskets bulk": [
+    "Optima Bags",
+    "Giftiano",
+    "The Gift Desk"
+   ],
+   "wedding return gifts": [
+    "Kottanz",
+    "Sirohi",
+    "Wedtree"
+   ],
+   "sustainable decor brands": [
+    "Ekaurr",
+    "Gado Living",
+    "Stax Living",
+    "Rhizome Design"
+   ],
+   "jewellery boxes bulk": [
+    "Indikraftshub",
+    "Exporters India",
+    "Tagsen"
+   ],
+   "sitalpati": [
+    "Avbodhan",
+    "BongHaat",
+    "Ethica Online",
+    "IndiaMART"
+   ],
+   "mithila makhana": [
+    "Mithila Naturals",
+    "RootWell",
+    "Khetika",
+    "BigBasket",
+    "Amazon"
+   ],
+   "makhana gift hamper": [
+    "Chau Foods",
+    "Makhana Gold",
+    "Funkhana"
+   ],
+   "bulk makhana kolkata": [
+    "Mahabir Stores",
+    "Thakur Spices",
+    "Chau Foods"
+   ],
+   "makhana vrat": [
+    "Mithila Farms",
+    "Chau Foods",
+    "Farmley",
+    "Khetika"
+   ]
+  },
+  "note": "Baseline for the AI Search agent. Ethica Online and IndiaMART appear across several questions: priority citation targets."
+ }
 ]

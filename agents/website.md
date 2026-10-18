@@ -84,3 +84,5 @@
 **5. Measure**
 - 7 and 14 days later, compare the metric the change was meant to move: add-to-cart rate, checkout reached, bulk enquiries, CTR.
 - Report "kept", "rolled back" or "iterate" in the Monday email.
+
+**Theme copies (added 18 Oct):** after themeDuplicate, wait until `theme.processing` is false before any themeFilesUpsert. Edits made while it is still copying get overwritten (this happened to llms.txt on 18 Oct). Then compare file lists.
