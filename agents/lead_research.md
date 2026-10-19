@@ -1,10 +1,15 @@
 # Lead Research: one agent per B2B segment
 
-**Schedule:** runs every day at 09:07 IST, before the Email & Actions agent (09:52).
+**Schedule:** runs every day at 09:07 IST, before the Email & Actions agent (10:22).
 
-**Format:** one background agent per segment, run in parallel.
+**Format (owner, 19 Oct 2026, to save usage):** one background agent works through **3–4 segments a day, one after another**, in a 3-day rotation. Group = `(today - 2026-10-20).days % 3`:
+- 0: `corporate`, `wedding`, `hotels`, `real_estate`
+- 1: `diamond_jewellery`, `cane_planters`, `sustainable_decor`, `wellness`
+- 2: `luxury_watches`, `gourmet`, `ethnic_wear`
 
-**Daily output per segment agent:** **10 verified opportunities**, saved to `outreach/leads/<segment_slug>.json`.
+Every segment is still covered every 3 days. Competitor observations only on Mondays.
+
+**Output per segment on its day:** up to **10 verified opportunities**, saved to `outreach/leads/<segment_slug>.json`.
 
 **Who uses them:** the Email & Actions agent emails these leads first, before using generic info@ addresses.
 

@@ -4,13 +4,15 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 
 | Agent | Playbook | Runs (IST) | Channels |
 |---|---|---|---|
-| Lead Research (11 segment agents, run in parallel) | `agents/lead_research.md` | 09:07 daily | Web search, Hunter.io → `outreach/leads/*.json` |
-| Email & Actions (lead agent) | `outreach/DAILY_RUNBOOK.md` + `agents/email_actions.md` | 09:52 daily | Gmail, WhatsApp alerts to Sristi, hot leads |
-| Google Business | `agents/google_business.md` | 10:44 daily | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
-| Website & Search | `agents/website.md` | 11:22 daily | Shopify, Search Console, AI-search check |
-| Instagram | `agents/instagram.md` | 12:11 daily | @grasscrafts.com_ |
-| Facebook | `agents/facebook.md` | 12:43 daily | Page "Grasscrafts by Abalone" (142803116227246) |
-| Pinterest | `agents/pinterest.md` | 13:18 daily | Pinterest account amit2sap |
+| Data & SEO | `agents/data_seo.md` | 08:37 Mon, Wed, Fri | Windsor, Ahrefs, Search Console |
+| Lead Research (one agent, 3–4 segments a day in rotation) | `agents/lead_research.md` | 09:07 daily | Web search, Hunter.io → `outreach/leads/*.json` |
+| Email & Actions (lead agent) | `outreach/DAILY_RUNBOOK.md` + `agents/email_actions.md` | 10:22 daily | Gmail, WhatsApp alerts to Sristi, hot leads |
+| Google Business | `agents/google_business.md` | 11:14 daily | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
+| Website & Search | `agents/website.md` | 11:52 daily | Shopify, Search Console |
+| Social (Instagram, then Facebook, then Pinterest, one agent) | `agents/instagram.md`, `agents/facebook.md`, `agents/pinterest.md` | 12:41 daily | @grasscrafts.com_, Page 142803116227246, Pinterest amit2sap |
+| AI Search | `agents/ai_search.md` | 13:47 Thursdays | Buyer questions, llms.txt, citation targets |
+
+**Usage rules (owner, 19 Oct 2026):** runs are spaced at least 30 minutes apart and never run side by side. Routine agents (Data & SEO, Google Business, Website, Social, AI Search) run on the lighter Sonnet model. Lead Research and Email & Actions keep the default model. Keep reports short.
 
 ## Setup at the start of every run
 1. If the repo is missing, clone `https://github.com/amit2sap/amit2sap`. Then `git checkout claude/grassctafts-sales-growth-d8azah && git pull origin claude/grassctafts-sales-growth-d8azah`.
@@ -26,15 +28,15 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
   - Posting days are 18, 20, 22 Oct 2026 and so on: post only when `(today - 2026-10-18).days % 2 == 0`.
   - On a posting day: at most 1 feed post per channel (Pinterest: up to 5 pins). No duplicate text across channels; adapt it per channel.
   - Blog articles follow the same posting days.
-  - **Off days:** reply to comments, reviews and messages; run the competitor watch; prepare the next post. No feed posts.
+  - **Off days:** reply to comments, reviews and messages; prepare the next post. No feed posts.
   - Replies, reviews, hot leads and emails still run **every day**.
 - **Festivals and seasons.** Pick the theme from `agents/calendar.md`. An occasion within the next 21 days wins; otherwise use the weekly mix. B2B pitches go 6–8 weeks before the occasion.
-- **Competitor watch (every agent, every day).**
+- **Competitor watch (every agent, weekly on Mondays only, from 19 Oct 2026).**
   - Spend about 10 minutes checking the competitors in `agents/STRATEGY.md` **on your own channel**. What did they post or publish, what offer or new product did they launch, which keywords or pages rank, what got engagement?
   - Append 2–5 dated bullets to `reports/competitor_watch.md` under your agent name. Each bullet gives the observation, a source URL, and "→ what we should do".
   - Use only public information: web search snippets, public pages and public posts. No logging in to competitor accounts, no fake accounts, no copying their images or text.
-  - The lead agent turns these findings into updates to `agents/STRATEGY.md` every day.
-- **Competitor customer intelligence (every agent, every day, owner 17 Oct).** Find **who buys from our competitors**, what they buy, how often, and at what price. Then we can target them and shape our offer.
+  - The lead agent turns these findings into updates to `agents/STRATEGY.md` on Mondays.
+- **Competitor customer intelligence (with the Monday competitor watch, owner 17 Oct; weekly from 19 Oct).** Find **who buys from our competitors**, what they buy, how often, and at what price. Then we can target them and shape our offer.
   - **Business buyers** (companies, hotels, jewellers, planners, gifting firms). Public evidence only, each with a source URL:
     - client logos and "our clients" pages;
     - case studies, testimonials and press ("X partners with Brown Living for Diwali hampers");
@@ -51,22 +53,24 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 - **Reviews (owner, 17 Oct).** Follow `outreach/REVIEW_KIT.md`. Agents never write or post reviews as a customer. They only collect real reviews with permission, reply to reviews, and reuse permitted reviews in posts (quoted exactly).
 - **Owner email.** Only email amit2sap@gmail.com when the owner must act (a blocker, a complaint, a hot lead). The Email & Actions agent sends the one daily summary.
 
-## Scheduled tasks (created 17 Oct 2026)
-Fresh-session scheduled tasks cannot carry connectors in this organisation. So every task fires into the main session `session_01CExgX3LnZkdy4AwdW7vCVh`, which holds Composio, Shopify, Zapier and Windsor. Each task then launches its own background subagent with this playbook.
+## Scheduled tasks (created 17 Oct 2026, changed 19 Oct 2026 to save usage)
+Fresh-session scheduled tasks cannot carry connectors in this organisation (checked again 19 Oct). So every task fires into the main session `session_01CExgX3LnZkdy4AwdW7vCVh`, which holds Composio, Shopify, Zapier and Windsor. Each task then launches ONE background subagent with its playbook.
 
-| Agent | Task ID | Time (IST) |
-|---|---|---|
-| Lead Research (11 segment agents) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 |
-| Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 09:52 |
-| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 10:44 |
-| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:22 |
-| Instagram | trig_013nvpY1RgSiVREyaGQW3y3U | 12:11 |
-| Facebook | trig_014gkGWjNj9vrFmFdFnmnQc8 | 12:43 |
-| Pinterest | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | 13:18 |
+| Agent | Task ID | Time (IST) | Subagent model |
+|---|---|---|---|
+| Data & SEO | trig_01CUREij3CJdjc5fZN4htmSe | 08:37 Mon, Wed, Fri | Sonnet |
+| Lead Research (3–4 segments a day) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 daily | default |
+| Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 10:22 daily | default |
+| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 11:14 daily | Sonnet |
+| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:52 daily | Sonnet |
+| Social (Instagram + Facebook + Pinterest) | trig_013nvpY1RgSiVREyaGQW3y3U | 12:41 daily | Sonnet |
+| AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 13:47 Thursdays | Sonnet |
+| Facebook (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 | disabled | — |
+| Pinterest (old, merged into Social) | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 
 **Known blockers at set-up:**
 - **Instagram:** Composio is connected to the wrong account (@terraleatherco). Windsor reads are paused (free plan, 8 accounts connected).
 - **Pinterest:** connected via Composio (`pinterest_whosen-hoose`) on 17 Oct; test pin 1127799931724040361 posted.
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
-- **AI Search agent** (agents/ai_search.md): daily at 13:47 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
-- **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): daily at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
+- **AI Search agent** (agents/ai_search.md): weekly, Thursdays 13:47 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
+- **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): Mon/Wed/Fri at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
