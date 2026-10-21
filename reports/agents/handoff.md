@@ -76,3 +76,6 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
   - Zapier hit its monthly task limit, and Windsor has no delete action.
   - Owner can delete these in the Google Business app (Posts → ⋮ → Delete), or the agent retries when the Zapier tasks reset.
 - **Rejected by Google:** today's Makhana Diwali post (7834306535527080087). Likely cause: prices or a phone number in the text. The agent should repost without the WhatsApp number on the next posting day.
+
+## 21 Oct: Google Business agent
+- [ ] 2026-10-21 from:google_business to:owner | OWNER ALERT (blocker): Zapier monthly task limit is still reached. Google Business reviews, pending edits and 20 Oct post status could not be checked today. Please raise or reset the Zapier plan, or check new reviews and the 20 Oct posts in the Google Business app. Old posts 2927915436701370500 and 2277602207260524481 are still undeleted.

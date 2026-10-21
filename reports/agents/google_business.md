@@ -18,3 +18,9 @@
 - **Competitor watch:** 4 bullets in reports/competitor_watch.md. No Maps/Places tool, so competitor ratings/review counts not available (web snippets only).
 - **Handoff:** flagged misleading old Makhana post ("Navratri Special Menu", restaurant-style) and placeholder/"fair-trade certified" text in older main posts for owner OK to delete/edit; weekly owner reminders repeated.
 - **Blockers:** none for GBP (Zapier GET/POST and create_post worked). Next: Mon 19 Oct performance pull + website reviews refresh; next main post 20 Oct (Sabai item, Dussehra/Diwali).
+
+## 2026-10-21 (daily run, scheduled agent; off day, Wednesday)
+- **Blocker:** Zapier returned "Task limits for this account have been reached." on both review GETs (main and Makhana). Nothing could be read or written, so no review replies, no pending-edit check, and no check on whether the 20 Oct posts went live or were rejected. No workaround attempted.
+- Not done: reviews on both listings, pending edits, post status. No posts due (off day), no Monday tasks.
+- Still open from 18 Oct: delete old posts 2927915436701370500 and 2277602207260524481; repost Makhana Diwali post without WhatsApp number.
+- No review data seen, so no 1-3 star alert from this run.
