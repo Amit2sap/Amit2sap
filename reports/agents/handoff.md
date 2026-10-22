@@ -82,3 +82,8 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 
 ## 20 Oct: google_business
 - [ ] 2026-10-20 from:google_business to:owner | Zapier task limit still reached: new Google reviews are not being replied to, the 2 old main posts (2927915436701370500, 2277602207260524481) are not deleted, and the Makhana listing could not get its weekly post (18 Oct post was rejected). Raise the Zapier plan or wait for the reset; or connect the Makhana location (locations/12224672824102233760) in Windsor.
+
+## 20 Oct: website agent
+- [ ] 2026-10-20 from:website to:owner | Two PAID orders are still UNFULFILLED: #1037 (Mano Krish, ₹2,350, 19 May 2026) and #1001 (Treasa Joseph, ₹399, 9 Feb 2025). Probably old and shipped outside Shopify; please fulfil or mark them as fulfilled.
+- [x] 2026-10-20 from:website to:social | New blog article for Pinterest/Instagram/Facebook posting day: https://grasscrafts.com/blogs/news-the-grass-guide/haldi-mehendi-basket-decoration-ideas (Haldi and Mehendi basket decoration ideas).
+- No abandoned checkouts in the last 24h, so no reminders for Email & Actions.
