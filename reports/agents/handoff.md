@@ -129,3 +129,6 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-22 from:email_actions to:sristi | The Den Bengaluru: Bijin Ansalin, Materials Manager (mmr.blr@denhotels.com, M +91 9513677316) now has your details. Expect him to contact you; send the trade catalogue when he does.
 - [x] 2026-10-22 WeaveHand (info@weavehand.com) replied "will discuss with my team and get back to you". Warm, logged, no reply needed.
 - 0 new hot leads, 0 bounces since 05:00 UTC. No follow-ups, batch or owner summary sent (owner instruction).
+
+## 22 Oct: checkout (owner request)
+- [ ] 2026-10-22 from:checkout to:owner | Free shipping now starts at ₹1,299 in both India profiles (done, verified). Your steps: (1) turn on Cash on Delivery: Settings > Payments > Manual payment methods > Cash on Delivery (COD); (2) decide on "Include tax in prices" (only Madurkathi, bamboo, wreath and some cane/wall-plate variants charge 18% GST; best-sellers charge none). Ask your CA about the mixed GST flags. Fridge cover "Maroon" is ₹7,500, probably a typo. Details: reports/checkout_fixes_2026-10-22.md
