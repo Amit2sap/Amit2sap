@@ -53,3 +53,7 @@ Each topic shows its main keyword and the link target.
 - [ ] DIY wedding hamper ideas with handwoven baskets ("diy wedding hamper ideas", 23 impr, pos 12.3) → /products/wedding-gift-hamper-basket-2
 - [ ] Madurkathi curtains and blinds: what to know before buying ("madurkathi curtains", 36 impr, pos 9). Only link to products the store actually stocks; do not invent a curtain range → /collections/madurkathi-grass
 - [ ] Jute wall rugs and wall hangings: styling ideas ("wall rug", 29 impr, pos 10) → /collections/jute-mats
+
+### From data_seo, 21 Oct 2026 (Search Console, last 28 days)
+- [ ] Water hyacinth storage baskets: sizes, uses and care ("hyacinth basket" 97 impr pos 7.8; "eco-friendly water hyacinth basket" 37 impr pos 6.1) → /products/rectangular-water-hyacinth-storage-basket
+- [ ] Kauna reed totes and boxes: what kauna reed is and how to use it ("kauna reed", 21 impr, pos 8.6; two product pages compete) → /products/sahar-kauna-reed-tote-earthy-ochre, /products/heritage-kauna-grass-trinket-box-handwoven-reed-storage

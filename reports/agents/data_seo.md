@@ -1,5 +1,59 @@
 # data_seo agent log
 
+## 2026-10-21: daily run (Wednesday)
+Note: the toolkit stamped its output 2026-10-22 (sandbox clock). This run is logged as 21 Oct, data file `seo/data/2026-10-21.json`.
+- **Google (last 28 days, 22 Sep – 19 Oct):** 149 clicks, 8754 impressions, average position 8.0. Previous 28 days: 161 clicks, 9219 impressions, position 8.0. Clicks down 7%, impressions down 5%.
+- **Bing Webmaster Tools:** connected, site verified. Inbound links: **0** (unchanged).
+- **GA4 (28 days), sessions:** Direct 699; Organic Search 184; Organic Social 58; AI Assistant 49; Organic Shopping 34; Unassigned 21; Referral 15; Cross-network 5. Transactions: 0; revenue: ₹0.
+- **Sitemaps:** the two main sitemap.xml files show 0 errors. Three stale entries still show errors (/sitemap, /sitemap.xml/grasscrafts.com/sitemap.xml, www /sitemap_index.xml). **Owner (repeat):** remove them in Search Console → Sitemaps.
+- **Monday-only GBP/Shopify comparison:** skipped.
+
+### Rank tracker (movers)
+| Keyword | Position | Previous | Impressions | Clicks |
+|---|---|---|---|---|
+| sabai grass | 8.0 | 8.0 | 391 | 2 |
+| sabai grass bags | 8.9 | 8.7 | 37 | 3 |
+| sabai grass products | 11.9 | 18.1 | 11 | 1 |
+| kauna grass | 5.6 | 7.8 | 117 | 2 |
+| kauna grass basket | 3.2 | 2.6 | 4 | 0 |
+| madurkathi | 8.0 | 6.6 | 71 | 1 |
+| madur mat | 13.7 | 20.6 | 7 | 0 |
+| madurkathi mats | 16.3 | 16.5 | 22 | 0 |
+| asana mat | 7.8 | 9.8 | 25 | 1 |
+| sitalpati | 8.9 | 14 | 8 | 0 |
+| cane planters | 14.3 | 14.3 | 148 | 0 |
+| water hyacinth basket | 18 | 18 | 6 | 0 |
+| wedding gift hamper basket | – | 4 | 0 | 0 |
+| makhana | 10.3 | – | 3 | 0 |
+
+The other 15 tracked keywords (including the corporate gift, Diwali hamper, return gift, jute rug, lamp and the other makhana terms) have no impressions. Full list in the JSON.
+
+### Striking distance (top, positions 5–20)
+sabai grass (/pages/grass-weaving-sustainability, 8.0, 391 impr); straw mat (/, 10.2, 135); kauna grass (/collections/kauna-grass-manipur, 5.6, 117); hyacinth basket (water hyacinth product, 7.8, 97); cane planters (/, 8.3, 75); madurkathi (blog, 8.2, 69); cane box (/, 8.8, 58); gift hamper basket for wedding (wedding-gift-hamper-basket-2, 6.7, 54); jute mat for table (/, 9.2, 51).
+
+### Cannibalisation
+- **cane planters:** / (75 impr, pos 8.3) vs /collections/cane-planter (52, pos 26.2) vs /products/cane-planters (16, pos 6.8).
+- **cane planter:** /products/cane-planters (20, pos 10.4), / (16, pos 9.1), /products/handwoven-cane-planter-set (7, pos 4.6), /collections/cane-planter (5, pos 22.4).
+- **madurkathi:** blog (69, pos 8.2) vs /collections/madurkathi-grass (7, pos 4).
+- **cane box:** / (58, pos 8.8) vs /products/cane-box-8 (12, pos 8.9).
+- **kauna reed:** two product pages (21 and 16 impr, both pos about 8.5).
+- Brand queries (grasscrafts, grass craft) are not real cannibalisation.
+
+### Low-CTR pages (≥200 impressions, <1% CTR)
+- /pages/grass-weaving-sustainability: 825 impressions, CTR 0.97%, position 7.1
+- /products/wedding-gift-hamper-basket-2: 477 impressions, CTR 0%, position 5.2
+- /collections/kash-grass: 286 impressions, CTR 0.7%, position 3.0
+- /products/rectangular-water-hyacinth-storage-basket: 281 impressions, CTR 0.36%, position 9.9
+
+### Actions taken: 0 changes (no backups needed)
+- **Title and description rewrites: none.** All four pages were rewritten recently: the Sabai page on 17 Oct, the other three on 18 Oct. The 14-day lock keeps them until 31 Oct (Sabai) and 1 Nov (others), so the effect can be measured. Current text was read live and is already keyword-led with the price and shipping line. Wedding hamper CTR of 0% at position 5.2 is the one to recheck on 1 Nov.
+- **Internal links: none new.** The cane planter, cane box and madurkathi links went in on 18 Oct (3 days ago, too early to judge). The kauna reed pair is too small (21 and 16 impressions) to act on.
+- **Handed on:** two article topics to `agents/blog_topics.md`. No new outreach target: the brand-mention search results carry no URLs, and Bing still shows 0 backlinks.
+
+### Blockers and owner items
+- No new blocker. All sources (GSC, Bing, GA4) connected.
+- **Owner alert (repeat, not new):** 0 orders from ~800 sessions in 28 days; the conversion and checkout review is still the top issue. Also the 3 broken sitemap entries and the www homepage meta/redirect from the 18 Oct report.
+
 ## 2026-10-18: daily run (third run, Sunday)
 - **Google (last 28 days):** 154 clicks, 9006 impressions, average position 7.8; previous: 162 clicks, 9241 impressions.
 
