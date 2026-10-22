@@ -10,3 +10,8 @@
 - Comments: read 25 of 70 on the 14 Oct Live via the feed (FACEBOOK_GET_COMMENTS refused: needs pages_read_engagement / pages_read_user_content). Replies via FACEBOOK_CREATE_COMMENT on the comment ids also failed (tool read the id as a page id; numeric id refused with a 400). No replies sent; not worked around.
 - Unanswered, could be answered from Shopify by the owner: "Table mats available hai kya??" (yes, from Rs 300 / Rs 450 sets), "cane storage dam" (cane storage basket Rs 1,099), "red wall hanging price", "Mera sofa dispatch hua kya?" (order status, owner). No hot leads (no price list, bulk or sample asks).
 - BLOCKER (new, owner): Facebook connection lacks permission to read/reply to Page comments (needs pages_read_engagement and pages_manage_engagement, or Page Public Content Access).
+
+## 2026-10-22 (Thu, posting day)
+- Posted 1 native photo post (Diwali 8 Nov / Bhai Dooj 11 Nov gifting): Water Hyacinth Open Caddy, handle water-hyacinth-open-caddy-handwoven-artisan-storage, Rs 1,799. Post id 142803116227246_1675787184558662. Different product from 20 Oct.
+- Comments: tried FACEBOOK_GET_COMMENTS once, refused (#10 pages_read_engagement / Page Public Content Access). Skipped, no replies. Known blocker, unchanged.
+- No hot leads. No new blocker.

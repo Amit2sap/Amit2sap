@@ -107,3 +107,6 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 
 
 - [x] 22 Oct: #1001 (₹399) and #1037 (₹2,350) are not unfulfilled. Both were cancelled (12 Feb 2025, 20 May 2026) and still show "Paid", so they have now been archived (orderClose; undo with orderOpen). Owner confirmed on 22 Oct that both refunds were made in Razorpay. Shopify still shows "Paid" because the refunds were not recorded there; no action needed.
+
+## 22 Oct: social agent
+- No hot leads from social today. Pinned 5 pins, posted 1 Facebook photo. Instagram still blocked (Composio Instagram login not completed for @grasscrafts.com_); Facebook comment read/reply still refused (permission). No new blocker.
