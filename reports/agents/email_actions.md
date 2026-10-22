@@ -22,3 +22,18 @@
 - **Pipeline:** 109 leads found (10 per segment, wellness 9); 0 emailed (weekend); 0 replies.
 - **Not done:** the AI-visibility check. The shared Composio workbench has been timing out, so it was not retried; the AI Search agent runs it at 13:47.
 - **Blockers:** none for Gmail, WhatsApp or Shopify reads. Hunter not used (no lookup needed on a weekend).
+
+## 2026-10-20 run (requested as Tue 20 Oct; actually ran Thu 22 Oct 02:20-03:00 UTC, so weekday rules applied, not the Dussehra holiday rule; no runs happened 19-21 Oct)
+- **Replies read** (since 18 Oct): 1 hot lead, 1 media reply, 2 bounces, plus vendor pitches, guest-post spam, bank and system mail.
+- **HOT LEAD: Upahaar Corporate Gifting Solution, Nashik** (sales@upahaarcorporategifts.com) replied 20 Oct "Please share price list" to our 15 Oct email. Acknowledged in thread with Sristi CC (1a1616f2a497c113), HOT LEAD BRIEF to Sristi (1a1616fa9bf372a5), WhatsApp owner_alert accepted (wamid ...MkI3QUREMDgxQjZCQkJBNUMxAA). Added to warm_leads as "hot - with Sristi". No prices sent.
+- **Bounces → do_not_send:** thevofashion@gmail.com (media pitch), lavalraj@gmail.com (both inbox full, final).
+- **Media:** Sustainable Jungle replied (rating programme, probably paid); holding reply saved as DRAFT r2171400134877226938 and flagged. Review requests: no replies.
+- **Follow-ups:** 25 first follow-ups on the 14 Oct batch (no reply; care/support/customercare inboxes, warm leads and bounces skipped). 15 Oct batch is due from 23 Oct.
+- **New outreach:** 165 emails with the catalogue: 135 status-"new" leads (marked "emailed" 2026-10-22) + 30 reserve prospects (removed from reserve_prospects.json). Personal decision-makers: 6 (Swageazy, Mittal Teas, Grace The Packing Studio, The Leela Jaisalmer GM, Lucira, The Hazelnut Factory). Templates were based on outreach/templates.py with occasion lines; price ("under ₹500") and sample offers were removed. Total sends today about 193.
+- **SMTP check:** the workbench IP is blocklisted by many MX servers (5.7.1). Those results were treated as inconclusive and sent, because the addresses are published by the companies. Definite failures were not sent and went to Lead Research: reservations@riomara.com, vaibhav@eventbasket.in, order@hamperhubb.com, corporate@ravisweets.com, crm@puravankara.com.
+- **INCIDENT:** a second Email & Actions agent ran in parallel (02:27-02:41 UTC). It sent a duplicate Upahaar acknowledgement and brief, 25 duplicate follow-ups, a follow-up to contactus@caratlane.com, and a new-batch email to cares@nothingbeforecoffee.com. Main session alerted by send_message to stop it.
+- **Handoff:** Leela and Aarunya items done; owner items (Zapier, Instagram/Facebook permissions, old unfulfilled orders) went into the owner email.
+- **Owner daily summary:** Gmail 1a1617f1c52f29fd. STRATEGY.md not changed (not Monday).
+- **Pipeline:** 165 leads found, 136 emailed, 0 replies from lead-file leads, 0 hot (the hot lead came from the 15 Oct batch).
+- **Not done:** AI-visibility check (AI Search agent owns it). Hunter not used.
+- **Note:** outreach/leads/sustainable_decor.json had uncommitted Lead Research changes (21 Oct); they are included in this commit with only status fields changed by me.

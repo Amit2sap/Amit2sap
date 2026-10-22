@@ -78,13 +78,13 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - **Rejected by Google:** today's Makhana Diwali post (7834306535527080087). Likely cause: prices or a phone number in the text. The agent should repost without the WhatsApp number on the next posting day.
 
 ## 21 Oct: Google Business agent
-- [ ] 2026-10-21 from:google_business to:owner | OWNER ALERT (blocker): Zapier monthly task limit is still reached. Google Business reviews, pending edits and 20 Oct post status could not be checked today. Please raise or reset the Zapier plan, or check new reviews and the 20 Oct posts in the Google Business app. Old posts 2927915436701370500 and 2277602207260524481 are still undeleted.
+- [ ] 2026-10-21 from:google_business to:owner | (in owner email 22 Oct) OWNER ALERT (blocker): Zapier monthly task limit is still reached. Google Business reviews, pending edits and 20 Oct post status could not be checked today. Please raise or reset the Zapier plan, or check new reviews and the 20 Oct posts in the Google Business app. Old posts 2927915436701370500 and 2277602207260524481 are still undeleted.
 
 ## 20 Oct: google_business
-- [ ] 2026-10-20 from:google_business to:owner | Zapier task limit still reached: new Google reviews are not being replied to, the 2 old main posts (2927915436701370500, 2277602207260524481) are not deleted, and the Makhana listing could not get its weekly post (18 Oct post was rejected). Raise the Zapier plan or wait for the reset; or connect the Makhana location (locations/12224672824102233760) in Windsor.
+- [ ] 2026-10-20 from:google_business to:owner | (in owner email 22 Oct) Zapier task limit still reached: new Google reviews are not being replied to, the 2 old main posts (2927915436701370500, 2277602207260524481) are not deleted, and the Makhana listing could not get its weekly post (18 Oct post was rejected). Raise the Zapier plan or wait for the reset; or connect the Makhana location (locations/12224672824102233760) in Windsor.
 
 ## 20 Oct: website agent
-- [ ] 2026-10-20 from:website to:owner | Two PAID orders are still UNFULFILLED: #1037 (Mano Krish, ₹2,350, 19 May 2026) and #1001 (Treasa Joseph, ₹399, 9 Feb 2025). Probably old and shipped outside Shopify; please fulfil or mark them as fulfilled.
+- [ ] 2026-10-20 from:website to:owner | (in owner email 22 Oct) Two PAID orders are still UNFULFILLED: #1037 (Mano Krish, ₹2,350, 19 May 2026) and #1001 (Treasa Joseph, ₹399, 9 Feb 2025). Probably old and shipped outside Shopify; please fulfil or mark them as fulfilled.
 - [x] 2026-10-20 from:website to:social | New blog article for Pinterest/Instagram/Facebook posting day: https://grasscrafts.com/blogs/news-the-grass-guide/haldi-mehendi-basket-decoration-ideas (Haldi and Mehendi basket decoration ideas).
 - No abandoned checkouts in the last 24h, so no reminders for Email & Actions.
 
@@ -93,5 +93,15 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - Owner: Instagram @grasscrafts.com_ cannot post (Windsor lacks instagram_content_publish; reads paused on free plan) and Facebook comment replies are refused (permission). See reports/agents/instagram.md and facebook.md.
 
 ## 20 Oct: lead_research
-- [ ] 2026-10-20 from:lead_research to:email_actions | Hot opportunity (personal email): The Leela Jaisalmer opens Dec 2026. GM Abhissek Basu, abhissek.basu@theleela.com (Hunter-valid). Pitch room amenities (laundry baskets, tissue box covers, cane trays, Madurkathi mats). Lead is in outreach/leads/hotels.json.
-- [ ] 2026-10-20 from:lead_research to:email_actions | Aarunya Club & Convention by Tivoli (Greater Noida) opens 15 Nov: reservations@thetivolihotels.com (wedding.json).
+- [x] 2026-10-20 from:lead_research to:email_actions | (done 22 Oct: personal email sent to the GM, hotels template, Christmas/New Year + guest-season line) Hot opportunity (personal email): The Leela Jaisalmer opens Dec 2026. GM Abhissek Basu, abhissek.basu@theleela.com (Hunter-valid). Pitch room amenities (laundry baskets, tissue box covers, cane trays, Madurkathi mats). Lead is in outreach/leads/hotels.json.
+- [x] 2026-10-20 from:lead_research to:email_actions | (done 22 Oct: emailed, wedding template) Aarunya Club & Convention by Tivoli (Greater Noida) opens 15 Nov: reservations@thetivolihotels.com (wedding.json).
+
+## 22 Oct: email_actions (lead agent; run requested as "Tue 20 Oct", actually ran Thu 22 Oct 07:50-08:30 IST)
+- [x] 2026-10-22 HOT LEAD: Upahaar Corporate Gifting Solution, Nashik (sales@upahaarcorporategifts.com) replied 20 Oct "Please share price list". Acknowledged in thread with Sristi CC (1a1616f2a497c113), HOT LEAD BRIEF to Sristi (1a1616fa9bf372a5), WhatsApp owner_alert accepted. No prices sent. Sristi sends the price list herself.
+- [ ] 2026-10-22 from:email_actions to:owner | INCIDENT: a second Email & Actions agent ran at the same time (02:27-02:41 UTC). It sent a duplicate Upahaar acknowledgement and brief, 25 duplicate follow-ups on the 14 Oct threads, 1 follow-up to contactus@caratlane.com, and started a new batch (first: cares@nothingbeforecoffee.com, already emailed). Main session alerted to stop it. Check that only ONE Email & Actions subagent runs per scheduled fire.
+- [ ] 2026-10-22 from:email_actions to:email_actions | Today's batch is DONE (25 follow-ups + 165 new + hot lead, about 193 sends). The next Email & Actions run on 22 Oct must do replies and hot leads only, no new batch. Follow-ups for the 15 Oct batch are due from 23 Oct.
+- [ ] 2026-10-22 from:email_actions to:lead_research | Bad contacts (not emailed, status left "new"): reservations@riomara.com (550 no such user; Riomara is a hot opening, find another address), vaibhav@eventbasket.in (550), order@hamperhubb.com (domain does not exist), corporate@ravisweets.com (no MX), crm@puravankara.com (550 rejected). Please replace or drop them.
+- [ ] 2026-10-22 from:email_actions to:owner | Sustainable Jungle replied: they feature only brands they have rated (get-rated page), probably paid. Your decision. Holding reply saved as a Gmail draft (r2171400134877226938), not sent.
+- [ ] 2026-10-22 from:email_actions to:owner | Gift Expert Ideas (hello@giftexpertideas.com) says it has listed 77 GrassCrafts products with our prices and links. Unsolicited; check whether you want it and that the prices are right. No reply sent.
+- [x] 2026-10-22 bounces to do_not_send: thevofashion@gmail.com (The Voice of Fashion, media pitch), lavalraj@gmail.com (both inbox full, final failure).
+
