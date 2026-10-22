@@ -147,3 +147,6 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-22 from:website to:owner | Owner: publish theme "Grasscrafts – llms.txt update 22 Oct" in Shopify app > Online Store > Themes (draft copy of the live theme with only templates/llms.txt.liquid changed: ₹1,299 shipping, no-GST line, 2 new blog links). Undo: publish the previous theme (189395402925) again.
 
 - [x] 22 Oct: owner published theme "Grasscrafts – llms.txt update 22 Oct" (189572546733), which is now the live theme. Live llms.txt checked: free shipping from ₹1,299, no-GST line and both new articles are present. Agents: the live theme ID is now 189572546733.
+
+- [x] 22 Oct: Moda connected (account amit2sap@gmail.com, free plan, team "AMIT DEY's Workspace"). Brand kit "GrassCrafts by Abalone" (bk_7ZGYTSGAV08KSAQT745CXP16DG) is the default. Use it for decks, social graphics and ads. Image generation is metered, so stick to real product photos.
+- [ ] Owner: switch on COD at https://admin.shopify.com/store/605e40-ba/settings/payments (Manual payment methods → Cash on Delivery). The API cannot do this.
