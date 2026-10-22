@@ -38,6 +38,7 @@
    - **Real photos are required for anything that shows a product.** An AI-generated picture must never pass as our product.
    - **Optional AI images:** only decorative or explainer graphics (for example a "how Sabai grass becomes a basket" diagram or a seasonal banner). Use them only if an image-generation tool is connected (for example through Composio). Upload with Shopify `stagedUploadsCreate` + `fileCreate`, give them alt text, and say in the log that the image is AI-generated.
    - If no image tool is connected, use product photos only and log "AI image tool not connected" once a week. That is a note, not a blocker.
+   - **Image rule (owner, 22 Oct 2026): every article must have a featured image AND at least one body image.** Each must be a real ACTIVE GrassCrafts product photo from our Shopify CDN (cdn.shopify.com). No stock or AI images. Alt text is descriptive, 8-15 words. Every product link in the article must point to an ACTIVE product: check that the handle exists and is active before publishing.
 5. **Publish.**
    - `articleCreate` on the main blog: SEO title of 60 characters or fewer, and a meta description of 155 characters or fewer (metafields global.title_tag / description_tag).
    - A handle containing the keyword, tags, a summary, and the featured image.

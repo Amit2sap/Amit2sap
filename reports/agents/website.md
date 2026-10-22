@@ -14,3 +14,12 @@
 - Blog Engine: published "Haldi and Mehendi Basket Decoration Ideas" (topic ticked). Live check passed. Collection Guides line deferred (needs 48h notice). Handed to social.
 - AI-visibility check skipped (AI Search agent owns it). No change proposal or theme work today. Blockers: none.
 - 2026-10-22: Blog featured images + alt text added to 4 new articles (Diwali corporate gifts, material comparison, madur mat guide, wedding return gifts); 1 body image inserted in Haldi/Mehendi article; bulk-hamper guide already OK. All 200 live. See seo/CHANGELOG-2026-10-22-blog-images.md
+
+## 2026-10-22 (Thu, posting day): daily run
+- Funnel, last 24h: 47 sessions, 0 add-to-cart, 0 reached checkout, 0 orders. Third day of near-zero cart additions; flagged to owner in handoff.
+- Abandoned checkouts, last 24h: 0 (latest 16 Oct). No reminders.
+- Unfulfilled open, not-cancelled orders: 0 (#1001, #1037 not flagged).
+- Blog Engine: published "Sabai Grass Products: A Buyer's Guide to Uses, Prices and Care (2026)", https://grasscrafts.com/blogs/news-the-grass-guide/sabai-grass-products-buyers-guide-india . Live 200, FAQPage present, 12 product links all ACTIVE and 200. Featured + body image are real active-product photos, alt text 13 words each. Topic ticked, handed to social.
+- New image rule added to agents/website.md (Blog Engine, Images).
+- Not done: collection Guides line (needs 48h notice), sitemap resubmit/URL inspection (no tool), AI-visibility check (AI Search agent owns it). Blockers: none.
+- Changelog: seo/CHANGELOG-2026-10-22-website.md, seo/CHANGELOG-blog.md.

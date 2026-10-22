@@ -12,7 +12,7 @@ Each topic shows its main keyword and the link target.
 - [x] (published 2026-10-17) Return gift baskets for weddings in India: ideas by budget → /collections/wedding-gift-hamper
 - [x] (published 2026-10-20) Haldi and Mehendi ceremony basket decoration ideas → Haldi / Mehendi collections
 - [x] (published 2026-10-18) Bulk hamper baskets for Diwali and corporate gifting: how to choose → /collections/corporate-gifts-handcrafted-gifts
-- [ ] Sabai grass products: buyer's guide (uses, prices, care) → Sabai collection
+- [x] (published 2026-10-22) Sabai grass products: buyer's guide (uses, prices, care) → Sabai collection
 - [ ] Kauna grass bags and baskets: buying guide → Kauna collection
 - [ ] Cane planters guide: sizes, plants and care → /collections/cane-planter
 
