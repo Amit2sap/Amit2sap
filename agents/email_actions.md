@@ -19,3 +19,9 @@ Main playbook: `outreach/DAILY_RUNBOOK.md` (send, reply, follow up, hot leads to
 5. **Lead pipeline.** In the owner email, report leads found by segment (Lead Research), emailed, replied and hot.
 
 **Weekends and holidays:** replies and hot leads only; no new outreach.
+
+## Lead tracker
+- Local file: `sales/lead_tracker.xlsx` (tabs: Leads, Summary, Hot leads), built by `scripts/build_lead_tracker.py` from outreach/leads/*.json, outreach/sent_log.json, outreach/competitor_customers.json, reports/agents/handoff.md and the hot-leads report. Extend the `R` dict in the script when a new reply or hot lead is logged.
+- Google Sheet 'GrassCrafts Lead Tracker': **NOT CREATED YET** (22 Oct 2026). The Google Drive connector returned "Forbidden" on every call (create_file, list_recent_files), so no file id/URL exists. Owner (Amit): either fix the Drive connector authorisation, or open Google Drive, upload `sales/lead_tracker.xlsx` and choose "Open with Google Sheets" (keeps all 3 tabs), then share with sristi@grasscrafts.com as editor and paste the file id here.
+- Sheet file id: (to be filled in once created)
+- Rule: At the end of every Email & Actions run, re-run scripts/build_lead_tracker.py and update the Google Sheet (same file id) via the Google Drive connector; never overwrite manual Status/Notes edits made by Sristi in the sheet - read the sheet first and keep any row where Status or Notes differ from our data, preferring the sheet's values. (The Drive tools only expose read_file_content for reading and create_file for writing; update_file changes metadata only, so an in-place content update may need the file to be re-created or edited via another connector.)
