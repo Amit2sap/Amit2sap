@@ -106,4 +106,4 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [x] 2026-10-22 bounces to do_not_send: thevofashion@gmail.com (The Voice of Fashion, media pitch), lavalraj@gmail.com (both inbox full, final failure).
 
 
-- [x] 22 Oct: #1001 (₹399) and #1037 (₹2,350) are not unfulfilled. Both were cancelled (12 Feb 2025, 20 May 2026) and still show "Paid", so they have now been archived (orderClose; undo with orderOpen). Owner to confirm the refunds were made in Razorpay.
+- [x] 22 Oct: #1001 (₹399) and #1037 (₹2,350) are not unfulfilled. Both were cancelled (12 Feb 2025, 20 May 2026) and still show "Paid", so they have now been archived (orderClose; undo with orderOpen). Owner confirmed on 22 Oct that both refunds were made in Razorpay. Shopify still shows "Paid" because the refunds were not recorded there; no action needed.
