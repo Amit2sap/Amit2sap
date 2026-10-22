@@ -3,3 +3,4 @@
 2. agents/website.md: added the owner image rule (22 Oct) under Blog Engine, Images. Repo file only. Undo: git revert.
 3. agents/blog_topics.md: ticked the Sabai buyer's guide topic. Repo file only.
 No other visible changes. No prices, inventory, discounts, payments, checkout, shipping, app settings or theme touched.
+4. llms.txt update staged in a DRAFT theme (not live): theme "Grasscrafts – llms.txt update 22 Oct", gid://shopify/OnlineStoreTheme/189572546733 (duplicate of live 189395402925, role UNPUBLISHED). File written: templates/llms.txt.liquid (shipping ₹1,300 -> ₹1,299; added "Prices: GrassCrafts does not charge GST on its products"; added Key pages links for the Sabai buyer's guide and the Haldi and Mehendi article). Verified: md5 0899fe63383a3398d920d3b62cb3efce, identical to seo/llms.txt.liquid. Live theme untouched until the owner publishes. Undo: publish theme 189395402925 again (or just delete the draft).
