@@ -361,5 +361,34 @@
   "occasion": "New hospital and Panchakarma clinic fit-outs",
   "current_products": "Ayurveda hospitals, Panchakarma clinics",
   "buying_pattern": "estimate: 6+ new facilities in pipeline"
+ },
+ {
+  "found": "2026-10-22",
+  "segment": "wellness",
+  "company": "Forest Essentials",
+  "city": "New Delhi",
+  "website": "https://www.forestessentialsindia.com",
+  "signal": "Runs a dedicated corporate and wedding gifting desk with a corporate catalogue",
+  "signal_url": "https://forestessentialsindia.com/corporate-gifting",
+  "contact_name": "",
+  "role": "Corporate gifting team",
+  "email": "gifting@forestessentialsindia.com",
+  "email_source": "https://forestessentialsindia.com/corporate-gifting",
+  "verified": "published",
+  "business_phone": "",
+  "phone_source": "",
+  "products_to_pitch": [
+   "Sabai boxes with lids",
+   "Kauna hamper trays",
+   "water hyacinth pouches"
+  ],
+  "occasion": "Plastic-free gift packaging for Valentine's/Holi/wedding gifting 2027",
+  "competitor_used": "unknown",
+  "current_products": "unknown",
+  "budget_signal": "unknown",
+  "buying_pattern": "unknown",
+  "status": "new",
+  "notes": "Opportunity #3 (D2C plastic-free packaging). Address also on their wedding gifting page.",
+  "source_report": "reports/opportunities_trends_export_2026-10-22.md"
  }
 ]

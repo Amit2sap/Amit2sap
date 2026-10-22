@@ -458,5 +458,63 @@
     "occasion": "Stocking new stores before Diwali / wedding season",
     "current_products": "Handcrafted décor",
     "buying_pattern": "estimate: stocking ~10 new stores"
+  },
+  {
+    "found": "2026-10-22",
+    "segment": "sustainable_decor",
+    "company": "Kiran Nadar Museum of Art (museum shop)",
+    "city": "New Delhi (Saket)",
+    "website": "https://www.knma.in",
+    "signal": "Museum with a museum shop (Museums of India directory)",
+    "signal_url": "https://shop.museumsofindia.org/node/315",
+    "contact_name": "",
+    "role": "General museum inbox (ask for museum shop / merchandise)",
+    "email": "knma@shivnadarfoundation.org",
+    "email_source": "https://shop.museumsofindia.org/node/315",
+    "verified": "published",
+    "business_phone": "+91 11 4916 0000",
+    "phone_source": "https://www.e-flux.com/directory/268280/kiran-nadar-museum-of-art/",
+    "products_to_pitch": [
+      "GI Madurkathi coasters/mats",
+      "small Sabai boxes with story card",
+      "Sabai wall plates"
+    ],
+    "occasion": "Museum-shop consignment / GI craft story",
+    "competitor_used": "unknown",
+    "current_products": "unknown",
+    "budget_signal": "unknown",
+    "buying_pattern": "unknown",
+    "status": "new",
+    "notes": "Opportunity #9 (institutional retail).",
+    "source_report": "reports/opportunities_trends_export_2026-10-22.md"
+  },
+  {
+    "found": "2026-10-22",
+    "segment": "sustainable_decor",
+    "company": "CSMVS Mumbai (museum shop)",
+    "city": "Mumbai (Fort)",
+    "website": "https://csmvs.in",
+    "signal": "Museum with a museum shop (Museums of India directory)",
+    "signal_url": "https://shop.museumsofindia.org/node/330",
+    "contact_name": "",
+    "role": "General museum inbox (ask for museum shop / merchandise)",
+    "email": "csmvsmumbai@gmail.com",
+    "email_source": "https://shop.museumsofindia.org/node/330",
+    "verified": "published",
+    "business_phone": "+91 22 6958 4400",
+    "phone_source": "https://csmvs.in/",
+    "products_to_pitch": [
+      "GI Madurkathi coasters/mats",
+      "small Sabai boxes",
+      "Kauna trays"
+    ],
+    "occasion": "Museum-shop consignment / GI craft story",
+    "competitor_used": "unknown",
+    "current_products": "unknown",
+    "budget_signal": "unknown",
+    "buying_pattern": "unknown",
+    "status": "new",
+    "notes": "Official site was under maintenance at search time; email from museum directory listing. Opportunity #9.",
+    "source_report": "reports/opportunities_trends_export_2026-10-22.md"
   }
 ]
