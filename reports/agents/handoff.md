@@ -163,3 +163,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - 2026-10-22 Merchant feed audit: 208 active products all published to Google & YouTube with category/vendor OK, no changes made; 37 products have compare-at < price and ~12 have wrong categories for owner/website agent. See reports/merchant_feed_audit_2026-10-22.md. Owner to send Merchant Center Diagnostics screenshot.
 
 - [ ] 22 Oct: catalogue shared with Sristi (Gmail 1a1631f953d4f4ad, CC Amit). Share link (view + remix): https://moda.app/s/5QQuTuX0V-Tu1hXq52g6zQ. Waiting for her to add trade prices and MOQ and send back the PDF. When it arrives, the Email agent sends it to Upahaar and the other waiting leads, in their existing threads with Sristi in CC.
+
+- 2026-10-22 Merchant fixes (owner approved): cleared stale compare-at (<= price) on 61 variants across 37 products, price untouched; recategorised 6 products (bed-runner-2 -> Rugs, puja-mats x4 -> Yoga & Pilates Mats, jewellery basket -> Jewelry Boxes). Backup backups/merchant/compare_at_and_categories_before_2026-10-22.json, undo steps in seo/CHANGELOG-2026-10-22-merchant.md.
