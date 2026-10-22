@@ -1,0 +1,185 @@
+<title>GrassCrafts Daily Actions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow phone-first column; a sticky day bar, then three groups (comments, pin saves, collab pitches). */
+:root{
+  --bg:#f5f6ef; --surface:#ffffff; --ink:#1d2419; --muted:#5d6655; --line:#dfe3d3;
+  --grass:#2f6b3a; --grass-ink:#ffffff; --straw:#c9962c; --done:#3c8a4a; --skip:#9a9f92;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141812; --surface:#1d231a; --ink:#e7ecdf; --muted:#a3ac97; --line:#2e3729;
+  --grass:#6fbf7c; --grass-ink:#0f150d; --straw:#e0b552; --done:#7fd08c; --skip:#6f7568; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141812; --surface:#1d231a; --ink:#e7ecdf; --muted:#a3ac97; --line:#2e3729;
+  --grass:#6fbf7c; --grass-ink:#0f150d; --straw:#e0b552; --done:#7fd08c; --skip:#6f7568; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body)}
+.wrap{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header{display:flex;flex-direction:column;gap:4px;margin-bottom:8px}
+h1{font:700 1.7rem/1.15 var(--display);margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line);margin-bottom:12px}
+.chip{font:500 .8rem var(--mono);padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);font-variant-numeric:tabular-nums}
+.chip.on{background:var(--grass);color:var(--grass-ink);border-color:var(--grass)}
+select{font:inherit;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+section{display:flex;flex-direction:column;gap:12px;margin-top:22px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2{font:600 1.15rem var(--display);margin:0}
+.hint{color:var(--muted);font-size:.9rem;margin:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.item.done,.item.approved,.item.executed{opacity:.6}
+.item.skipped{opacity:.4}
+.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.85rem;color:var(--muted)}
+.plat{font:500 .72rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--straw)}
+.who{font-weight:600;color:var(--ink)}
+.excerpt{margin:0;color:var(--muted);font-size:.92rem;overflow-wrap:anywhere}
+.comment{margin:0;padding:10px 12px;border-left:3px solid var(--grass);background:var(--bg);border-radius:0 8px 8px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.btn{font:600 .95rem var(--body);padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn.primary{background:var(--grass);color:var(--grass-ink);border-color:var(--grass)}
+.btn:focus-visible{outline:3px solid var(--straw);outline-offset:2px}
+.btn[disabled]{opacity:.5;cursor:default}
+.state{font:500 .75rem var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.state.done,.state.approved,.state.executed{color:var(--done)} .state.skipped{color:var(--skip)} .state.pending{color:var(--straw)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:18px;color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:10px;font-size:.9rem}
+@media (prefers-reduced-motion:no-preference){.item{transition:opacity .2s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Today's actions</h1>
+    <p class="sub">Comments to post from your phone, Pinterest saves and collab pitches to approve. The agents add a new list every morning.</p>
+  </header>
+  <div class="bar">
+    <label for="day" class="hint">Day</label>
+    <select id="day"></select>
+    <span class="chip" id="c-left">0 left</span>
+    <span class="chip" id="c-done">0 done</span>
+  </div>
+  <div id="status" class="empty">Loading today's list…</div>
+
+  <section id="s-comments" hidden>
+    <div class="sec-head"><h2>Comments</h2><p class="hint">Copy &amp; open, paste in the app, then tap Done.</p></div>
+    <div id="l-comments"></div>
+  </section>
+  <section id="s-saves" hidden>
+    <div class="sec-head"><h2>Pinterest saves</h2><button class="btn primary" id="a-saves" type="button">Approve all</button></div>
+    <p class="hint">Approved pins are saved to your boards in the next agent run.</p>
+    <div id="l-saves"></div>
+  </section>
+  <section id="s-collabs" hidden>
+    <div class="sec-head"><h2>Collab pitches</h2><button class="btn primary" id="a-collabs" type="button">Approve all</button></div>
+    <p class="hint">Approved pitches are emailed by the email agent, within the daily limit.</p>
+    <div id="l-collabs"></div>
+  </section>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let db = null, items = [], day = null, canWrite = true;
+const PLAT = {linkedin:"LinkedIn", instagram:"Instagram", pinterest:"Pinterest", facebook:"Facebook", email:"Email"};
+const STATE_LABEL = {pending:"To do", done:"Done", skipped:"Skipped", approved:"Approved", executed:"Sent"};
+
+function toast(msg){const t=$("toast");t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,2200)}
+function el(tag, cls, text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+function safeUrl(u){try{const x=new URL(u);return (x.protocol==="https:"||x.protocol==="http:")?x.href:null}catch{return null}}
+
+async function setStatus(it, status){
+  if(!db) return;
+  try{ await db.doc("items/"+it.id).update({status, updated_at:new Date().toISOString()}); }
+  catch(e){ toast(e && e.code==="not_granted" ? "You can view this list but not change it." : "Couldn't save. Try again."); }
+}
+
+async function copyText(text){
+  try{ await navigator.clipboard.writeText(text); return true }catch{ return false }
+}
+
+function renderItem(it){
+  const box = el("div", "item "+(it.status||"pending"));
+  const meta = el("div","meta");
+  meta.append(el("span","plat",PLAT[it.platform]||it.platform||""));
+  if(it.author) meta.append(el("span","who",it.author));
+  if(it.context) meta.append(el("span",null,it.context));
+  meta.append(el("span","state "+(it.status||"pending"),STATE_LABEL[it.status||"pending"]||it.status));
+  box.append(meta);
+  if(it.excerpt) box.append(el("p","excerpt","“"+it.excerpt+"”"));
+  const body = it.kind==="comment" ? it.comment : it.kind==="collab" ? (it.subject ? it.subject+"\n\n" : "")+(it.body||"") : (it.board ? "Save to board: "+it.board : "");
+  if(body) box.append(el("p","comment",body));
+  const row = el("div","row");
+  const url = safeUrl(it.url);
+  if(it.kind==="comment"){
+    if(url){
+      const a = el("a","btn primary","Copy & open");
+      a.href=url; a.target="_blank"; a.rel="noopener";
+      a.addEventListener("click", async ()=>{ const ok = await copyText(it.comment||""); toast(ok?"Comment copied. Paste it in the app.":"Copy didn't work. Long-press the comment to copy it."); });
+      row.append(a);
+    }
+    const d = el("button","btn","Done ✓"); d.type="button"; d.disabled = it.status==="done";
+    d.addEventListener("click",()=>setStatus(it,"done"));
+    const s = el("button","btn","Skip"); s.type="button"; s.disabled = it.status==="skipped";
+    s.addEventListener("click",()=>setStatus(it,"skipped"));
+    row.append(d,s);
+  } else {
+    if(url){ const a=el("a","btn","Open"); a.href=url; a.target="_blank"; a.rel="noopener"; row.append(a); }
+    if(it.status==="pending"){
+      const ap=el("button","btn primary","Approve"); ap.type="button"; ap.addEventListener("click",()=>setStatus(it,"approved"));
+      const sk=el("button","btn","Skip"); sk.type="button"; sk.addEventListener("click",()=>setStatus(it,"skipped"));
+      row.append(ap,sk);
+    } else if(it.status==="approved"){
+      const un=el("button","btn","Undo"); un.type="button"; un.addEventListener("click",()=>setStatus(it,"pending")); row.append(un);
+    }
+  }
+  if(row.childNodes.length) box.append(row);
+  return box;
+}
+
+function render(){
+  const days = [...new Set(items.map(i=>i.date).filter(Boolean))].sort().reverse();
+  const sel = $("day");
+  if(!day || !days.includes(day)) day = days[0] || null;
+  sel.replaceChildren(...days.map(d=>{const o=el("option",null,d);o.value=d;o.selected=d===day;return o}));
+  const today = items.filter(i=>i.date===day);
+  const groups = {comment:[], save:[], collab:[]};
+  today.forEach(i=>{(groups[i.kind]||[]).push(i)});
+  const left = today.filter(i=>i.status==="pending"||!i.status).length;
+  $("c-left").textContent = left+" left"; $("c-left").classList.toggle("on", left>0);
+  $("c-done").textContent = (today.length-left)+" done";
+  if(!today.length){
+    $("status").hidden=false;
+    $("status").textContent = "No actions yet. Each morning the social agent adds 8–10 posts to comment on, plus Pinterest saves and collab pitches to approve. They'll appear here.";
+  } else $("status").hidden=true;
+  [["comment","comments"],["save","saves"],["collab","collabs"]].forEach(([k,n])=>{
+    const list = groups[k].sort((a,b)=>(a.order||0)-(b.order||0));
+    $("s-"+n).hidden = !list.length;
+    $("l-"+n).replaceChildren(...list.map(renderItem));
+    $("l-"+n).style.display="flex"; $("l-"+n).style.flexDirection="column"; $("l-"+n).style.gap="12px";
+  });
+  $("a-saves").disabled = !groups.save.some(i=>i.status==="pending");
+  $("a-collabs").disabled = !groups.collab.some(i=>i.status==="pending");
+}
+
+async function approveAll(kind){
+  const list = items.filter(i=>i.date===day && i.kind===kind && i.status==="pending");
+  for(const it of list){ await setStatus(it,"approved"); }
+  if(list.length) toast(list.length+" approved");
+}
+$("a-saves").addEventListener("click",()=>approveAll("save"));
+$("a-collabs").addEventListener("click",()=>approveAll("collab"));
+$("day").addEventListener("change",(e)=>{day=e.target.value;render()});
+
+(async ()=>{
+  db = await claude.use("db");
+  if(!db){ $("status").textContent="Sign in to claude.ai to see today's actions."; return; }
+  db.collection("items").orderBy("date","desc").limit(120).onSnapshot(snap=>{
+    items = snap.docs.map(d=>({id:d.id, ...d.data()}));
+    render();
+  }, ()=>{ $("status").textContent="Couldn't load the list. Reload the page to try again."; });
+})();
+</script>
