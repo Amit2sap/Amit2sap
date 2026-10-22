@@ -31,3 +31,9 @@
 - **Makhana post:** NOT posted. Windsor google_my_business exposes only the main location (7612515921482745833), and Zapier is limit-blocked. The 18 Oct rejected Makhana post (7834306535527080087) is not yet replaced.
 - **Not Monday:** no performance pull or competitor watch.
 - **Blockers:** Zapier task limit (reviews, Makhana post, 2 old posts still to delete); Windsor has no Makhana location.
+
+## 2026-10-22 (daily run, posting day 2, Thursday)
+- **Reviews / pending edits:** BLOCKED. One Zapier review GET for the main listing still returned "Task limits for this account have been reached." Skipped reviews and pending edits, no retries. Not Monday: no performance pull.
+- **Main post (Bhai Dooj 11 Nov, Diwali 8 Nov, within 21 days):** localPosts/4099381715667300718 (PROCESSING via Windsor create_local_post). "Sabai grass pot-shaped gift box with lid, Kolkata - from Rs 1,199", pink/blue/green, 8x8 in and 10 in, SHOP -> /products/box-1, Shopify CDN featured image. No phone number, no trade terms. Different product from the 20 Oct post (storage-box).
+- **Makhana:** skipped (not connected in Windsor; had its weekly turn).
+- **Blockers (unchanged, no new owner alert):** Zapier task limit since 18 Oct; Windsor has only the main location. Review replies, post status check and old-post deletions still pending.
