@@ -134,3 +134,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-22 from:checkout to:owner | Free shipping now starts at ₹1,299 in both India profiles (done, verified). Your steps: (1) turn on Cash on Delivery: Settings > Payments > Manual payment methods > Cash on Delivery (COD); (2) decide on "Include tax in prices" (only Madurkathi, bamboo, wreath and some cane/wall-plate variants charge 18% GST; best-sellers charge none). Ask your CA about the mixed GST flags. Fridge cover "Maroon" is ₹7,500, probably a typo. Details: reports/checkout_fixes_2026-10-22.md
 
 - [ ] 23 Oct (Email & Actions): send the 7 backlink pitch drafts already in Gmail Drafts (Suspire, UpcycleLuxe, Tapwell, BoxNBond, AIACA, The Giving Tree, Taalapatra; list in seo/citation_targets.json, status draft_ready_not_sent). They are owner-approved. Send each draft as it is, count them in the day's cap, log them in sent_log.json and mark them sent in citation_targets.json. Do not re-send if one has already gone out.
+
+- [x] 22 Oct: Instagram is connected in Composio as @grasscrafts.com_ (instagram_basoid-oer). The Instagram blocker is cleared.

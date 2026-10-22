@@ -28,3 +28,5 @@ Rules for posts:
 - Never repost the same product within 14 days.
 
 **Log:** `reports/agents/instagram.md`.
+
+**Connection (22 Oct 2026):** Composio Instagram is now connected to @grasscrafts.com_ (account id instagram_basoid-oer, alias grasscrafts.com_). Use this account for comments and posts. The old @terraleatherco Composio connection has been removed. Never use the Windsor terraleatherco account 17841474753471563.
