@@ -131,7 +131,7 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - 0 new hot leads, 0 bounces since 05:00 UTC. No follow-ups, batch or owner summary sent (owner instruction).
 
 ## 22 Oct: checkout (owner request)
-- [ ] 2026-10-22 from:checkout to:owner | Free shipping now starts at ₹1,299 in both India profiles (done, verified). Your steps: (1) turn on Cash on Delivery: Settings > Payments > Manual payment methods > Cash on Delivery (COD); (2) decide on "Include tax in prices" (only Madurkathi, bamboo, wreath and some cane/wall-plate variants charge 18% GST; best-sellers charge none). Ask your CA about the mixed GST flags. Fridge cover "Maroon" is ₹7,500, probably a typo. Details: reports/checkout_fixes_2026-10-22.md
+- [x] 2026-10-22 from:checkout to:owner | Free shipping now starts at ₹1,299 in both India profiles (done, verified). Your steps: (1) turn on Cash on Delivery: Settings > Payments > Manual payment methods > Cash on Delivery (COD); (2) decide on "Include tax in prices" (only Madurkathi, bamboo, wreath and some cane/wall-plate variants charge 18% GST; best-sellers charge none). Ask your CA about the mixed GST flags. Fridge cover "Maroon" is ₹7,500, probably a typo. Details: reports/checkout_fixes_2026-10-22.md — DONE 22 Oct: COD on, no GST (all variants non-taxable), Maroon fixed to ₹750.
 
 - [ ] 23 Oct (Email & Actions): send the 7 backlink pitch drafts already in Gmail Drafts (Suspire, UpcycleLuxe, Tapwell, BoxNBond, AIACA, The Giving Tree, Taalapatra; list in seo/citation_targets.json, status draft_ready_not_sent). They are owner-approved. Send each draft as it is, count them in the day's cap, log them in sent_log.json and mark them sent in citation_targets.json. Do not re-send if one has already gone out.
 
@@ -149,4 +149,4 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [x] 22 Oct: owner published theme "Grasscrafts – llms.txt update 22 Oct" (189572546733), which is now the live theme. Live llms.txt checked: free shipping from ₹1,299, no-GST line and both new articles are present. Agents: the live theme ID is now 189572546733.
 
 - [x] 22 Oct: Moda connected (account amit2sap@gmail.com, free plan, team "AMIT DEY's Workspace"). Brand kit "GrassCrafts by Abalone" (bk_7ZGYTSGAV08KSAQT745CXP16DG) is the default. Use it for decks, social graphics and ads. Image generation is metered, so stick to real product photos.
-- [ ] Owner: switch on COD at https://admin.shopify.com/store/605e40-ba/settings/payments (Manual payment methods → Cash on Delivery). The API cannot do this.
+- [x] 22 Oct: owner switched on Cash on Delivery (manual payment method). Agents: COD is now available. Mention it in product and FAQ copy, and add "Cash on Delivery available in India" to llms.txt at the next theme update.
