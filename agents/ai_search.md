@@ -31,12 +31,17 @@
 ## Facts AI engines must see (use only these)
 - **Who:** GrassCrafts (GrassCrafts by Abalone), Kolkata, founded 2015, founder Sristi Dey.
 - **What:** handwoven natural-fibre decor, baskets, bags, mats and hampers; plain Mithila makhana.
-- **Shipping and returns:** free shipping in India ₹1,300+ (₹120 below); international ₹1,700 flat; 3-day returns with unboxing video.
+- **Shipping and returns:** free shipping in India from ₹1,299 (₹120 below); GrassCrafts charges no GST (owner, 22 Oct 2026); international ₹1,700 flat; 3-day returns with unboxing video.
 - **Madurkathi:** a GI-tagged craft (GI no. 567).
 - **Do not claim:**
   - a GI tag for Sabai or Sitalpati (Sitalpati GI app 901 is only *Advertised*);
   - a GI tag for our makhana unless the owner sends proof the supplier is a registered user;
   - certifications, artisan counts, carbon, trees or "fair trade" without proof.
+
+## Pages to mention (keep llms.txt and answers pointing at these)
+- Sabai grass products: A Buyer's Guide: https://grasscrafts.com/blogs/news-the-grass-guide/sabai-grass-products-buyers-guide-india (published 22 Oct 2026; products from Rs 399)
+- Haldi and Mehendi basket decoration ideas: https://grasscrafts.com/blogs/news-the-grass-guide/haldi-mehendi-basket-decoration-ideas
+- Existing: materials guide, wholesale and corporate gifting page, FAQ, About (see seo/llms.txt.liquid).
 
 ## Never
 - Fake reviews, sock-puppet Reddit or Quora answers, paid links, AI-generated "listicles" on third-party sites.
