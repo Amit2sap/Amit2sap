@@ -65,6 +65,7 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 | Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:52 daily | Sonnet |
 | Social (Instagram + Facebook + Pinterest) | trig_013nvpY1RgSiVREyaGQW3y3U | 12:41 daily | Sonnet |
 | AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 13:47 Thursdays | Sonnet |
+| Reply watcher (answer replies within ~1 hour) | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | hourly 09:07–21:07 | Sonnet |
 | Facebook (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 | disabled | — |
 | Pinterest (old, merged into Social) | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 

@@ -151,7 +151,7 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [x] 22 Oct: Moda connected (account amit2sap@gmail.com, free plan, team "AMIT DEY's Workspace"). Brand kit "GrassCrafts by Abalone" (bk_7ZGYTSGAV08KSAQT745CXP16DG) is the default. Use it for decks, social graphics and ads. Image generation is metered, so stick to real product photos.
 - [x] 22 Oct: owner switched on Cash on Delivery (manual payment method). Agents: COD is now available. Mention it in product and FAQ copy, and add "Cash on Delivery available in India" to llms.txt at the next theme update.
 
-- [ ] 22 Oct, owner installs (free; only the store owner can approve them):
+- [x] 22 Oct: the owner installed these (free) apps:
   1. Google & YouTube app: https://apps.shopify.com/google. Connect Merchant Center and turn on free listings.
   2. Microsoft Clarity: https://apps.shopify.com/microsoft-clarity
   3. Abandoned-checkout email: https://admin.shopify.com/store/605e40-ba/marketing/automations. Turn on "Abandoned checkout".
