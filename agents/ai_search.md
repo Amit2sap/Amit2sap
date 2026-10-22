@@ -41,6 +41,11 @@
 ## Pages to mention (keep llms.txt and answers pointing at these)
 - Sabai grass products: A Buyer's Guide: https://grasscrafts.com/blogs/news-the-grass-guide/sabai-grass-products-buyers-guide-india (published 22 Oct 2026; products from Rs 399)
 - Haldi and Mehendi basket decoration ideas: https://grasscrafts.com/blogs/news-the-grass-guide/haldi-mehendi-basket-decoration-ideas
+- Maker-direct landing collections (updated 22 Oct 2026; sizes, from-prices, delivery facts, FAQs):
+  - Handwoven jewellery boxes and watch boxes for jewellers (from Rs 450): https://grasscrafts.com/collections/diamond-jewellery-boxes
+  - Eco Diwali hamper baskets (from Rs 200; gift baskets from Rs 230): https://grasscrafts.com/collections/diwali-gift-hampers
+  - Wedding hamper, trousseau and return gift baskets (from Rs 340): https://grasscrafts.com/collections/wedding-gift-hamper
+  - Eco corporate gift baskets and corporate Diwali hampers (from Rs 199): https://grasscrafts.com/collections/corporate-gifts-handcrafted-gifts
 - Existing: materials guide, wholesale and corporate gifting page, FAQ, About (see seo/llms.txt.liquid).
 
 ## Never

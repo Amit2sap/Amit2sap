@@ -28,3 +28,7 @@
 - Built `seo/backlinks_plan_2026-10-22.md` (45 verified opportunities) and `seo/backlinks_owner_checklist.md` (ordered, with copy-paste text). URLs checked through the Composio workbench; bot-blocked sites are marked.
 - Outreach: Gmail Sent already showed 224 messages dated 22 Oct (UTC), above the owner's "well under 200" limit, so **no pitch was sent**. 7 personal pitches (Suspire, Upcycleluxe, Tapwell, Box n Bond, AIACA, Souvenirs of India, Taalapatra) are saved as Gmail drafts, not logged as sent. Logged in `seo/citation_targets.json` as draft_ready_not_sent. Send on 23 Oct.
 - Blocker: outbound curl is blocked in this sandbox (403 from proxy); used the Composio workbench for URL checks.
+
+## 2026-10-22 (owner-approved landing content)
+- Maker-direct landing content on 4 collections: diamond-jewellery-boxes (from ₹450, 8-row sizes table, jewellers section), diwali-gift-hampers (from ₹200, 8 rows), wedding-gift-hamper (from ₹340, 2 rows; other baskets have no verified sizes), corporate-gifts-handcrafted-gifts (from ₹199, 8 rows). New SEO titles/metas, 5 FAQs + FAQPage JSON-LD each, links to blog guides, wholesale page and each other. Backup: backups/collections/landing_before_2026-10-22.json. Changelog + undo: seo/CHANGELOG-2026-10-22-landing.md.
+- Live 200 check not possible today (proxy 403, Composio sandbox down); Admin API read-back confirms content. Re-check next run. Remove DIWALI10 line after 12 Nov.
