@@ -1,0 +1,737 @@
+{
+ "note": "Before-state 2026-10-22 for the product-page task. seo: the 73 ACTIVE products whose SEO description was empty (verified live via Admin API just before the change; all had description null). media_before: existing media of every product that received extra images (filled in before each media add). Undo SEO: productUpdate(product:{id, seo:{description:\"\"}}). Undo media: productDeleteMedia / fileDelete for the media ids listed under media_added.",
+ "seo": [
+  {
+   "id": "gid://shopify/Product/7878521061549",
+   "handle": "willingdon-tote-hand-woven-grass-bag",
+   "title": "The Willingdon Tote | Hand-Woven Grass Bag | Grasscrafts",
+   "seo_before": {
+    "title": "The Willingdon Tote | Hand-Woven Sabai Grass | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Willingdon Tote, a structured, roomy bag hand-woven from natural Sabai grass for work, travel and gifting. Handwoven in India. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/7878681329837",
+   "handle": "handwoven-cane-tray-desk-organizer",
+   "title": "Handwoven Cane Tray | Multi-Compartment Desk & Table Organizer",
+   "seo_before": {
+    "title": "Handwoven Cane Tray, Multi-Compartment Desk Organizer – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural cane tray with built-in compartments to organise a desk, table or countertop, or to use as a serving tray. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/7878683001005",
+   "handle": "handwoven-cane-storage-basket",
+   "title": "Handwoven Cane Storage Basket | Natural Home Organizer",
+   "seo_before": {
+    "title": "Handwoven Cane Storage Basket, Natural Home Organizer – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural cane storage basket for towels, groceries, linens and everyday essentials in the bathroom, kitchen or living room. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/7884836765869",
+   "handle": "tissue-box-1",
+   "title": "The Woven Tissue Keeper | Handcrafted Grass Tissue Box Cover",
+   "seo_before": {
+    "title": "Handwoven Grass Tissue Box Cover | Artisan Home Decor | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Woven Tissue Keeper: a handcrafted natural grass tissue box cover that also works as a jewellery or storage box for eco decor. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/7885181583533",
+   "handle": "bed-runner",
+   "title": "Natural Straw Yoga & Bed Mat | Handmade Eco Floor Mat",
+   "seo_before": {
+    "title": "Natural Straw Yoga & Bed Mat, Handmade Eco Mat – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Natural straw mat, 7 x 4.5 ft, for bed, yoga, floor or outdoor use. The breathable open weave stays cool to the touch. Handwoven in India by skilled artisans."
+  },
+  {
+   "id": "gid://shopify/Product/7885182730413",
+   "handle": "bed-runner-1",
+   "title": "Handcrafted Natural Straw Bed Mat | Eco Sleeping Mat",
+   "seo_before": {
+    "title": "Handcrafted Natural Straw Bed Mat, Eco Sleeping Mat – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handcrafted natural straw bed mat, 7 x 4.5 ft, with a breathable open weave for cooler sleep. Use as a bed, floor or sleeping mat. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/7885185581229",
+   "handle": "bed-runner-2",
+   "title": "Natural Straw Bed Mat & Yoga Mat | Eco-Friendly Floor Mat",
+   "seo_before": {
+    "title": "Natural Straw Yoga Mat & Bed Mat, Eco Handcrafted – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Natural straw bed mat and yoga mat, 7 x 4.5 ft. A breathable open weave for cool rest or practice, indoors or outdoors. Cash on Delivery available in India."
+  },
+  {
+   "id": "gid://shopify/Product/7885185974445",
+   "handle": "bed-runner-3",
+   "title": "Natural Straw Bed Mat | Handcrafted Sleeping & Floor Mat",
+   "seo_before": {
+    "title": "Natural Straw Bed Mat, Handcrafted Sleeping Mat – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Natural straw bed mat, 7 x 4.5 ft, lightweight and breathable for warm nights. Use it as a sleeping, floor or outdoor mat. Handwoven in India by artisans."
+  },
+  {
+   "id": "gid://shopify/Product/7912296218797",
+   "handle": "handmade-eco-friendly-straw-tote-bag",
+   "title": "Handwoven Natural Straw Tote Bag | Eco-Friendly Everyday Carry",
+   "seo_before": {
+    "title": "Handmade Eco-Friendly Straw Tote Bag | Natural Grass | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural straw tote bag made from grass fibres. A lightweight, roomy carry for shopping, travel, beach days and gifting. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "title": "Hand-Woven Madurkathi Dining Suite",
+   "seo_before": {
+    "title": "Hand-Woven Madurkathi Table Mats & Runner | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass dining suite: one 60 x 12 in table runner and six 18 x 12 in mats in deep crimson with geometric borders and tassels. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8029756031149",
+   "handle": "handwoven-cane-picnic-basket",
+   "title": "Handwoven Picnic Basket | Eco-Friendly Rattan Basket",
+   "seo_before": {
+    "title": "Handwoven Cane Picnic Basket, Eco Rattan – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven rattan picnic basket with a sturdy handle, 15 x 10 x 11 in. Light to carry on outings and handsome as home storage. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8029826187437",
+   "handle": "yoga-mats",
+   "title": "The Madurkathi Quilted Mat | Handwoven Yoga & Meditation Mat | Dual-Sided Grass & Cotton | 6×3 ft",
+   "seo_before": {
+    "title": "Madurkathi Quilted Yoga & Meditation Mat | Handwoven Dual-Sided – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi quilted yoga and meditation mat, 6 x 3 ft. Dual-sided: cool Madurkathi grass on one side, soft cotton on the other. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8029832085677",
+   "handle": "quilted-bed-mats-6",
+   "title": "Madurkathi Quilted Bed Mat – 3 Fold | Style D | Natural & Indigo Block-Print Stripe | Amber Border | 6×4.5 ft",
+   "seo_before": {
+    "title": "Madurkathi Quilted Bed Mat 3 Fold Style D | Natural & Indigo Block-Print Stripe – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi quilted 3-fold bed mat, Style D, 6 x 4.5 ft: natural grass with indigo block-print stripes and amber bands, cotton reverse. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8036235542701",
+   "handle": "asana-mats-1",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Sky Blue & Burgundy Stripe | Purple Floral Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Sky Blue & Burgundy Stripe | Purple Floral Border – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Dual-sided Madurkathi grass asana mat, 23 x 18 in, sky blue and burgundy stripes, purple floral border, quilted cotton back, for puja. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8036260905133",
+   "handle": "asana-mats",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Forest Green & Burgundy Stripe | Batik Circle Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Forest Green & Burgundy Stripe | Batik Border – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Dual-sided Madurkathi grass asana mat, 23 x 18 in: forest green and burgundy stripes with a batik border and quilted cotton back. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8037145018541",
+   "handle": "puja-mats",
+   "title": "Madurkathi Puja & Asana Mat – Sabang | Dual-Sided Grass & Cotton | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Puja & Asana Mat – Sabang Design | Dual-Sided | 23x18 in",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi puja and asana mat, Sabang design, 23 x 18 in. Dual-sided: handwoven grass on one side, quilted cotton on the other. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8037157830829",
+   "handle": "puja-mats-1",
+   "title": "Madurkathi Puja & Asana Mat – Pingla | Dual-Sided Grass & Cotton | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Puja & Asana Mat – Pingla Design | Dual-Sided | 23x18 in",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi puja and asana mat, Pingla design, 23 x 18 in, with two usable sides, handwoven grass and quilted cotton, for puja and yoga. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8037193253037",
+   "handle": "meditation-mats",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Natural & Black Diamond Stripe | Navy Floral Paisley Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Natural & Black Diamond Stripe | Navy Floral Paisley – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass asana mat, 23 x 18 in: natural and black diamond stripes, navy paisley border and quilted cotton back, for puja. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8049565597869",
+   "handle": "puja-mats-2",
+   "title": "Madurkathi Puja & Asana Mat – Tamluk | Dual-Sided Grass & Cotton | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Puja & Asana Mat – Tamluk Design | Dual-Sided | 23x18 in",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi puja and asana mat, Tamluk design, 23 x 18 in. Grass on one side, quilted handloom cotton on the other, for daily puja. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8049571725485",
+   "handle": "puja-mats-3",
+   "title": "Madurkathi Puja & Asana Mat – Kanthi | Dual-Sided Grass & Cotton | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Puja & Asana Mat – Kanthi Design | Dual-Sided | 23x18 in",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi puja and asana mat, Kanthi design, 23 x 18 in, with handwoven grass and quilted cotton sides for puja and meditation. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8051332448429",
+   "handle": "asana-mats-2",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Sky Blue & Red Stripe | Warli Folk-Art Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Sky Blue & Red Stripe | Warli Folk-Art Border – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass asana mat, 23 x 18 in, sky blue and red stripes with a yellow Warli folk-art border and quilted cotton back. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8051333464237",
+   "handle": "meditation-mats-2",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Black Diamond Stripe & Yellow Paisley Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Puja & Meditation | Black Diamond Stripe Yellow Paisley – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass asana mat, 23 x 18 in: black diamond stripes, yellow and red paisley border, quilted cotton back for puja or meditation. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8051344605357",
+   "handle": "meditation-mats-3",
+   "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided | Multicolour Stripe & Paisley Border | 23×18 in",
+   "seo_before": {
+    "title": "Madurkathi Grass Asana Mat | Puja & Meditation Mat | Dual-Sided Multicolour – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass asana mat, 23 x 18 in, natural white with multicolour stripes, black and gold paisley border and cotton back. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8055071768749",
+   "handle": "quilted-bed-mats-3",
+   "title": "Madurkathi Quilted Bed Mat – 3 Fold | Style C | Terracotta Stripe & Floral Block-Print Border",
+   "seo_before": {
+    "title": "Madurkathi Quilted Bed Mat 3 Fold Style C | Terracotta Stripe & Floral Border – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi quilted 3-fold bed mat, Style C, 6 x 4.5 ft: terracotta and natural stripes with a floral block-print border, cotton reverse. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8055095787693",
+   "handle": "quilted-bed-mats-4",
+   "title": "Madurkathi Quilted Bed Mat – 3 Fold | Style B | Grey & Paisley Block-Print Border",
+   "seo_before": {
+    "title": "Madurkathi Quilted Bed Mat 3 Fold Style B | Grey & Paisley Block-Print – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi quilted 3-fold bed mat, Style B, 6 x 4.5 ft: grey-blue grass with a black and cream paisley cotton border. Folds flat. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8055138451629",
+   "handle": "quilted-bed-mats-5",
+   "title": "Madurkathi Quilted Bed Mat – 3 Fold | Style A | Lavender & Floral Cotton Border",
+   "seo_before": {
+    "title": "Madurkathi Quilted Bed Mat 3 Fold Style A | Lavender & Floral Border – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi quilted 3-fold bed mat, Style A, 6 x 4.5 ft: lavender-blue grass weave, pink floral cotton border. Bed, floor or yoga mat. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8055145103533",
+   "handle": "double-sided-nap-mats",
+   "title": "Double-Sided Madurkathi Nap Mat | Grass & Cotton Quilted Floor Mat | 6×4.5 ft",
+   "seo_before": {
+    "title": "Double-Sided Madurkathi Nap Mat | Grass & Cotton Quilted Floor Mat – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Double-sided Madurkathi nap mat, 6 x 4.5 ft: cool grass on one face, soft cotton with a navy and teal floral border on the other. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8061340057773",
+   "handle": "sabai-grass-round-basket-planter",
+   "title": "Handwoven Sabai Grass Round Basket & Planter | Natural Beige & Green",
+   "seo_before": {
+    "title": "Handwoven Sabai Grass Round Basket & Planter, Beige & Green – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven Sabai grass round basket, 12 x 12 x 6 in, in natural beige and green. Use it as a planter cover or a storage basket. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8071302414509",
+   "handle": "cane-planters-4",
+   "title": "The Cane Atelier Planter | Handwoven Architectural Organizer",
+   "seo_before": {
+    "title": "Handwoven Cane Planter | Artisan Crafted | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Cane Atelier Planter: a hand-woven cane planter, 12 in high and 15 in wide, for home, office or terrace, or as handy storage. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "title": "Handwoven Cane Planters | 4 Designs | Small, Medium, Large & Sets",
+   "seo_before": {
+    "title": "Handwoven Cane Planters | Artisan Made, Eco-Friendly — GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural cane planters in small (8 in), medium (10 in), large (12 in) or a set of 3, for indoor plants and housewarming gifts. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8126419697837",
+   "handle": "handwoven-cane-round-tray-kadai-basket-set-of-3",
+   "title": "Handwoven Cane Round Tray with Handle | Kadai-Shape Basket, Set of 3",
+   "seo_before": {
+    "title": "Handwoven Cane Round Tray with Handle, Kadai Basket Set of 3 – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Set of 3 handwoven cane kadai-shape round trays with handles (8, 10 and 12 in) for fruit, desk, kitchen or decor use. Cash on Delivery available in India."
+  },
+  {
+   "id": "gid://shopify/Product/8136064270509",
+   "handle": "handwoven-cane-storage-basket-with-handle",
+   "title": "Handwoven Cane Storage Basket with Handle | Natural Home Organizer",
+   "seo_before": {
+    "title": "Handwoven Cane Storage Basket with Handle – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural cane storage basket with a sturdy handle, 10 x 8 x 4 in, for towels, groceries, linens or essentials. Free shipping over ₹1,299 in India."
+  },
+  {
+   "id": "gid://shopify/Product/8138164404397",
+   "handle": "kash-grass-bird-basket-planter",
+   "title": "Handwoven Kash Grass Bird-Shape Basket & Planter | Natural Beige",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Bird-Shape Basket & Planter – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Bird-shaped Kash grass basket with a net-top lid, 12 x 7 x 5 in, in natural beige, for use as a planter, fruit basket or decor piece. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8139900027053",
+   "handle": "kash-grass-net-top-round-basket",
+   "title": "Handwoven Kash Grass Net-Top Round Basket | Natural Beige, D10\"XH4\"",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Net-Top Round Basket, D10\"xH4\" – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven Kash grass round basket with a net-pattern lid, 10 in wide and 4 in high, natural beige, for fruit, bread or storage. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8140793413805",
+   "handle": "kash-grass-net-top-basket-12x6",
+   "title": "Handwoven Kash Grass Net-Top Rectangular Basket | Natural Beige, 12\"×6\"x4\"",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Net-Top Rectangular Basket, 12\"×6\"x4\" – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven Kash grass rectangular basket with a net-top lid, 12 x 6 x 4 in, natural beige, for bread, fruit or decorative storage. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8140793938093",
+   "handle": "kash-grass-rectangular-tray-12x10",
+   "title": "Handwoven Kash Grass Rectangular Tray | Natural Beige, 12\"×10\"X2.5\"",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Rectangular Tray, 12×10\" – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Large Kash grass rectangular tray, 12 x 10 x 2.5 in, in natural beige. A serving tray, coffee table centrepiece or kitchen organiser. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8140794757293",
+   "handle": "kash-grass-rectangular-basket-tray-10x8",
+   "title": "Handwoven Kash Grass Rectangular Basket Tray | Natural Beige,",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Rectangular Basket Tray, 10\"×8\"x2.5\" – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Kash grass rectangular basket tray, 10 x 8 x 2.5 in, in warm natural beige, for serving, desk organising or decor. Cash on Delivery available in India."
+  },
+  {
+   "id": "gid://shopify/Product/8140796723373",
+   "handle": "kash-grass-round-basket-tray-10in",
+   "title": "Handwoven Kash Grass Round Basket Tray | Natural Beige, Ø10\"",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Round Basket Tray, Natural Beige – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Round Kash grass basket tray, 10 in wide and 3 in high, natural beige, to use as a fruit bowl, desk organiser or decor accent. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8148937179309",
+   "handle": "kash-grass-wedding-gift-hamper-basket",
+   "title": "Handwoven Wedding Gift Hamper Basket",
+   "seo_before": {
+    "title": "Handwoven Kash Grass Wedding Gift Hamper Basket | Artisan Natural Fiber | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven Kash grass wedding gift hamper basket in natural tones, roomy for curated gifts and reusable for storage later. Handwoven in India by artisans."
+  },
+  {
+   "id": "gid://shopify/Product/8150550446253",
+   "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Terracotta & Black Multi-Band Weave | Festive Dining Mats",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Terracotta & Black Multi-Band Weave – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats (17 x 12 in) and 48 in runner in terracotta and black bands with a red border, in sets of 4 or 6 mats. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8150550970541",
+   "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Micro-Diamond Lattice Weave | Dark & Natural",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Micro-Diamond Lattice Weave – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats (17 x 12 in) and runner (48 x 12 in) in a black and natural micro-diamond lattice. Sets of 4 or 6. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8150551199917",
+   "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Vertical Pinstripe Weave | Black & Natural",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Vertical Pinstripe Weave – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats (17 x 12 in) and 48 in runner with fine black and natural pinstripes for modern dining. Sets of 4 or 6. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8150551330989",
+   "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Burgundy Herringbone Weave | Warm Toned Dining Mats",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Burgundy Herringbone Weave – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats (17 x 12 in) and runner (48 x 12 in) in deep burgundy with a cream herringbone stripe. Sets of 4 or 6 mats. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8150553985197",
+   "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Checkerboard Weave | Rounded Corners | Black & Natural",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Checkerboard Weave Rounded Corners – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats with rounded corners in a black and natural checkerboard weave, 17 x 12 in, plus a 48 in runner. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8150555918509",
+   "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Striped Herringbone Weave | Grey & Burgundy",
+   "seo_before": {
+    "title": "Madurkathi Grass Table Mats & Runner | Striped Herringbone Weave – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats (17 x 12 in) and 48 in runner in grey striped herringbone with a burgundy band, in sets of 4 or 6. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8150555984045",
+   "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+   "title": "Madurkathi Grass Table Mats & Runner Set | Hand-Woven Diamond Weave | Natural Dining Mats",
+   "seo_before": {
+    "title": "Hand-Woven Madurkathi Grass Table Mats & Runner Set – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Madurkathi grass table mats in a natural diamond weave with a black border, 17 x 12 in, in sets of 4 or 6 or with a 48 x 12 in runner. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8171955781805",
+   "handle": "kauna-grass-handbag-resilience-grace",
+   "title": "Kauna Grass Handbag | Symbol of Resilience & Grace | Grasscrafts",
+   "seo_before": {
+    "title": "Kauna Grass Handbag | Resilience & Grace | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Kauna grass handbag made by women artisans in Manipur: lightweight, structured and golden-toned for everyday carry, travel and gifting. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8189831315629",
+   "handle": "kauna-grass-embroidered-handbag-artisan",
+   "title": "Kauna Grass Embroidered Handbag | Handcrafted Artisan Bag",
+   "seo_before": {
+    "title": "Kauna Grass Embroidered Handbag | Handcrafted | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Kauna grass embroidered handbag with smooth cane handles, lightweight and structured for everyday carry, travel or gifting. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8194873131181",
+   "handle": "handwoven-cane-ottoman",
+   "title": "Handwoven Cane Ottoman (Morah) — Solid Cane, Artisan Crafted",
+   "seo_before": {
+    "title": "Handwoven Cane Ottoman | Artisan Morah, Eco-Friendly — GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven solid cane ottoman (morah) with a spiral top, 15 in high and 14 in wide, for floor seating, a side table or plant stand. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8194950234285",
+   "handle": "cane-stool",
+   "title": "The Cane Perch | Handwoven Artisan Accent Stool",
+   "seo_before": {
+    "title": "Handwoven Cane Accent Stool | Artisan Furniture | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Cane Perch: a solid cane stool with a handwoven spiral seat, 12.5 in diameter, for balcony, tea corner or floor seating. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8195451420845",
+   "handle": "handwoven-cane-ottoman-morah",
+   "title": "Handwoven Cane Ottoman (Morah) — Solid Cane, Artisan Crafted",
+   "seo_before": {
+    "title": "Handwoven Cane Ottoman | Artisan Morah, Eco-Friendly — GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Solid cane morah ottoman with a handwoven spiral seat, 15 in high, 14 in diameter, sold single or as a pair, for seating or decor. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8195453124781",
+   "handle": "handwoven-ottomans-3",
+   "title": "The Grasscrafts Ottoman | Handwoven Cane Sculptural Seat",
+   "seo_before": {
+    "title": "Handwoven Cane Ottoman | Artisan Furniture | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Grasscrafts Ottoman: an apple-shaped stool in solid cane with a handwoven spiral seat, 14 in diameter, for low seating and decor. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8195455385773",
+   "handle": "kauna-grass-gift-hamper-basket",
+   "title": "Handwoven Kauna Grass Gift Hamper Basket",
+   "seo_before": {
+    "title": "Handwoven Kauna Grass Gift Hamper Basket | Sustainable Gifting | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Petite round Kauna reed gift hamper basket, 6 in wide, 4 in high, with a lattice weave and braided handle for wedding and festive gifts. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8211268763821",
+   "handle": "sabai-grass-lidded-basket-wooden-handle",
+   "title": "Handwoven Sabai Grass Lidded Basket with Wooden Handle | S / M / L",
+   "seo_before": {
+    "title": "Handwoven Sabai Grass Lidded Basket with Wooden Handle, 3 Sizes – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Sabai grass basket with a net-pattern lid and wooden handle in small, medium or large, for bread, fruit, gifting or storage. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8211336560813",
+   "handle": "laundry-storage",
+   "title": "Sabai Grand Floor Basket",
+   "seo_before": {
+    "title": "Sabai Grand Floor Basket – Eco-Friendly Laundry & Storage | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Sabai Grand Floor Basket, 20 in high and 14 in wide, in an emerald and natural weave, for laundry, throws or yoga mats. Handwoven in India by artisans."
+  },
+  {
+   "id": "gid://shopify/Product/8502103212205",
+   "handle": "straw-tote-bag-2",
+   "title": "The Harvest Tote | Handwoven Natural Straw Shoulder Bag",
+   "seo_before": {
+    "title": "Handwoven Straw Tote Bag | Sustainable Fashion | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Harvest Tote: a handwoven natural straw shoulder bag in golden-brown tones with woven handles, for markets and errands. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8502107373741",
+   "handle": "handwoven-natural-straw-tote-bag",
+   "title": "Handwoven Natural Straw Tote Bag | Sustainable Everyday Carry",
+   "seo_before": {
+    "title": "Handwoven Natural Straw Tote Bag | Eco-Friendly | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven natural straw tote bag of grass fibres, light yet sturdy for shopping, markets, beach days, travel and gifting. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8502119727277",
+   "handle": "grande-tote-bag-handwoven",
+   "title": "Grande Tote Bag | Large Handwoven Grass Bag | Grasscrafts",
+   "seo_before": {
+    "title": "Sabai Grande Tote Bag | Handwoven Sabai Grass | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Sabai Grande: a large, open-weave tote bag hand-woven from natural Sabai grass, roomy enough for a full day out, travel or the beach. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8507364245677",
+   "handle": "verdant-heirloom-handcrafted-sabai-basket",
+   "title": "The Verdant Heirloom | Handcrafted Sabai Basket",
+   "seo_before": {
+    "title": "Handcrafted Sabai Grass Basket | Verdant Heirloom – GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Verdant Heirloom: a Sabai grass basket on an iron frame, 12 x 9.5 x 6 in, in forest green and natural, for textiles or blooms. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8532965687469",
+   "handle": "square-kauna-grass-gift-hamper-basket",
+   "title": "Square Kauna Grass Gift Hamper Basket | Grasscrafts",
+   "seo_before": {
+    "title": "Square Handwoven Kauna Grass Gift Hamper Basket | Artisan | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Square Kauna grass gift hamper basket, 7 x 7 x 5 in, with a braided handle and crisscross weave, for weddings and festive gifting. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "title": "The Nilachal Suite: Hand-Woven Madurkathi Dining Set",
+   "seo_before": {
+    "title": "Nilachal Hand-Woven Madurkathi Dining Set | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "The Nilachal Suite: Madurkathi grass runner (60 x 12 in) and six 18 x 12 in placemats in teal-blue with a burnt-orange border. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8715923456173",
+   "handle": "handwoven-bamboo-gift-basket-black",
+   "title": "Handwoven Bamboo Gift Basket",
+   "seo_before": {
+    "title": "Handwoven Bamboo Gift Basket – Black & Maroon | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Bamboo gift basket, 7.5 x 7.5 x 3 in, in a geometric diamond weave, black or maroon, for gift hampers, festive gifting and storage. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8715931648173",
+   "handle": "handwoven-bamboo-serving-tray",
+   "title": "Handwoven Bamboo Serving Tray",
+   "seo_before": {
+    "title": "Handwoven Bamboo Serving Tray – Teal Blue & Black | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven bamboo serving tray, 15 x 12 x 1.5 in, with a solid bamboo frame, in teal blue or black, for serving or coffee tables. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8715933778093",
+   "handle": "handwoven-bamboo-puja-tray",
+   "title": "Handwoven Bamboo Puja Tray",
+   "seo_before": {
+    "title": "Handwoven Bamboo Puja Tray – Green, Black & Maroon | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven bamboo puja tray, 14 x 9 x 2 in, with a solid frame and handles, in green, black or maroon, for diyas and offerings. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8715935219885",
+   "handle": "handwoven-square-bamboo-tray-set-of-3",
+   "title": "Handwoven Square Bamboo Tray – Set of 3",
+   "seo_before": {
+    "title": "Handwoven Square Bamboo Tray Set of 3 – Small, Medium, Large | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Set of 3 square bamboo trays (8, 11 and 14 in) with a chevron weave and maroon bamboo frame, for Rakhi, puja, festive decor and styling. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8729373016237",
+   "handle": "handwoven-bamboo-pendant-lamp-eco-friendly-woven-ceiling-light",
+   "title": "Handwoven Bamboo Pendant Lamp | Eco-Friendly Woven Ceiling Light",
+   "seo_before": {
+    "title": "Handwoven Bamboo Pendant Lamp 18x12\" | Eco-Friendly Artisan Ceiling Light | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Handwoven bamboo pendant lamp, 18 in high and 12 in wide, in a diamond lattice that casts patterned light on walls and ceiling. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8729428492461",
+   "handle": "handwoven-bamboo-dome-pendant-lamp-wide-woven-ceiling-light",
+   "title": "Handwoven Bamboo Dome Pendant Lamp | Wide Woven Ceiling Light",
+   "seo_before": {
+    "title": "Handwoven Bamboo Dome Pendant Lamp 10x17\" | Wide Woven Ceiling Light | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Wide handwoven bamboo dome pendant lamp, 10 in high and 17 in across, for dining tables, kitchen islands and low ceilings. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8729447268525",
+   "handle": "handwoven-bamboo-bell-pendant-lamp-tapered-artisan-ceiling-light",
+   "title": "Handwoven Bamboo Bell Pendant Lamp | Tapered Artisan Ceiling Light",
+   "seo_before": {
+    "title": "Handwoven Bamboo Bell Pendant Lamp 12x12\" | Tapered Artisan Ceiling Light | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Tapered bamboo bell pendant lamp, 12 x 12 in, hand-woven in an open lattice that casts soft shadow patterns, for cosy corners and tables. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8729452937389",
+   "handle": "handwoven-bamboo-two-tier-drum-pendant-lamp-double-layer-woven-ceiling-light",
+   "title": "Handwoven Bamboo Two-Tier Drum Pendant Lamp | Double Layer Woven Ceiling Light",
+   "seo_before": {
+    "title": "Handwoven Bamboo Two-Tier Drum Pendant Lamp 12x17\" | Double Layer Woven Light | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Two-tier bamboo drum pendant lamp, 12 in high and 17 in wide, with a double woven layer for dining and living rooms. Cash on Delivery available in India."
+  },
+  {
+   "id": "gid://shopify/Product/8748789596333",
+   "handle": "handwoven-bamboo-hanging-lamp-21-inch-dome",
+   "title": "Handwoven Bamboo Hanging Lamp | 21\" Dome Pendant Light",
+   "seo_before": {
+    "title": "Handwoven Bamboo Hanging Lamp 21\" | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Low-profile bamboo hanging lamp, 21 in wide and 5 in high, for dining tables, counters, cafes and hotels. Fits a standard pendant fitting. Handwoven in India."
+  },
+  {
+   "id": "gid://shopify/Product/8748797526189",
+   "handle": "handwoven-bamboo-layered-pendant-lamp-15x14",
+   "title": "Handwoven Bamboo Layered Pendant Lamp | 15\" x 14\"",
+   "seo_before": {
+    "title": "Handwoven Bamboo Layered Pendant Lamp 15x14 | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Layered bamboo pendant lamp, 15 in high and 14 in wide, with a tiered woven lattice shade for dining, lounge and reception spaces. Free shipping over ₹1,299."
+  },
+  {
+   "id": "gid://shopify/Product/8748805750957",
+   "handle": "handwoven-bamboo-globe-pendant-lamp-11x18",
+   "title": "Handwoven Bamboo Globe Pendant Lamp | 11\" x 18\"",
+   "seo_before": {
+    "title": "Handwoven Bamboo Globe Pendant Lamp 11x18 | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Bamboo globe pendant lamp, 11 in high and 18 in wide, with a fine lattice weave for a soft patterned glow over dining tables. Cash on Delivery available."
+  },
+  {
+   "id": "gid://shopify/Product/8748810698925",
+   "handle": "handwoven-bamboo-cage-pendant-lamp-12x12",
+   "title": "Handwoven Bamboo Cage Pendant Lamp | 12\" x 12\"",
+   "seo_before": {
+    "title": "Handwoven Bamboo Cage Pendant Lamp 12x12 | GrassCrafts",
+    "description": null
+   },
+   "seo_description_after": "Bamboo cage pendant lamp, 12 x 12 in, with an open vertical weave that frames the light, for homes, dining rooms, cafes and hotels. Handwoven in India."
+  }
+ ],
+ "media_before": {},
+ "media_added": {}
+}
