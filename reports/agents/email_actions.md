@@ -38,3 +38,15 @@
 - **Not done:** AI-visibility check (AI Search agent owns it). Hunter not used.
 - **Note:** outreach/leads/sustainable_decor.json had uncommitted Lead Research changes (21 Oct); they are included in this commit with only status fields changed by me.
 - 2026-10-22: consolidated hot-leads email to Sristi (sristi@grasscrafts.com, CC amit2sap@), subject "GrassCrafts hot leads - consolidated (22 Oct)", Gmail 1a1618586d10d907. 19 rows (23 companies), urgency order; top 3: price list/MOQ/lead times, Upahaar reply, Ekta Bagla 500 mats by 2 Nov. No prices, lead times or samples quoted. Copy: reports/hot_leads_2026-10-22.md.
+
+## 2026-10-22 replies-only run (second run of the day, ~04:55-05:30 UTC)
+- **Duplicate guard checked in Gmail Sent (last 24 h, 223 messages):** batch 02:27-02:41 UTC, Upahaar acknowledgement and brief 02:27 UTC (twice, the earlier parallel-run incident), owner summary 02:44 UTC (1a1617f1c52f29fd), consolidated hot-leads email 02:51 UTC (1a1618586d10d907). So this run sent no follow-ups, no new batch, no owner summary and no repeat Upahaar brief or WhatsApp.
+- **Replies since 02:00 UTC (21 inbound):** 2 human replies, 7 bounces, 5 auto-replies or tickets, and the rest promotions or spam.
+  - The Den Bengaluru: the Materials Manager asked for our contact details. Warm, not hot. In-thread draft with Sristi's contact details, CC Sristi, saved as DRAFT r486456743425070038 and flagged to the owner.
+  - The Leela Jaisalmer: the GM sent a courtesy "thank you for reaching out". Logged as warm; no reply needed.
+- **NEW hot leads: 0.** No brief or WhatsApp owner_alert sent.
+- **Bounces → do_not_send (7):** thetuliptouch.in, amarsonschd.com, kevasiya.com, foreverflamingo.com, grreh.in, etashabyashajain.com, customercare@gourmetcompany.in.
+- **Redirects:** Treebo's "new address" auto-reply was image-only, with no usable address, so it went to Lead Research. Third Wave Coffee sent an auto-reply only.
+- **Drafts needing an owner decision:** Den Bengaluru reply (r486456743425070038). The earlier Sustainable Jungle draft (r2171400134877226938) is still open.
+- **Ignored:** a guest-post pitch (Teresa Palmer, darkchocolateimports.com).
+- **Blockers:** none. Gmail tools worked; WhatsApp was not needed.

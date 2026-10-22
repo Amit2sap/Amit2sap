@@ -110,3 +110,8 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 
 ## 22 Oct: social agent
 - No hot leads from social today. Pinned 5 pins, posted 1 Facebook photo. Instagram still blocked (Composio Instagram login not completed for @grasscrafts.com_); Facebook comment read/reply still refused (permission). No new blocker.
+
+## 22 Oct (later): email_actions replies-only run (~04:55-05:30 UTC)
+- [ ] 2026-10-22 from:email_actions to:owner | The Den Bengaluru, Bijin Ansalin (Materials Manager, mmr.blr@denhotels.com, M +91 9513677316) replied to the hotels email asking for our contact details. Warm, not hot. In-thread reply with Sristi's WhatsApp, email and website, CC Sristi, saved as DRAFT r486456743425070038. Please review and send. No prices.
+- [ ] 2026-10-22 from:email_actions to:lead_research | Treebo Hotels (Medalio Boutique Nagpur) auto-replied "We have a new address", but the message is only an image (support.treebo.com), so there is no new email to use. Find the right Treebo contact or drop it. Third Wave Coffee: auto-reply from orders@thirdwavecoffee.in (bulk/B2B inbox); no human reply yet.
+- [x] 2026-10-22 bounces to do_not_send: info@thetuliptouch.in, info@amarsonschd.com, contact@kevasiya.com, contact@foreverflamingo.com (address not found); hello@grreh.in, info@etashabyashajain.com (554 relay denied, final); customercare@gourmetcompany.in (550 inbox full, final).
