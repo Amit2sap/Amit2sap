@@ -22,3 +22,6 @@ Skipped / notes
 Verification: all 6 article URLs returned 200 via Composio workbench; og:image shows the new image on each.
 
 Undo: for each article run `articleUpdate(id, article:{body:<body from backup JSON>})`. Featured image: Shopify cannot clear via this input reliably; set `image:{url:null}`/remove in Admin > Blog posts > Featured image, or re-save the backup `image` (the four had none).
+
+## Broken link fix (main session)
+- eco-friendly-diwali-corporate-gifts-india: removed the "Mini jute festive basket" bullet. It linked to /products/basket-with-handle-copy, which no longer exists. The Kauna gift hamper bullet now links to /products/kauna-grass-gift-hamper-basket. Undo: restore the body from backups/blog/articles_before_images_2026-10-22.json and re-add the image paragraph.
