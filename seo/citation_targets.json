@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-22",
  "targets": [
   {
    "source": "Ethica Online",
@@ -42,6 +42,69 @@
    "action": "AI Search/Email agents: open the cited pages from the 18 Oct brand_mentions results in seo/data/2026-10-18.json, find the ones that name the brand without linking, and ask each for a link to grasscrafts.com",
    "added_by": "data_seo",
    "date": "2026-10-18"
+  },
+  {
+   "source": "Suspire \"7 Best Sustainable Home Decor Brands in India (2026)\"",
+   "why": "listicle",
+   "action": "personal 1:1 pitch suggesting sabai buyer guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Upcycleluxe \"30 Eco-Friendly Conscious Brands\"",
+   "why": "listicle names Sabai brands",
+   "action": "personal 1:1 pitch suggesting material comparison article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Tapwell \"10 Best Eco-Friendly Corporate Gift Ideas for Diwali 2026\"",
+   "why": "includes Sabai hamper",
+   "action": "personal 1:1 pitch suggesting eco-friendly Diwali corporate gifts article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Box n Bond \"Eco Friendly Corporate Gifts India 2026\"",
+   "why": "handwoven basket idea",
+   "action": "personal 1:1 pitch suggesting bulk hamper baskets guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "AIACA CraftKatha Madur Kathi",
+   "why": "craft documentation body",
+   "action": "personal 1:1 pitch suggesting madur mat buying guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Souvenirs of India sustainable corporate gifting guide",
+   "why": "corporate gifting advice",
+   "action": "personal 1:1 pitch suggesting eco-friendly Diwali corporate gifts article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Taalapatra Diwali handcrafted gift guide",
+   "why": "mentions Sabai",
+   "action": "personal 1:1 pitch suggesting sabai buyer guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+   "status": "draft_ready_not_sent",
+   "added_by": "website",
+   "date": "2026-10-22"
+  },
+  {
+   "source": "Backlinks plan",
+   "why": "45 opportunities",
+   "action": "see seo/backlinks_plan_2026-10-22.md and seo/backlinks_owner_checklist.md",
+   "added_by": "website",
+   "date": "2026-10-22"
   }
  ]
 }

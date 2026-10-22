@@ -23,3 +23,8 @@
 - New image rule added to agents/website.md (Blog Engine, Images).
 - Not done: collection Guides line (needs 48h notice), sitemap resubmit/URL inspection (no tool), AI-visibility check (AI Search agent owns it). Blockers: none.
 - Changelog: seo/CHANGELOG-2026-10-22-website.md, seo/CHANGELOG-blog.md.
+
+## 2026-10-22 (backlinks task from owner)
+- Built `seo/backlinks_plan_2026-10-22.md` (45 verified opportunities) and `seo/backlinks_owner_checklist.md` (ordered, with copy-paste text). URLs checked through the Composio workbench; bot-blocked sites are marked.
+- Outreach: Gmail Sent already showed 224 messages dated 22 Oct (UTC), above the owner's "well under 200" limit, so **no pitch was sent**. 7 personal pitches (Suspire, Upcycleluxe, Tapwell, Box n Bond, AIACA, Souvenirs of India, Taalapatra) are saved as Gmail drafts, not logged as sent. Logged in `seo/citation_targets.json` as draft_ready_not_sent. Send on 23 Oct.
+- Blocker: outbound curl is blocked in this sandbox (403 from proxy); used the Composio workbench for URL checks.
