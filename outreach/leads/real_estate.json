@@ -286,9 +286,9 @@
     "signal": "Purva Zenium Phase 2 (Hosahalli, North Bengaluru) scheduled for completion Oct 2026 - upcoming key handovers",
     "signal_url": "https://www.onecityproperty.com/projects/purva-zenium-hosahalli-north-bangalore",
     "contact_name": "",
-    "role": "CRM team",
-    "email": "crm@puravankara.com",
-    "email_source": "https://www.puravankara.com/contact",
+    "role": "Corporate office (ask for CRM head)",
+    "email": "info@puravankara.com",
+    "email_source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aec35e01-4d8f-4068-9cff-b0309c34310d.pdf",
     "verified": "published",
     "business_phone": "080 6772 4000",
     "phone_source": "https://www.puravankara.com/contact",
@@ -301,7 +301,8 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "per handover batch (estimate)"
+    "buying_pattern": "per handover batch (estimate)",
+    "note": "2026-10-22: crm@puravankara.com rejected 550; replaced with info@ from the company letterhead in its 2021 BSE filing (older source, the own site renders no email)."
   },
   {
     "found": "2026-10-20",

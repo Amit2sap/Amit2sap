@@ -98,7 +98,7 @@
     "signal_url": "https://www.eventbasket.in/",
     "contact_name": "Vaibhav Kalangutkar",
     "role": "Founder (source: https://www.eventbasket.in/about-top-event-planner-in-goa.html)",
-    "email": "vaibhav@eventbasket.in",
+    "email": "info@eventbasket.in",
     "email_source": "https://www.eventbasket.in/contact-best-wedding-planner-in-goa.html",
     "verified": "published",
     "business_phone": "+91 98346 90040",
@@ -114,7 +114,8 @@
     "current_products": "Guest gifts, wedding hampers, sustainable decor vertical",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: peak Goa season Nov-Feb",
-    "status": "new"
+    "status": "new",
+    "note": "2026-10-22: vaibhav@eventbasket.in bounced 550; replaced with info@ from the own contact page (address the founder by name)."
   },
   {
     "found": "2026-10-18",
@@ -155,7 +156,7 @@
     "signal_url": "https://hamperhubb.com/haldi-mehndi-hampers/",
     "contact_name": "",
     "role": "Owner (name not published)",
-    "email": "order@hamperhubb.com",
+    "email": "",
     "email_source": "https://hamperhubb.com/contact/",
     "verified": "published",
     "business_phone": "+91 96434 15581",
@@ -171,7 +172,8 @@
     "current_products": "Haldi/Mehndi hampers, trousseau packing, wedding giveaways",
     "budget_signal": "unknown",
     "buying_pattern": "festive + wedding (Rakhi, Holi, wedding hampers listed on site)",
-    "status": "new"
+    "status": "dropped",
+    "note": "2026-10-22: hamperhubb.com domain does not resolve (handoff); dropped. Phone kept for reference only."
   },
   {
     "found": "2026-10-18",

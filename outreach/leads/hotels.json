@@ -26,8 +26,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Best opportunity: pre-opening, no supplier lock-in yet. Opening <60 days."
+    "status": "no_valid_contact",
+    "notes": "Best opportunity: pre-opening, no supplier lock-in yet. Opening <60 days.",
+    "note": "2026-10-22: reservations@riomara.com bounced 550 and is the only address on riomara.com; no other business contact found in search. Sristi to call or use the site form; re-check nearer the Dec opening."
   },
   {
     "found": "2026-10-18",
