@@ -37,3 +37,4 @@
 - **Pipeline:** 165 leads found, 136 emailed, 0 replies from lead-file leads, 0 hot (the hot lead came from the 15 Oct batch).
 - **Not done:** AI-visibility check (AI Search agent owns it). Hunter not used.
 - **Note:** outreach/leads/sustainable_decor.json had uncommitted Lead Research changes (21 Oct); they are included in this commit with only status fields changed by me.
+- 2026-10-22: consolidated hot-leads email to Sristi (sristi@grasscrafts.com, CC amit2sap@), subject "GrassCrafts hot leads - consolidated (22 Oct)", Gmail 1a1618586d10d907. 19 rows (23 companies), urgency order; top 3: price list/MOQ/lead times, Upahaar reply, Ekta Bagla 500 mats by 2 Nov. No prices, lead times or samples quoted. Copy: reports/hot_leads_2026-10-22.md.
