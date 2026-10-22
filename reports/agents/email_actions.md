@@ -59,3 +59,7 @@
 - **Urgent / hot leads: 0.** No brief to Sristi and no WhatsApp owner_alert (none needed; Upahaar was already handed off).
 - **Not done (per owner):** no follow-ups, no new batch, no owner summary.
 - **Owner decisions still open:** Sustainable Jungle draft (r2171400134877226938); Gift Expert Ideas listing of 77 products.
+
+## 2026-10-22 reply watcher catch-up (~15:10-15:30 UTC)
+- Inbox since 10:30 UTC: 0 real replies (only promotions, Shopify, Moda, Google, theme-app notices). No bounces, no hot leads.
+- The Sustainable Marketplace (join@thesustainablemarketplace.in): reply of 08:06 UTC had been missed by earlier runs. Checked thread 1a16179755843bda and Sent: no earlier answer. They are a B2C marketplace and invite GrassCrafts to onboard as a seller (no fees mentioned). Replied in thread, CC Sristi and their CEO (Gmail 1a1643027b1d3c43): thanks, Sristi will share trade catalogue and discuss listing or wholesale, asked which categories. No prices, MOQ, lead times, samples or fee commitments. Warm, not hot; seller onboarding terms/fees are an owner decision if they send them.
