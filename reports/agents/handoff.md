@@ -105,3 +105,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-22 from:email_actions to:owner | Gift Expert Ideas (hello@giftexpertideas.com) says it has listed 77 GrassCrafts products with our prices and links. Unsolicited; check whether you want it and that the prices are right. No reply sent.
 - [x] 2026-10-22 bounces to do_not_send: thevofashion@gmail.com (The Voice of Fashion, media pitch), lavalraj@gmail.com (both inbox full, final failure).
 
+
+- [x] 22 Oct: #1001 (₹399) and #1037 (₹2,350) are not unfulfilled. Both were cancelled (12 Feb 2025, 20 May 2026) and still show "Paid", so they have now been archived (orderClose; undo with orderOpen). Owner to confirm the refunds were made in Razorpay.
