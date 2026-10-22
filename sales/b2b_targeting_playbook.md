@@ -81,3 +81,33 @@ Pitch **6–8 weeks before** each occasion.
 
 **Conversion path:** first email (segment template) → follow-up on day 5 with a sample offer → hot lead → Sristi brief. Never quote trade prices or MOQ until the owner sets them.
 **Owner input needed to close repeat orders:** a trade price list (tiers at 25, 50 and 100+ pieces), MOQ, real lead times, and a GST invoice. Every hot lead asks for these.
+
+## 7. Jewellers and watch retailers: handwoven boxes (22 Oct 2026)
+
+Owner approved on 22 Oct 2026. The leads are in `outreach/leads/diamond_jewellery.json` and `outreach/leads/luxury_watches.json`, marked `"priority": "box_pitch"`. Each lead has its own `personal_line`. Send from 23 Oct, within the daily cap of 100, to verified addresses only.
+
+**Why now:** no natural-fibre box maker appears in the "jewellery box / watch box" results, which are all IndiaMART packaging makers (Universal Flockers, Geetansh Luxpac). Universal Flockers lists Tanishq, Kalyan, PC Jewellers and PP Jewellers as clients (`reports/competitor_study_2026-10-22.md`). Pitch the boxes as a premium bridal, festive and gift-with-purchase box. Do not pitch them as a replacement for everyday boxes.
+
+**Subject lines (pick one):**
+1. Plastic-free, handwoven boxes for your bridal sets
+2. A handwoven box your customers keep: Sabai and Kauna from Kolkata
+3. Handwoven gift-with-purchase boxes for the wedding season
+
+**Body (90–120 words including the personal line):**
+
+> Dear {contact_name or "{company} team"},
+>
+> {personal_line}
+>
+> GrassCrafts makes handwoven Sabai and Kauna grass jewellery boxes, display trays and gift-with-purchase boxes in Kolkata. Artisans in Bengal weave each one by hand. They are plastic-free and reusable, so the box stays with your customer long after the purchase. We can make custom sizes and add your branding on request, including watch and ring presentation boxes.
+>
+> You can see the range here: https://grasscrafts.com/collections/diamond-jewellery-boxes
+>
+> May I send you our trade catalogue? If it fits your bridal or festive plans, I would be glad to take it from there.
+>
+> Warm regards,
+> Sristi Dey
+> GrassCrafts
+> sristi@grasscrafts.com | +91 62907 44782
+
+**Rules:** offer only the trade catalogue. Do not quote prices, MOQ or lead times, and do not offer samples, until the owner sets them. Send one email per company domain. Follow up once on day 5 (sample offer only after the owner approves samples). Skip any address already in `sent_log.json`. Log every send in `sent_log.json` and set the lead's `status` to `emailed`.
