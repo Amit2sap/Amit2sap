@@ -2,7 +2,7 @@
 
 ## 2026-10-22 AI Search agent
 
-### 1. llms.txt update (live file checked 22 Oct; differs on shipping, lacks new articles)
+### 1. [DONE 22 Oct, live] llms.txt update
 Live https://grasscrafts.com/llms.txt is otherwise accurate. Changes needed in `seo/llms.txt.liquid` (theme template, owner publishes):
 - Replace the shipping line:
   `- Shipping in India: free on orders of ₹1,299 and above; flat ₹120 below ₹1,299`
