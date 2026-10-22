@@ -25,8 +25,9 @@
     "current_products": "Curated homegrown décor brands (https://homegrown.co.in/homegrown-supply/inside-hmanan-a-delhi-interior-design-showhouse-that-feels-like-a-lived-in-home)",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -54,8 +55,9 @@
     "current_products": "Bamboo, cane and wood lighting, planters, kitchen accessories (https://storoot.com/collections)",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -83,8 +85,9 @@
     "current_products": "Handcrafted furniture, textiles, lighting (https://freedomtree.in/pages/our-stores)",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -112,8 +115,9 @@
     "current_products": "",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -140,8 +144,9 @@
     "current_products": "Artisan crafts; store list https://tisserindia.com/stores/",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -169,8 +174,9 @@
     "current_products": "",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -197,8 +203,9 @@
     "current_products": "Sculptural furniture and objects",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -225,8 +232,9 @@
     "current_products": "Handmade ceramics, handloom linen, pantry (https://paashh.com/)",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -253,8 +261,9 @@
     "current_products": "Zero-waste lifestyle and organic products",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new",
-    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+    "status": "emailed",
+    "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -283,5 +292,171 @@
     "buying_pattern": "unknown",
     "status": "new",
     "notes": "Contact confirmed via Composio web_search of the company's own page (direct page fetch unavailable); recheck before sending."
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "",
+    "phone_source": "",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "Verdlo",
+    "city": "India (online marketplace)",
+    "website": "https://www.verdlo.com",
+    "signal": "Curated sustainable marketplace onboarding founding brands at 0% commission for the first 12 months (Home & Garden category live)",
+    "signal_url": "https://www.verdlo.com/",
+    "contact_name": "",
+    "role": "Marketplace team (seller onboarding)",
+    "email": "info@verdlo.com",
+    "email_source": "https://www.verdlo.com/contact",
+    "verified": "published",
+    "products_to_pitch": [
+      "wall plates",
+      "madur mats",
+      "Sabai boxes",
+      "water hyacinth baskets"
+    ],
+    "occasion": "Seller listing before Diwali/wedding season",
+    "current_products": "Verified sustainable apparel, home & garden, accessories",
+    "buying_pattern": "marketplace listing (not wholesale)"
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "",
+    "phone_source": "",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "Wibhoo",
+    "city": "India (online marketplace)",
+    "website": "https://wibhoo.com",
+    "signal": "Sustainable and eco-friendly marketplace with an open 'Become a Vendor' programme and brand verification framework",
+    "signal_url": "https://wibhoo.com/",
+    "contact_name": "",
+    "role": "Care / vendor team",
+    "email": "care@wibhoo.in",
+    "email_source": "https://wibhoo.com/contact/",
+    "verified": "published",
+    "products_to_pitch": [
+      "madur mats",
+      "Sabai boxes",
+      "water hyacinth baskets"
+    ],
+    "occasion": "Vendor onboarding",
+    "current_products": "Eco fashion, beauty, home and kitchen",
+    "buying_pattern": "marketplace listing (not wholesale)"
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "011-411-70762",
+    "phone_source": "https://theartment.com/pages/contact-us",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "The Artment",
+    "city": "Gurugram",
+    "website": "https://theartment.com",
+    "signal": "Raised Rs 10 Cr pre-Series A (Nov 2025) for category and channel expansion; works with artisan clusters; targets Rs 100 Cr ARR",
+    "signal_url": "https://startuptalky.com/news/ian-angel-fund-backs-the-artments-pre-series-a-round-of-inr-10-crore/",
+    "contact_name": "Aditya Agarwal",
+    "role": "Co-founder",
+    "email": "aditya@theartment.com",
+    "email_source": "https://theartment.com/pages/contact-us",
+    "verified": "published",
+    "alt_email": "hello@theartment.com",
+    "products_to_pitch": [
+      "wall plates",
+      "water hyacinth baskets",
+      "Sabai boxes"
+    ],
+    "occasion": "Category expansion (handwoven décor)",
+    "current_products": "Wall art, décor, home accents",
+    "buying_pattern": "estimate: sourcing for new categories"
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "+91 99980 82253",
+    "phone_source": "https://sokkatableware.com/pages/contact",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "Sokka Tableware",
+    "city": "Mumbai (flagship, Ready Money Terrace, Worli Naka)",
+    "website": "https://sokkatableware.com",
+    "signal": "Opened first Mumbai flagship (Worli); offers bespoke tableware for hospitality brands and corporates",
+    "signal_url": "https://indianretailer.com/news/retail-india-news-sokka-tableware-opens-first-mumbai-flagship",
+    "contact_name": "Sravanya Pittie",
+    "role": "Founder",
+    "email": "info@sokkatableware.com",
+    "email_source": "https://sokkatableware.com/pages/contact",
+    "verified": "published",
+    "products_to_pitch": [
+      "madur table mats",
+      "Kash trays",
+      "bread/serving baskets",
+      "water hyacinth placemats"
+    ],
+    "occasion": "Festive tablescapes + gifting",
+    "current_products": "Tableware, serveware, linens, gifting",
+    "buying_pattern": "estimate: festive + corporate gifting"
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "",
+    "phone_source": "",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "Neytt",
+    "city": "Alappuzha, Kerala",
+    "website": "https://neytt.com",
+    "signal": "Sustainable-materials craft brand whose work featured on the Met Gala 2026 carpet",
+    "signal_url": "https://gulfnews.com/amp/story/entertainment%2Ffrom-alleppey-to-the-met-gala-kerala-brand-powers-met-gala-2026-carpet-again-1.500530479",
+    "contact_name": "Nimisha Srinivas, Sivan Santhosh",
+    "role": "Founders",
+    "email": "inquiry@neytt.com",
+    "email_source": "https://neytt.com/contact/",
+    "verified": "published",
+    "products_to_pitch": [
+      "madur mats",
+      "Sabai boxes",
+      "wall plates"
+    ],
+    "occasion": "Natural-fibre collaboration / range extension",
+    "current_products": "Sustainable-materials, craft-led products (check site before pitching)",
+    "buying_pattern": "unknown"
+  },
+  {
+    "found": "2026-10-21",
+    "segment": "sustainable_decor",
+    "business_phone": "+91 89879 45100 (business WhatsApp on site)",
+    "phone_source": "https://vedashomes.com/contact-us/",
+    "competitor_used": "unknown",
+    "budget_signal": "unknown",
+    "status": "new",
+    "company": "Vedas Homes",
+    "city": "Jamshedpur (first store; Ranchi next)",
+    "website": "https://vedashomes.com",
+    "signal": "Retail debut with first store in Jamshedpur (3,000+ handcrafted terracotta/brass/iron products); Ranchi next, ~10 more stores planned by end-2026",
+    "signal_url": "https://www.franchiseindia.com/index.php/insights/en/news/vedas-homes-makes-retail-debut-in-india-with-first-store-in-jamshedpur.57163",
+    "contact_name": "",
+    "role": "Business WhatsApp (owner team)",
+    "email": "",
+    "email_source": "",
+    "verified": "published",
+    "products_to_pitch": [
+      "wall plates",
+      "water hyacinth baskets",
+      "Sabai boxes",
+      "madur mats"
+    ],
+    "occasion": "Stocking new stores before Diwali / wedding season",
+    "current_products": "Handcrafted décor",
+    "buying_pattern": "estimate: stocking ~10 new stores"
   }
 ]

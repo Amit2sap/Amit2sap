@@ -51,7 +51,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "continuous handovers (3,000+ homes/12 months in NCR, https://www.fortuneindia.com/real-estate/godrej-properties-delivers-over-3000-homes-in-delhi-ncr-in-12-months-geetika-trehan-ceo-north-zone/160968)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -78,7 +79,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -104,7 +106,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -131,7 +134,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -185,7 +189,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -212,7 +217,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -239,7 +245,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -266,7 +273,8 @@
     "current_products": "Key-handover box: instant coffee, hand-poured candle, wax sachets, lidded mug, Smoor chocolates (same source)",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
@@ -298,7 +306,7 @@
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "GHR Infra",
     "city": "Hyderabad",
     "website": "https://ghrinfra.in",
@@ -320,12 +328,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "per handover phase (estimate)"
+    "buying_pattern": "per handover phase (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "Keystone Realtors (Rustomjee)",
     "city": "Mumbai",
     "website": "https://www.rustomjee.com",
@@ -347,12 +356,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "per handover batch (estimate)"
+    "buying_pattern": "per handover batch (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "Adarsh Group (Adarsh Developers)",
     "city": "Bengaluru",
     "website": "https://www.adarshdevelopers.com",
@@ -374,12 +384,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "Bhumika Realty (Bhumika Group)",
     "city": "Delhi NCR",
     "website": "https://bhumikagroup.com",
@@ -401,12 +412,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "Mayfair Housing",
     "city": "Mumbai",
     "website": "https://www.mayfairhousing.com",
@@ -427,12 +439,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "My Home Group (My Home Constructions)",
     "city": "Hyderabad",
     "website": "https://www.myhomeconstructions.com",
@@ -454,12 +467,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "Mangalam Landmarks",
     "city": "Pune (PCMC)",
     "website": "https://www.mangalamlandmarks.in",
@@ -481,12 +495,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "per possession event (estimate)"
+    "buying_pattern": "per possession event (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "real_estate",
-    "status": "new",
+    "status": "emailed",
     "company": "ANHAD Developers",
     "city": "Mumbai",
     "website": "https://anhaddevelopers.com",
@@ -507,6 +522,7 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   }
 ]

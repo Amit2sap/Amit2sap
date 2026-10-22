@@ -27,7 +27,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -57,7 +58,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -87,7 +89,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -117,7 +120,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -147,7 +151,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: repeat orders per new outlet, based on 2026 opening pace",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -177,7 +182,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -207,7 +213,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -237,7 +244,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -267,6 +275,7 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   }
 ]

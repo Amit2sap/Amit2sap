@@ -25,7 +25,8 @@
     "current_products": "Welcome hampers, gift-room drops, personalised gift packaging",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: destination weddings need one welcome hamper per guest room each event",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -54,7 +55,8 @@
     "current_products": "Designer trays, baskets and boxes on sale/rent; ring-ceremony trays; guest-room hampers",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: range 'updated very frequently' per their site, so recurring basket purchases",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -83,7 +85,8 @@
     "current_products": "Trousseau trays, trunks, welcome hampers, shagun envelopes",
     "budget_signal": "unknown",
     "buying_pattern": "festive + wedding (estimate: Diwali collection plus wedding page on own site)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -139,7 +142,8 @@
     "current_products": "Boho Haldi decor with woven textures and macrame",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: luxury destination weddings, venue-based office",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -195,7 +199,8 @@
     "current_products": "Wedding, roka, engagement and bridesmaid hampers",
     "budget_signal": "unknown",
     "buying_pattern": "bulk orders of 100-300+ hampers (source: c3studio.in)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -223,7 +228,8 @@
     "current_products": "Trousseau packing, wedding trays, gift hampers, headgear",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: wedding + corporate festive",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -250,7 +256,8 @@
     "current_products": "Welcome packages with itineraries, maps and gifts",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: per-guest welcome kit at every destination wedding",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -283,7 +290,7 @@
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Poonam Mayank Sharma (luxury wedding planning)",
     "city": "Bengaluru",
     "website": "https://poonammayanksharma.com",
@@ -305,12 +312,13 @@
     "competitor_used": "unknown",
     "current_products": "Luxury wedding design and decor",
     "budget_signal": "unknown",
-    "buying_pattern": "wedding seasons Nov-Dec, Jan-Feb (estimate)"
+    "buying_pattern": "wedding seasons Nov-Dec, Jan-Feb (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "V Star Exultation",
     "city": "New Delhi",
     "website": "https://vstarexultation.co.in",
@@ -331,12 +339,13 @@
     "competitor_used": "unknown",
     "current_products": "Destination wedding planning",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Marriedly Events",
     "city": "Coimbatore",
     "website": "https://marriedlyevents.com",
@@ -358,12 +367,13 @@
     "competitor_used": "unknown",
     "current_products": "Wedding planning and decor",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Forever Fuzed",
     "city": "India (NRI destination weddings)",
     "website": "https://foreverfuzedweddings.com",
@@ -384,12 +394,13 @@
     "competitor_used": "unknown",
     "current_products": "Destination wedding planning",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Aarunya Club & Convention by Tivoli (The Tivoli Group)",
     "city": "Greater Noida",
     "website": "https://thetivolihotels.com/hotel/arunya-convention-by-tivoli/",
@@ -412,12 +423,13 @@
     "competitor_used": "unknown",
     "current_products": "Banquet and wedding venue",
     "budget_signal": "unknown",
-    "buying_pattern": "pre-opening fit-out (estimate)"
+    "buying_pattern": "pre-opening fit-out (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Grace The Packing Studio",
     "city": "Delhi",
     "website": "https://www.gracethepackingstudio.com",
@@ -439,12 +451,13 @@
     "competitor_used": "unknown",
     "current_products": "Trousseau trays and packing",
     "budget_signal": "unknown",
-    "buying_pattern": "wedding seasons (estimate)"
+    "buying_pattern": "wedding seasons (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "Weddings & Marigolds",
     "city": "Chennai",
     "website": "https://www.weddingsandmarigold.com",
@@ -466,12 +479,13 @@
     "competitor_used": "unknown",
     "current_products": "Trousseau packing",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "DOTTEDi",
     "city": "Bengaluru (pan-India)",
     "website": "https://thedottedi.in",
@@ -493,12 +507,13 @@
     "competitor_used": "unknown",
     "current_products": "Trousseau packing",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "wedding",
-    "status": "new",
+    "status": "emailed",
     "company": "11.Eleven Gifting Solutions",
     "city": "Ahmedabad",
     "website": "https://www.11eleven.in",
@@ -520,6 +535,7 @@
     "competitor_used": "unknown",
     "current_products": "Wedding and corporate hampers",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   }
 ]

@@ -2,134 +2,14 @@
  "note": "SMTP-verified 16 Oct 2026, not yet emailed. Send next; re-check against sent_log first.",
  "prospects": [
   {
-   "email": "contact@kevasiya.com",
-   "segment": "Festive hamper brands",
-   "company": "Kevasiya"
-  },
-  {
-   "email": "corporate@hamperfry.com",
-   "segment": "Festive hamper brands",
-   "company": "Hamperfry Gifting"
-  },
-  {
    "email": "info@thegiftconcierge.in",
    "segment": "Festive hamper brands",
    "company": "The Gift Concierge"
   },
   {
-   "email": "corporatesales@kandoisweets.com",
-   "segment": "Festive hamper brands",
-   "company": "Kandoi Sweets"
-  },
-  {
    "email": "nanakshahcards@gmail.com",
    "segment": "Festive hamper brands",
    "company": "Reet Hamporio"
-  },
-  {
-   "email": "info@imperial.wedding",
-   "segment": "Wedding & event planners",
-   "company": "Imperial Weddings"
-  },
-  {
-   "email": "info@saavevents.com",
-   "segment": "Wedding & event planners",
-   "company": "Saav Events"
-  },
-  {
-   "email": "info@jskgiftsandawards.com",
-   "segment": "Corporate gifting companies",
-   "company": "JSK Gifts & Awards"
-  },
-  {
-   "email": "info@mangalmilanevents.com",
-   "segment": "Wedding & event planners",
-   "company": "MangalMilan Events"
-  },
-  {
-   "email": "info@silverstringsweddings.com",
-   "segment": "Wedding & event planners",
-   "company": "Silver Strings Weddings"
-  },
-  {
-   "email": "connect@srishtiwed.in",
-   "segment": "Wedding & event planners",
-   "company": "Srishti Weddings"
-  },
-  {
-   "email": "info@kunalseth.in",
-   "segment": "Wedding & event planners",
-   "company": "Kunal Seth and Save the Date"
-  },
-  {
-   "email": "katha@kathaweddings.com",
-   "segment": "Wedding & event planners",
-   "company": "Katha Weddings"
-  },
-  {
-   "email": "info@amarsonschd.com",
-   "segment": "Gift & decor retailers",
-   "company": "Amarsons Exclusives"
-  },
-  {
-   "email": "info@cedarhomestore.com",
-   "segment": "Gift & decor retailers",
-   "company": "Cedar Homestore"
-  },
-  {
-   "email": "info@fabrichdecor.com",
-   "segment": "Gift & decor retailers",
-   "company": "Fabrich"
-  },
-  {
-   "email": "info@thechoicecompany.in",
-   "segment": "Corporate gifting companies",
-   "company": "The Choice Company"
-  },
-  {
-   "email": "hello@happiness.gifts",
-   "segment": "Corporate gifting companies",
-   "company": "Happiness Gift Shop"
-  },
-  {
-   "email": "contact@sumeetjewellers.com",
-   "segment": "Jewellery",
-   "company": "Sumeet Jewellers"
-  },
-  {
-   "email": "info@thetuliptouch.in",
-   "segment": "Wedding & event planners",
-   "company": "The Tulip Touch"
-  },
-  {
-   "email": "info@shreeashoka.com",
-   "segment": "Jewellery",
-   "company": "Shree Ashoka Jewellery"
-  },
-  {
-   "email": "info@sovereignevents.in",
-   "segment": "Corporate gifting companies",
-   "company": "Sovereign Events"
-  },
-  {
-   "email": "info@sunderjewellers.com",
-   "segment": "Jewellery",
-   "company": "Sunder Jewellers"
-  },
-  {
-   "email": "info@talwarjewelleryhouse.com",
-   "segment": "Jewellery",
-   "company": "Talwar Jewellery House"
-  },
-  {
-   "email": "info@talwarsons.com",
-   "segment": "Jewellery",
-   "company": "Talwarsons"
-  },
-  {
-   "email": "info@premiumjeweller.com",
-   "segment": "Jewellery",
-   "company": "Premium Jeweller"
   },
   {
    "email": "info@oakstreetevents.com",
@@ -152,24 +32,9 @@
    "company": "Scenario Wedding Planner"
   },
   {
-   "email": "sales@accentmirror.com",
-   "segment": "Gift & decor retailers",
-   "company": "Accent Mirror"
-  },
-  {
    "email": "info@castlecodecor.com",
    "segment": "Gift & decor retailers",
    "company": "Castle & Co. Decor"
-  },
-  {
-   "email": "info@vaidaan.com",
-   "segment": "Jewellery",
-   "company": "Vaidaan"
-  },
-  {
-   "email": "info@diabydeshna.com",
-   "segment": "Jewellery",
-   "company": "Dia by Deshna"
   },
   {
    "email": "info@shubhlaabh.co.in",
@@ -177,19 +42,9 @@
    "company": "Shubh Laabh Jewellers"
   },
   {
-   "email": "info@veejaygifters.com",
-   "segment": "Corporate gifting companies",
-   "company": "Veejay Gifters"
-  },
-  {
    "email": "info@madanlalchhaganlal.com",
    "segment": "Jewellery",
    "company": "Madanlal Chhaganlal"
-  },
-  {
-   "email": "hello@iniyamgifts.com",
-   "segment": "Corporate gifting companies",
-   "company": "Iniyam Gifts"
   },
   {
    "email": "hello@aarvidecor.in",
@@ -217,19 +72,9 @@
    "company": "Deco Diva"
   },
   {
-   "email": "info@giftboutique.in",
-   "segment": "Corporate gifting companies",
-   "company": "Gift Boutique"
-  },
-  {
    "email": "contact@decortwist.com",
    "segment": "Gift & decor retailers",
    "company": "DecorTwist"
-  },
-  {
-   "email": "info@sequenceindia.com",
-   "segment": "Corporate gifting companies",
-   "company": "Sequence Communications"
   },
   {
    "email": "contact@keshavjewellers.co.in",

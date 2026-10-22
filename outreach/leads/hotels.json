@@ -55,8 +55,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Dec 2026 opening date is from web-search summary, not confirmed on the PDF text."
+    "status": "emailed",
+    "notes": "Dec 2026 opening date is from web-search summary, not confirmed on the PDF text.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -84,8 +85,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Also IHCL release: https://www.ihcltata.com/press-room/brij-tara-opens-its-doors-in-ranthambore (403 to bots)."
+    "status": "emailed",
+    "notes": "Also IHCL release: https://www.ihcltata.com/press-room/brij-tara-opens-its-doors-in-ranthambore (403 to bots).",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -113,8 +115,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Contact page has a 'Bookings and Preopening' enquiry type; use it."
+    "status": "emailed",
+    "notes": "Contact page has a 'Bookings and Preopening' enquiry type; use it.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -142,7 +145,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -170,7 +174,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -198,7 +203,8 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -226,8 +232,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Generic brand inbox; ask to be routed to procurement."
+    "status": "emailed",
+    "notes": "Generic brand inbox; ask to be routed to procurement.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -254,8 +261,9 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Chain-level generic inbox; lower priority."
+    "status": "emailed",
+    "notes": "Chain-level generic inbox; lower priority.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -283,13 +291,14 @@
     "current_products": "unknown",
     "budget_signal": "unknown",
     "buying_pattern": "estimate: one-time pre-opening fit-out, then periodic replacement (no source)",
-    "status": "new",
-    "notes": "Email comes from a web-search snippet of the contact page. The page renders with JS and the raw HTML fetch did not show it. SMTP-check before sending."
+    "status": "emailed",
+    "notes": "Email comes from a web-search snippet of the contact page. The page renders with JS and the raw HTML fetch did not show it. SMTP-check before sending.",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "The Leela Jaisalmer (The Leela Palaces, Hotels and Resorts)",
     "city": "Jaisalmer, Rajasthan",
     "website": "https://www.theleela.com",
@@ -313,12 +322,13 @@
     "competitor_used": "unknown",
     "current_products": "pre-opening",
     "budget_signal": "unknown",
-    "buying_pattern": "pre-opening fit-out (estimate)"
+    "buying_pattern": "pre-opening fit-out (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "Bookmark Resorts Cheetahgarh, Jawai",
     "city": "Jawai, Rajasthan",
     "website": "https://www.bookmarkresorts.com/bookmark-resorts-cheetahgarh-jawai/",
@@ -341,12 +351,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "pre-opening fit-out (estimate)"
+    "buying_pattern": "pre-opening fit-out (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "Azalea by Stone Wood (Stone Wood Hotels & Resorts)",
     "city": "Carmona, South Goa",
     "website": "https://www.stonewoodresorts.com/azalea-by-stonewood-carmona/",
@@ -369,12 +380,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "juSTa Luxe Monsoon Palace (juSTa Hotels & Resorts)",
     "city": "Udaipur",
     "website": "https://www.justahotels.com/hotels/udaipur/justa-luxe-monsoon-palace/",
@@ -397,12 +409,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "Chapter Lakeside, Tripura (Polo Hotels Group - Chapter Hotels & Resorts)",
     "city": "Rudrasagar Lake, Tripura",
     "website": "https://www.polohotelsandresorts.com/chapter/lakeside-tripura/",
@@ -425,12 +438,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "pre-opening fit-out (estimate)"
+    "buying_pattern": "pre-opening fit-out (estimate)",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "Rosetta Sakleshpur (Rosetta Hospitality)",
     "city": "Sakleshpur, Karnataka",
     "website": "https://rosettahospitality.com/sakleshpur/",
@@ -453,12 +467,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "Wyndham Garden Udaipur Bhuwana",
     "city": "Udaipur",
     "website": "https://wyndhamgardenudaipur.com",
@@ -481,12 +496,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "The Byke Luxe Astara (The Byke Hospitality)",
     "city": "Vilholi, Nashik",
     "website": "https://www.thebyke.com",
@@ -509,12 +525,13 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-20",
     "segment": "hotels",
-    "status": "new",
+    "status": "emailed",
     "company": "The Den Bengaluru, LXR Hotels & Resorts",
     "city": "Whitefield, Bengaluru",
     "website": "https://www.denhotels.com",
@@ -537,6 +554,7 @@
     "competitor_used": "unknown",
     "current_products": "",
     "budget_signal": "unknown",
-    "buying_pattern": "unknown"
+    "buying_pattern": "unknown",
+    "emailed": "2026-10-22"
   }
 ]

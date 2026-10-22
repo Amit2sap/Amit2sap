@@ -24,7 +24,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: luxury boutique; no published gifting budget",
     "buying_pattern": "new boutique openings through 2026 (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -51,7 +52,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: 100-store chain; no published gifting budget",
     "buying_pattern": "rapid store openings in 2026 (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -78,7 +80,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: D2C brand with flagship; no published budget",
     "buying_pattern": "community events at flagship (source: https://www.indianretailer.com/news/bangalore-watch-company-opens-community-focused-flagship-store-bengaluru)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -105,7 +108,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: luxury multi-brand boutique; no published budget",
     "buying_pattern": "unknown",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -132,7 +136,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: listed company, 104 boutiques; no published gifting budget",
     "buying_pattern": "continuous store openings (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -159,7 +164,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: heritage luxury brand; no published budget",
     "buying_pattern": "collection launches ~2x/year in 2026 (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -186,7 +192,8 @@
     "current_products": "unknown",
     "budget_signal": "estimate: Rolex retailer; no published budget",
     "buying_pattern": "expansion across India 2026 (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   },
   {
     "found": "2026-10-18",
@@ -267,6 +274,7 @@
     "current_products": "unknown",
     "budget_signal": "estimate: multi-brand chain; no published budget",
     "buying_pattern": "new formats 2025-26 (source: signal URL)",
-    "status": "new"
+    "status": "emailed",
+    "emailed": "2026-10-22"
   }
 ]

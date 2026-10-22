@@ -24,7 +24,8 @@
   "current_products": "unknown",
   "budget_signal": "estimate: multi-centre operator, project-scale order",
   "buying_pattern": "new centres opened through the year (estimate: press on ongoing expansion)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -51,7 +52,8 @@
   "current_products": "unknown",
   "budget_signal": "estimate: plant-themed 50,000 sq ft centre",
   "buying_pattern": "expanding centres (source: signal URL)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -77,7 +79,8 @@
   "current_products": "unknown",
   "budget_signal": "estimate: 60+ new outlets × a few planters each",
   "buying_pattern": "continuous rollout (source: signal URL)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -103,7 +106,8 @@
   "current_products": "unknown",
   "budget_signal": "estimate: ~100 new cafes",
   "buying_pattern": "continuous rollout (source: signal URL)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -129,7 +133,8 @@
   "current_products": "unknown",
   "budget_signal": "unknown",
   "buying_pattern": "new outlets (2 cafes so far)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -155,7 +160,8 @@
   "current_products": "unknown",
   "budget_signal": "estimate: ~10+ new stores by Mar 2027",
   "buying_pattern": "continuous rollout (source: signal URL)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -182,7 +188,8 @@
   "current_products": "unknown",
   "budget_signal": "unknown",
   "buying_pattern": "project-based (estimate)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -209,7 +216,8 @@
   "current_products": "unknown",
   "budget_signal": "unknown",
   "buying_pattern": "project-based (estimate)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -236,7 +244,8 @@
   "current_products": "unknown",
   "budget_signal": "unknown",
   "buying_pattern": "project-based (estimate)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-18",
@@ -263,7 +272,8 @@
   "current_products": "unknown",
   "budget_signal": "unknown",
   "buying_pattern": "project-based (estimate)",
-  "status": "new"
+  "status": "emailed",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-21",
@@ -299,7 +309,7 @@
   "phone_source": "https://www.thehazelnutfactory.com/pages/contact",
   "competitor_used": "unknown",
   "budget_signal": "unknown",
-  "status": "new",
+  "status": "emailed",
   "company": "The Hazelnut Factory",
   "city": "Lucknow (23 outlets, North India)",
   "website": "https://www.thehazelnutfactory.com",
@@ -318,7 +328,8 @@
   ],
   "occasion": "New outlet décor + Diwali/wedding mithai hampers",
   "current_products": "Specialty coffee, artisanal mithai, cafés",
-  "buying_pattern": "estimate: new outlets + festive gifting"
+  "buying_pattern": "estimate: new outlets + festive gifting",
+  "emailed": "2026-10-22"
  },
  {
   "found": "2026-10-21",
