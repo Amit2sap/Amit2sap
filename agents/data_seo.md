@@ -43,3 +43,11 @@ It uses the store's own connections, so there are no account limits and no paid 
 - Never change prices, inventory, discounts, apps or theme files directly. Theme changes go in a draft copy that the owner publishes.
 - Always back up before editing.
 - Never invent numbers. If a source is not connected, say so in the report.
+
+## Keyword data without Ahrefs Keywords Explorer (22 Oct 2026)
+Our Ahrefs plan returns "Insufficient plan" for Keywords Explorer. Use these free sources instead, in this order:
+1. **Bing keyword research** (Composio `BING_WEBMASTER_TOOLS_RESEARCH_KEYWORDS`, connection bing_webmaster_tools_winly-than; country "in", language "en-IN"; reports: impressions, history, related). Tested on 22 Oct and it works. Bing is a small share of Indian search, so use the numbers to compare keywords against each other, not as Google volumes.
+2. **Google Search Console** (Composio): real Google impressions and clicks for queries we already rank for.
+3. **Google Trends:** relative interest and seasonality. Use web search snippets for now. The SerpApi free tier (if the owner connects it) gives the API.
+4. **Google Keyword Planner** (free inside a Google Ads account, no spend needed): the owner can export volume ranges when needed.
+Label every figure with its source. Never present Bing impressions as Google volume.
