@@ -1,0 +1,756 @@
+{
+ "date": "2026-10-22",
+ "owner_request": "Competitor study, 8 segments, goal ~10% segment share",
+ "method_and_limits": {
+  "ahrefs": "All endpoints (batch-analysis, site-explorer, keywords-explorer, free DR, subscription-info) returned 'Insufficient plan' on 22 Oct. No Ahrefs traffic, DR or keyword volumes in this study.",
+  "search_proxy": "estimate: search score = number of times a brand's own pages appeared in the result lists of 25 web searches (22 segment keyword searches + 3 AI-style questions) run 22 Oct with the WebSearch tool, which is US-indexed. Not Google India rankings and not traffic.",
+  "ai_mentions": "Latest seo/ai_visibility_log.json run (22 Oct, 14 questions) plus 3 new segment questions asked 22 Oct via WebSearch (Composio workbench web_search helper was not defined in the sandbox).",
+  "social": "Facebook follower counts read from public Facebook page og:description (no login). Instagram blocked (HTTP 429 on public profile and API). Pinterest pages returned ambiguous counts, recorded n/a. LinkedIn not fetched (login wall).",
+  "footprint": "Shopify: /products.json paged at 250/page (count capped at 15,000). Amazon.in: total results and page-1 cards containing the brand name, for a search of the brand name. Flipkart pages returned counts that echo the query, so they were not used. Etsy returned 403. Myntra was not readable.",
+  "ads": "Meta Ad Library (facebook.com/ads/library ... country=IN) returned HTTP 403 with a JS challenge from the workbench. Ahrefs paid-search data was blocked by the plan. Ads activity is recorded as n/a and scored 0 for every brand, so it does not change the ranking.",
+  "workbench": "The Composio sandbox stopped responding at about 10:55 UTC, so Ellementry, The India Craft House and Kadam Haat full catalogues could not be re-read (Shopify 429). Their page-1 counts are used instead."
+ },
+ "weights": {
+  "search": 0.3,
+  "ai": 0.15,
+  "social": 0.2,
+  "footprint": 0.15,
+  "ads": 0.1,
+  "overlap": 0.1
+ },
+ "scores": [
+  {
+   "name": "Nestasia",
+   "total_of_9": 7.59,
+   "components_0_10": {
+    "search": 10,
+    "ai": 3.3,
+    "social": 9.2,
+    "footprint": 9.2,
+    "ads": 0,
+    "overlap": 8.8
+   }
+  },
+  {
+   "name": "Brown Living",
+   "total_of_9": 6.46,
+   "components_0_10": {
+    "search": 7.8,
+    "ai": 6.7,
+    "social": 7.1,
+    "footprint": 5.2,
+    "ads": 0,
+    "overlap": 9.4
+   }
+  },
+  {
+   "name": "iTokri",
+   "total_of_9": 5.42,
+   "components_0_10": {
+    "search": 3.9,
+    "ai": 3.3,
+    "social": 9.3,
+    "footprint": 7.6,
+    "ads": 0,
+    "overlap": 7.5
+   }
+  },
+  {
+   "name": "Zishta",
+   "total_of_9": 4.3,
+   "components_0_10": {
+    "search": 1.1,
+    "ai": 6.7,
+    "social": 8.5,
+    "footprint": 5.9,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "GrassCrafts (us)",
+   "total_of_9": 4.23,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 10,
+    "social": 6.0,
+    "footprint": 3.6,
+    "ads": 0,
+    "overlap": 10.0
+   }
+  },
+  {
+   "name": "Kadam Haat",
+   "total_of_9": 3.85,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 6.7,
+    "social": 7.0,
+    "footprint": 6.1,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "The India Craft House",
+   "total_of_9": 3.74,
+   "components_0_10": {
+    "search": 2.2,
+    "ai": 3.3,
+    "social": 7.2,
+    "footprint": 4.2,
+    "ads": 0,
+    "overlap": 5.0
+   }
+  },
+  {
+   "name": "Okhai",
+   "total_of_9": 3.68,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 8.9,
+    "footprint": 7.7,
+    "ads": 0,
+    "overlap": 7.5
+   }
+  },
+  {
+   "name": "Jaypore",
+   "total_of_9": 3.22,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 9.8,
+    "footprint": 5.0,
+    "ads": 0,
+    "overlap": 5.0
+   }
+  },
+  {
+   "name": "Ellementry",
+   "total_of_9": 3.22,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 8.2,
+    "footprint": 7.2,
+    "ads": 0,
+    "overlap": 5.0
+   }
+  },
+  {
+   "name": "Kottanz",
+   "total_of_9": 3.03,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 3.3,
+    "social": 8.8,
+    "footprint": 2.7,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "Farmley",
+   "total_of_9": 2.79,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 0.0,
+    "social": 7.6,
+    "footprint": 5.7,
+    "ads": 0,
+    "overlap": 2.5
+   }
+  },
+  {
+   "name": "Sirohi",
+   "total_of_9": 2.75,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 6.4,
+    "footprint": 5.6,
+    "ads": 0,
+    "overlap": 6.2
+   }
+  },
+  {
+   "name": "Tribes India",
+   "total_of_9": 2.67,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 3.3,
+    "social": 9.0,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "Dastkar / Indiahandmade",
+   "total_of_9": 2.6,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 3.3,
+    "social": 5.6,
+    "footprint": 2.9,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "Mr Makhana",
+   "total_of_9": 2.57,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 0.0,
+    "social": 7.6,
+    "footprint": 5.1,
+    "ads": 0,
+    "overlap": 1.2
+   }
+  },
+  {
+   "name": "The Knot Company",
+   "total_of_9": 2.56,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 6.0,
+    "footprint": 7.0,
+    "ads": 0,
+    "overlap": 3.1
+   }
+  },
+  {
+   "name": "Mithila Naturals",
+   "total_of_9": 2.54,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 3.3,
+    "social": 6.2,
+    "footprint": 3.4,
+    "ads": 0,
+    "overlap": 1.2
+   }
+  },
+  {
+   "name": "BoxUp",
+   "total_of_9": 2.54,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 6.4,
+    "footprint": 5.5,
+    "ads": 0,
+    "overlap": 4.4
+   }
+  },
+  {
+   "name": "IGP",
+   "total_of_9": 2.44,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 10,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 4.4
+   }
+  },
+  {
+   "name": "FNP",
+   "total_of_9": 2.42,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 9.9,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 4.4
+   }
+  },
+  {
+   "name": "Chau Foods",
+   "total_of_9": 1.62,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 10,
+    "social": 0,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 1.2
+   }
+  },
+  {
+   "name": "Happilo",
+   "total_of_9": 1.29,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 3.3,
+    "social": 0,
+    "footprint": 3.6,
+    "ads": 0,
+    "overlap": 2.5
+   }
+  },
+  {
+   "name": "Kavyatva",
+   "total_of_9": 1.03,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 0.0,
+    "social": 3.3,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 3.8
+   }
+  },
+  {
+   "name": "Gravitfy Studio",
+   "total_of_9": 0.99,
+   "components_0_10": {
+    "search": 0.0,
+    "ai": 3.3,
+    "social": 1.2,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 2.5
+   }
+  },
+  {
+   "name": "Bombay Sweet Shop",
+   "total_of_9": 0.92,
+   "components_0_10": {
+    "search": 2.2,
+    "ai": 0.0,
+    "social": 0,
+    "footprint": 0.0,
+    "ads": 0,
+    "overlap": 2.5
+   }
+  },
+  {
+   "name": "Tata Sampann",
+   "total_of_9": 0.8,
+   "components_0_10": {
+    "search": 0.6,
+    "ai": 0.0,
+    "social": 0,
+    "footprint": 3.4,
+    "ads": 0,
+    "overlap": 1.2
+   }
+  }
+ ],
+ "competitors": {
+  "Nestasia": {
+   "domain": "nestasia.in",
+   "shopify": true,
+   "shopify_products": ">=14750",
+   "new_products_30d": 176,
+   "price_p10_med_p90_inr": [
+    350,
+    890,
+    2314
+   ],
+   "segment_skus": {
+    "corporate_tag": 1339,
+    "trousseau_tag": 570,
+    "hamper": 748,
+    "basket": 280,
+    "planter": 362,
+    "table_mat": 447,
+    "placemat": 167,
+    "runner": 159,
+    "tray": 560,
+    "tote": 98,
+    "sabai": 25,
+    "kauna": 10,
+    "jewel": 1033,
+    "wall_plate": 2
+   },
+   "facebook_followers": 194625,
+   "facebook_talking_about": 14356,
+   "instagram": "estimate: ~1.1M followers, 0.01% engagement (Qoruz third-party, Jul 2026: https://qoruz.com/nestasia.in/instagram); live count not verifiable",
+   "amazon_in_results": 1000,
+   "serp_hits": 18,
+   "ai_mentions": 1,
+   "trustpilot": "3.5/5, ~172 reviews (https://www.trustpilot.com/review/nestasia.in)",
+   "ads": "n/a (Ad Library blocked)"
+  },
+  "Brown Living": {
+   "domain": "brownliving.in",
+   "shopify": true,
+   "shopify_products": 4163,
+   "new_products_30d": 156,
+   "price_p10_med_p90_inr": [
+    249,
+    849,
+    4192
+   ],
+   "segment_skus": {
+    "corporate_tag": 416,
+    "wedding_tag": 252,
+    "diwali_tag": 147,
+    "hamper": 129,
+    "basket": 99,
+    "water_hyacinth": 43,
+    "kauna": 36,
+    "sabai": 14,
+    "madur": 14,
+    "planter": 38,
+    "tray": 45,
+    "placemat": 28,
+    "tote": 53,
+    "makhana": 7
+   },
+   "facebook_followers": 11862,
+   "amazon_in_results": "weak (3 of 16 page-1 cards)",
+   "serp_hits": 14,
+   "ai_mentions": 2,
+   "trustpilot": "about 3/5, 84-93 reviews (https://ie.trustpilot.com/review/brownliving.in)",
+   "b2b": "says 300+ organisations; names none (sales/buyer_intelligence_2026-10-18.md)"
+  },
+  "iTokri": {
+   "domain": "itokri.com",
+   "shopify": true,
+   "shopify_products": ">=15000",
+   "new_products_30d": 4178,
+   "price_p10_med_p90_inr": [
+    534,
+    2315,
+    8069
+   ],
+   "segment_skus": {
+    "runner": 100,
+    "diwali_tag": 277,
+    "wedding_tag": 82,
+    "corporate_tag": 68,
+    "bamboo": 68,
+    "jute": 61,
+    "tote": 53,
+    "table_mat": 22,
+    "water_hyacinth": 13,
+    "wall_plate": 11
+   },
+   "facebook_followers": 227664,
+   "facebook_talking_about": 7601,
+   "amazon_in_results": 72,
+   "serp_hits": 7,
+   "ai_mentions": 1,
+   "trustpilot": "4.5/5, 292 reviews (https://nz.trustpilot.com/review/itokri.com); reviews.io 4.7"
+  },
+  "Zishta": {
+   "domain": "zishta.com",
+   "shopify": true,
+   "shopify_products": 442,
+   "new_products_30d": 42,
+   "price_p10_med_p90_inr": [
+    490,
+    1650,
+    5250
+   ],
+   "segment_skus": {
+    "madur": 26,
+    "table_mat": 9,
+    "runner": 9,
+    "tray": 21,
+    "diwali_tag": 39
+   },
+   "facebook_followers": 81977,
+   "amazon_in_results": 87,
+   "serp_hits": 2,
+   "ai_mentions": 2,
+   "reviews": "n/a (search returned other brands)"
+  },
+  "Kadam Haat": {
+   "domain": "kadamhaat.com",
+   "city": "Kolkata",
+   "shopify": true,
+   "shopify_products": 270,
+   "facebook_followers": 10052,
+   "amazon_in_results": 200,
+   "serp_hits": 1,
+   "ai_mentions": 2,
+   "notes": "Kolkata social enterprise, sabai, sitalpati, moonj, bamboo; also sold on Brown Living (https://brownliving.in/collections/kadam-haat); NGO partners HCL Foundation, HDFC Bank, Tata Realty (https://ich.unesco.org/en/accredited-ngos/kadam-01470)"
+  },
+  "Okhai": {
+   "domain": "okhai.org",
+   "shopify": true,
+   "shopify_products": ">=9603",
+   "new_products_30d": 157,
+   "segment_skus": {
+    "basket": 364,
+    "wall_plate": 61,
+    "madur": 61,
+    "sabai": 57,
+    "water_hyacinth": 39,
+    "kauna": 28,
+    "placemat": 69,
+    "runner": 88,
+    "tote": 48
+   },
+   "facebook_followers": 132461,
+   "amazon_in_results": 125,
+   "serp_hits": 0,
+   "ai_mentions": 0
+  },
+  "The India Craft House": {
+   "domain": "theindiacrafthouse.com",
+   "shopify": true,
+   "shopify_products": ">=3000",
+   "facebook_followers": 14699,
+   "serp_hits": 4,
+   "ai_mentions": 1
+  },
+  "Jaypore": {
+   "domain": "jaypore.com",
+   "shopify": false,
+   "facebook_followers": 456293,
+   "amazon_in_results": 4000,
+   "serp_hits": 0
+  },
+  "Ellementry": {
+   "domain": "ellementry.com",
+   "shopify": true,
+   "shopify_products": 1187,
+   "facebook_followers": 53943,
+   "amazon_in_results": 333
+  },
+  "Kottanz": {
+   "domain": "kottanz.com",
+   "shopify": false,
+   "facebook_followers": 111604,
+   "amazon_in_results": 83,
+   "ai_mentions": 1
+  },
+  "Sirohi": {
+   "domain": "sirohi.org",
+   "shopify": true,
+   "shopify_products": 486,
+   "new_products_60d": 0,
+   "segment_skus": {
+    "basket": 77,
+    "tray": 66,
+    "jute": 60,
+    "moonj": 20,
+    "trousseau": 10
+   },
+   "facebook_followers": 5054,
+   "amazon_in_results": 52
+  },
+  "BoxUp": {
+   "domain": "boxupgifting.com",
+   "shopify": true,
+   "shopify_products": 2005,
+   "segment_skus": {
+    "hamper": 360,
+    "diwali_tag": 178,
+    "wedding_tag": 66,
+    "corporate_tag": 41,
+    "basket": 42
+   },
+   "facebook_followers": 4508,
+   "amazon_in_results": 13
+  },
+  "The Knot Company": {
+   "domain": "theknotcompany.in",
+   "shopify": true,
+   "shopify_products": 485,
+   "new_products_60d": 1,
+   "segment_skus": {
+    "hamper": 129,
+    "corporate_tag": 50
+   },
+   "facebook_followers": 2715,
+   "amazon_in_results": 561
+  },
+  "FNP": {
+   "domain": "fnp.com",
+   "shopify": false,
+   "facebook_followers": 489684,
+   "b2b": "says ~500 organisations; names Reliance Jewels, JK Lakshmi, Accenture, Monster.com, Religare (https://www.passionateinmarketing.com/?p=521176)"
+  },
+  "IGP": {
+   "domain": "igp.com",
+   "shopify": false,
+   "facebook_followers": 565613
+  },
+  "Tribes India": {
+   "domain": "tribesindia.com",
+   "shopify": false,
+   "facebook_followers": 150026,
+   "ai_mentions": 1
+  },
+  "Dastkar / Indiahandmade": {
+   "domain": "indiahandmade.com",
+   "shopify": false,
+   "facebook_followers": 1578,
+   "amazon_in_results": 132,
+   "serp": "#1 for cane planters in this sample"
+  },
+  "Kavyatva": {
+   "domain": "kavyatva.com",
+   "shopify": false,
+   "facebook_followers": 74
+  },
+  "Gravitfy Studio": {
+   "domain": "gravitfystudio.com",
+   "shopify": false,
+   "facebook_followers": 4,
+   "ai_mentions": 1
+  },
+  "Farmley": {
+   "domain": "farmley.com",
+   "shopify": true,
+   "shopify_products": 37,
+   "facebook_followers": 23498,
+   "amazon_in_results": 562,
+   "amazon_brand_cards_p1": "60/60"
+  },
+  "Mr Makhana": {
+   "domain": "mrmakhana.com",
+   "shopify": true,
+   "shopify_products": 23,
+   "facebook_followers": 22872,
+   "amazon_in_results": 283
+  },
+  "Mithila Naturals": {
+   "domain": "mithilanaturals.com",
+   "shopify": false,
+   "facebook_followers": 3621,
+   "amazon_in_results": 289,
+   "ai_mentions": 1,
+   "note": "reported GI-certified Mithila makhana (https://merakisan.com/top-makhana-brands-in-india/)"
+  },
+  "Happilo": {
+   "domain": "happilo.com",
+   "shopify": true,
+   "amazon_in_results": 389,
+   "ai_mentions": 1
+  },
+  "Chau Foods": {
+   "ai_mentions": 3,
+   "note": "cited for makhana gift hamper, bulk makhana Kolkata and vrat makhana (seo/ai_visibility_log.json 22 Oct)"
+  },
+  "Universal Flockers": {
+   "segment": "jewellery packaging",
+   "source": "https://m.indiamart.com/universal-flockers",
+   "note": "since 1999; lists PC Jewellers, Tanishq, PP Jewellers, Kalyan Jewellers as clients; 3.9 from 47 reviews"
+  },
+  "Geetansh Luxpac": {
+   "segment": "jewellery and watch packaging",
+   "source": "https://m.indiamart.com/geethansh-luxpac",
+   "note": "30+ years; watch box from ₹350/pc"
+  },
+  "GrassCrafts (us)": {
+   "domain": "grasscrafts.com",
+   "shopify": true,
+   "shopify_products": 208,
+   "new_products_30d": 0,
+   "price_p10_med_p90_inr": [
+    390,
+    1199,
+    3800
+   ],
+   "facebook_followers": 2656,
+   "amazon_in_results": "3 (seller not verified)",
+   "serp_hits": 0,
+   "ai_mentions": "3/14 (22 Oct); 0/3 on today's re-ask"
+  }
+ },
+ "ai_reask_2026-10-22": [
+  {
+   "q": "Which brands sell handwoven natural fibre gift hamper baskets for corporate Diwali gifting in India?",
+   "brands": [
+    "Nestasia",
+    "Natural Fiber Crafts India",
+    "Karmakriti"
+   ],
+   "grasscrafts": false
+  },
+  {
+   "q": "Best place to buy handwoven table mats, runners and wall plates in India",
+   "brands": [
+    "Zishta",
+    "Maatir",
+    "Life n Colors",
+    "Gaatha",
+    "WoodenStreet"
+   ],
+   "grasscrafts": false
+  },
+  {
+   "q": "Best Indian brands for handmade sabai or kauna grass handbags and totes",
+   "brands": [
+    "The India Craft House",
+    "SigmaScott (GlobalLinker)"
+   ],
+   "grasscrafts": false
+  }
+ ],
+ "top5": [
+  "Nestasia",
+  "Brown Living",
+  "iTokri",
+  "Zishta",
+  "Kadam Haat"
+ ],
+ "top2_per_segment": {
+  "corporate_baskets": [
+   "Brown Living",
+   "Nestasia"
+  ],
+  "diwali_occasion_hampers": [
+   "Brown Living",
+   "Nestasia"
+  ],
+  "wedding_trousseau": [
+   "Nestasia",
+   "Kottanz"
+  ],
+  "jewellery_watch_boxes": [
+   "Universal Flockers",
+   "Geetansh Luxpac"
+  ],
+  "natural_fibre_home_decor": [
+   "Nestasia",
+   "Brown Living"
+  ],
+  "table_and_wall_decor": [
+   "iTokri",
+   "Zishta"
+  ],
+  "bags": [
+   "The India Craft House",
+   "Brown Living"
+  ],
+  "makhana": [
+   "Farmley",
+   "Chau Foods"
+  ]
+ },
+ "serp_queries_run": [
+  "eco friendly corporate gift hampers India bulk handmade",
+  "corporate gift baskets India",
+  "Diwali gift hampers online India 2026",
+  "eco friendly Diwali hamper basket handmade",
+  "wedding hamper basket India handmade buy online",
+  "trousseau packing baskets trays India",
+  "wedding return gifts handmade eco friendly India bulk",
+  "luxury jewellery box packaging manufacturer India diamond jewellers",
+  "luxury watch box packaging manufacturer India",
+  "sabai grass basket buy online",
+  "natural fibre storage baskets online India handwoven",
+  "cane planters online India",
+  "water hyacinth table mats placemats India",
+  "handmade decorative wall plates India natural fibre",
+  "sabai grass bag tote buy online India",
+  "kauna grass bag Manipur buy online",
+  "handmade straw handbag sitalpati bag brand India",
+  "buy plain makhana online India best brand",
+  "Mithila makhana brand online Lotus seeds GI tag"
+ ]
+}
