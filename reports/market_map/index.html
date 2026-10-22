@@ -1,0 +1,140 @@
+<title>GrassCrafts Market Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: phone-first single column; short verdict up top, then competitors, segment leaders, openings, opportunities, export, next 30 days. */
+:root{
+  --bg:#f5f6ef; --surface:#fff; --ink:#1d2419; --muted:#5d6655; --line:#dfe3d3;
+  --grass:#2f6b3a; --straw:#a87a1c; --us:#c9962c; --bar:#cfd8c2;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141812;--surface:#1d231a;--ink:#e7ecdf;--muted:#a3ac97;--line:#2e3729;--grass:#6fbf7c;--straw:#e0b552;--us:#e0b552;--bar:#3a4633;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141812;--surface:#1d231a;--ink:#e7ecdf;--muted:#a3ac97;--line:#2e3729;--grass:#6fbf7c;--straw:#e0b552;--us:#e0b552;--bar:#3a4633;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body)}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 56px;display:flex;flex-direction:column;gap:30px}
+h1{font:700 2rem/1.1 var(--display);margin:0 0 6px;text-wrap:balance}
+h2{font:600 1.3rem var(--display);margin:0 0 10px;text-wrap:balance}
+p{margin:0}
+.lead{color:var(--muted);max-width:62ch}
+.eyebrow{font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--straw);margin-bottom:6px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.verdict{border-left:4px solid var(--grass)}
+.rank{display:flex;flex-direction:column;gap:10px}
+.r{display:grid;grid-template-columns:1.6rem 1fr 3rem;gap:10px;align-items:center}
+.r .n{font:500 .85rem var(--mono);color:var(--muted)}
+.r .name{font-weight:600}
+.r .why{color:var(--muted);font-size:.9rem;grid-column:2/4}
+.track{height:8px;background:var(--line);border-radius:4px;overflow:hidden;grid-column:2/3}
+.fill{height:100%;background:var(--bar)}
+.r.us .fill{background:var(--us)} .r.us .name{color:var(--us)}
+.r .score{font:500 .9rem var(--mono);text-align:right;font-variant-numeric:tabular-nums;grid-row:1;grid-column:3}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.93rem;min-width:480px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .72rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.pill{display:inline-block;font:500 .72rem var(--mono);padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+ol,ul{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:8px}
+.s{font:500 .8rem var(--mono);color:var(--grass);font-variant-numeric:tabular-nums}
+.note{font-size:.88rem;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Research · 22 Oct 2026</div>
+    <h1>Where GrassCrafts can win</h1>
+    <p class="lead">Top competitors across eight segments, the openings they leave, new markets and export countries, and what to do in the next 30 days.</p>
+  </header>
+
+  <div class="card verdict">
+    <div class="eyebrow">The short answer</div>
+    <p>The market leaders are mostly <strong>resellers</strong> with big catalogues and weak reviews. GrassCrafts is a <strong>maker</strong>, already the 3rd most-named brand in AI answers, but almost invisible in Google search. The fastest share gains are in <strong>jewellery and watch boxes</strong>, <strong>basket pages for Diwali, wedding and corporate searches</strong>, and <strong>wall plates and water hyacinth mats</strong>, where competitors are thin or overpriced.</p>
+  </div>
+
+  <section>
+    <h2>Top 5 competitors (and us)</h2>
+    <p class="note" style="margin-bottom:12px">Score out of 9: search presence, AI-answer mentions, social reach, catalogue and marketplace footprint, segment overlap.</p>
+    <div class="card rank">
+      <div class="r"><span class="n">1</span><span class="name">Nestasia</span><span class="score">7.6</span><div class="track"><div class="fill" style="width:84%"></div></div><span class="why">Most search appearances (wedding hampers, Sabai, Diwali). 14,750+ products, 195k Facebook followers. Trustpilot 3.5.</span></div>
+      <div class="r"><span class="n">2</span><span class="name">Brown Living</span><span class="score">6.5</span><div class="track"><div class="fill" style="width:72%"></div></div><span class="why">Owns eco corporate and eco Diwali hamper searches. Most cited by AI for Sabai and Kauna. Trustpilot about 3, delivery complaints.</span></div>
+      <div class="r"><span class="n">3</span><span class="name">iTokri</span><span class="score">5.4</span><div class="track"><div class="fill" style="width:60%"></div></div><span class="why">Leads water hyacinth mats and Sitalpati bags. 15,000+ products, 228k Facebook followers. Trustpilot 4.5.</span></div>
+      <div class="r"><span class="n">4</span><span class="name">Zishta</span><span class="score">4.3</span><div class="track"><div class="fill" style="width:48%"></div></div><span class="why">First in AI answers for table mats and runners; madur mats ₹1,030–1,350. 82k Facebook followers.</span></div>
+      <div class="r us"><span class="n">–</span><span class="name">GrassCrafts</span><span class="score">4.2</span><div class="track"><div class="fill" style="width:47%"></div></div><span class="why">Covers all 8 segments and is 3rd most-cited by AI, but never appeared in the Google search sample.</span></div>
+      <div class="r"><span class="n">5</span><span class="name">Kadam Haat (Kolkata)</span><span class="score">3.9</span><div class="track"><div class="fill" style="width:43%"></div></div><span class="why">Closest like-for-like rival (Sabai, Sitalpati, moonj); also sold through Brown Living.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Segment leaders</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Segment</th><th>#1</th><th>#2</th></tr></thead>
+      <tbody>
+        <tr><td>Corporate gifting baskets</td><td>Brown Living</td><td>Nestasia</td></tr>
+        <tr><td>Diwali and occasion hampers</td><td>Brown Living</td><td>Nestasia</td></tr>
+        <tr><td>Wedding and trousseau</td><td>Nestasia</td><td>Kottanz</td></tr>
+        <tr><td>Jewellery and watch boxes</td><td>Universal Flockers</td><td>Geetansh Luxpac</td></tr>
+        <tr><td>Natural-fibre home decor</td><td>Nestasia</td><td>Brown Living</td></tr>
+        <tr><td>Table and wall decor</td><td>iTokri</td><td>Zishta</td></tr>
+        <tr><td>Handmade bags</td><td>The India Craft House</td><td>Brown Living</td></tr>
+        <tr><td>Makhana</td><td>Farmley</td><td>Chau Foods</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note" style="margin-top:8px">Jewellery and watch box leaders are board and leatherette box makers, not natural-fibre brands.</p>
+  </section>
+
+  <section>
+    <h2>Three openings competitors leave</h2>
+    <div class="grid">
+      <div class="card"><span class="pill">Packaging</span><strong>Jewellery and watch boxes</strong><p class="note">No natural-fibre maker shows up in search or AI answers, and we are already AI-cited for "handwoven jewellery boxes bulk". Box makers publish their jeweller clients (Tanishq, Kalyan, PC Jewellers), who are our target buyers.</p></div>
+      <div class="card"><span class="pill">SEO</span><strong>Basket searches for Diwali, weddings and corporate gifts</strong><p class="note">Held by resellers with cotton-yarn or kraft products. A maker-direct Sabai or Kauna basket page with real dimensions and a "from ₹" price can take these.</p></div>
+      <div class="card"><span class="pill">Price</span><strong>Wall plates and water hyacinth mats</strong><p class="note">All top wall-plate results are one seller. iTokri's water hyacinth mats cost ₹2,000+; ours are ₹250–480, with a live 500-mat corporate enquiry.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Top 10 new opportunities</h2>
+    <ol>
+      <li><span class="s">22/25</span> <strong>Year-end and New Year corporate eco gifting:</strong> hampers and placemats. Pitch by 7 Nov.</li>
+      <li><span class="s">22/25</span> <strong>Wedding return gifts at ₹150–500</strong>, filled with makhana. Competitors use candles and brass.</li>
+      <li><span class="s">21/25</span> <strong>Plastic-free gift packaging for D2C tea, beauty and food brands</strong>, timed for Valentine's, Holi and Eid.</li>
+      <li><span class="s">20/25</span> <strong>Room amenity sets for eco hotels and villas.</strong> About 161,000 branded rooms in the pipeline.</li>
+      <li><span class="s">18/25</span> <strong>EU basket importers (Netherlands, Germany).</strong> Ambiente fair 29 Jan – 2 Feb.</li>
+      <li><span class="s">18/25</span> <strong>UK:</strong> zero import duty on handicrafts since 15 Jul 2026.</li>
+      <li><span class="s">17/25</span> <strong>Amazon Global Selling (US) and Etsy:</strong> lower US tariff for India than China or Vietnam.</li>
+      <li><span class="s">17/25</span> <strong>GeM, Biswa Bangla, Kolkata airport duty-free and museum shops</strong>, led by the Madurkathi GI story.</li>
+      <li><span class="s">17/25</span> <strong>Festival gift boxes beyond Diwali</strong> for brands on quick commerce.</li>
+      <li><span class="s">16/25</span> <strong>Makhana to the UAE, US and Canada.</strong> Gulfood fair 15–19 Mar 2027.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Export countries to start with</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Country</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>USA</td><td>Largest basket importer ($593m). Amazon Global and Etsy route.</td></tr>
+        <tr><td>Germany</td><td>Basket imports $152m. Ambiente fair.</td></tr>
+        <tr><td>UK</td><td>Basket imports $83m. Zero duty on handicrafts.</td></tr>
+        <tr><td>Netherlands</td><td>Live buyer request for 200–500 baskets of each type.</td></tr>
+        <tr><td>UAE</td><td>17% of India's makhana exports, plus basket requests.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note" style="margin-top:8px">First steps: export registration (IEC), EPCH or APEDA membership, FOB/CIF price list. US FDA registration for makhana renews by 31 Dec.</p>
+  </section>
+
+  <section>
+    <h2>Next 30 days</h2>
+    <ul>
+      <li><strong>Sristi:</strong> add trade prices and MOQ to the catalogue. Every B2B move below waits on it.</li>
+      <li><strong>Agents:</strong> send the year-end corporate pitch before 7 Nov, and pitch the wedding return-gift tier to planners.</li>
+      <li><strong>Website agent:</strong> build maker-direct landing pages for "jewellery box", "Diwali hamper basket", "wedding hamper basket" and "corporate gift basket", with dimensions and "from ₹" prices.</li>
+      <li><strong>Email agent:</strong> pitch jewellers and watch retailers on handwoven boxes, using the box makers' published client lists.</li>
+      <li><strong>Owner:</strong> reply to the Netherlands and UAE buyer requests, and start the IEC and EPCH registrations.</li>
+      <li><strong>Meta ads (when checkout is ready):</strong> interest audiences for sustainable living, Indian weddings, corporate gifting and home decor in metros, plus retargeting of site visitors. Angles: "maker, not reseller", "handwoven in Bengal", "plastic-free gifting".</li>
+    </ul>
+  </section>
+
+  <p class="note">Sources and full tables: reports/competitor_study_2026-10-22.md and reports/opportunities_trends_export_2026-10-22.md in the repo. Search presence is estimated from 25 web searches; Instagram, Pinterest and LinkedIn counts and ad activity could not be verified this time. Check a figure at its source before quoting it to a buyer.</p>
+</div>
