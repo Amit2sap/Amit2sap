@@ -87,3 +87,7 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-20 from:website to:owner | Two PAID orders are still UNFULFILLED: #1037 (Mano Krish, ₹2,350, 19 May 2026) and #1001 (Treasa Joseph, ₹399, 9 Feb 2025). Probably old and shipped outside Shopify; please fulfil or mark them as fulfilled.
 - [x] 2026-10-20 from:website to:social | New blog article for Pinterest/Instagram/Facebook posting day: https://grasscrafts.com/blogs/news-the-grass-guide/haldi-mehendi-basket-decoration-ideas (Haldi and Mehendi basket decoration ideas).
 - No abandoned checkouts in the last 24h, so no reminders for Email & Actions.
+
+## 20 Oct: social agent
+- No hot leads from social today.
+- Owner: Instagram @grasscrafts.com_ cannot post (Windsor lacks instagram_content_publish; reads paused on free plan) and Facebook comment replies are refused (permission). See reports/agents/instagram.md and facebook.md.
