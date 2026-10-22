@@ -27,3 +27,12 @@ Group 0 (corporate, wedding, hotels, real_estate), run one segment after another
 - 2026-10-20 hotels: 9 leads. Best: The Leela Jaisalmer (opens Dec 2026; GM Abhissek Basu, Hunter-valid). Also Bookmark Cheetahgarh Jawai, Azalea Goa, juSTa Monsoon Palace and Wyndham Garden Udaipur (all opened Oct 2026), Rosetta Sakleshpur (new GM).
 - 2026-10-20 real_estate: 9 leads. Best: Puravankara (Purva Zenium Phase 2 completing Oct 2026; crm@). Also GHR Infra (1,190-home handovers), Rustomjee Urbania towers done; new CRM heads at Adarsh, Bhumika, Mayfair, ANHAD.
 - Blockers: direct page fetch is blocked (proxy 403 / DNS), so contacts come from search-indexed page text only. Exa hides Cloudflare-protected emails ("[email protected]"), so those leads were left out. Generic info@/sales@ inboxes make up most of the contacts.
+
+## 2026-10-21
+Group 1 run, segments done one after another. Hunter day = diamond_jewellery: 1 domain search + 1 verification used (lucirajewelry.com); quota before use 29 searches / 59 verifications, resets 16 Nov. No competitor watch (not Monday). Composio web_search answers dropped or invented details, so every signal was re-checked with WebSearch and every contact taken from the company's own site.
+
+- diamond_jewellery: 8 leads. Best: Lucira Jewelry (7th store, Malleshwaram, 10 Oct; 20+ stores planned). Ananya Verma, Executive Merchandiser, Hunter-valid. Also PNG Jewellers, Thangamayil, Palmonas, ORRA, Tamannaah Fine Jewellery, Firefly, Limelight. Skipped KISNA and Lalithaa (already in sent_log).
+- cane_planters: 6 leads. Best: UrbanWrk (2nd Hyderabad centre, 85,000 sq ft, 22 Sep). Also The Hazelnut Factory (named contact on own site), MyBranch, Beanlore, The Executive Centre Gurugram, WeWork India. Note: MyBranch and Beanlore have a phone number only.
+- sustainable_decor: 6 leads. Best: The Artment (Rs 10 Cr raise, co-founder Aditya Agarwal's email on own site). Also Verdlo (0% commission for founding brands), Wibhoo, Sokka Tableware, Neytt, Vedas Homes (WhatsApp only).
+- wellness: 3 leads. Best: Jeena Sikho Lifecare (new hospitals and Panchakarma clinics in pipeline). Also Trē Wellness and Kapiva Ayurveda Clinics.
+- Blockers: no tool refused. Dropped for lack of a sourced contact: Vysyaraju Jewellers, CMR Jewellery, P-TAL, Vojara (email not verifiable), Activ8 Pilates, Smartworks. WebFetch could not resolve some hosts (DNS), so the workbench was used to fetch pages.
