@@ -91,3 +91,7 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 ## 20 Oct: social agent
 - No hot leads from social today.
 - Owner: Instagram @grasscrafts.com_ cannot post (Windsor lacks instagram_content_publish; reads paused on free plan) and Facebook comment replies are refused (permission). See reports/agents/instagram.md and facebook.md.
+
+## 20 Oct: lead_research
+- [ ] 2026-10-20 from:lead_research to:email_actions | Hot opportunity (personal email): The Leela Jaisalmer opens Dec 2026. GM Abhissek Basu, abhissek.basu@theleela.com (Hunter-valid). Pitch room amenities (laundry baskets, tissue box covers, cane trays, Madurkathi mats). Lead is in outreach/leads/hotels.json.
+- [ ] 2026-10-20 from:lead_research to:email_actions | Aarunya Club & Convention by Tivoli (Greater Noida) opens 15 Nov: reservations@thetivolihotels.com (wedding.json).

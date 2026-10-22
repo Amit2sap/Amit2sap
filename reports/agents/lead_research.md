@@ -19,3 +19,11 @@ Segment agents ran in parallel. Hunter belonged to corporate today: 1 search and
   - web_search drops source URLs unless the query asks for them; COMPOSIO_SEARCH_EXA_ANSWER returns them.
   - A rate-limit pause from 03:4x to 05:10 UTC interrupted the run; all agents resumed and finished.
 - Revisit after 21 Oct (Kolkata, skipped for Puja week): Virachi (ethnic wear), Srijan Realty (real estate), Golden Tips Tea (gourmet), Seiko Kolkata salon (luxury watches).
+
+## 2026-10-20
+Group 0 (corporate, wedding, hotels, real_estate), run one segment after another (finished 22 Oct UTC). Hunter belonged to hotels today: 1 search + 1 verification used (27 searches, 55 verifications left; resets 16 Nov). Source: Composio EXA answer (cited URLs) in the workbench, with unique variable names. No competitor watch (not Monday). Kolkata/WB prospects skipped (Puja week): CYC Events, Summit Falling Water Darjeeling, Rishi Pranaya.
+- 2026-10-20 corporate: 9 leads. Best: Consortium Gifts (EcoVadis Gold Sept 2026; MD Gaurav Bhagat). Also GIVOO (bulk-gifting platform launched 15 Oct), Bigsmall Corporate (vendor-partnership page), Weavehand (bamboo-basket hampers). The Good Road skipped (already in sent_log).
+- 2026-10-20 wedding: 9 leads. Best: Aarunya Club & Convention by Tivoli, Greater Noida (opens 15 Nov, peak season). Also Poonam Mayank Sharma (expanding, Oct 2026) and trousseau packers Grace, DOTTEDi, Weddings & Marigolds. Shaandaar Events skipped (sales@ already in sent_log).
+- 2026-10-20 hotels: 9 leads. Best: The Leela Jaisalmer (opens Dec 2026; GM Abhissek Basu, Hunter-valid). Also Bookmark Cheetahgarh Jawai, Azalea Goa, juSTa Monsoon Palace and Wyndham Garden Udaipur (all opened Oct 2026), Rosetta Sakleshpur (new GM).
+- 2026-10-20 real_estate: 9 leads. Best: Puravankara (Purva Zenium Phase 2 completing Oct 2026; crm@). Also GHR Infra (1,190-home handovers), Rustomjee Urbania towers done; new CRM heads at Adarsh, Bhumika, Mayfair, ANHAD.
+- Blockers: direct page fetch is blocked (proxy 403 / DNS), so contacts come from search-indexed page text only. Exa hides Cloudflare-protected emails ("[email protected]"), so those leads were left out. Generic info@/sales@ inboxes make up most of the contacts.
