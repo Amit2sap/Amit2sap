@@ -79,3 +79,6 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 
 ## 21 Oct: Google Business agent
 - [ ] 2026-10-21 from:google_business to:owner | OWNER ALERT (blocker): Zapier monthly task limit is still reached. Google Business reviews, pending edits and 20 Oct post status could not be checked today. Please raise or reset the Zapier plan, or check new reviews and the 20 Oct posts in the Google Business app. Old posts 2927915436701370500 and 2277602207260524481 are still undeleted.
+
+## 20 Oct: google_business
+- [ ] 2026-10-20 from:google_business to:owner | Zapier task limit still reached: new Google reviews are not being replied to, the 2 old main posts (2927915436701370500, 2277602207260524481) are not deleted, and the Makhana listing could not get its weekly post (18 Oct post was rejected). Raise the Zapier plan or wait for the reset; or connect the Makhana location (locations/12224672824102233760) in Windsor.

@@ -24,3 +24,10 @@
 - Not done: reviews on both listings, pending edits, post status. No posts due (off day), no Monday tasks.
 - Still open from 18 Oct: delete old posts 2927915436701370500 and 2277602207260524481; repost Makhana Diwali post without WhatsApp number.
 - No review data seen, so no 1-3 star alert from this run.
+
+## 2026-10-20 (daily run, posting day 1, Tuesday)
+- **Reviews / pending edits:** BLOCKED. Zapier returned "Task limits for this account have been reached" on both review GETs (and so no location GET). No review replies and no pending-edit check today. Windsor was used only for creating the post, as instructed.
+- **Main post (Diwali 8 Nov, within 21 days):** localPosts/940114025326787285 (state PROCESSING via Windsor create_local_post). "Handwoven Sabai grass gift box, Kolkata - Rs 750", SHOP -> /products/storage-box, Shopify featured image. No phone number in text.
+- **Makhana post:** NOT posted. Windsor google_my_business exposes only the main location (7612515921482745833), and Zapier is limit-blocked. The 18 Oct rejected Makhana post (7834306535527080087) is not yet replaced.
+- **Not Monday:** no performance pull or competitor watch.
+- **Blockers:** Zapier task limit (reviews, Makhana post, 2 old posts still to delete); Windsor has no Makhana location.
