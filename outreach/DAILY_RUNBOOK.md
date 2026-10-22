@@ -46,11 +46,25 @@ Within the same run:
 
 ## 2. Follow-ups (weekdays)
 - First email with no human reply after 5 business days: one short follow-up in the same thread (no attachment), naming the next occasion from the playbook calendar.
-- Still nothing 7 days later: a second, final follow-up offering 2–3 samples. Then stop for good.
+- Still nothing 7 days later: a second, final, short follow-up (no sample offer; samples are Sristi's decision). Then stop for good.
 - Never follow up on bounced, "no thanks", or auto-closed support-ticket addresses (care@, support@, customercare@): send to the address they pointed to instead, or skip.
 
 ## 3. New outreach (weekdays)
-- 150 per day total from the personal Gmail (do not exceed ~200).
+- **Volume (owner, 22 Oct 2026):** at most **100 NEW emails a day**, the best 100 available. They must be verified and authentic, so that the Gmail account isn't flagged as spam. Follow-ups count toward the same 100. Replies to people who wrote to us are not capped: always answer real responses the same day.
+- **Who qualifies.** Each new address must meet all of these:
+  - published on the company's own website, or found by Hunter with status "valid";
+  - not "accept_all" or "unknown" unless the address is on the company's own site;
+  - not in `sent` or `do_not_send`;
+  - the company has a current buying signal or a clear fit with the segment.
+  
+  Skip anything uncertain: a smaller, better list beats a full one.
+- **Ranking.** Fill the 100 in this order:
+  1. today's "new" leads with a named decision-maker;
+  2. other "new" leads;
+  3. the strongest verified info@ or sales@ addresses in the segment mix.
+  
+  Never pad the list to reach 100.
+- **Daily guard:** before sending, count today's Gmail Sent. Total outbound (new emails plus follow-ups) stays at or below 100. Replies are extra.
 - Up to 20 personal emails to named decision-makers (playbook section 1 roles), found via Hunter.io domain search or the company site, verified (Hunter verifier or SMTP RCPT check). One personal email each.
 - **Leads first.** Email the `status: "new"` leads in `outreach/leads/*.json`, found by the Lead Research segment agents that morning, before any generic address.
   - Use the personal-email rule for named contacts.
