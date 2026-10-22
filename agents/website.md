@@ -89,3 +89,5 @@
 **Theme copies (added 18 Oct):** after themeDuplicate, wait until `theme.processing` is false before any themeFilesUpsert. Edits made while it is still copying get overwritten (this happened to llms.txt on 18 Oct). Then compare file lists.
 
 **Unfulfilled-order check (22 Oct 2026):** count only open, not-cancelled orders (`status:open -status:cancelled fulfillment_status:unfulfilled`). #1001 and #1037 were cancelled in Feb 2025 and May 2026 and are now archived; don't flag them again.
+
+**GST / Charge tax (22 Oct 2026):** New products must have Charge tax switched off (owner, 22 Oct: GrassCrafts charges no GST). Set `taxable: false` on every variant when creating or duplicating a product, and check `productVariants(query:"taxable:true")` returns 0 after any product import.

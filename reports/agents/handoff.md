@@ -136,3 +136,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 23 Oct (Email & Actions): send the 7 backlink pitch drafts already in Gmail Drafts (Suspire, UpcycleLuxe, Tapwell, BoxNBond, AIACA, The Giving Tree, Taalapatra; list in seo/citation_targets.json, status draft_ready_not_sent). They are owner-approved. Send each draft as it is, count them in the day's cap, log them in sent_log.json and mark them sent in citation_targets.json. Do not re-send if one has already gone out.
 
 - [x] 22 Oct: Instagram is connected in Composio as @grasscrafts.com_ (instagram_basoid-oer). The Instagram blocker is cleared.
+
+- [x] 2026-10-22 from:checkout to:owner | GST removed at checkout (owner: no GST on any product). "Charge tax" switched off on all 173 taxable variants (39 products); 0 of 539 variants now taxable. Verified: fridge cover ₹750 + Kaziranga planter ₹1,150 to Delhi = tax ₹0, total ₹1,900. Shipping is not taxed. Optional owner check: Settings > Taxes and duties > India (GST collection and any tax overrides). New products: untick "Charge tax". Details: reports/checkout_fixes_2026-10-22.md section 3.

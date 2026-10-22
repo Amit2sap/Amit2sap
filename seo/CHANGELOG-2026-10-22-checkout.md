@@ -34,3 +34,18 @@ The Admin API cannot change Shop.taxesIncluded (read-only; no mutation). Current
 Margin tables and the two options are in reports/checkout_fixes_2026-10-22.md.
 
 No products, prices, inventory, discounts, apps, payments or theme touched.
+
+## 4. All product variants set to not taxable (CHANGED, owner: "We don't charge GST or any tax on any product", 22 Oct)
+Before: 173 of 539 variants had taxable=true (39 products), so Shopify added 18% IGST at checkout on them.
+Backup (product id, handle, variant id, title, taxable before): backups/checkout/taxable_variants_before_2026-10-22.json.
+Change: productVariantsBulkUpdate per product with variants [{id, taxable: false}] only. 39 products, 173 variants, 0 userErrors, no retries needed. Nothing else changed (prices, inventory, titles, SKUs, tax codes untouched).
+Verified: productVariants(query:"taxable:true") returns 0; nodes() re-read of all 173 IDs shows taxable=false.
+draftOrderCalculate (nothing saved): Madurkathi Fridge Top Cover Red ₹750 + Handwoven Cane Planters Kaziranga/Small ₹1,150, ship to New Delhi DL 110001: subtotal ₹1,900, totalTax ₹0, taxLines [], shipping Free ₹0, total ₹1,900.
+Shop settings read: taxesIncluded=false, taxShipping=false (shipping not taxed). Not changeable by API: India GST collection/registration and per-product/collection tax overrides (owner check: Settings > Taxes and duties > India).
+
+Undo (only if the owner asks): for each product in the backup, run
+  productVariantsBulkUpdate(productId: "<product_id>", variants: [{id: "<variant_id>", taxable: true}, ...])
+using the product_id/variant_id pairs in backups/checkout/taxable_variants_before_2026-10-22.json (only those 173 variants were taxable before; leave all others false).
+Or in admin: Products > open product > variant > Pricing > tick "Charge tax on this variant" > Save.
+
+No prices, inventory, discounts, apps, payments or theme touched.
