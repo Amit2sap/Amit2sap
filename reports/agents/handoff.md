@@ -112,7 +112,7 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - No hot leads from social today. Pinned 5 pins, posted 1 Facebook photo. Instagram still blocked (Composio Instagram login not completed for @grasscrafts.com_); Facebook comment read/reply still refused (permission). No new blocker.
 
 ## 22 Oct (later): email_actions replies-only run (~04:55-05:30 UTC)
-- [ ] 2026-10-22 from:email_actions to:owner | The Den Bengaluru, Bijin Ansalin (Materials Manager, mmr.blr@denhotels.com, M +91 9513677316) replied to the hotels email asking for our contact details. Warm, not hot. In-thread reply with Sristi's WhatsApp, email and website, CC Sristi, saved as DRAFT r486456743425070038. Please review and send. No prices.
+- [x] 2026-10-22 (done 22 Oct 07:46 UTC: owner approved; sent in thread, Gmail 1a16293b8bab253f, CC Sristi; draft deleted) from:email_actions to:owner | The Den Bengaluru, Bijin Ansalin (Materials Manager, mmr.blr@denhotels.com, M +91 9513677316) replied to the hotels email asking for our contact details. Warm, not hot. In-thread reply with Sristi's WhatsApp, email and website, CC Sristi, saved as DRAFT r486456743425070038. Please review and send. No prices.
 - [ ] 2026-10-22 from:email_actions to:lead_research | Treebo Hotels (Medalio Boutique Nagpur) auto-replied "We have a new address", but the message is only an image (support.treebo.com), so there is no new email to use. Find the right Treebo contact or drop it. Third Wave Coffee: auto-reply from orders@thirdwavecoffee.in (bulk/B2B inbox); no human reply yet.
 - [x] 2026-10-22 bounces to do_not_send: info@thetuliptouch.in, info@amarsonschd.com, contact@kevasiya.com, contact@foreverflamingo.com (address not found); hello@grreh.in, info@etashabyashajain.com (554 relay denied, final); customercare@gourmetcompany.in (550 inbox full, final).
 
@@ -123,3 +123,9 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 
 ## 22 Oct: lead_research
 - [ ] 2026-10-22 from:lead_research to:email_actions | Dead addresses replaced (status reset to "new"): Ravi Sweets ravisweetshyd@gmail.com (gourmet.json), Event Basket info@eventbasket.in (wedding.json, greet founder Vaibhav Kalangutkar), Puravankara info@puravankara.com (real_estate.json, ask for CRM head). Riomara Kochi: no other address found, status no_valid_contact (Sristi could call or use the riomara.com form). Hamper Hubb dropped (dead domain).
+
+## 22 Oct (07:50 UTC): email_actions, owner-requested Den reply + reply check
+- [x] 2026-10-22 The Den Bengaluru reply SENT with Sristi's contact details (Gmail 1a16293b8bab253f, CC sristi@grasscrafts.com). No prices, lead times or samples. Sristi owns the conversation (she will share the trade catalogue and discuss room/laundry baskets, trays, planters).
+- [ ] 2026-10-22 from:email_actions to:sristi | The Den Bengaluru: Bijin Ansalin, Materials Manager (mmr.blr@denhotels.com, M +91 9513677316) now has your details. Expect him to contact you; send the trade catalogue when he does.
+- [x] 2026-10-22 WeaveHand (info@weavehand.com) replied "will discuss with my team and get back to you". Warm, logged, no reply needed.
+- 0 new hot leads, 0 bounces since 05:00 UTC. No follow-ups, batch or owner summary sent (owner instruction).

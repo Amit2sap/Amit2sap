@@ -50,3 +50,12 @@
 - **Drafts needing an owner decision:** Den Bengaluru reply (r486456743425070038). The earlier Sustainable Jungle draft (r2171400134877226938) is still open.
 - **Ignored:** a guest-post pitch (Teresa Palmer, darkchocolateimports.com).
 - **Blockers:** none. Gmail tools worked; WhatsApp was not needed.
+
+## 2026-10-22 owner request: The Den reply + reply check (~07:40-07:50 UTC)
+- **The Den Bengaluru (owner approved):** Gmail Sent checked first; no earlier reply to mmr.blr@denhotels.com. Draft r486456743425070038 was rewritten (Sristi Dey, Founder: sristi@grasscrafts.com, +91 62907 44782 as recorded in DAILY_RUNBOOK.md, https://grasscrafts.com; one line saying Sristi will share the trade catalogue and discuss room baskets, laundry baskets, trays and planters directly). No prices, discounts, lead times or samples. Updating the draft removed its In-Reply-To/References headers, so the same text was sent with GMAIL_REPLY_TO_THREAD in thread 1a1617bd4d78d8e4 (keeps threading), To mmr.blr@denhotels.com, CC sristi@grasscrafts.com: **Gmail 1a16293b8bab253f** (07:46 UTC). The stale draft was deleted so it cannot be sent twice. warm_leads stage is now "warm - with Sristi".
+- **Replies since 05:00 UTC (6 inbound):** 1 new human reply, 0 bounces, the rest promotions/spam.
+  - WeaveHand (info@weavehand.com, 07:34 UTC): "will discuss with my team and get back to you soon". Non-urgent, no ask; no reply sent; logged as warm.
+  - Teresa Palmer (darkchocolateimports.com) guest-post pitch: already logged and ignored.
+- **Urgent / hot leads: 0.** No brief to Sristi and no WhatsApp owner_alert (none needed; Upahaar was already handed off).
+- **Not done (per owner):** no follow-ups, no new batch, no owner summary.
+- **Owner decisions still open:** Sustainable Jungle draft (r2171400134877226938); Gift Expert Ideas listing of 77 products.

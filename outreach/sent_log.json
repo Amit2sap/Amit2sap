@@ -561,14 +561,21 @@
    "contact": "mmr.blr@denhotels.com",
    "name": "Bijin Ansalin, Materials Manager",
    "phone": "D +91 8071117316 / M +91 9513677316 (his signature)",
-   "status": "22 Oct: cold email (hotels) to reservations@denhotels.com; 05:04 UTC Materials Manager replied asking for our contact details. In-thread reply with Sristi's contact details saved as DRAFT r486456743425070038 (CC Sristi), not sent. Warm, not hot (no price/quote/sample ask yet).",
-   "stage": "warm"
+   "status": "22 Oct: cold email (hotels) to reservations@denhotels.com; 05:04 UTC Materials Manager replied asking for our contact details. In-thread reply with Sristi's contact details saved as DRAFT r486456743425070038 (CC Sristi), not sent. Warm, not hot (no price/quote/sample ask yet). 22 Oct 07:46 UTC: owner approved; reply SENT in thread (Gmail 1a16293b8bab253f), To mmr.blr@denhotels.com, CC sristi@grasscrafts.com, giving Sristi Dey (Founder) sristi@grasscrafts.com, +91 62907 44782, https://grasscrafts.com; Sristi to share trade catalogue and discuss room/laundry baskets, trays, planters directly. No prices, lead times or samples. Draft r486456743425070038 deleted (replaced by the sent reply). Sristi owns the conversation.",
+   "stage": "warm - with Sristi"
   },
   {
    "company": "The Leela Jaisalmer",
    "contact": "abhissek.basu@theleela.com",
    "name": "Abhissek Basu, General Manager",
    "status": "22 Oct: personal email; 03:47 UTC GM replied 'Thank you for reaching out' (courtesy only). No reply needed; keep for normal follow-up.",
+   "stage": "warm"
+  },
+  {
+   "company": "WeaveHand",
+   "contact": "info@weavehand.com",
+   "name": "Team WeaveHand",
+   "status": "22 Oct: cold email (corporate, 02:37 UTC); 07:34 UTC replied 'Thank you for sharing your catalogue. I'll discuss this with my team and get back to you soon.' Non-urgent, no ask; no reply sent. Keep for normal follow-up timing.",
    "stage": "warm"
   }
  ],
