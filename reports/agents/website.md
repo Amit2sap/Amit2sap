@@ -13,3 +13,4 @@
 - Unfulfilled over 5 days: #1037 (19 May) and #1001 (Feb 2025), both paid; owner alert in handoff.
 - Blog Engine: published "Haldi and Mehendi Basket Decoration Ideas" (topic ticked). Live check passed. Collection Guides line deferred (needs 48h notice). Handed to social.
 - AI-visibility check skipped (AI Search agent owns it). No change proposal or theme work today. Blockers: none.
+- 2026-10-22: Blog featured images + alt text added to 4 new articles (Diwali corporate gifts, material comparison, madur mat guide, wedding return gifts); 1 body image inserted in Haldi/Mehendi article; bulk-hamper guide already OK. All 200 live. See seo/CHANGELOG-2026-10-22-blog-images.md
