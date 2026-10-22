@@ -75,3 +75,10 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
 - **AI Search agent** (agents/ai_search.md): weekly, Thursdays 13:47 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
 - **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): Mon/Wed/Fri at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
+
+**Windsor.ai is retired (owner, 22 Oct 2026).** The owner is removing every Windsor connection. Agents must not use Windsor tools for anything. Instead use:
+- Instagram: Composio, @grasscrafts.com_ (instagram_basoid-oer)
+- Facebook, Pinterest, Search Console and GA4: Composio
+- Google Business: Pipedream, in the new session, once it is connected
+
+If a playbook below still mentions Windsor, ignore that line.
