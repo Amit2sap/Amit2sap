@@ -157,3 +157,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
   3. Abandoned-checkout email: https://admin.shopify.com/store/605e40-ba/marketing/automations. Turn on "Abandoned checkout".
   
   After these, the Website agent checks the Merchant Center product feed and reads Clarity insights weekly.
+
+- 22 Oct 2026 (Trade catalogue): Sristi: fill Trade price and MOQ in the catalogue: https://moda.app/canvas/fd4e7f19-06ab-451f-b3e1-4e40c99010cb (16 pages, 55 products; product list in sales/catalogue/catalogue_products_2026-10-22.csv). Re-export PPTX/PDF from Moda after filling; the agent's export links (PPTX https://assets-cdn.moda.app/mcp-exports/fd4e7f19-06ab-451f-b3e1-4e40c99010cb/vcrdt-6f7c623df1d6659d76ffb10582c76dc3/pptx-r2-f0-w1-all.pptx?Expires=1824199905&KeyName=mpwa&Signature=V0DiqQfx0nnFmNCfcmJP_1Yca2k , PDF https://assets-cdn.moda.app/mcp-exports/fd4e7f19-06ab-451f-b3e1-4e40c99010cb/vcrdt-6f7c623df1d6659d76ffb10582c76dc3/pdf-r3-f0-w1-all.pdf?Expires=1824199932&KeyName=mpwa&Signature=khf-Lcv09GO4V0cqUSOyd1he3eE) are the blank-price version; the container could not download them (assets-cdn.moda.app blocked by the egress proxy).
