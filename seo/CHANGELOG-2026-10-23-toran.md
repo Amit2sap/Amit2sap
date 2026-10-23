@@ -14,3 +14,4 @@ Verified in preview: no Liquid errors, add-to-cart works, llms.txt 200 with the 
 
 ## Images replaced (23 Oct, owner request)
 Deleted the 4 styled cards from the product. Added 3 lifestyle composites (Gemini-generated room + real product cut-out, product unchanged): red at carved door (now main image), red at puja mandir, yellow at haldi entrance. The 4 original product photos stay. Undo: delete media 46655080497325/530093/562861 and re-add media/toran/lifestyle/toran-card-*.jpg.
+- Owner published theme 189623959725 (toran + llms 23 Oct). Undo: publish 189621403821.

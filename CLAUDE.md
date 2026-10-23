@@ -28,4 +28,4 @@ Gmail gmail_movie-arab · Instagram instagram_basoid-oer (@grasscrafts.com_) · 
 Data & SEO 07:37 Mon/Thu · Lead research 08:07 Mon–Fri · Email & Actions 10:22 daily · Google Business 11:14 Tue/Thu/Sat · Social 13:41 daily · AI Search 13:47 Thu · Reply watcher 15:07 & 19:07 · Website 17:22 Mon/Wed/Fri. Each launches one Sonnet subagent with its agents/*.md playbook.
 
 ## Waiting on the owner (23 Oct)
-Publish theme "Grasscrafts – toran + llms 23 Oct" (llms.txt toran line, ₹1,299 + COD trust line) · AVADA SEO app: add availability to its Product snippet or turn it off · Sristi: prices/photos for the 2 draft makhana products, priced-catalogue corrections, call the cane-stool hot lead.
+Theme "toran + llms 23 Oct" PUBLISHED 23 Oct (live 189623959725) · AVADA SEO app: add availability to its Product snippet or turn it off · Sristi: prices/photos for the 2 draft makhana products, priced-catalogue corrections, call the cane-stool hot lead.
