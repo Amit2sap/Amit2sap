@@ -4,15 +4,17 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 
 | Agent | Playbook | Runs (IST) | Channels |
 |---|---|---|---|
-| Data & SEO | `agents/data_seo.md` | 08:37 Mon, Wed, Fri | Windsor, Ahrefs, Search Console |
-| Lead Research (one agent, 3–4 segments a day in rotation) | `agents/lead_research.md` | 09:07 daily | Web search, Hunter.io → `outreach/leads/*.json` |
+| Data & SEO | `agents/data_seo.md` | 08:37 Mon, Thu | Windsor, Ahrefs, Search Console |
+| Lead Research (one agent, 3–4 segments a day in rotation) | `agents/lead_research.md` | 09:07 Mon–Fri (Sonnet, ≤8 leads per segment) | Web search, Hunter.io → `outreach/leads/*.json` |
 | Email & Actions (lead agent) | `outreach/DAILY_RUNBOOK.md` + `agents/email_actions.md` | 10:22 daily | Gmail, WhatsApp alerts to Sristi, hot leads |
-| Google Business | `agents/google_business.md` | 11:14 daily | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
-| Website & Search | `agents/website.md` | 11:52 daily | Shopify, Search Console |
+| Google Business | `agents/google_business.md` | paused until Pipedream is connected | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
+| Website & Search | `agents/website.md` | 11:52 Mon, Wed, Fri | Shopify, Search Console |
 | Social (Instagram, then Facebook, then Pinterest, one agent) | `agents/instagram.md`, `agents/facebook.md`, `agents/pinterest.md` | 12:41 daily | @grasscrafts.com_, Page 142803116227246, Pinterest amit2sap |
 | AI Search | `agents/ai_search.md` | 13:47 Thursdays | Buyer questions, llms.txt, citation targets |
 
 **Usage rules (owner, 19 Oct 2026):** runs are spaced at least 30 minutes apart and never run side by side. Routine agents (Data & SEO, Google Business, Website, Social, AI Search) run on the lighter Sonnet model. Lead Research and Email & Actions keep the default model. Keep reports short.
+
+**Usage limit (owner, 23 Oct 2026):** fewer runs to stay inside the session limit. Reply watcher 3x a day, Website Mon/Wed/Fri, Data & SEO Mon/Thu, Lead Research weekdays on Sonnet, Google Business paused until Pipedream works.
 
 ## Setup at the start of every run
 1. If the repo is missing, clone `https://github.com/amit2sap/amit2sap`. Then `git checkout claude/grassctafts-sales-growth-d8azah && git pull origin claude/grassctafts-sales-growth-d8azah`.
@@ -58,14 +60,14 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 
 | Agent | Task ID | Time (IST) | Subagent model |
 |---|---|---|---|
-| Data & SEO | trig_01CUREij3CJdjc5fZN4htmSe | 08:37 Mon, Wed, Fri | Sonnet |
-| Lead Research (3–4 segments a day) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 daily | default |
+| Data & SEO | trig_01CUREij3CJdjc5fZN4htmSe | 08:37 Mon, Thu | Sonnet |
+| Lead Research (3–4 segments a day) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 Mon–Fri | Sonnet |
 | Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 10:22 daily | default |
-| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 11:14 daily | Sonnet |
-| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:52 daily | Sonnet |
+| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | paused (disabled) | Sonnet |
+| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:52 Mon, Wed, Fri | Sonnet |
 | Social (Instagram + Facebook + Pinterest) | trig_013nvpY1RgSiVREyaGQW3y3U | 12:41 daily | Sonnet |
 | AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 13:47 Thursdays | Sonnet |
-| Reply watcher (answer replies within ~1 hour) | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | hourly 09:07–21:07 | Sonnet |
+| Reply watcher (3x daily, 4h15m window) | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 11:07, 15:07, 19:07 | Sonnet |
 | Facebook (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 | disabled | — |
 | Pinterest (old, merged into Social) | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 
@@ -74,7 +76,7 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 - **Pinterest:** connected via Composio (`pinterest_whosen-hoose`) on 17 Oct; test pin 1127799931724040361 posted.
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
 - **AI Search agent** (agents/ai_search.md): weekly, Thursdays 13:47 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
-- **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): Mon/Wed/Fri at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
+- **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): Mon/Thu at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
 
 **Windsor.ai is retired (owner, 22 Oct 2026).** The owner is removing every Windsor connection. Agents must not use Windsor tools for anything. Instead use:
 - Instagram: Composio, @grasscrafts.com_ (instagram_basoid-oer)
