@@ -21,3 +21,8 @@ Approved by owner request of 23 Oct 2026 ("upgrade grasscrafts.com like an exper
 
 ## 4. Menu proposal (not applied)
 Main menu: Shop by material (Sabai, Kauna, Madurkathi, Cane, Water hyacinth, Bamboo, Jute) | Shop by occasion (Corporate gifting, Wedding, Diwali hampers, Haldi/Mehendi, Baby shower) | Makhana (/collections/makhana) | Bulk & corporate (/pages/wholesale-corporate-gifting) | Blog (/blogs/news-the-grass-guide).
+
+## Main menu restructure (owner approved 23 Oct, live)
+New top level: Shop by Occasion | Shop by Material | Shop by Product | Makhana | Bulk & Corporate | Our Story (incl. Journal).
+Added to menu: Haldi, Mehendi, Baby Shower hampers, Festive & Christmas Gifts, Table Mats, Jute Mats & Rugs. Every old link kept. Verified live: menu renders, no Liquid errors.
+Undo: rebuild from backups/menus/main-menu_before_2026-10-23.md (Online Store > Navigation > Main menu).
