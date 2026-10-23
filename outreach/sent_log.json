@@ -465,7 +465,37 @@
     "enquiry@mayfairhousing.com",
     "mktg@myhomeconstructions.com",
     "info@mangalamlandmark.com",
-    "info@anhaddevelopers.com"
+    "info@anhaddevelopers.com",
+    "info@kalyanjewellers.net",
+    "info@pcjeweller.com",
+    "b2bindia@joyalukkas.com",
+    "customercare@malabargoldanddiamonds.com",
+    "customerservice@ril.com",
+    "info@tbzoriginal.com",
+    "sales@bluestone.com",
+    "Enquiry@online-kirtilals.com",
+    "ecomsupport@alukkasgroup.com",
+    "support@candere.com",
+    "info@hazoorilallegacy.com",
+    "wecare@indriya.com",
+    "sales@irasva.com",
+    "care@rankajewellers.com",
+    "customerservice@divinesolitaires.com",
+    "official@reia.diamonds",
+    "info@kalamandirjewellers.com",
+    "online@manepally.com",
+    "cs@dpjewellers.com",
+    "info@ajwa.in",
+    "support@cypherwatches.com",
+    "customercare@sylvi.in",
+    "support@swisstimehouse.com",
+    "info@suspire.in",
+    "info@upcycleluxe.com",
+    "rases@tapwell.in",
+    "info@boxnbond.com",
+    "contact@aiacaonline.org",
+    "care@taalapatra.com",
+    "support@thebengalstore.com"
   ],
   "do_not_send": [
     "akshay.kumar14@tajsats.com",
@@ -496,9 +526,10 @@
     "2026-10-14": 48,
     "2026-10-15": 100,
     "2026-10-16": 150,
-    "2026-10-22": 165
+    "2026-10-22": 165,
+    "2026-10-23": 494
   },
-  "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending.",
+  "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending. 2026-10-23: 100 outbound (8 backlink/AI-search drafts, 23 box pitch, 69 first follow-ups on 15 Oct threads). Hold draft r2409934796046738067 for The Sustainable Marketplace (seller onboarding offer, owner decision). No export buyer-lead emails found in Gmail.",
   "warm_leads": [
     {
       "company": "Ekta Bagla Agarwal (website bulk enquiry, Mumbai; company not given)",
@@ -590,6 +621,13 @@
     "2026-10-22": {
       "first_followups": 25,
       "threads": "14 Oct batch, no human reply, support/care inboxes skipped"
+    },
+    "2026-10-23": {
+      "first_followups": 69,
+      "threads": "15 Oct batch, no human reply; addresses: rachitavivek@gmail.com,info@jaspira.in,enquiry@shriganeshsweetsandsnacks.com,suryajewellers97@gmail.com,thethemebox@gmail.com,shubhmangalamweddings@gmail.com,theway2gift@gmail.com,prashantmaheshwari2705@gmail.com,vrajhandi@gmail.com,giftytalesbyprachi@gmail.com,info@deliceto.in,hello@pushpanjalijewels.com,sandeeptomarsgsits@gmail.com,info@gautamevent.com,info@modernuniquedecor.com,info@indiandryfruit.in,admin@agrawaljeweller.com,anshul@goldendivine.in,jbeventplanner1@gmail.com,nisha.bakers.chd@gmail.com,info@seelangraphics.com,ramdev@crystalevent.org,aneel@studioconstantine.in,sales@gitanjaliawards.com,vshaju01@gmail.com,navpaddecor@gmail.com,mrghodkeandco@gmail.com,kegifts11@gmail.com,hello@thegoaweddingco.com,info@arshcreations.com,vijencart1@gmail.com,corgifting.com@gmail.com,weavers@themeweavers.in,inkdesignstudio.in@gmail.com,satyasri1gramjewellery@gmail.com,adscrafting@gmail.com,dattudryfruits@gmail.com,jashnindiaofficial@gmail.com,corporategiftingidea705@gmail.com,info@shaadiwala.in,contact@kyrainteriors.com,info@thirukochigroup.com,rceventsjpr@gmail.com,info@itsybitsy.in,vrajjewellers@yahoo.co.in,info@corporategiftbox.in,weddings@eventcrafter.com,contactus@dovegreendecors.com,lecoquetnagpur@gmail.com,durgeshjewellers@gmail.com,wrapnwows@gmail.com,info@theweddingarchers.com,newindusgifts@gmail.com,rajshrijewels@gmail.com,graseeventsldh@gmail.com,j2sentp@gmail.com,contact@dilseshaadi.com,rohitbattineni@studioagama.in,shreeroyalwarriorbakery@gmail.com,info@masaira.com,info@j2senterprises.com,kushigifthub@gmail.com,sales@saiyamdryfruits.com,contact@manikchandjewellers.com,amit@umangcommunications.com,hello@classyguild.com,fresh@thebakersdozen.in,mansijewelssurat@gmail.com,curator@gourmetgarh.in",
+      "box_pitch": 23,
+      "backlink_drafts": 8,
+      "total_outbound": 100
     }
   }
 }

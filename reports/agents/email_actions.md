@@ -63,3 +63,9 @@
 ## 2026-10-22 reply watcher catch-up (~15:10-15:30 UTC)
 - Inbox since 10:30 UTC: 0 real replies (only promotions, Shopify, Moda, Google, theme-app notices). No bounces, no hot leads.
 - The Sustainable Marketplace (join@thesustainablemarketplace.in): reply of 08:06 UTC had been missed by earlier runs. Checked thread 1a16179755843bda and Sent: no earlier answer. They are a B2C marketplace and invite GrassCrafts to onboard as a seller (no fees mentioned). Replied in thread, CC Sristi and their CEO (Gmail 1a1643027b1d3c43): thanks, Sristi will share trade catalogue and discuss listing or wholesale, asked which categories. No prices, MOQ, lead times, samples or fee commitments. Warm, not hot; seller onboarding terms/fees are an owner decision if they send them.
+
+## 2026-10-23 (Fri)
+- Sent 100 (cap reached; 0 sent before the run): 8 approved drafts (Suspire, UpcycleLuxe, Tapwell, BoxNBond, AIACA, The Giving Tree, Taalapatra, The Bengal Store), 23 box pitches (19 jewellers, 4 watch brands), 69 first follow-ups (15 Oct batch, no replies).
+- Replies: The Sustainable Marketplace (seller onboarding offer) saved as holding draft r2409934796046738067 and flagged to owner; WeaveHand already logged. Hot leads: none new.
+- Export buyer requests: no buy-lead emails in Gmail; owner to reply on go4WorldBusiness #1329192 and UAE leads inside the portals. Collab items: none approved.
+- Blockers: SMTP RCPT check impossible (no DNS or port 25 in sandbox); box pitches rely on addresses published on company sites. Some are care/support inboxes.
