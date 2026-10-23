@@ -11,3 +11,7 @@
 
 ## 2026-10-22 (Thu, posting day)
 - Instagram blocked: waiting for @grasscrafts.com_ reconnect. Composio Instagram has no active account (new connection only "initiated", not authorised). No comments read, no post. Not unchanged blocker since 20 Oct; owner must finish the Composio Instagram login as @grasscrafts.com_.
+
+## 2026-10-23 (Fri, off day)
+- Composio @grasscrafts.com_ (instagram_basoid-oer) now works. Read the last 12 posts (all reels, 15 Sep to 21 Oct): comments_count 0 on every one, so no replies needed. No post (off day). No blocker.
+- Daily actions kit for 2026-10-24: NOT built. Web search (standard) returns only profile pages and undated vendor posts, so no public post from the last 7 days with a verifiable URL could be found; nothing invented. 0 comments, 0 pin saves, 0 collab pitches written. Today's pending items (3 collabs, 4 saves, dated 23 Oct) are untouched. Blocker: need a search source that returns dated social posts.

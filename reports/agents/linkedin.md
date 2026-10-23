@@ -9,3 +9,6 @@
 - **CTA link:** https://grasscrafts.com/collections/corporate-gifts-handcrafted-gifts (checked, HTTP 200)
 - **Verification:** LINKEDIN_GET_POST_CONTENT returned 403 for both share and ugcPost URNs (read scope limitation); the create call returned success. Please eyeball the profile once.
 - First post, so no engagement data yet.
+
+## 2026-10-23 (Fri, off day)
+- No post (off day).
