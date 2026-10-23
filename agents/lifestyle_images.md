@@ -1,5 +1,7 @@
 # Lifestyle images (automated, free) — added 23 Oct 2026
 
+**PAUSED by owner (23 Oct 2026): do NOT generate or composite any images until the owner says to resume. Use only the owner's real photos and images already on Shopify.**
+
 Owner wants lifestyle pictures made automatically for every new product photo sent in chat.
 
 Method (keeps the REAL product unchanged — never let an AI redraw the product):
