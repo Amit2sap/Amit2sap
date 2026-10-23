@@ -5,3 +5,9 @@
 - Instagram carousel media id 18500514247101312 (4 cards). Facebook post 142803116227246_1677056471098400. LinkedIn urn:li:share:7519381751790641152. GBP localPost 6566108633830339171. Pinterest board Diwali & Door Decor 1127800000377284265, pins 1127799931724587630, 31, 28, 29. Undo: delete each from the platform.
 - seo/llms.txt.liquid: one line added in repo only; live theme untouched.
 - Not verified: live URL HTTP 200 (sandbox cannot resolve grasscrafts.com); Shopify reports onlineStoreUrl set, status ACTIVE, price 960.00.
+
+## Theme copy for owner to publish (23 Oct)
+Theme "Grasscrafts – toran + llms 23 Oct" (gid://shopify/OnlineStoreTheme/189623959725), duplicate of live 189621403821:
+- templates/llms.txt.liquid = seo/llms.txt.liquid (adds the toran line).
+- snippets/gc-product-trust.liquid: "Free shipping in India from ₹1,299" (was ₹1,300) and "Cash on Delivery" added to payments.
+Verified in preview: no Liquid errors, add-to-cart works, llms.txt 200 with the toran line. Undo: publish 189621403821 again.
