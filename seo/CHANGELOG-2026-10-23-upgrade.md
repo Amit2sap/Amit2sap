@@ -26,3 +26,7 @@ Main menu: Shop by material (Sabai, Kauna, Madurkathi, Cane, Water hyacinth, Bam
 New top level: Shop by Occasion | Shop by Material | Shop by Product | Makhana | Bulk & Corporate | Our Story (incl. Journal).
 Added to menu: Haldi, Mehendi, Baby Shower hampers, Festive & Christmas Gifts, Table Mats, Jute Mats & Rugs. Every old link kept. Verified live: menu renders, no Liquid errors.
 Undo: rebuild from backups/menus/main-menu_before_2026-10-23.md (Online Store > Navigation > Main menu).
+
+## Published (owner, 23 Oct)
+Theme 189621403821 "Grasscrafts – expert upgrade 23 Oct" is now LIVE. Verified homepage, makhana product, makhana collection and blog: HTTP 200, no Liquid errors, trust bar, occasion row, bulk band, breadcrumbs on product/collection, add-to-cart works.
+Leftover: snippets/gc-product-trust.liquid still says "Free shipping in India above ₹1,300" on product pages (live theme cannot be edited via API). Owner to change to ₹1,299 in Edit code. Undo publish: publish the previous theme "Grasscrafts – llms.txt update 22 Oct" (189572546733).
