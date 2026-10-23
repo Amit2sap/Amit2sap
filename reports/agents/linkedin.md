@@ -12,3 +12,6 @@
 
 ## 2026-10-23 (Fri, off day)
 - No post (off day).
+
+## 2026-10-23 (toran launch)
+- Post urn:li:share:7519381751790641152 (B2B bulk/corporate toran, native image, product link).

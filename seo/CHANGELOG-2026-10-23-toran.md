@@ -1,0 +1,7 @@
+# 2026-10-23 dry flower toran launch
+- Shopify product gid://shopify/Product/15267412902061, handle handmade-dry-flower-toran-door-puja-room-3-ft, ACTIVE, 4 variants Rs 960, taxable false, inventory untracked, published to Online Store, Google & YouTube, Facebook & Instagram, Pinterest. Media: 4 originals + 4 styled cards. Added to Festive & Christmas Gifts, Earth Edit - Living, New Arrivals. Undo: set status ARCHIVED (or productDelete) and collectionRemoveProducts.
+- Lifestyle images: Moda scene generation not used (canvas_edit_image regenerates the whole image so the real product could not be kept unchanged; no media:generate scope on free plan). Fallback styled cards: Moda canvas https://moda.app/canvas/303cb160-d8ef-4ee1-86fc-c2e61f1fcde8 (editable), repo files media/toran/lifestyle/toran-card-*.jpg (made with PIL, same layout). Moda export zip could not be downloaded (proxy 403).
+- Blog gid://shopify/Article/635121893549 /blogs/news-the-grass-guide/dry-flower-toran-ideas-diwali-puja-room-entrance. Undo: articleDelete.
+- Instagram carousel media id 18500514247101312 (4 cards). Facebook post 142803116227246_1677056471098400. LinkedIn urn:li:share:7519381751790641152. GBP localPost 6566108633830339171. Pinterest board Diwali & Door Decor 1127800000377284265, pins 1127799931724587630, 31, 28, 29. Undo: delete each from the platform.
+- seo/llms.txt.liquid: one line added in repo only; live theme untouched.
+- Not verified: live URL HTTP 200 (sandbox cannot resolve grasscrafts.com); Shopify reports onlineStoreUrl set, status ACTIVE, price 960.00.

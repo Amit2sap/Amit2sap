@@ -36,3 +36,6 @@
 ## 2026-10-23 (owner-approved expert upgrade, phase 1)
 - Audited 208 active products: only 2 thin descriptions rewritten (sabai-desk-organizer, straw crossbody sling); SEO, alt text and tax-off already complete. Gift card left. 10 top collections got meta descriptions (all already had intro text).
 - Theme copy 189621403821 (unpublished): trust bar, shop-by-occasion row, bulk CTA band, BreadcrumbList JSON-LD. Preview https://grasscrafts.com/?preview_theme_id=189621403821. Menu proposal in the changelog. Log: seo/CHANGELOG-2026-10-23-upgrade.md. Live preview render not checked (proxy 403).
+
+## 2026-10-23 (toran launch)
+- Product handmade-dry-flower-toran-door-puja-room-3-ft live (Rs 960, 4 variants), 3 collections, blog dry-flower-toran-ideas-diwali-puja-room-entrance. See seo/CHANGELOG-2026-10-23-toran.md.
