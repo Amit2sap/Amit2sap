@@ -60,3 +60,8 @@ Fix it with:
    - add Products in the Google Business app;
    - accept or reject the Google-suggested 2nd phone number;
    - turn on Merchant Center free listings.
+
+## Profile link (owner, 23 Oct 2026)
+GrassCrafts by Abalone: https://share.google/hoCy2Zftpp22vAvzs (Google Knowledge Graph id /g/11gy1lyyl_; search URL https://www.google.com/search?kgmid=/g/11gy1lyyl_).
+Posting route: Composio toolkit upload_post (account upload_post_almude-mitty, alias grasscrafts) once the owner finishes the Upload-Post sign-up and the Composio link. Use UPLOAD_POST_LIST_PLATFORM_DESTINATIONS (platform google_business) to pick this location, then UPLOAD_POST_PUBLISH_POST. Posts only; reviews and hours stay manual.
+Next theme update: add this profile to the Organization JSON-LD "sameAs" and to the "Rated 4.7★ on Google" link.
