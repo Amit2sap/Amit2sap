@@ -32,3 +32,7 @@
 ## 2026-10-22 (owner-approved landing content)
 - Maker-direct landing content on 4 collections: diamond-jewellery-boxes (from ₹450, 8-row sizes table, jewellers section), diwali-gift-hampers (from ₹200, 8 rows), wedding-gift-hamper (from ₹340, 2 rows; other baskets have no verified sizes), corporate-gifts-handcrafted-gifts (from ₹199, 8 rows). New SEO titles/metas, 5 FAQs + FAQPage JSON-LD each, links to blog guides, wholesale page and each other. Backup: backups/collections/landing_before_2026-10-22.json. Changelog + undo: seo/CHANGELOG-2026-10-22-landing.md.
 - Live 200 check not possible today (proxy 403, Composio sandbox down); Admin API read-back confirms content. Re-check next run. Remove DIWALI10 line after 12 Nov.
+
+## 2026-10-23 (owner-approved expert upgrade, phase 1)
+- Audited 208 active products: only 2 thin descriptions rewritten (sabai-desk-organizer, straw crossbody sling); SEO, alt text and tax-off already complete. Gift card left. 10 top collections got meta descriptions (all already had intro text).
+- Theme copy 189621403821 (unpublished): trust bar, shop-by-occasion row, bulk CTA band, BreadcrumbList JSON-LD. Preview https://grasscrafts.com/?preview_theme_id=189621403821. Menu proposal in the changelog. Log: seo/CHANGELOG-2026-10-23-upgrade.md. Live preview render not checked (proxy 403).
