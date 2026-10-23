@@ -35,3 +35,5 @@ Agents write to the page's database with the ArtifactData tool (load it with Too
 
 ## Email agent: every run
 Query items where kind=="collab" and status=="approved". Send each from Gmail within the daily 100 cap, after checking sent_log, then set status="executed" with `executed_at` and `result`, and log it in outreach/sent_log.json.
+
+**How to find collab targets when site fetch is blocked (23 Oct):** run the search and the check inside the Composio workbench (COMPOSIO_REMOTE_WORKBENCH): `web_search()` for "<segment> <city> email address", keep business-domain emails only (no gmail/yahoo), drop any domain in outreach/sent_log.json or outreach/leads/, then `requests.get` the site's home, /contact, /contact-us and /pages/contact pages and keep the email ONLY if it appears on the company's own page (store that page as url). Pinterest saves need a global pin search; Composio's Pinterest search covers only our own pins, so skip saves unless the owner pastes pin links.
