@@ -14,6 +14,8 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 
 **Usage rules (owner, 19 Oct 2026):** runs are spaced at least 30 minutes apart and never run side by side. Routine agents (Data & SEO, Google Business, Website, Social, AI Search) run on the lighter Sonnet model. Lead Research and Email & Actions keep the default model. Keep reports short.
 
+**Usage fixes (owner, 23 Oct 2026):** (1) no image viewing in routine runs; catalogue fixes change only the pages that need it, one screenshot per changed page; product-photo job off. (2) every agent reads only the files its step needs. (3) Email & Actions runs on Sonnet and sends in batches (up to 20 emails per Composio call). (4) one agent at a time: Data & SEO 07:37 Mon/Thu, Lead Research 08:07 weekdays, Email 10:22, Social 13:41, AI Search 13:47 Thu, Reply watcher 15:07 and 19:07 (skips if the email run is still going), Website 17:22 Mon/Wed/Fri. (5) move all runs to a fresh session once Pipedream is signed in.
+
 **Usage limit (owner, 23 Oct 2026):** fewer runs to stay inside the session limit. Reply watcher 3x a day, Website Mon/Wed/Fri, Data & SEO Mon/Thu, Lead Research weekdays on Sonnet, Google Business paused until Pipedream works.
 
 ## Setup at the start of every run
