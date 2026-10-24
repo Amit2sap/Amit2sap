@@ -5,7 +5,7 @@ Every new Claude session on this repo reads this file first. It is the memory of
 ## Business
 - GrassCrafts / "GrassCrafts by Abalone", Kolkata. Handwoven Sabai, Kauna, Madurkathi, Sitalpati, Kash, cane, water hyacinth, bamboo, jute decor, baskets, bags, mats, hampers; Mithila makhana; dry flower torans (₹960, 3 ft).
 - Owner: Amit Dey (amit2sap@gmail.com). Founder: Sristi Dey (sristi@grasscrafts.com, WhatsApp +91 62907 44782). Hot leads go to Sristi with Amit in CC.
-- Shopify store 605e40-ba (grasscrafts.com, INR). Facts: free shipping from ₹1,299, NO GST on any product ("Charge tax" off on every variant), Cash on Delivery on.
+- Shopify store 605e40-ba (grasscrafts.com, INR). Facts: free shipping from ₹1,299, NO GST on any product ("Charge tax" off on every variant), Cash on Delivery on, ₹100 extra per COD order (owner, 24 Oct; Releasit COD app).
 
 ## Hard rules (owner decisions)
 - Outreach: max 100 outbound emails/day (new + follow-ups + pitches); replies are never capped and answered same day. Only business emails published on the company's own site or Hunter "valid"; never guess; check outreach/sent_log.json (sent + do_not_send) first.

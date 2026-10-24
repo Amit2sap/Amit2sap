@@ -1,0 +1,15 @@
+{%- comment -%} GrassCrafts: trust points under the buy buttons. Facts only (returns per Refund policy, owner-confirmed 17 Oct 2026; free shipping from ₹1,299 and COD, 23 Oct 2026; COD ₹100 fee, owner 24 Oct 2026). {%- endcomment -%}
+<ul class="gc-trust" role="list">
+  <li><span aria-hidden="true">✋</span> Handwoven by artisans in India</li>
+  <li><span aria-hidden="true">🚚</span> Free shipping in India from ₹1,299</li>
+  <li><span aria-hidden="true">🔒</span> Secure payment: UPI, cards, netbanking, Cash on Delivery (₹100 extra)</li>
+  <li><span aria-hidden="true">↩️</span> <a href="/policies/refund-policy">3-day returns</a> with unboxing video</li>
+  <li class="gc-trust__full"><span aria-hidden="true">💬</span> Questions? <a href="https://wa.me/916290744782?text={{ 'Hi GrassCrafts, I have a question about: ' | append: product.title | append: ' ' | append: shop.url | append: product.url | url_encode }}" target="_blank" rel="noopener">WhatsApp us</a></li>
+</ul>
+<style>
+  .gc-trust{list-style:none;margin:6px 0 4px;padding:12px 14px;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;background:#f8f5ef;border-radius:6px;font-size:1.3rem;color:#3e2723}
+  .gc-trust li{margin:0;line-height:1.35}
+  .gc-trust__full{grid-column:1/-1}
+  .gc-trust a{color:#3e2723;text-decoration:underline}
+  @media (max-width:420px){.gc-trust{grid-template-columns:1fr}}
+</style>
