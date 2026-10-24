@@ -15,3 +15,6 @@
 
 ## 2026-10-23 (toran launch)
 - Post urn:li:share:7519381751790641152 (B2B bulk/corporate toran, native image, product link).
+
+## 2026-10-24 (Sat, posting day)
+- Post urn:li:share:7519672353589714944. Topic: plastic-free hotel amenities, Cane Cylindrical Multipurpose Box (/products/gift-box), native image, CTA sristi@grasscrafts.com. No prices or claims beyond catalogue.
