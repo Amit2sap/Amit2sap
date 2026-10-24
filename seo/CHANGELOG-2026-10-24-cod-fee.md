@@ -12,3 +12,8 @@ Undo after publish: publish 189623959725 again.
 
 ## Shipping policy (owner to paste; API lacks write_legal_policies scope)
 Backup: backups/policies/shipping_policy_before_2026-10-24.html. New text in seo/shipping_policy_2026-10-24.txt (also fixes ₹1,300 -> ₹1,299).
+
+## Verified 24 Oct
+- Owner published 189658235053; live theme checksums match (trust snippet 0395…, llms 593a…). Undo: publish 189623959725.
+- Shipping policy live with COD ₹100 line and ₹1,299.
+- Fee NOT yet proven: no order since the change (last COD order #1042, 23 Oct, before the fee: ₹1,050 + ₹120 shipping, no fee). No Releasit fee product found; storefront not reachable from the agent sandbox, so a checkout test must be done by the owner.
