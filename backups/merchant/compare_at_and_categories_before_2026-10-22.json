@@ -1,0 +1,1190 @@
+{
+  "note": "Live Shopify Admin API read 2026-10-22 immediately before mutation. Section compare_at: all 37 products flagged by the merchant feed audit, with every variant (full variant list as read; variants with clear=true had compareAtPrice <= price and were set to null). Section categories: products recategorised (before-state; description not included as it is unchanged).",
+  "compare_at": [
+    {
+      "id": "gid://shopify/Product/7880016167085",
+      "handle": "handmade-sitalpati-handbag-cane-handle",
+      "title": "Handmade Sitalpati Handbag | Cane Handle Woven Bag | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/43686023299245",
+          "title": "Default Title",
+          "sku": "BAG008",
+          "price": "4450.00",
+          "compareAtPrice": "2400.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/7880023605421",
+      "handle": "handmade-sitalpati-straw-bag-bengal-heritage-weave",
+      "title": "Handmade Sitalpati Straw Bag | Bengal Heritage Weave | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/43686054265005",
+          "title": "Default Title",
+          "sku": "BAG009",
+          "price": "4050.00",
+          "compareAtPrice": "2250.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/7934420811949",
+      "handle": "table-mats-1",
+      "title": "Madurkathi Grass Table Mats with Runner | 48 in Runner Set – Natural",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44086124642477",
+          "title": "Table mat - 4",
+          "sku": "",
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44086124675245",
+          "title": "Table mat -  6",
+          "sku": "",
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378252345517",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378252378285",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8058926039213",
+      "handle": "box-1",
+      "title": "Sabai Grass Pot-Shaped Box with Lid | Jewellery & Puja Box | 5.5 in",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44159833047213",
+          "title": "Pink / Small-8 inches x 8 inches",
+          "sku": "",
+          "price": "1199.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741003440301",
+          "title": "Pink / Large- inches x 10 inches",
+          "sku": null,
+          "price": "1399.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44159833079981",
+          "title": "Blue / Small-8 inches x 8 inches",
+          "sku": "",
+          "price": "1199.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741003473069",
+          "title": "Blue / Large- inches x 10 inches",
+          "sku": null,
+          "price": "1399.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741000753325",
+          "title": "Green / Small-8 inches x 8 inches",
+          "sku": null,
+          "price": "1199.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741003505837",
+          "title": "Green / Large- inches x 10 inches",
+          "sku": null,
+          "price": "1399.00",
+          "compareAtPrice": "1150.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8062498177197",
+      "handle": "laundry-basket-3",
+      "title": "The Grand Cane Atelier Basket – Hand-Braided Sovereignty",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45763510141101",
+          "title": "Small - 12\" x 12\"",
+          "sku": null,
+          "price": "5800.00",
+          "compareAtPrice": "6400.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45763510173869",
+          "title": "Medium -  14\" x 16\"",
+          "sku": null,
+          "price": "6800.00",
+          "compareAtPrice": "6400.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45763510206637",
+          "title": "Large",
+          "sku": null,
+          "price": "7800.00",
+          "compareAtPrice": "6400.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8071233110189",
+      "handle": "basket-planter-1",
+      "title": "Sabai Grass Basket Planter | Natural Weave | Small, Medium & Big",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44187717566637",
+          "title": "Small",
+          "sku": "",
+          "price": "399.00",
+          "compareAtPrice": "480.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717599405",
+          "title": "Medium",
+          "sku": "",
+          "price": "499.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717632173",
+          "title": "Large",
+          "sku": "",
+          "price": "599.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717664941",
+          "title": "Set of 3",
+          "sku": "",
+          "price": "1347.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8071287734445",
+      "handle": "planter-2",
+      "title": "Sabai Grass Basket Planter | Classic Weave | Small, Medium & Big",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44187717828781",
+          "title": "Small",
+          "sku": null,
+          "price": "399.00",
+          "compareAtPrice": "480.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717861549",
+          "title": "Medium",
+          "sku": null,
+          "price": "499.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717894317",
+          "title": "Large",
+          "sku": null,
+          "price": "599.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44187717927085",
+          "title": "Set of 3",
+          "sku": null,
+          "price": "1347.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8126419697837",
+      "handle": "handwoven-cane-round-tray-kadai-basket-set-of-3",
+      "title": "Handwoven Cane Round Tray with Handle | Kadai-Shape Basket, Set of 3",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44320832389293",
+          "title": "Small",
+          "sku": null,
+          "price": "799.00",
+          "compareAtPrice": null,
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44320832422061",
+          "title": "Medium",
+          "sku": null,
+          "price": "950.00",
+          "compareAtPrice": null,
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44320832454829",
+          "title": "Large",
+          "sku": null,
+          "price": "1080.00",
+          "compareAtPrice": null,
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44320832520365",
+          "title": "Set of 3",
+          "sku": null,
+          "price": "2680.00",
+          "compareAtPrice": "1250.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8140781519021",
+      "handle": "planter-5",
+      "title": "Sabai Grass Basket Planter | Woven Weave | Small, Medium & Big",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44352670761133",
+          "title": "Small",
+          "sku": null,
+          "price": "399.00",
+          "compareAtPrice": "480.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44352670793901",
+          "title": "Medium",
+          "sku": null,
+          "price": "499.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44352670826669",
+          "title": "Large",
+          "sku": null,
+          "price": "599.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44352670859437",
+          "title": "Set of 3",
+          "sku": null,
+          "price": "1347.00",
+          "compareAtPrice": "480.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8145079500973",
+      "handle": "handmade-sitalpati-hand-bag",
+      "title": "Handmade Sitalpati Hand Bag | Artisan Woven Bag | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44364703596717",
+          "title": "Default Title",
+          "sku": "",
+          "price": "4050.00",
+          "compareAtPrice": "2100.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8149020508333",
+      "handle": "handwoven-round-table-mat-12inch-indian-artisan",
+      "title": "Handwoven Round Sabai Grass Table Mat | Dining Décor",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378223575213",
+          "title": "Single",
+          "sku": "",
+          "price": "480.00",
+          "compareAtPrice": "620.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378223607981",
+          "title": "Set of 2",
+          "sku": "",
+          "price": "930.00",
+          "compareAtPrice": "620.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378223640749",
+          "title": "Set of 4",
+          "sku": "",
+          "price": "1850.00",
+          "compareAtPrice": "620.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8149020901549",
+      "handle": "handwoven-round-kashi-grass-table-mat-12inch-indian-artisan",
+      "title": "Handwoven Round Kashi Grass Table Mat | Dining Décor",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378204799149",
+          "title": "Single",
+          "sku": "",
+          "price": "480.00",
+          "compareAtPrice": "620.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378204831917",
+          "title": "Set of 2",
+          "sku": "",
+          "price": "930.00",
+          "compareAtPrice": "620.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378204864685",
+          "title": "Set of 4",
+          "sku": "",
+          "price": "1850.00",
+          "compareAtPrice": "620.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8149021163693",
+      "handle": "natural-jute-table-mat-handwoven-placemat-sustainable-dining",
+      "title": "Natural Jute Table Mat | Sustainable Dining Décor",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378192249005",
+          "title": "Single",
+          "sku": "",
+          "price": "390.00",
+          "compareAtPrice": "450.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378192281773",
+          "title": "Set of 2",
+          "sku": "",
+          "price": "750.00",
+          "compareAtPrice": "450.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378192314541",
+          "title": "Set of 4",
+          "sku": "",
+          "price": "1480.00",
+          "compareAtPrice": "450.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8149021425837",
+      "handle": "handwoven-jute-table-mat-eco-friendly-placemat",
+      "title": "Handwoven Jute Table Mat | Eco-Friendly Placemat",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378191757485",
+          "title": "Single",
+          "sku": "",
+          "price": "390.00",
+          "compareAtPrice": "450.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378191790253",
+          "title": "Set of 2",
+          "sku": "",
+          "price": "750.00",
+          "compareAtPrice": "450.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378191823021",
+          "title": "Set of 4",
+          "sku": "",
+          "price": "1480.00",
+          "compareAtPrice": "450.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8149022015661",
+      "handle": "handwoven-jute-dining-table-mat-placemat-17x13-eco-friendly",
+      "title": "Handwoven Jute Dining Table Mat | Eco-Friendly Indian Artisan",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378190184621",
+          "title": "Single",
+          "sku": "",
+          "price": "390.00",
+          "compareAtPrice": "520.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378190217389",
+          "title": "Set of 2",
+          "sku": "",
+          "price": "750.00",
+          "compareAtPrice": "520.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378190250157",
+          "title": "Set of 4",
+          "sku": "",
+          "price": "1480.00",
+          "compareAtPrice": "520.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150523052205",
+      "handle": "handwoven-jute-table-mat-indian-artisan",
+      "title": "Handwoven Natural Jute Table Mat | Indian Artisan Dining Décor",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378208731309",
+          "title": "Single",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "520.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378208764077",
+          "title": "Set of 2",
+          "sku": null,
+          "price": "750.00",
+          "compareAtPrice": "520.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378208796845",
+          "title": "Set of 4",
+          "sku": null,
+          "price": "1480.00",
+          "compareAtPrice": "520.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150550446253",
+      "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Terracotta & Black Multi-Band Weave | Festive Dining Mats",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378255556781",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378255589549",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378255622317",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378255655085",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150550970541",
+      "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Micro-Diamond Lattice Weave | Dark & Natural",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378257785005",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378257817773",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378257850541",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378257883309",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150551199917",
+      "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Vertical Pinstripe Weave | Black & Natural",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378258964653",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378258997421",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378259030189",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378259062957",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150551330989",
+      "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Burgundy Herringbone Weave | Warm Toned Dining Mats",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378259325101",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378259357869",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378259390637",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378259423405",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150553985197",
+      "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Checkerboard Weave | Rounded Corners | Black & Natural",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378260832429",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378260865197",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378260897965",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378260930733",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150555918509",
+      "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Striped Herringbone Weave | Grey & Burgundy",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378261029037",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378261061805",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378261094573",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378261127341",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150555984045",
+      "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+      "title": "Madurkathi Grass Table Mats & Runner Set | Hand-Woven Diamond Weave | Natural Dining Mats",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378262995117",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378263027885",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378263060653",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378263093421",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8150556115117",
+      "handle": "table-mats-with-runner-12",
+      "title": "Madurkathi Grass Table Mats with Runner | 48 in Runner Set – Classic",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44378266271917",
+          "title": "Table mat - 4",
+          "sku": null,
+          "price": "390.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378266304685",
+          "title": "Table mat -  6",
+          "sku": null,
+          "price": "570.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378266337453",
+          "title": "Table mat - 6 Table runner - 1",
+          "sku": null,
+          "price": "650.00",
+          "compareAtPrice": "599.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44378266370221",
+          "title": "Table runner - 1",
+          "sku": null,
+          "price": "300.00",
+          "compareAtPrice": "599.00",
+          "clear": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8211336560813",
+      "handle": "laundry-storage",
+      "title": "Sabai Grand Floor Basket",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/44566604578989",
+          "title": "Small - 14\" H x 10\" Dia",
+          "sku": "",
+          "price": "1399.00",
+          "compareAtPrice": "1450.00",
+          "clear": false
+        },
+        {
+          "id": "gid://shopify/ProductVariant/44566604611757",
+          "title": "Big - 20\" H x 14\" Dia",
+          "sku": "",
+          "price": "1699.00",
+          "compareAtPrice": "1450.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8398793244845",
+      "handle": "basket-with-partition",
+      "title": "The Bespoke Cane Organizer – Hand-Braided Heritage",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45219815391405",
+          "title": "Default Title",
+          "sku": null,
+          "price": "3450.00",
+          "compareAtPrice": "2250.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8429902397613",
+      "handle": "bespoke-water-hyacinth-coffer-jali-net-pattern-storage-box",
+      "title": "The Bespoke Water Hyacinth Coffer | Jali Pattern Storage Box | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45373319446701",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1699.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8500906918061",
+      "handle": "spiral-water-hyacinth-basket-with-handle",
+      "title": "Spiral Water Hyacinth Basket with Handle | Handwoven Coiled Organizer | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45740874072237",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1699.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8500909113517",
+      "handle": "handwoven-water-hyacinth-coiled-organizer",
+      "title": "Handwoven Water Hyacinth Coiled Organizer | Eco-Friendly Storage | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45740878823597",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1499.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8500959969453",
+      "handle": "natural-grass-fibre-handwoven-storage-box",
+      "title": "Natural Grass Fibre Storage Box | Handwoven Artisan Organizer | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45741014286509",
+          "title": "Small - 8 inches x 8 inches",
+          "sku": null,
+          "price": "1850.00",
+          "compareAtPrice": "1800.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741014319277",
+          "title": "Medium - 10 inches x 10 inches",
+          "sku": null,
+          "price": "2250.00",
+          "compareAtPrice": "1800.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45741014352045",
+          "title": "Large - 12 inches x 12 inches",
+          "sku": null,
+          "price": "2550.00",
+          "compareAtPrice": "1800.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8501948383405",
+      "handle": "handwoven-sitalpati-natural-fibre-artisan-bag",
+      "title": "Handwoven Sitalpati Bag | Artisan Natural Fibre Tote | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45743650734253",
+          "title": "Default Title",
+          "sku": null,
+          "price": "4050.00",
+          "compareAtPrice": "2100.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8506289291437",
+      "handle": "water-hyacinth-open-caddy-handwoven-artisan-storage",
+      "title": "Water Hyacinth Open Caddy | Handwoven Artisan Storage | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45762332885165",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1799.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8506292601005",
+      "handle": "bespoke-sabai-trays-burnt-sienna",
+      "title": "The Bespoke Sabai Trays – Architectural Elegance in Burnt Sienna",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45762353004717",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1699.00",
+          "compareAtPrice": "1650.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8506493108397",
+      "handle": "handcrafted-cane-vase",
+      "title": "Handcrafted Cane Vase | Sculptural Natural Fiber Home Decor – GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45763511124141",
+          "title": "Small - 14\" H",
+          "sku": null,
+          "price": "1499.00",
+          "compareAtPrice": "850.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45763511156909",
+          "title": "Medium - 20\" H",
+          "sku": null,
+          "price": "2299.00",
+          "compareAtPrice": "850.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/45763526262957",
+          "title": "Large - 24\" H",
+          "sku": null,
+          "price": "3199.00",
+          "compareAtPrice": "850.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8506859946157",
+      "handle": "hand-woven-water-hyacinth-heritage-basket",
+      "title": "Hand-Woven Water Hyacinth Heritage Basket | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45765461147821",
+          "title": "Default Title",
+          "sku": null,
+          "price": "1549.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8506863222957",
+      "handle": "heirloom-hamper-handwoven-water-hyacinth-tall-basket",
+      "title": "Handwoven Water Hyacinth Basket | Tall Storage Bin – GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/45765474320557",
+          "title": "Default Title",
+          "sku": null,
+          "price": "4450.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/8653843824813",
+      "handle": "water-hyacinth-wall-vanity-organiser-basket",
+      "title": "Hand-Woven Water Hyacinth Wall & Vanity Organiser Basket | GrassCrafts",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/46820189307053",
+          "title": "Dori",
+          "sku": null,
+          "price": "2150.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/46820189339821",
+          "title": "Interlacing",
+          "sku": null,
+          "price": "2150.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        },
+        {
+          "id": "gid://shopify/ProductVariant/46820189372589",
+          "title": "Braided",
+          "sku": null,
+          "price": "2150.00",
+          "compareAtPrice": "1350.00",
+          "clear": true
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "gid://shopify/Product/7885185581229",
+      "handle": "bed-runner-2",
+      "title": "Natural Straw Bed Mat & Yoga Mat | Eco-Friendly Floor Mat",
+      "productType": "Rugs",
+      "tags": [
+        "bed runners",
+        "blinds",
+        "curtains",
+        "desk mats",
+        "mats",
+        "rugs",
+        "yoga mat"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-26-3",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Yoga & Pilates > Yoga & Pilates Mats"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8037145018541",
+      "handle": "puja-mats",
+      "title": "Madurkathi Puja & Asana Mat – Sabang | Dual-Sided Grass & Cotton | 23×18 in",
+      "productType": "Table runner with mats",
+      "tags": [
+        "asana mats",
+        "bed runners",
+        "curtains",
+        "mats",
+        "puja mats",
+        "yoga mat"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-26-5-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Yoga & Pilates > Yoga Mat Bags & Straps > Yoga Mat Bags"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8037157830829",
+      "handle": "puja-mats-1",
+      "title": "Madurkathi Puja & Asana Mat – Pingla | Dual-Sided Grass & Cotton | 23×18 in",
+      "productType": "Table runner with mats",
+      "tags": [
+        "asana mats",
+        "bed runners",
+        "curtains",
+        "mats",
+        "puja mats",
+        "yoga mat"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-26-5-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Yoga & Pilates > Yoga Mat Bags & Straps > Yoga Mat Bags"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8049565597869",
+      "handle": "puja-mats-2",
+      "title": "Madurkathi Puja & Asana Mat – Tamluk | Dual-Sided Grass & Cotton | 23×18 in",
+      "productType": "Table runner with mats",
+      "tags": [
+        "asana mats",
+        "bed runners",
+        "curtains",
+        "mats",
+        "puja mats",
+        "yoga mat"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-26-5-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Yoga & Pilates > Yoga Mat Bags & Straps > Yoga Mat Bags"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8049571725485",
+      "handle": "puja-mats-3",
+      "title": "Madurkathi Puja & Asana Mat – Kanthi | Dual-Sided Grass & Cotton | 23×18 in",
+      "productType": "Table runner with mats",
+      "tags": [
+        "asana mats",
+        "bed runners",
+        "curtains",
+        "mats",
+        "puja mats",
+        "yoga mat"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-26-5-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Yoga & Pilates > Yoga Mat Bags & Straps > Yoga Mat Bags"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/8759481598125",
+      "handle": "handwoven-sabai-grass-round-jewellery-basket",
+      "title": "Handwoven Sabai Grass Round Jewellery Basket",
+      "productType": "Sabai Grass Jewellery Basket",
+      "tags": [
+        "gift packaging",
+        "handwoven storage",
+        "jewellery basket",
+        "keepsake basket",
+        "Sabai grass"
+      ],
+      "category": {
+        "id": "gid://shopify/TaxonomyCategory/hb-2-3-1-3",
+        "fullName": "Health & Beauty > Jewelry Cleaning & Care > Jewelry Holders > Jewelry Boxes > Travel Jewelry Cases"
+      }
+    }
+  ]
+}

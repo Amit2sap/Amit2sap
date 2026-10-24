@@ -1,0 +1,428 @@
+{
+ "date": "2026-10-22",
+ "report": "reports/opportunities_trends_export_2026-10-22.md",
+ "scoring": "1-5 each: demand, competition (5=low), fit, margin, time (5=fastest); max 25",
+ "tool_notes": [
+  "Ahrefs keywords-explorer: 'Insufficient plan' (no search volumes)",
+  "WebFetch/curl blocked; Composio web_search helper not loaded; all research via WebSearch snippets"
+ ],
+ "top10": [
+  {
+   "rank": 1,
+   "name": "Corporate year-end / New Year / FY-end ESG gifting (plastic-free hampers, placemats)",
+   "scores": {
+    "demand": 5,
+    "competition": 3,
+    "fit": 5,
+    "margin": 4,
+    "time": 5
+   },
+   "window": "pitch by 7 Nov 2026; Women's Day 8 Mar 2027; FY-end 31 Mar 2027",
+   "skus": [
+    "Kauna hamper baskets",
+    "Sabai gift boxes",
+    "water hyacinth placemats",
+    "cane desk organisers"
+   ],
+   "evidence": [
+    {
+     "fact": "58% of corporate buyers opted for eco-friendly gifts (GlobalData 2024, secondary)",
+     "url": "https://thecsrjournal.in/greener-gifting-why-sustainable-choices-matter-more-than-ever/"
+    },
+    {
+     "fact": "Gifting firms confirm New Year orders by ~1 Dec; first web bulk enquiry 500 placemats",
+     "url": "agents/STRATEGY.md"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 80,000-8,00,000 Nov-Mar (2-4 orders x 100-500 units x ~INR 400)",
+   "total": 22
+  },
+  {
+   "rank": 2,
+   "name": "Wedding return gifts / favours (INR 150-500 tier, makhana fill)",
+   "scores": {
+    "demand": 4,
+    "competition": 4,
+    "fit": 5,
+    "margin": 4,
+    "time": 5
+   },
+   "window": "mid-Nov to mid-Dec 2026, Jan-Feb 2027",
+   "skus": [
+    "small Sabai/Kauna baskets with 50-100 g Mithila makhana",
+    "madur coasters",
+    "small trays"
+   ],
+   "evidence": [
+    {
+     "fact": "Eco favours category growing (vendor directory)",
+     "url": "https://weddingsutra.com/wedding-vendors/wedding-favors-gifts"
+    },
+    {
+     "fact": "Competitor return gifts are candles/brass; return-gift searches surge late Nov",
+     "url": "sales/buyer_intelligence_2026-10-18.md"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 60,000-3,60,000 Nov-Feb",
+   "total": 22
+  },
+  {
+   "rank": 3,
+   "name": "Plastic-free gift packaging for D2C brands (tea, Ayurveda/beauty, gourmet)",
+   "scores": {
+    "demand": 4,
+    "competition": 4,
+    "fit": 5,
+    "margin": 4,
+    "time": 4
+   },
+   "window": "pitch Dec-Jan for Valentine's 14 Feb, Eid ~9-10 Mar, Holi 22 Mar 2027",
+   "skus": [
+    "Sabai boxes with lids",
+    "Kauna hamper trays",
+    "bamboo trays",
+    "water hyacinth pouches (new SKU)"
+   ],
+   "evidence": [
+    {
+     "fact": "Plastic packaging EPR applies to all D2C brands; PWM (Amendment) Rules 31 Mar 2026",
+     "url": "https://treelife.in/?p=16444"
+    },
+    {
+     "fact": "Soulflower gift boxes on Blinkit/Zepto/Instamart",
+     "url": "https://www.outlookindia.com/hub4business/soulflowers-thoughtful-gifting-for-every-occasion"
+    },
+    {
+     "fact": "Forest Essentials runs a corporate/wedding gifting desk",
+     "url": "https://forestessentialsindia.com/corporate-gifting"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 50,000-4,50,000 Jan-Mar 2027",
+   "total": 21
+  },
+  {
+   "rank": 4,
+   "name": "Eco-hotel, homestay and villa room-amenity sets",
+   "scores": {
+    "demand": 4,
+    "competition": 4,
+    "fit": 5,
+    "margin": 4,
+    "time": 3
+   },
+   "window": "Oct-Mar tourist season; pre-openings",
+   "skus": [
+    "Kauna laundry basket",
+    "Sabai tissue-box cover",
+    "cane tray",
+    "Madurkathi bedside mat",
+    "planters"
+   ],
+   "evidence": [
+    {
+     "fact": "161,074-room branded pipeline, 72% active; 11,424 rooms added FY26",
+     "url": "https://www.asianhospitality.com/india-hotel-pipeline-161k-rooms-supply/"
+    },
+    {
+     "fact": "IHCL phasing out single-use plastic",
+     "url": "https://www.ihcltata.com/press-room/ihcl-stays-firm-on-its-commitment-to-reduce-dependence-on-single-use-plastics"
+    },
+    {
+     "fact": "SaffronStays 350+ homes",
+     "url": "https://www.briter.co/companies/saffronstays"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 75,000-1,25,000 per 30-50 room property",
+   "total": 20
+  },
+  {
+   "rank": 5,
+   "name": "Export: EU basket importers (Netherlands, Germany)",
+   "scores": {
+    "demand": 5,
+    "competition": 2,
+    "fit": 4,
+    "margin": 4,
+    "time": 3
+   },
+   "window": "Ambiente 29 Jan-2 Feb 2027; India-EU FTA expected in force Feb-Mar 2027",
+   "skus": [
+    "water hyacinth + Sabai/Kauna nesting storage sets",
+    "Madurkathi mats"
+   ],
+   "evidence": [
+    {
+     "fact": "EU basketry imports EUR 594m (2020) to EUR 833m (2024), CAGR 8.8%; Europe ~45% of world",
+     "url": "https://www.cbi.eu/market-information/home-decoration-home-textiles/basketry/market-potential"
+    },
+    {
+     "fact": "Germany USD 152m, France USD 108m HS4602 imports 2023",
+     "url": "https://oec.world/profile/hs/basketwork"
+    },
+    {
+     "fact": "Handicraft tariffs up to 10% to zero on FTA entry into force (draft)",
+     "url": "https://elplaw.in/wp-content/uploads/2026/03/India-EU-FTA-Update.pdf"
+    },
+    {
+     "fact": "NL buy lead 200-500 pcs/type, CIF, HS460219",
+     "url": "https://www.go4worldbusiness.com/buylead/view/1329192/wanted-:-woven-baskets.html"
+    }
+   ],
+   "revenue_estimate": "estimate: USD 2,000-12,000 first trial order by Q2 2027 (FOB band unconfirmed)",
+   "total": 18
+  },
+  {
+   "rank": 6,
+   "name": "Export: UK (CETA zero duty)",
+   "scores": {
+    "demand": 4,
+    "competition": 3,
+    "fit": 4,
+    "margin": 4,
+    "time": 3
+   },
+   "window": "now",
+   "skus": [
+    "Sabai wall-plate sets",
+    "water hyacinth baskets",
+    "Madurkathi mats"
+   ],
+   "evidence": [
+    {
+     "fact": "India-UK CETA in force 15 Jul 2026; zero duty ~99% lines",
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-uk-ceta-comes-into-effect/print_manually"
+    },
+    {
+     "fact": "UK HS4602 imports USD 83.3m 2023",
+     "url": "https://oec.world/profile/hs/basketwork"
+    }
+   ],
+   "revenue_estimate": "estimate: USD 1,500-6,000 first order by Q2 2027",
+   "total": 18
+  },
+  {
+   "rank": 7,
+   "name": "Export: Mithila makhana to UAE, US, Canada (plus makhana gift baskets)",
+   "scores": {
+    "demand": 5,
+    "competition": 2,
+    "fit": 3,
+    "margin": 3,
+    "time": 3
+   },
+   "window": "FDA registration window 1 Oct-31 Dec 2026; Gulfood 15-19 Mar 2027",
+   "skus": [
+    "plain makhana 100/250 g and 10 kg",
+    "makhana in Sabai gift box"
+   ],
+   "evidence": [
+    {
+     "fact": "Exports 6,700 MT (2020) to 25,130 MT (2024); US 40%, Canada 20%, UAE 17%",
+     "url": "https://apeda.gov.in/sites/default/files/2026-01/MIC_November_Monthly_dashboard_Makhana_311225.pdf"
+    },
+    {
+     "fact": "FY26 7,264.89 MT worth INR 192.96 cr under new HS code",
+     "url": "https://ianslive.in/india-exported-over-7000-metric-tonnes-of-makhana-to-over-20-global-destinations-in-fy26--20260808151310"
+    },
+    {
+     "fact": "Gulfood 15-19 Mar 2027",
+     "url": "https://www.austrade.gov.au/en/events/gulfood-2027"
+    }
+   ],
+   "revenue_estimate": "estimate: USD 10,000-20,000 turnover per 500-1,000 kg trial; thin margin",
+   "total": 16
+  },
+  {
+   "rank": 8,
+   "name": "Cross-border marketplaces: Amazon Global Selling (US) + Etsy",
+   "scores": {
+    "demand": 4,
+    "competition": 2,
+    "fit": 4,
+    "margin": 4,
+    "time": 3
+   },
+   "window": "set up Nov 2026",
+   "skus": [
+    "Sabai wall-plate sets",
+    "Kauna planters",
+    "water hyacinth baskets",
+    "madur yoga mats"
+   ],
+   "evidence": [
+    {
+     "fact": "US HS4602 imports USD 593m 2023 (#1)",
+     "url": "https://oec.world/profile/hs/basketwork"
+    },
+    {
+     "fact": "Amazon USD 20bn cumulative India exports; 2 lakh+ exporters; home 39% CAGR",
+     "url": "https://press.aboutamazon.com/in/news/amazon-global-selling/2025/10/amazon-surpasses-20-billion-milestone-for-ecommerce-exports-from-india-before-2025-deadline-targets-80-billion-by-2030"
+    },
+    {
+     "fact": "US tariff on India 10% Section 301 from 24 Jul 2026 vs 12.5% China/Vietnam",
+     "url": "https://www.theweek.in/news/biz-tech/2026/07/24/us-tariffs-section-301-india.html"
+    },
+    {
+     "fact": "Pinterest Predicts 2026 Afrohemian: handwoven baskets, +220% searches",
+     "url": "https://axios.com/2025/12/09/2026-pinterest-trend-report"
+    }
+   ],
+   "revenue_estimate": "estimate: USD 350-2,100/month by month 3",
+   "total": 17
+  },
+  {
+   "rank": 9,
+   "name": "Government/institutional retail: GeM, Biswa Bangla, airport (Avolta Kolkata), museum shops",
+   "scores": {
+    "demand": 3,
+    "competition": 4,
+    "fit": 4,
+    "margin": 3,
+    "time": 3
+   },
+   "window": "register now",
+   "skus": [
+    "cane/bamboo utility baskets (GeM)",
+    "GI Madurkathi coasters/mats",
+    "small Sabai boxes with story card"
+   ],
+   "evidence": [
+    {
+     "fact": "GeM order value INR 4,03,305 cr; 37.87% to MSEs",
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/mar/doc202532511101.pdf"
+    },
+    {
+     "fact": "Army bamboo ration basket bid 42,255 units (closed)",
+     "url": "https://tenders.infralens.in/gem/desiccant-silica-gel-bamboo-supports-and-baskets-7577039"
+    },
+    {
+     "fact": "Avolta 7-year duty-free contract Kolkata, 6 stores",
+     "url": "https://www.avoltaworld.com/en/node/15483"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 20,000-1,50,000 first 6 months",
+   "total": 17
+  },
+  {
+   "rank": 10,
+   "name": "Festival gift boxes beyond Diwali for quick-commerce brands",
+   "scores": {
+    "demand": 4,
+    "competition": 3,
+    "fit": 4,
+    "margin": 3,
+    "time": 3
+   },
+   "window": "Valentine's 14 Feb, Women's Day 8 Mar, Eid ~9-10 Mar, Holi 22 Mar, Rakhi 16/17 Aug, Onam ~12 Sep 2027",
+   "skus": [
+    "small Sabai boxes",
+    "Kauna trays",
+    "Madurkathi puja aasans"
+   ],
+   "evidence": [
+    {
+     "fact": "Zepto 2m daily Diwali orders; Blinkit ~3m",
+     "url": "https://www.business-standard.com/amp/companies/news/zepto-diwali-orders-2-million-daily-40-percent-more-than-rival-125103001122_1.html"
+    },
+    {
+     "fact": "Instamart 5x rakhis vs all of prior year; Zepto 4x",
+     "url": "https://www.outlookbusiness.com/news/raksha-bandhan-blinkit-instamart-zepto-report-sales-surge-during-festive-season"
+    }
+   ],
+   "revenue_estimate": "estimate: INR 30,000-2,00,000 per festival",
+   "total": 17
+  }
+ ],
+ "also_scored": [
+  {
+   "name": "Temple/puja category",
+   "total": 15
+  },
+  {
+   "name": "Baby/nursery storage",
+   "total": 14
+  },
+  {
+   "name": "Pet beds/baskets",
+   "total": 13
+  },
+  {
+   "name": "Office/co-working decor (covered by cane_planters)",
+   "total": 14
+  },
+  {
+   "name": "Subscription hampers",
+   "total": 12
+  },
+  {
+   "name": "Japan mats",
+   "total": 15
+  }
+ ],
+ "export_markets": [
+  {
+   "rank": 1,
+   "country": "USA",
+   "demand": "HS4602 USD 593m (2023, OEC); makhana 40% of India exports (APEDA)",
+   "duty_compliance": "10% Section 301 (from Jul 2026); FDA registration + Prior Notice for makhana; check APHIS",
+   "buyers": "Amazon/Etsy, Indian-grocery importers (e.g. Krishiv Foods), decor importers"
+  },
+  {
+   "rank": 2,
+   "country": "Germany",
+   "demand": "HS4602 USD 152m (2023, OEC)",
+   "duty_compliance": "EU duty up to 10%, to 0 when India-EU FTA in force (expected Feb-Mar 2027); EUDR excludes bamboo/rattan",
+   "buyers": "importer-wholesalers",
+   "fair": "Ambiente 29 Jan-2 Feb 2027"
+  },
+  {
+   "rank": 3,
+   "country": "UK",
+   "demand": "HS4602 USD 83.3m (2023, OEC)",
+   "duty_compliance": "0% under CETA since 15 Jul 2026",
+   "buyers": "Ian Snow, Nkuku, Faire gift shops"
+  },
+  {
+   "rank": 4,
+   "country": "Netherlands",
+   "demand": "EU hub; go4WorldBusiness buy lead #1329192",
+   "duty_compliance": "as EU",
+   "buyers": "Van der Sar Import, Van der Leeden Mandwerk"
+  },
+  {
+   "rank": 5,
+   "country": "UAE",
+   "demand": "17% of India makhana exports; container buy leads",
+   "duty_compliance": "food registration/labelling (Federal Law 10/2015)",
+   "buyers": "Al Adil, LuLu, trading LLCs",
+   "fair": "Gulfood 15-19 Mar 2027"
+  },
+  {
+   "rank": 6,
+   "country": "Japan",
+   "demand": "HS4602 USD 92.7m (2023); #1 mats importer USD 78.8m (2022)",
+   "duty_compliance": "Japan Customs ch.46 tariff; strict QC",
+   "buyers": "lifestyle importers"
+  },
+  {
+   "rank": 7,
+   "country": "France",
+   "demand": "HS4602 USD 108m (2023)",
+   "duty_compliance": "as EU",
+   "buyers": "concept stores",
+   "fair": "Maison&Objet 14-18 Jan 2027 (secondary)"
+  },
+  {
+   "rank": 8,
+   "country": "Canada",
+   "demand": "20% of India makhana exports",
+   "duty_compliance": "CFIA rules (check)",
+   "buyers": "Indian-grocery importers"
+  }
+ ],
+ "fastest_wins": [
+  "Corporate year-end hampers/placemats (pitch by 7 Nov; quote 500-placemat enquiry)",
+  "Wedding return-gift tier with makhana fill (pitch now)",
+  "Reply to NL go4WorldBusiness basket lead + UAE makhana/basket leads; samples to Van der Sar; IEC + RCMC"
+ ]
+}

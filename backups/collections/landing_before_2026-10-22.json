@@ -1,0 +1,50 @@
+{
+  "saved_at": "2026-10-22",
+  "note": "Before maker-direct landing content (owner approved 22 Oct 2026). Restore with collectionUpdate(input:{id, descriptionHtml, seo:{title, description}}).",
+  "collections": [
+    {
+      "id": "gid://shopify/Collection/349642490029",
+      "handle": "diamond-jewellery-boxes",
+      "title": "Diamond & Jewellery Boxes",
+      "updatedAt": "2026-10-17T13:32:36Z",
+      "descriptionHtml": "<p>Discover handwoven boxes for storing jewellery, diamonds and treasured keepsakes. Crafted from natural fibres by Indian artisans, each piece brings tactile weave, thoughtful storage and understated character to dressing tables, gifting and special occasions.</p><h3>Designed for precious pieces</h3><ul>\n<li>Compact trinket and jewellery boxes</li>\n<li>Lidded keepsake boxes in natural fibres</li>\n<li>Distinctive handwoven textures and finishes</li>\n<li>Thoughtful choices for personal and wedding gifting</li>\n</ul>",
+      "seo": {
+        "title": "Diamond & Jewellery Boxes in Natural Fibre - GrassCrafts",
+        "description": "Shop handwoven diamond and jewellery boxes in Kauna grass, cane, Sabai and water hyacinth, crafted by Indian artisans for keepsakes and gifting."
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/349642293421",
+      "handle": "diwali-gift-hampers",
+      "title": "Diwali Gift Hampers",
+      "updatedAt": "2026-10-17T13:32:45Z",
+      "descriptionHtml": "<p>Celebrate Diwali with reusable, artisan-made gift hampers and festive hosting pieces woven from natural Indian fibres — Kauna grass from Manipur, Sabai grass, bamboo, Madurkathi and water hyacinth. Every piece is handwoven by rural artisans, so your gift carries a story, not just a ribbon.</p>\n<h3>Use code DIWALI10 — 10% off orders above ₹1,999</h3>\n<p><strong>Free shipping above ₹1,300</strong> across India.</p>\n<h3>Shop by budget</h3>\n<ul>\n<li>\n<strong>Under ₹999</strong> — Kauna grass hamper baskets, mini jute baskets, wall plates, puja &amp; asana mats, catch-all organisers</li>\n<li>\n<strong>₹999 – ₹2,499</strong> — jewellery trays &amp; boxes, bamboo puja and serving trays, dry-flower wreaths, cane planter sets</li>\n<li>\n<strong>Premium</strong> — keepsake boxes, dining sets and handwoven pendant lamps for a festive home</li>\n</ul>\n<h3>Corporate &amp; bulk Diwali gifting</h3>\n<p>Ordering for your team, clients or a wedding? We create custom hampers in bulk with your choice of baskets, fillers and branded tags. <a href=\"/pages/contact\">Contact us</a> with your quantity and budget per gift.</p>\n<h3>Why gift handwoven?</h3>\n<ul>\n<li>Reusable, plastic-free and biodegradable</li>\n<li>Supports women artisans across India</li>\n<li>Every piece is one-of-a-kind</li>\n</ul>",
+      "seo": {
+        "title": "Diwali Gift Hampers & Festive Baskets - GrassCrafts",
+        "description": "Shop artisan-made Diwali gift hampers, festive baskets, trays and hosting accents handwoven from natural fibres in India."
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/321301938349",
+      "handle": "wedding-gift-hamper",
+      "title": "Wedding Gift Hampers",
+      "updatedAt": "2026-10-18T01:32:16Z",
+      "descriptionHtml": "<h2>Gifts Woven with Love &amp; Intention</h2><p>Each wedding gift hamper at Grasscrafts is handwoven by skilled Indian artisans using natural grasses and fibres — Kauna, Sabai, Water Hyacinth, and more. Slow-made, sustainable, and deeply personal.</p><h3>Why Choose a Grasscrafts Wedding Hamper?</h3><ul>\n<li>Handcrafted by master weavers from rural India</li>\n<li>Made from 100% natural, biodegradable grasses and fibres</li>\n<li>Each piece is unique — no two hampers are identical</li>\n<li>Beautifully presented, ready to gift</li>\n<li>Supports traditional Indian craft heritage</li>\n</ul><p>A Grasscrafts wedding hamper is more than a gift — it is a story of hands, heritage, and nature, gifted with intention.</p>",
+      "seo": {
+        "title": "Handcrafted Wedding Gift Hampers | Natural Fiber Gifts — GrassCrafts",
+        "description": null
+      }
+    },
+    {
+      "id": "gid://shopify/Collection/330091004077",
+      "handle": "corporate-gifts-handcrafted-gifts",
+      "title": "Corporate Gifts",
+      "updatedAt": "2026-10-17T15:33:38Z",
+      "descriptionHtml": "<p>Give gifts your clients and team will actually keep. Our corporate gifts are handwoven by Indian artisans from Kauna grass, Sabai grass, bamboo, cane and water hyacinth — reusable, plastic-free and memorable.</p>\n<h3>Shop by budget per gift</h3>\n<ul>\n<li>\n<strong>Under ₹500</strong> — pen holders, mini desk vases, mini jute baskets, Kauna grass hamper baskets, small gift boxes</li>\n<li>\n<strong>₹500 – ₹1,500</strong> — desk organisers, jewellery baskets and trays, bamboo tray sets, keepsake boxes</li>\n<li>\n<strong>Premium (₹1,500+)</strong> — jewellery boxes, partitioned cane organisers, curated hampers</li>\n</ul>\n<h3>Bulk &amp; custom orders</h3>\n<ul>\n<li>Custom hampers built around your budget — we can fill baskets with your choice of products</li>\n<li>Branded thank-you tags and personalised notes</li>\n<li>Custom colours available on selected Sabai grass boxes</li>\n<li>Delivery across India; free shipping on orders above ₹1,300</li>\n</ul>\n<p>See our <a href=\"/pages/wholesale-corporate-gifting\">wholesale &amp; corporate gifting</a> page, or <a href=\"/pages/contact\">contact us</a> with your quantity, budget per gift and delivery date for a quote. Gift cards are also available for flexible gifting.</p>\n<h3>Why handcrafted corporate gifts?</h3>\n<ul>\n<li>Sustainable and plastic-free — supports your ESG and green-office goals</li>\n<li>Supports women artisans and rural livelihoods across India</li>\n<li>Every piece is one-of-a-kind, so your gift stands out</li>\n</ul>\n<p>Popular for Diwali, client appreciation, employee onboarding kits, conferences and year-end gifting.</p>",
+      "seo": {
+        "title": "Eco-Friendly Corporate Gifts India | Handmade | GrassCrafts",
+        "description": "Handwoven, plastic-free corporate gifts: hampers, desk organisers, gift boxes and trays. Bulk orders, custom hampers and branded tags across India."
+      }
+    }
+  ]
+}

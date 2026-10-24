@@ -1,0 +1,59 @@
+[
+ {
+  "found": "2026-10-22",
+  "segment": "export_importers",
+  "company": "Van der Sar Import",
+  "city": "De Lier, Netherlands",
+  "website": "https://www.vandersar.nl",
+  "signal": "Importer of pots, vases, bowls and baskets; IPM Essen exhibitor; sells rattan baskets under Terima Kasih brand",
+  "signal_url": "https://www.ipm-essen.de/world-trade-fair/exhibitor-list/detail/van-der-sar-import-83347",
+  "contact_name": "",
+  "role": "Sales",
+  "email": "sales@vandersar.nl",
+  "email_source": "https://www.ipm-essen.de/world-trade-fair/exhibitor-list/detail/van-der-sar-import-83347",
+  "verified": "published",
+  "business_phone": "+31 174 52 00 52",
+  "phone_source": "https://www.ipm-essen.de/world-trade-fair/exhibitor-list/detail/van-der-sar-import-83347",
+  "products_to_pitch": [
+   "water hyacinth baskets",
+   "Kauna/Sabai planters and storage sets"
+  ],
+  "occasion": "EU import assortment; Ambiente/IPM 2027",
+  "competitor_used": "unknown",
+  "current_products": "unknown",
+  "budget_signal": "unknown",
+  "buying_pattern": "unknown",
+  "status": "new",
+  "notes": "HOLD: send only after Sristi has an FOB/CIF quote and IEC/RCMC. Opportunity #5.",
+  "source_report": "reports/opportunities_trends_export_2026-10-22.md"
+ },
+ {
+  "found": "2026-10-22",
+  "segment": "export_importers",
+  "company": "Van der Leeden Mandwerk B.V.",
+  "city": "Ameide, Netherlands",
+  "website": "",
+  "signal": "Natural handmade baskets, furniture and decoration; exports worldwide; Ambiente exhibitor",
+  "signal_url": "https://ambiente.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/van-der-leeden-mandwerk-bv.html",
+  "contact_name": "",
+  "role": "Office (phone only)",
+  "email": "",
+  "email_source": "",
+  "verified": "published",
+  "business_phone": "+31 183 601 215",
+  "phone_source": "https://ambiente.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/van-der-leeden-mandwerk-bv.html",
+  "products_to_pitch": [
+   "Sabai/Kauna baskets",
+   "water hyacinth baskets",
+   "Madurkathi mats"
+  ],
+  "occasion": "EU import assortment; meet at Ambiente 29 Jan-2 Feb 2027",
+  "competitor_used": "unknown",
+  "current_products": "unknown",
+  "budget_signal": "unknown",
+  "buying_pattern": "unknown",
+  "status": "new",
+  "notes": "Phone only, no published email found; for Sristi to call or meet at Ambiente. HOLD until FOB/CIF quote. Opportunity #5.",
+  "source_report": "reports/opportunities_trends_export_2026-10-22.md"
+ }
+]

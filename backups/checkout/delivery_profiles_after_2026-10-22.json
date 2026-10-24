@@ -1,0 +1,15 @@
+{"_note":"State re-read after deliveryProfileUpdate on 2026-10-22. Shopify re-created the edited conditions, so condition IDs changed. Only the two India zones changed.",
+"General profile (gid://shopify/DeliveryProfile/90595819693, version 2 -> 3)":{
+ "zone Domestic (IN)":{
+  "Standard ₹120 (gid://shopify/DeliveryMethodDefinition/602482901165)":{"conditions":[{"id":"gid://shopify/DeliveryCondition/279353786541?operator=greater_than_or_equal_to","op":">=","amount":"0.0"},{"id":"gid://shopify/DeliveryCondition/279353786541?operator=less_than_or_equal_to","op":"<=","amount":"1298.99"}]},
+  "Free shipping ₹0 (gid://shopify/DeliveryMethodDefinition/660702724269)":{"conditions":[{"id":"gid://shopify/DeliveryCondition/279353753773?operator=greater_than_or_equal_to","op":">=","amount":"1299.0"}]}},
+ "zone International":"unchanged (Standard ₹1,700, no conditions)"},
+"Free Shipping Condition (gid://shopify/DeliveryProfile/95156043949, version 11 -> 12)":{
+ "zone india (IN)":{
+  "Free shipping ₹0 (gid://shopify/DeliveryMethodDefinition/660702396589)":{"conditions":[{"id":"gid://shopify/DeliveryCondition/279353688237?operator=greater_than_or_equal_to","op":">=","amount":"1299.0"}]},
+  "Shipping ₹120 (gid://shopify/DeliveryMethodDefinition/660702429357)":{"conditions":[{"id":"gid://shopify/DeliveryCondition/279353721005?operator=greater_than_or_equal_to","op":">=","amount":"0.0"},{"id":"gid://shopify/DeliveryCondition/279353721005?operator=less_than_or_equal_to","op":"<=","amount":"1298.99"}]}}},
+"MAKHANA - shipping included (gid://shopify/DeliveryProfile/105208381613)":"unchanged (version 1, free with no minimum)",
+"verification_draftOrderCalculate (nothing saved)":{
+ "Kauna Jewellery Display Tray ₹1,299, Delhi":"only rate offered: Free shipping ₹0; tax ₹0",
+ "Kauna Grass Planter XXL ₹980, Delhi":"only rate offered: Shipping ₹120; tax ₹0",
+ "Madurkathi Fridge Cover Red ₹750, Dehradun":"only rate offered: Standard ₹120; IGST 18% = ₹135"}}

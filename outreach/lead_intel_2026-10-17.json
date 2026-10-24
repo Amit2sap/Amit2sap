@@ -1,0 +1,619 @@
+{
+ "generated": "2026-10-17",
+ "method": "Public web (company sites, Shopify product JSON, press, NSE filings) plus read-only Gmail threads. No emails sent. Estimates are labelled. Personal mobiles excluded; only phones and emails published by the companies are listed. Hunter.io addresses are kept only in the internal decision_makers file.",
+ "leads": [
+  {
+   "company": "Hamperology / Nawal Foundation",
+   "stage": "HOT - with Sristi",
+   "our_contact_email": "contact@nawalfoundation.in",
+   "background": {
+    "summary": "Lucknow NGO (12A, 80G, CSR-certified, NITI Aayog DARPAN ID) working on women and child rights, especially POSH training. Started 2014. Hamperology is its festive-hamper line: the hampers are packed by women who are paying for their children's education.",
+    "cities": "Lucknow (Sector G, Aliganj). Says it handles bulk corporate orders across India.",
+    "founded": "2014",
+    "size": "Small NGO. No revenue or headcount published.",
+    "sources": [
+     "https://nawalfoundation.in/",
+     "https://nawalfoundation.in/about",
+     "https://nawalfoundation.in/diwali-hampers"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Dr. Arrpita Kapoor",
+     "position": "Founder & General Secretary (signs her email this way). The website lists her as Secretary and calls her the founder.",
+     "decides": "Yes. She is the founder.",
+     "published_business_contact": "contact@nawalfoundation.in, +91 95595 99991 (both on the website)",
+     "sources": [
+      "https://nawalfoundation.in/about",
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "16 Oct: she said she supports handicrafts and sustainable gifting and will keep our products in mind. She proposed a collaboration: GrassCrafts connects Hamperology to our corporate clients, and Hamperology would then 'substitute all our baskets with your baskets in preparing hampers if we get orders through you.' 17 Oct: we replied asking about hamper volumes, the collaboration model, cities and a call next week. Sristi is now CC'd.",
+    "why_they_would_buy": "They use baskets in most of their Diwali hamper SKUs. A handwoven, artisan-made basket suits their 'impact' story. Even so, the offer depends on us bringing them orders. It is not yet a direct purchase.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://nawalfoundation.in/diwali-hampers"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "The current Diwali range (codes 2401-2414) uses a golden cage-style holder, a golden wire basket, a 'classic round basket', a leather-and-cane tote, a 'handwoven basket with a complete festive tea set', a wicker-handle basket, tin jars, and designer or pink gift bags with window tin jars.",
+    "contents": "Honey, jaggery powder, herbal teas, jars of fox nuts, roasted chana and dates, a diya, a tea infuser, a Shubh Labh hanging and kulhads.",
+    "vendors_visible": "No basket supplier is named publicly.",
+    "sources": [
+     "https://nawalfoundation.in/diwali-hampers"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "None. Every hamper is quoted on WhatsApp after the buyer shares the code, quantity and city.",
+    "order_sizes": "Published MOQ per design: 15 (codes 2401-2406), 20 (2407-2410), 30 (2411), 40 (2412), 50 (2413), 100 (2414).",
+    "estimate": "Estimate, based on the contents and NGO positioning: likely an INR 800-2,000 hamper, so a basket costing INR 150-350 would fit. This is not verified. Ask her for current basket cost and volumes.",
+    "sources": [
+     "https://nawalfoundation.in/diwali-hampers"
+    ]
+   },
+   "buyer_persona": "Mission-driven founder of a small NGO that runs hampers as a livelihood project. She values artisans and plastic-free products and is price-sensitive. She wants demand (corporate orders) more than a supplier.",
+   "recommended_approach": "Offer two tracks. (A) Trade-price supply of 3-4 basket sizes that match her current codes, with a low MOQ of 15-50 to match hers. (B) Referral: when a corporate client asks GrassCrafts for filled hampers, refer them to Hamperology, which buys our baskets, with a simple margin split agreed by email. Don't promise to share our client list; offer joint pitches instead. Send photos of a round Kauna hamper basket and a Kauna tray with handle as like-for-like swaps for her round and wicker-handle baskets.",
+   "grasscrafts_products_fit": [
+    "Kauna hamper baskets (INR 340-599 catalogue)",
+    "Kauna/bamboo trays with handles",
+    "Sabai gift box (INR 750) for premium codes",
+    "Cane tote/basket to replace the leather-and-cane tote"
+   ],
+   "not_found": [
+    "Hamper retail prices",
+    "Annual hamper volume",
+    "Current basket supplier"
+   ]
+  },
+  {
+   "company": "CherishX",
+   "stage": "Warm - awaiting reply",
+   "our_contact_email": "contact@cherishx.com",
+   "background": {
+    "summary": "Delhi-based celebration and experience platform (Infureka Technologies Pvt Ltd). Sells candlelight dinners, home decorations, surprise setups, cakes, personalised gifts, gift hampers and corporate gifting.",
+    "cities": "Delhi NCR HQ. Says it operates in 15 cities. Hamper pages exist for Delhi NCR, Kolkata and 'across India'.",
+    "founded": "2015",
+    "size": "Small. Only ~USD 61K of disclosed angel/grant funding (FbStart 2017). Says 1M+ celebrations and 5,000+ reviews. About 5.5K LinkedIn followers.",
+    "sources": [
+     "https://cherishx.com/about-us",
+     "https://cherishx.com/partner-with-us",
+     "https://www.thecompanycheck.com/company/b/cherishx/46v9yyhea9hfa535i",
+     "https://yourstory.com/weekender/diy-kit-celebration-startup-cherishx",
+     "https://www.linkedin.com/company/cherishx"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Yogesh Yadav",
+     "position": "Co-founder & CEO (per Tracxn/Inc42; YourStory instead names Mudit Jaju, Mayank Singhania and Ichchit Agrawal as founders)",
+     "decides": "Likely the final decision-maker. Today we are talking to 'Team CherishX Customer Support', which forwarded us to 'the concerned team'.",
+     "published_business_contact": "contact@cherishx.com; customer support 8081833833 (in the email signature)",
+     "sources": [
+      "https://tracxn.com/d/companies/cherishx/__Tk8Z_6nisfi4Xza-GuprUgUW_YkGAVz4qKmV4bGV2jU",
+      "https://inc42.com/company/cherishx/people/",
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "16 Oct: 'We would like to review your catalogue and work details further... will get back to you if we see an opportunity.' 17 Oct, after we offered a price list and samples and asked for their city and Diwali volumes: 'We have shared your details with the concerned team, and they will get in touch with you shortly.' Neither the city nor volumes have been given yet.",
+    "why_they_would_buy": "They sell hampers year-round (birthdays, anniversaries, baby showers, Diwali) and corporate Diwali and joining kits. They advertise 'eco friendly gift hampers' and 'artisanal hampers' for corporates.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://cherishx.com/experiences/delhi-ncr/corporate-gifting"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "Hampers listed include Feeling Loved, Key To My Heart, Love Rose, Hello Gorgeous, Spa, Chai Addict and Coffee First. A 'Rustic Jute Wooden Gift Hamper' (INR 449) showed up in search snippets but could not be opened to confirm. Corporate kits are put 'in a clean box'.",
+    "vendors_visible": "Sells on Amazon and Flipkart under the CherishX brand. No packaging vendors are named.",
+    "sources": [
+     "https://cherishx.com/experiences/across-india/gift-hampers",
+     "https://www.amazon.in/stores/CherishX/page/9ABFFCA0-6698-4317-A62F-1A5E48F306A0",
+     "https://www.flipkart.com/festive-decor-gifting/cherishx-com~brand/pr?sid=bro"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Courier hampers: Feeling Loved INR 769, Key To My Heart INR 799, Love Rose INR 849. In-city hampers: Spa INR 1,699, Chai Addict INR 1,699, Hello Gorgeous INR 1,849. Large hampers INR 9,495-10,995.",
+    "order_sizes": "Corporate FAQ: 'Minimum order can differ by product'. They take small and large bulk orders.",
+    "estimate": "Estimate, based on INR 769-1,849 core hampers: a basket or tray at INR 120-300 trade would fit. Kauna baskets under INR 340 will be the easiest sell.",
+    "sources": [
+     "https://cherishx.com/experiences/across-india/gift-hampers",
+     "https://cherishx.com/experiences/delhi-ncr/corporate-gifting"
+    ]
+   },
+   "buyer_persona": "Price-driven aggregator and curator for consumer celebrations. It has many SKUs and wants cheap, photogenic, reusable containers in small to medium runs. Decisions go through an ops or category team, not support.",
+   "recommended_approach": "Send the trade price list with a sub-INR 300 entry tier. Offer 2-3 samples to Delhi. Also pitch their Kolkata hamper page and their 'partner' programme. Propose 2 hero SKUs (a small Kauna basket and a Sabai tray) that they can white-label for Diwali and New Year corporate kits. If there is no reply in 5 days, ask support for the name of the category or procurement person.",
+   "grasscrafts_products_fit": [
+    "Small/medium Kauna hamper baskets",
+    "Bamboo/Kauna trays",
+    "Haldi/Mehendi baskets (INR 550+) for their pre-wedding decor line",
+    "Madur mats/wall plates as decor add-ons"
+   ],
+   "not_found": [
+    "Named procurement/category head",
+    "Current basket vendor",
+    "Diwali hamper volumes",
+    "Revenue"
+   ]
+  },
+  {
+   "company": "Farmley",
+   "stage": "Warm - proposal sent 15 Oct, no reply",
+   "our_contact_email": "yogesh@farmley.com (given to us by wecare@farmley.com)",
+   "background": {
+    "summary": "D2C healthy-snacking brand: dry fruits, date bites, roasted makhana and trail mixes. Started as B2B dry-fruit trading in 2017 and pivoted to D2C in 2021.",
+    "cities": "India-wide (D2C site, quick commerce, retail).",
+    "founded": "2017 (founders Akash Sharma and Abhishek Agarwal). The website says 'Founded in 2019'.",
+    "size": "FY25 revenue from operations INR 394 crore per filings (company claims ~INR 370 crore). USD 40M Series C led by L Catterton, May 2025. About USD 55M raised in total.",
+    "sources": [
+     "https://pulse.d2cinsider.com/farmley-nears-e2-82-b9400-cr-revenue-in-fy25-strengthens-d2c-scale-while-keeping-losses-in-check/",
+     "https://india.entrepreneur.com/news-and-trends/farmley-raises-40-million-in-series-c-led-by-l-catterton/491449",
+     "https://inc42.com/startups/farmley-b2b-pedigree-inr-350-cr-d2c-snack-brand/",
+     "https://entrackr.com/fintrackr/farmley-nears-rs-400-cr-revenue-in-fy25-losses-under-control-10947441",
+     "https://www.farmley.com/pages/about-us"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Yogesh (surname not public)",
+     "position": "Unknown. wecare@farmley.com named him as the person for proposals and catalogues.",
+     "decides": "Unknown. Probably a gatekeeper or partnerships contact.",
+     "published_business_contact": "yogesh@farmley.com (given to us by Farmley support)",
+     "sources": [
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    },
+    {
+     "name": "Mohammad Arman",
+     "position": "VP Procurement",
+     "decides": "Likely decides on packaging and procurement",
+     "published_business_contact": "Not published. The address in our internal file came from Hunter.io; we emailed him on 16 Oct.",
+     "sources": [
+      "outreach/decision_makers_2026-10-16.json (internal, Hunter.io; email patterns unverified)",
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "15 Oct, Farmley support: 'Please forward your proposal and catalogue to yogesh@farmley.com.' We sent it the same day. No reply from Yogesh yet. A separate personal email went to Mohammad Arman on 16 Oct.",
+    "why_they_would_buy": "Diwali and Rakhi gift packs and corporate gifting of dry fruits. A reusable basket raises perceived value compared with a potli or cardboard pack.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "On the D2C site the only gift SKU is 'Gift box | Farmley Date Bites' at INR 489 (a Rakhi box). Search snippets mention a Diwali 'Mix Dry Fruit Diwali Gift Pack Potli' (INR 720) and a 'Treasures Mix Dry Fruit Diwali Gift Pack Combo' (INR 1,803) on Zepto, but these listings could not be opened to verify.",
+    "vendors_visible": "Not public. Sells through farmley.com, quick commerce and retail.",
+    "sources": [
+     "https://farmley.com/products/the-rakhi-box-farmley-date-bites",
+     "https://www.desidime.com/deals/farmley-date-bites-combo-pack-of-2"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Gift box INR 489. Regular packs INR 89-999 (Panchmeva jar INR 999).",
+    "order_sizes": "Not published.",
+    "estimate": "Estimate, based on INR 489-1,800 gift packs: packaging budget around INR 40-150 per unit. A full Kauna basket at INR 340+ only works for a premium corporate SKU (INR 1,500-2,500), not for mass Diwali packs. Pitch small trays or boxes, or a co-branded premium hamper.",
+    "sources": [
+     "https://farmley.com/products/the-rakhi-box-farmley-date-bites"
+    ]
+   },
+   "buyer_persona": "Fast-scaling, cost-disciplined FMCG/D2C company where procurement drives decisions. Cares about unit cost at scale (thousands of units), consistency, lead time and food-safe presentation.",
+   "recommended_approach": "Follow up with Yogesh once, offering a corporate-gifting 'premium tier' idea: a Farmley dry-fruit assortment in a reusable Kauna basket or Sabai box, sold to corporates at INR 1,499-2,499. Quote prices at 500 / 1,000 / 5,000 units with lead times. Ask whether Diwali 2026 packaging is already locked; if so, target New Year, Holi and Rakhi 2027.",
+   "grasscrafts_products_fit": [
+    "Small Kauna trays",
+    "Sabai gift box (INR 750) for premium SKUs",
+    "Small Kauna hamper basket (INR 340)"
+   ],
+   "not_found": [
+    "Yogesh's role or surname",
+    "Farmley corporate-gifting page or MOQ",
+    "Packaging vendors",
+    "Verified Diwali 2026 gift-pack prices"
+   ]
+  },
+  {
+   "company": "Bombay Sweet Shop / Hunger Inc. Hospitality",
+   "stage": "Warm - proposal sent 15 Oct to marketing@hungerinc.in, no reply",
+   "our_contact_email": "marketing@hungerinc.in (given to us by gifting@bombaysweetshop.com)",
+   "background": {
+    "summary": "Modern mithai brand from Hunger Inc. Hospitality (also runs The Bombay Canteen, O Pedro, Veronica's, Papa's). Launched in 2020. Gifting and festive boxes are central to the business.",
+    "cities": "Mumbai: 5 retail stores and 18 dark stores. Ships pan-India and sells on Swiggy and Zomato. Plans a Delhi flagship.",
+    "founded": "Bombay Sweet Shop 2020. Founders Sameer Seth and Yash Bhanage.",
+    "size": "Hunger Inc. FY25 revenue about INR 115 crore (Inc42: INR 112.5 crore). Bombay Sweet Shop is more than half of group revenue and tracks INR 8-9 crore a month. Raised INR 215 crore from Lighthouse and DSG Consumer Partners.",
+    "sources": [
+     "https://www.restaurantindia.in/news/restaurant-india-news-hunger-inc-raises-215-crore-to-fund-expansion-beyond-mumbai.n14101",
+     "https://entrackr.com/news/hunger-inc-raises-rs-215-cr-from-lighthouse-and-dsg-consumer-partners-10546972",
+     "https://inc42.com/company/hunger-inc-1/financials/",
+     "https://homegrown.co.in/homegrown-explore/secrets-of-the-sweet-shop-how-sameer-seth-yash-bhanage-built-a-culinary-empire-of-joy",
+     "https://bombaysweetshop.com/pages/about-us"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Marketing team (no name)",
+     "position": "Handles collaboration and product enquiries",
+     "decides": "Screens proposals",
+     "published_business_contact": "marketing@hungerinc.in; Sales & Partnerships 9372980596 (gifting team signature); chat@bombaysweetshop.com, +91 91361 92636 (website)",
+     "sources": [
+      "Gmail thread in amit2sap@gmail.com (private, read-only)",
+      "https://bombaysweetshop.com/pages/corporate-gifting"
+     ]
+    },
+    {
+     "name": "Samir Saxena",
+     "position": "Director of Operations (our internal file)",
+     "decides": "Likely influences packaging and ops decisions",
+     "published_business_contact": "Not published. Hunter.io address in our internal file; emailed 16 Oct.",
+     "sources": [
+      "outreach/decision_makers_2026-10-16.json (internal, Hunter.io; email patterns unverified)",
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    },
+    {
+     "name": "Sameer Seth / Yash Bhanage",
+     "position": "Co-founders (CEO / COO)",
+     "decides": "Final say on brand and packaging design",
+     "published_business_contact": "None found",
+     "sources": [
+      "https://homegrown.co.in/homegrown-explore/secrets-of-the-sweet-shop-how-sameer-seth-yash-bhanage-built-a-culinary-empire-of-joy"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "15 Oct, gifting team: 'For collaboration and product-related enquiries, kindly email your proposal and catalogue to marketing@hungerinc.in. Our marketing team will review the details and get back to you if there is a suitable opportunity.' Sent 15 Oct, no reply yet.",
+    "why_they_would_buy": "Diwali is their peak. They run corporate bulk gifting (custom sleeves, branded boxes) and ran a 'Corporate Diwali Gifts People Actually Want to Keep' blog on 11 Oct 2026. A keepsake basket fits that message, though their packaging today is design-led printed paper.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://bombaysweetshop.com/pages/corporate-gifting",
+     "https://bombaysweetshop.com/blogs/inspirations/how-to-choose-the-perfect-corporate-diwali-gift-hampers"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "In-house printed paper boxes and bags: Floral Box, Yellow Foiled Gift Box, Rani Baug Box, Small Coral Gift Bag, Large Green Gift Bag, Large Red Gift Box. They also sell their own 'Premium Box' as an add-on. Custom sleeves for corporates. They collaborate on add-ons (Phool incense cones sold on site).",
+    "vendors_visible": "Packaging suppliers not public. Phool is a visible co-brand partner.",
+    "sources": [
+     "https://bombaysweetshop.com/pages/corporate-gifting",
+     "https://bombaysweetshop.com/products/premium-box-large",
+     "https://bombaysweetshop.com/products/phools-natural-gulaal-copy"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Diwali 2026 hampers: Diwali Delight INR 990, Best of Diwali from INR 1,300, Diwali Celebration INR 1,750, Chocolatey INR 1,950, Diwali Party Treats from INR 2,750, Festive Diwali Gift Box INR 3,200, Grand Diwali INR 4,350, Ultimate Diwali Gourmet from INR 5,200. Empty packaging sold retail: Premium Box Medium INR 185, Premium Box Large INR 250, Large Red Gift Box INR 200.",
+    "order_sizes": "Corporate customisation needs at least 50 hampers. Lead time 3-4 days standard, 5-7 days customised.",
+    "estimate": "Estimate, based on their own boxes retailing at INR 185-250: they value premium packaging at about INR 200-250 retail, so trade cost is probably well under that. A Kauna or Sabai box at INR 300-750 only fits the INR 3,200-5,800 hampers or a corporate 'keepsake' upgrade.",
+    "sources": [
+     "https://bombaysweetshop.com/pages/corporate-gifting",
+     "https://bombaysweetshop.com/products/premium-box-large",
+     "https://bombaysweetshop.com/products/premium-box-medium",
+     "https://bombaysweetshop.com/products/large-red-gift-box"
+    ]
+   },
+   "buyer_persona": "Design-obsessed premium food brand with a strong in-house visual identity. The marketing team guards the brand, so they will only adopt packaging that looks 'Bombay Sweet Shop' and photographs well.",
+   "recommended_approach": "Pitch a limited 'keepsake' corporate add-on, not a replacement for their boxes: a Kauna or Sabai tray or basket that holds one of their mithai boxes, offered to corporate clients ordering 50+. Send a mock-up photo of a BSS box sitting in our tray. Follow up once with marketing@ and mention Samir. Realistically this is for New Year 2027, Holi or Rakhi.",
+   "grasscrafts_products_fit": [
+    "Kauna/bamboo serving trays",
+    "Sabai gift box (INR 750)",
+    "Kauna hamper baskets for the INR 4,000+ hampers"
+   ],
+   "not_found": [
+    "Named marketing/packaging head",
+    "Packaging vendors",
+    "Corporate order volumes"
+   ]
+  },
+  {
+   "company": "GIVA",
+   "stage": "Warm - asked us to fill the collaboration Google Form (owner to submit)",
+   "our_contact_email": "care@giva.co",
+   "background": {
+    "summary": "Bengaluru D2C fine and demi-fine jewellery brand (925 silver, 9-18K gold, lab-grown diamonds). Legal entity INDIEJEWEL FASHIONS PVT LTD.",
+    "cities": "Pan-India. Nearly 300 stores (crossed 200 in FY25) plus a Sri Lanka store. Revenue split about 50/50 online and offline.",
+    "founded": "2019 (CIN U51909KA2019PTC218533)",
+    "size": "FY25 revenue INR 518 crore (up 89%), net loss INR 72 crore. Raised INR 530 crore in June 2025 led by Creaegis (Premji Invest, Epiq, Edelweiss).",
+    "sources": [
+     "https://entrackr.com/fintrackr/givas-revenue-jumps-89-to-rs-518-cr-in-fy25-11103039",
+     "https://inc42.com/buzz/giva-loss-widens-23-to-%e2%82%b972-cr-in-fy25-revenue-jumps-90/",
+     "https://indianretailer.com/news/jewellery-startup-giva-posts-89-pc-growth-fy25-expands-store-network",
+     "https://www.giva.co/pages/giva-partnerships"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Ishendra Agarwal",
+     "position": "Founder & CEO",
+     "decides": "Yes, but very senior. Packaging is probably decided by brand or category teams.",
+     "published_business_contact": "Not published. Hunter.io address in our internal file; emailed 16 Oct.",
+     "sources": [
+      "outreach/decision_makers_2026-10-16.json (internal, Hunter.io; email patterns unverified)",
+      "https://entrackr.com/fintrackr/givas-revenue-jumps-89-to-rs-518-cr-in-fy25-11103039"
+     ]
+    },
+    {
+     "name": "Nisha Sain",
+     "position": "Customer Support Team (sent the form)",
+     "decides": "No",
+     "published_business_contact": "care@giva.co",
+     "sources": [
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "15 Oct: 'Request you to please fill out the below-attached collaboration form and our team would connect with you if it meets the current requirements... our dedicated team will respond within 24-48 hours.' Form: https://docs.google.com/forms/d/e/1FAIpQLScKKdX67V3mR8CUcedQqEp8Rzx1AJP8RryyScWMTpvH8DUxuQ/viewform (not yet submitted).",
+    "why_they_would_buy": "Their B2B corporate-gifting arm offers 'customisable premium packaging' and does co-branded gift boxes (GIVA x Phool, plus Kimirica, Snackible, DailyObjects, Anand Sweets according to search results). A handwoven jewellery box could become a festive or wedding packaging option, or a co-branded gift box.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://www.giva.co/pages/giva-partnerships",
+     "https://www.giva.co/products/giva-x-phool-curated-gift-box"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "Standard branded box. 'GIVA Forever Bond Gift Box' sold at INR 299, gift wrap INR 50. Corporate: customisable premium packaging, customised 999 silver coins. Claims 30+ corporate partners.",
+    "vendors_visible": "Co-brand partners: Phool (confirmed on site). Kimirica, Snackible, DailyObjects, Anand Sweets and Zouk appear in search results but were not verified on giva.co. Packaging manufacturers not public.",
+    "sources": [
+     "https://www.giva.co/products/giva-forever-bond-gift-box",
+     "https://www.giva.co/products/gift-wrapping",
+     "https://www.giva.co/pages/giva-partnerships",
+     "https://www.giva.co/products/giva-x-phool-curated-gift-box"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Typical jewellery INR 1,699-5,499 (middle half of about 3,000 listed products, median INR 2,999). Gift box INR 299. GIVA x Phool box INR 999.",
+    "order_sizes": "Not published.",
+    "estimate": "Estimate, based on the INR 299 retail gift box and INR 3K median ticket: an upgraded packaging budget of about INR 80-250 per unit at volume. A small Sabai or Kauna jewellery box would need to hit about INR 150-250 at 1,000+ units to be considered.",
+    "sources": [
+     "https://www.giva.co/products/giva-forever-bond-gift-box"
+    ]
+   },
+   "buyer_persona": "Data-driven, VC-backed D2C brand with a brand or partnerships team that runs co-branded gift boxes. Wants scale, fast turnaround, brand fit and Instagram appeal.",
+   "recommended_approach": "Submit the Google Form now (owner). Frame it as (1) a co-branded 'GIVA x GrassCrafts' handwoven gift box like the Phool box, for the wedding season or Valentine's 2027, and (2) a premium corporate-gifting packaging option. Give a unit price at 500 and 1,000 pieces and a sample offer. Mention the plastic-free, artisan story.",
+   "grasscrafts_products_fit": [
+    "Small Sabai/Kauna jewellery boxes",
+    "Sabai gift box",
+    "Small display trays for stores"
+   ],
+   "not_found": [
+    "Packaging/brand partnerships head name",
+    "Packaging vendor names",
+    "Corporate gifting order sizes"
+   ]
+  },
+  {
+   "company": "Senco Gold & Diamonds",
+   "stage": "Warm - pitch sent 16 Oct to marketing support, no reply",
+   "our_contact_email": "marketingsupport.senco@sencogold.co.in (given to us by customer care)",
+   "background": {
+    "summary": "Listed jewellery retailer with an 87+ year legacy and the market leader in Eastern India. Sub-brands include Gossip and Everlite, plus Sennes lifestyle stores. Headquartered in Kolkata, the same city as GrassCrafts.",
+    "cities": "201 showrooms as of March 2026 (189 Senco plus 12 Sennes; 102 company-owned, 85 franchise, 2 in Dubai).",
+    "founded": "Legacy of 87+ years (per company release)",
+    "size": "FY26 revenue INR 8,430 crore (up 33%), PAT INR 574 crore. Plans 18-20 new showrooms in FY27.",
+    "sources": [
+     "https://nsearchives.nseindia.com/corporate/Sencogold_27052026002727_SGL_PressRelease_FY2025-26_Q4.pdf",
+     "https://www.business-standard.com/markets/news/senco-gold-hits-5-upper-circuit-posts-highest-ever-revenue-in-q4-update-125040900282_1.html"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Joita Sen",
+     "position": "Director and Head of Marketing & Design",
+     "decides": "Yes. She is the decision-maker for packaging and design and has launched sub-brands (Gossip, Everlite).",
+     "published_business_contact": "Not published. Hunter.io address in our internal file; emailed 16 Oct.",
+     "sources": [
+      "https://www.freepressjournal.in/amp/brandsutra/joita-sen-on-understanding-jewellery-consumers-in-a-changing-market",
+      "https://www.medianews4u.com/senco-gold-diamonds-redefines-bridal-expression-in-new-campaign/",
+      "outreach/decision_makers_2026-10-16.json (internal, Hunter.io; email patterns unverified)"
+     ]
+    },
+    {
+     "name": "Marketing support team",
+     "position": "Marketing desk",
+     "decides": "Screens",
+     "published_business_contact": "marketingsupport.senco@sencogold.co.in (customer care pointed us here)",
+     "sources": [
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "15 Oct, customer care: 'this email id is primarily meant for resolving customer grievances... kindly connect with our marketing team directly @ marketingsupport.senco@sencogold.co.in.' We pitched there on 16 Oct and also emailed Joita Sen. No reply yet.",
+    "why_they_would_buy": "Dhanteras, Diwali and the wedding season are their peak. They run corporate gifting (vouchers, gold and silver coins). A Kolkata-made handwoven box fits a Bengal-heritage or bridal packaging story, and the Sennes lifestyle stores could stock decor.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://m.indiamart.com/sencogold/aboutus.html"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "Not public. Corporate gifting covers vouchers, gold and silver coins and bars (IndiaMART profile, possibly old).",
+    "vendors_visible": "None found",
+    "sources": [
+     "https://m.indiamart.com/sencogold/aboutus.html"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "9-carat festive collection starts under INR 7,000 (2025). Gold prices peaked around INR 1.69 lakh/10g in Q4 FY26.",
+    "order_sizes": "Not published. Scale estimate: 201 showrooms.",
+    "estimate": "Estimate, based on high-ticket jewellery (INR 7,000 and up): they can afford INR 150-750 premium boxes for bridal or festive SKUs. Volumes could reach thousands per season, but vendor onboarding at a listed company is slow.",
+    "sources": [
+     "https://indiantelevision.com/mam/senco-makes-gold-dreams-shine-with-9-carat-festive-launch-251016/",
+     "https://nsearchives.nseindia.com/corporate/Sencogold_27052026002727_SGL_PressRelease_FY2025-26_Q4.pdf"
+    ]
+   },
+   "buyer_persona": "Large, listed, family-led Kolkata jeweller. The marketing and design director is the brand guardian. Process-heavy: vendor registration, samples, approvals. Values heritage, Bengal craft and the bridal story.",
+   "recommended_approach": "Use the shared city: offer to bring a sample kit to their Kolkata office in person (Madurkathi or Sabai bridal box, Kauna tray, Sabai jewellery box). Pitch a 'Bengal craft' bridal or Poila Boishakh packaging capsule and Sennes decor. Diwali 2026 is too late, so target the wedding season (Nov-Feb) and Akshaya Tritiya 2027. Ask for their vendor registration process.",
+   "grasscrafts_products_fit": [
+    "Madurkathi/Sabai jewellery and bridal boxes",
+    "Kauna display trays",
+    "Cane trousseau baskets (INR 1,599) for bridal",
+    "Wall plates for Sennes stores"
+   ],
+   "not_found": [
+    "Packaging vendor or procurement head",
+    "Packaging spend",
+    "Current box design or material"
+   ]
+  },
+  {
+   "company": "Jaypore (Aditya Birla Fashion & Retail)",
+   "stage": "Warm - pitch sent 16 Oct to the collaboration inbox, no reply",
+   "our_contact_email": "connect.jaypore@abfrl.adityabirla.com (given to us by Jaypore customer care)",
+   "background": {
+    "summary": "Premium artisanal Indian lifestyle brand: apparel, jewellery and home decor sourced from 70+ craft clusters. Founded in 2012 by Puneet Chawla and Shilpa Sharma. ABFRL acquired it in 2019 for INR 110 crore.",
+    "cities": "Pan-India online. Close to 50 stores as of January 2026 (5 in Hyderabad by December 2025).",
+    "founded": "2012",
+    "size": "Standalone revenue is not separately published in our sources. ABFRL FY26 says Jaypore grew 23% within the ethnic portfolio. Third-party estimate (ECDB): USD 62M GMV for 2025.",
+    "sources": [
+     "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/JayporeE-CommercePrivateLimited_May%2018,%202022_RR_290426.html",
+     "https://apparelresources.com/business-news/retail/abfrl-posts-11-revenue-growth-in-fy-26-expands-retail-network-to-1273-stores/",
+     "https://indianretailer.com/franchisetv/archives/news/franchise-news-jaypore-expands-its-artisanal-footprint-punjab-closes-50-store-mark",
+     "https://www.abfrl.com/wp-content/uploads/2025/12/Media-Release_Jaypore-Expands-Presence-in-Telangana-with-Launch-of-Its-5th-Store-in-Hyderabad.pdf",
+     "https://ecdb.com/resources/sample-data/retailer/jaypore"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Puneet Chawla",
+     "position": "Co-founder; CEO per our internal file. His current role could not be confirmed publicly.",
+     "decides": "Senior. Home-category buyers would be the working contact.",
+     "published_business_contact": "Not published. Hunter.io address in our internal file; emailed 16 Oct.",
+     "sources": [
+      "outreach/decision_makers_2026-10-16.json (internal, Hunter.io; email patterns unverified)",
+      "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/JayporeE-CommercePrivateLimited_May%2018,%202022_RR_290426.html"
+     ]
+    },
+    {
+     "name": "Collaborations desk",
+     "position": "Collaboration enquiries",
+     "decides": "Routes to buyers",
+     "published_business_contact": "connect.jaypore@abfrl.adityabirla.com; customer care +91 85888 87171",
+     "sources": [
+      "Gmail thread in amit2sap@gmail.com (private, read-only)"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "15 Oct, Jaypore Customer Excellence (Aanal): 'to address your collaboration inquiries, please connect with us at connect.jaypore@abfrl.adityabirla.com.' Pitch sent 16 Oct.",
+    "why_they_would_buy": "Jaypore runs as a curated marketplace (617 brand pages in its sitemap) and already lists Sabai grass wall plates and coasters, seagrass, water hyacinth and jute baskets, cane planters and cane decor. That is the same category as GrassCrafts, so the ask is to be onboarded as a seller or brand, not as a packaging supplier.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://www.jaypore.com/sitemap-brands.xml",
+     "https://www.jaypore.com/p/pink-sabai-grass-wall-plate-39583208.html",
+     "https://www.jaypore.com/p/brown-cane-planter-39577692.html",
+     "https://www.jaypore.com/p/brown-water-hyachinth-basket-39941823.html",
+     "https://www.jaypore.com/c/charm-of-cane"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "Not applicable. Jaypore is a retailer of decor, not a packaging buyer.",
+    "vendors_visible": "Brand listings include natural-fibre and craft sellers such as natural-fibres-export, red-grass, earth-and-soul, tattva-handmade, urmul-deser-craft, we-weave and the-house-of-artisans. These are direct competitors on the platform.",
+    "sources": [
+     "https://www.jaypore.com/sitemap-brands.xml",
+     "https://www.jaypore.com/c/basket",
+     "https://www.jaypore.com/c/gifting"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Product prices load by JavaScript and could not be read. Not found.",
+    "order_sizes": "Not published (marketplace or consignment terms are unknown).",
+    "estimate": "Estimate, based on the premium-artisanal positioning: retail prices around 2-2.5x our wholesale price. Expect a margin or commission ask of 35-50% (unverified).",
+    "sources": []
+   },
+   "buyer_persona": "Corporate category or buying team inside ABFRL. Looks for craft authenticity, catalogue-ready photos, GST and compliance, and reliable replenishment. The process is slow and formal.",
+   "recommended_approach": "Re-pitch as a seller or brand onboarding. Send a line sheet of 15-25 SKUs (Sabai wall plates, Madurkathi mats, Kauna baskets, cane planters, water hyacinth baskets) with wholesale price, MRP and stock. Point out that the craft is from Bengal (Madurkathi and Sabai) and that we can do 'Charm of Cane' style edits. Follow up in 7 days.",
+   "grasscrafts_products_fit": [
+    "Sabai wall plates (INR 450+)",
+    "Madurkathi mats (INR 300+)",
+    "Cane planters and ottomans",
+    "Water hyacinth baskets",
+    "Sabai gift boxes for the gifting edit"
+   ],
+   "not_found": [
+    "Home-category buyer name",
+    "Commission/margin terms",
+    "Jaypore standalone revenue (latest)",
+    "Product price points"
+   ]
+  },
+  {
+   "company": "The Knot Company (Knotwise Gifting Pvt Ltd)",
+   "stage": "Cool/warm - 'will keep in mind'. Follow up around 30 Oct",
+   "our_contact_email": "corporate@theknotcompany.in",
+   "background": {
+    "summary": "Bespoke and corporate gifting company. Sells curated hampers for Diwali, Holi, Valentine's and Rakhi, plus corporate employee and client kits. Offers bulk orders, pan-India shipping and multi-address delivery.",
+    "cities": "Head office Jaipur (Tonk Road, Pratap Nagar). Branch in Noida (Sector 63). Same-day delivery in Jaipur.",
+    "founded": "Not found",
+    "size": "Not public. About 485 products on its Shopify store.",
+    "sources": [
+     "https://theknotcompany.in/pages/about-us",
+     "https://theknotcompany.in/pages/corporate-gifting",
+     "https://www.indianretailer.com/article/retail-business/retail/top-online-gifting-concierge-brands-india-helping-you-gift-better"
+    ]
+   },
+   "contacts": [
+    {
+     "name": "Vijay Sharda",
+     "position": "Co-founder",
+     "decides": "Yes",
+     "published_business_contact": "corporate@theknotcompany.in, +91 97854 01377 (website)",
+     "sources": [
+      "https://theknotcompany.in/pages/corporate-gifting"
+     ]
+    },
+    {
+     "name": "Soumya Maheshwari",
+     "position": "Co-founder",
+     "decides": "Yes (likely curation)",
+     "published_business_contact": "Same as above",
+     "sources": [
+      "https://theknotcompany.in/pages/corporate-gifting"
+     ]
+    }
+   ],
+   "buying_intention": {
+    "what_they_asked": "16 Oct: 'We will review your catalogue and keep your offerings in mind for our upcoming requirements. We will get in touch if a suitable opportunity arises.'",
+    "why_they_would_buy": "As a gifting curator they buy containers and gift items every season. They already use cane baskets and rattan in some hampers. Their range includes 'Eco-Friendly' hampers and a 'Home Decor' gift type.",
+    "sources": [
+     "Gmail thread in amit2sap@gmail.com (private, read-only)",
+     "https://theknotcompany.in/products/lavender-bliss-love-basket",
+     "https://theknotcompany.in/products/premium-festive-gift-hamper"
+    ]
+   },
+   "purchasing_background": {
+    "current_packaging": "Mostly own-branded rigid boxes (e.g. 'TKC Midnight Cherry Blossom Box 27x18.7x6 cm', 'TKC Ivory Circular Box 10x4 in', 'Diwali Navy Blue box 10x8x4 in'). Some hampers use a 'premium cane basket' (Lavender Bliss Love Basket, INR 3,235).",
+    "vendors_visible": "Brands inside their hampers include Dot & Key, Kimirica, Kanha sweets and Ferrero Rocher. No packaging vendors are named.",
+    "sources": [
+     "https://theknotcompany.in/products/diwali-celebration-box",
+     "https://theknotcompany.in/products/golden-gleam-of-diwali",
+     "https://theknotcompany.in/products/premium-festive-gift-hamper",
+     "https://theknotcompany.in/products/lavender-bliss-love-basket"
+    ]
+   },
+   "budget_signals": {
+    "published_prices": "Diwali 2026 range: Festival Glow and Diya & Delight INR 850, Diwali Celebration Box INR 1,170, Moments of Joy INR 1,280, Radiance INR 1,330, Shubh Blessings INR 1,400, Grandeur INR 1,980, Boardroom Blend INR 2,100, Golden Gleam / Prosperity INR 2,500, Ivory Glow INR 6,500, Royal Heritage INR 12,600. Corporate kits: Employee Essentials INR 2,300, Executive Luxe INR 11,499. Prices include GST; shipping extra.",
+    "order_sizes": "Bulk orders accepted, no MOQ published. 10-12 business days delivery on corporate sets.",
+    "estimate": "Estimate, based on the INR 850-2,500 core Diwali range: container budget around INR 100-300. Our Kauna baskets (INR 340-599 catalogue) fit the INR 2,000+ corporate hampers, or as a trade-discounted 'eco' line.",
+    "sources": [
+     "https://theknotcompany.in/pages/corporate-gifting",
+     "https://theknotcompany.in/products/corporate-employee-essentials-gift-set",
+     "https://theknotcompany.in/products/the-royal-heritage-hamper"
+    ]
+   },
+   "buyer_persona": "Founder-led gifting curator in Jaipur. Persona 'Rohit' in our playbook: needs a 30-40% margin, reliable bulk supply, custom sizes and fast October-December turnaround. Positions itself on 'thoughtful' and 'eco' gifting.",
+   "recommended_approach": "Follow up around 30 Oct with a New Year, client-gifting and wedding-season angle. Send a reseller price list with margin built in, and propose 2-3 'eco hamper' bases (Kauna basket, Sabai box, bamboo tray) for their corporate catalogue, plus a desk organiser as a gift item. Offer one sample set to Jaipur or Noida.",
+   "grasscrafts_products_fit": [
+    "Kauna hamper baskets",
+    "Sabai gift box (INR 750)",
+    "Bamboo trays",
+    "Desk organisers",
+    "Cane baskets (replace their 'premium cane basket')"
+   ],
+   "not_found": [
+    "Founding year",
+    "Revenue/size",
+    "Current basket supplier",
+    "MOQ"
+   ]
+  }
+ ]
+}

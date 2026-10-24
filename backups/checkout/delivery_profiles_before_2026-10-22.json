@@ -1,0 +1,35 @@
+{"_note":"Backup of all delivery profiles (Admin GraphQL deliveryProfiles), read 2026-10-22 before changing the free-shipping threshold. International zone country list trimmed to codes for brevity; it was not changed.",
+"deliveryProfiles":[
+{"id":"gid://shopify/DeliveryProfile/90595819693","name":"General profile","default":true,"version":2,"activeMethodDefinitionsCount":3,"productVariantsCount":91,
+ "locationGroup":"gid://shopify/DeliveryLocationGroup/91169620141","location":"gid://shopify/Location/72135377069 (Shop location)",
+ "zones":[
+  {"id":"gid://shopify/DeliveryZone/390200131757","name":"Domestic","countries":["IN (gid://shopify/DeliveryCountry/541674209453)"],
+   "methodDefinitions":[
+    {"id":"gid://shopify/DeliveryMethodDefinition/602482901165","name":"Standard","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/544891502765","price":{"amount":"120.0","currencyCode":"INR"}},
+     "methodConditions":[
+      {"id":"gid://shopify/DeliveryCondition/277296808109?operator=greater_than_or_equal_to","field":"TOTAL_PRICE","operator":"GREATER_THAN_OR_EQUAL_TO","criteria":{"amount":"0.0","currencyCode":"INR"}},
+      {"id":"gid://shopify/DeliveryCondition/277296808109?operator=less_than_or_equal_to","field":"TOTAL_PRICE","operator":"LESS_THAN_OR_EQUAL_TO","criteria":{"amount":"1299.99","currencyCode":"INR"}}]},
+    {"id":"gid://shopify/DeliveryMethodDefinition/660702724269","name":"Free shipping","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/600537497773","price":{"amount":"0.0","currencyCode":"INR"}},
+     "methodConditions":[
+      {"id":"gid://shopify/DeliveryCondition/277296840877?operator=greater_than_or_equal_to","field":"TOTAL_PRICE","operator":"GREATER_THAN_OR_EQUAL_TO","criteria":{"amount":"1300.0","currencyCode":"INR"}}]}]},
+  {"id":"gid://shopify/DeliveryZone/390200164525","name":"International","countries":["AE","AT","AU","BE","CA","CH","CZ","DE","DK","ES","FI","FR","GB","HK","IE","IL","IT","JP","KR","MY","NL","NO","NZ","PL","PT","SE","SG","US"],
+   "methodDefinitions":[
+    {"id":"gid://shopify/DeliveryMethodDefinition/602482933933","name":"Standard","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/544891535533","price":{"amount":"1700.0","currencyCode":"INR"}},"methodConditions":[]}]}]},
+{"id":"gid://shopify/DeliveryProfile/95156043949","name":"Free Shipping Condition","default":false,"version":11,"activeMethodDefinitionsCount":2,"productVariantsCount":445,
+ "locationGroup":"gid://shopify/DeliveryLocationGroup/95908823213","location":"gid://shopify/Location/72135377069 (Shop location)",
+ "zones":[
+  {"id":"gid://shopify/DeliveryZone/411091435693","name":"india","countries":["IN (gid://shopify/DeliveryCountry/541674209453)"],
+   "methodDefinitions":[
+    {"id":"gid://shopify/DeliveryMethodDefinition/660702396589","name":"Free shipping","description":"","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/600537170093","price":{"amount":"0.0","currencyCode":"INR"}},
+     "methodConditions":[
+      {"id":"gid://shopify/DeliveryCondition/200153628845?operator=greater_than_or_equal_to","field":"TOTAL_PRICE","operator":"GREATER_THAN_OR_EQUAL_TO","criteria":{"amount":"1300.0","currencyCode":"INR"}}]},
+    {"id":"gid://shopify/DeliveryMethodDefinition/660702429357","name":"Shipping","description":"","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/600537202861","price":{"amount":"120.0","currencyCode":"INR"}},
+     "methodConditions":[
+      {"id":"gid://shopify/DeliveryCondition/200153661613?operator=greater_than_or_equal_to","field":"TOTAL_PRICE","operator":"GREATER_THAN_OR_EQUAL_TO","criteria":{"amount":"0.0","currencyCode":"INR"}},
+      {"id":"gid://shopify/DeliveryCondition/200153661613?operator=less_than_or_equal_to","field":"TOTAL_PRICE","operator":"LESS_THAN_OR_EQUAL_TO","criteria":{"amount":"1299.99","currencyCode":"INR"}}]}]}]},
+{"id":"gid://shopify/DeliveryProfile/105208381613","name":"MAKHANA - shipping included","default":false,"version":1,"activeMethodDefinitionsCount":1,"productVariantsCount":3,
+ "zones":[
+  {"id":"gid://shopify/DeliveryZone/449322418349","name":"Asia","countries":["IN"],
+   "methodDefinitions":[
+    {"id":"gid://shopify/DeliveryMethodDefinition/830285709485","name":"Free shipping with no minimum order value","active":true,"rateDefinition":{"id":"gid://shopify/DeliveryRateDefinition/763720794285","price":{"amount":"0.0","currencyCode":"INR"}},"methodConditions":[]}]}]}
+]}

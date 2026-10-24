@@ -1,0 +1,24 @@
+# facebook agent log
+
+## 2026-10-21 (Wed, off day)
+- Read Page feed via Composio (no token printed). Only posts in the 7-day window: the 14 Oct Live (70 comments) and one 14 Oct post (0 comments). Newer posts: none.
+- Live comments are live chat from 7 days ago (host answered live); not replied to publicly. No hot leads (no price list, bulk or sample requests). Items for owner: "Mera sofa dispatch hua kya?" (order status), "Table mats available hai kya??" and "red wala wall hanging price" (could be answered from Shopify if wanted).
+- No posts (off day). No new blocker.
+
+## 2026-10-20 (Tue, posting day)
+- Posted 1 native photo post (Diwali table dressing): Madurkathi table runner and 6 mats set, handle madurkathi-table-runner-6-mats-set, from Rs 450. Post id 142803116227246_1675586341245413. No Live today, so no teaser or roundup.
+- Comments: read 25 of 70 on the 14 Oct Live via the feed (FACEBOOK_GET_COMMENTS refused: needs pages_read_engagement / pages_read_user_content). Replies via FACEBOOK_CREATE_COMMENT on the comment ids also failed (tool read the id as a page id; numeric id refused with a 400). No replies sent; not worked around.
+- Unanswered, could be answered from Shopify by the owner: "Table mats available hai kya??" (yes, from Rs 300 / Rs 450 sets), "cane storage dam" (cane storage basket Rs 1,099), "red wall hanging price", "Mera sofa dispatch hua kya?" (order status, owner). No hot leads (no price list, bulk or sample asks).
+- BLOCKER (new, owner): Facebook connection lacks permission to read/reply to Page comments (needs pages_read_engagement and pages_manage_engagement, or Page Public Content Access).
+
+## 2026-10-22 (Thu, posting day)
+- Posted 1 native photo post (Diwali 8 Nov / Bhai Dooj 11 Nov gifting): Water Hyacinth Open Caddy, handle water-hyacinth-open-caddy-handwoven-artisan-storage, Rs 1,799. Post id 142803116227246_1675787184558662. Different product from 20 Oct.
+- Comments: tried FACEBOOK_GET_COMMENTS once, refused (#10 pages_read_engagement / Page Public Content Access). Skipped, no replies. Known blocker, unchanged.
+- No hot leads. No new blocker.
+
+## 2026-10-23 (Fri, off day)
+- Read posts of the last 7 days via FACEBOOK_GET_PAGE_POSTS with comment counts: 3 posts, 0 comments on each, so nothing to answer (FACEBOOK_GET_COMMENTS not needed). Note: a post dated 2026-10-23 11:46 UTC (id 142803116227246_1677004184436962) exists that this agent did not make. No post by Social (off day). No hot leads.
+
+## 2026-10-24 (Sat, posting day)
+- Comments: 7-day posts have 0 comments (Live posts of 7/12/14 Oct are older; not read). No replies.
+- Posted 1 native photo post: Sabai Pot-Shaped Box with Lid (handle box-1, from Rs 1,199). Post id 142803116227246_1677887837681930. No hot leads.

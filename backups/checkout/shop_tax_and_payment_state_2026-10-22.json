@@ -1,0 +1,8 @@
+{"_note":"Read-only snapshot 2026-10-22. Nothing here was changed; the Admin API has no mutation for these settings.",
+"shop":{"name":"GrassCrafts","myshopifyDomain":"605e40-ba.myshopify.com","currencyCode":"INR","taxesIncluded":false,"taxShipping":false},
+"api_check":{
+ "COD / manual payment method":"No Admin GraphQL mutation creates or enables a manual payment method (searched mutations for 'payment', 'gateway', 'manual', 'setting'). Shop.paymentSettings only exposes supportedDigitalWallets. paymentCustomization* only hides/renames/reorders existing methods and needs a Shopify Function app.",
+ "Include tax in prices":"Shop.taxesIncluded is read-only. Tax mutations available: companyLocationTaxSettingsUpdate (B2B), customer tax exemptions, taxAppConfigure (tax partner apps), taxSummaryCreate. None changes taxesIncluded."},
+"variant_taxable_flag":"About 172 of 539 variants are taxable=true (Madurkathi mats/runners/fridge covers, straw bed mats, dry flower wreaths, bamboo trays/lamps/gift basket, some Sabai wall plate variants, Kaziranga/Shillong/Agartala cane planter variants). All other variants, including all 10 best-sellers, are taxable=false, so no GST is added for them at checkout.",
+"gst_rate_seen":"draftOrderCalculate on a taxable ₹750 item to Uttarakhand returned IGST 18% (₹135).",
+"sales_taxes_last_365d":"₹0 on every product in the sales report (top 20 by gross sales)."}
