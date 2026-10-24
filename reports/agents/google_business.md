@@ -37,3 +37,8 @@
 - **Main post (Bhai Dooj 11 Nov, Diwali 8 Nov, within 21 days):** localPosts/4099381715667300718 (PROCESSING via Windsor create_local_post). "Sabai grass pot-shaped gift box with lid, Kolkata - from Rs 1,199", pink/blue/green, 8x8 in and 10 in, SHOP -> /products/box-1, Shopify CDN featured image. No phone number, no trade terms. Different product from the 20 Oct post (storage-box).
 - **Makhana:** skipped (not connected in Windsor; had its weekly turn).
 - **Blockers (unchanged, no new owner alert):** Zapier task limit since 18 Oct; Windsor has only the main location. Review replies, post status check and old-post deletions still pending.
+
+## 2026-10-24 (posts via Composio Upload-Post, account upload_post_halide-drawly)
+- Main (Diwali 8 Nov / Bhai Dooj): localPosts/8460222548547168693, handmade dry flower wreath, link /products/dry-flower-wreath, Shopify CDN photo uploaded as s3key. No prices, no phone.
+- Makhana: localPosts/2026296411966267435, premium Mithila makhana gifting/bulk, link /collections/makhana, product photo. No GI claim.
+- Both completed; Upload-Post usage 3/10 (limit resets daily from 23 Oct 12:39 UTC). Reviews/pending-edit checks not done this run (not in scope).
