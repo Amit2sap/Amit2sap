@@ -22,3 +22,6 @@
 ## 2026-10-24 (Sat, posting day)
 - Comments: 7-day posts have 0 comments (Live posts of 7/12/14 Oct are older; not read). No replies.
 - Posted 1 native photo post: Sabai Pot-Shaped Box with Lid (handle box-1, from Rs 1,199). Post id 142803116227246_1677887837681930. No hot leads.
+
+## 2026-10-25 (Sun, off day)
+- Comments: live video post 142803116227246_1429292278642198 (24 Oct) has 52 comments, mostly greetings/price asks. Replied to 8 (thanks, festive wish, no prices; price/design asks pointed to grasscrafts.com and WhatsApp +91 62907 44782). Other posts 0 comments. Note FACEBOOK_CREATE_COMMENT needs the numeric comment id only (compound id is read as a page id). Remaining ~44 comments (greetings, size feedback) left for next run.

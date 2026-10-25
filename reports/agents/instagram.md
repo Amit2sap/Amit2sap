@@ -22,3 +22,6 @@
 ## 2026-10-24 (Sat, posting day)
 - Comments: last 6 posts all 0 comments, no replies needed.
 - Posted 1 image: Sabai grass gift box (handle storage-box, from Rs 750; Diwali 8 Nov / wedding gifting). Media id 18118961843063554. No blocker.
+
+## 2026-10-25 (Sun, off day)
+- Comments: last 10 posts all 0 comments, no replies. No Pinterest saves approved (none with status approved). Added 4 collab pitches dated 2026-10-26 to the actions page (Hunter valid x3, accept_all x1; all pending). No hot leads.
