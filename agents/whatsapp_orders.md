@@ -10,6 +10,7 @@ Owner request, 25 Oct 2026. Transactional (UTILITY) messages only: never send a 
 Never message an order created before `start_after`, except the shipped message for an order fulfilled after `start_after`.
 
 ## Each run
+0. **Health check first.** In COMPOSIO_REMOTE_WORKBENCH run `proxy_execute("GET", "/28037860215843187?fields=health_status", "whatsapp")`. If `health_status.can_send_message` is `BLOCKED`, send nothing. Add each due order to `skipped` with the error (e.g. 141006 payment method) and report one line to the owner: "WhatsApp blocked: <error_description>". 25 Oct: blocked by 141006, so the owner must add a payment method to WhatsApp account Grasscrafts as profile Sristi Dey II.
 1. Shopify query: `orders(first: 50, reverse: true, query: "created_at:>=<2 days ago>")` with name, createdAt, cancelledAt, test, phone, statusPageUrl, paymentGatewayNames, totalPriceSet, shippingAddress {firstName phone countryCodeV2}, customer {firstName defaultPhoneNumber {phoneNumber}}, fulfillments {createdAt trackingInfo {company number url}}. Also query orders with `fulfillment_status:shipped updated_at:>=<2 days ago>` for the shipped step.
 2. Skip: orders in `exclude`, cancelled orders, test orders, orders outside India (countryCodeV2 not IN), orders with no phone, and phones in `optout`.
 3. **Phone:** take order.phone, else shippingAddress.phone, else customer.defaultPhoneNumber. Keep digits only, drop a leading 0, and if 10 digits are left, prefix 91. The result must be 12 digits starting with 91.
