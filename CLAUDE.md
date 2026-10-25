@@ -3,7 +3,7 @@
 Every new Claude session on this repo reads this file first. It is the memory of the work done so far (written 23 Oct 2026). Work on branch `claude/grassctafts-sales-growth-d8azah`; `git pull` before work, commit and push after.
 
 ## Business
-- GrassCrafts / "GrassCrafts by Abalone", Kolkata. Handwoven Sabai, Kauna, Madurkathi, Sitalpati, Kash, cane, water hyacinth, bamboo, jute decor, baskets, bags, mats, hampers; Mithila makhana; dry flower torans (₹960, 3 ft).
+- GrassCrafts / "GrassCrafts by Abalone", Kolkata. Handwoven Sabai, Kauna, Madurkathi, Sitalpati, Kash, cane, water hyacinth, bamboo, jute decor, baskets, bags, mats, hampers; Mithila makhana; dry flower torans (₹960, 3 ft; made to order, inventory untracked by owner decision 25 Oct).
 - Owner: Amit Dey (amit2sap@gmail.com). Founder: Sristi Dey (sristi@grasscrafts.com, WhatsApp +91 62907 44782). Hot leads go to Sristi with Amit in CC.
 - Shopify store 605e40-ba (grasscrafts.com, INR). Facts: free shipping from ₹1,299, NO GST on any product ("Charge tax" off on every variant), Cash on Delivery on, ₹100 extra per COD order (owner, 24 Oct; Releasit COD app). Makhana packs (250 g, 500 g, 1 kg, 5 kg bulk; tag makhana-free-shipping) ship free with no minimum; the makhana gift hamper follows standard shipping.
 
@@ -28,4 +28,4 @@ Gmail gmail_movie-arab · Instagram instagram_basoid-oer (@grasscrafts.com_) · 
 Data & SEO 07:37 Mon/Thu · Lead research 08:07 Mon–Fri · Email & Actions 10:22 daily · Google Business 11:14 Tue/Thu/Sat · Social 13:41 daily · AI Search 13:47 Thu · Reply watcher 15:07 & 19:07 · Website 17:22 Mon/Wed/Fri. Each launches one Sonnet subagent with its agents/*.md playbook.
 
 ## Waiting on the owner (23 Oct)
-Live theme 189623959725 "makhana + shipping fix 25 Oct" (published 25 Oct; undo 189658235053) · Releasit COD ₹100 fee NOT working yet (site text says ₹100 extra) · Toran stock not tracked (need counts) · AVADA SEO app: add availability to its Product snippet or turn it off · Sristi: confirm real costs behind the makhana hamper (₹649/₹949) and bulk 5 kg (₹5,499) prices, now live, priced-catalogue corrections, call the cane-stool hot lead.
+Live theme 189623959725 "makhana + shipping fix 25 Oct" (published 25 Oct; undo 189658235053) · Releasit COD ₹100 fee NOT working yet (site text says ₹100 extra) · AVADA SEO app: add availability to its Product snippet or turn it off · Sristi: confirm real costs behind the makhana hamper (₹649/₹949) and bulk 5 kg (₹5,499) prices, now live, priced-catalogue corrections, call the cane-stool hot lead.

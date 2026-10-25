@@ -26,3 +26,4 @@ seo/shipping_policy_2026-10-25.txt: "Makhana packs (250 g, 500 g, 1 kg and the 5
 ## Verified live 25 Oct
 - Owner published 189623959725 ("Grasscrafts – makhana + shipping fix 25 Oct"); live checksums: settings_data 45266ecf…, gc-free-shipping-bar 55f9b403…, gc-product-trust 4646f178…, llms 827bc2f9…. Undo: publish 189658235053.
 - Shipping policy live with: "Makhana packs (250 g, 500 g, 1 kg and the 5 kg bulk pack) ship free, with no minimum. The makhana gift hamper follows the standard rates above."
+- Toran: owner confirmed made to order (25 Oct); inventory stays untracked on purpose.
