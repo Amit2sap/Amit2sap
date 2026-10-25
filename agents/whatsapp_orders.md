@@ -13,13 +13,14 @@ Never message an order created before `start_after`, except the shipped message 
 1. Shopify query: `orders(first: 50, reverse: true, query: "created_at:>=<2 days ago>")` with name, createdAt, cancelledAt, test, phone, statusPageUrl, paymentGatewayNames, totalPriceSet, shippingAddress {firstName phone countryCodeV2}, customer {firstName defaultPhoneNumber {phoneNumber}}, fulfillments {createdAt trackingInfo {company number url}}. Also query orders with `fulfillment_status:shipped updated_at:>=<2 days ago>` for the shipped step.
 2. Skip: orders in `exclude`, cancelled orders, test orders, orders outside India (countryCodeV2 not IN), orders with no phone, and phones in `optout`.
 3. **Phone:** take order.phone, else shippingAddress.phone, else customer.defaultPhoneNumber. Keep digits only, drop a leading 0, and if 10 digits are left, prefix 91. The result must be 12 digits starting with 91.
-4. **Confirmation** (order createdAt >= start_after and name not in `confirmed`):
-   - Prepaid (gateway is not "Cash on Delivery"): template `order_confirmation` with body params [first name, order name, "₹" + total with Indian commas]. The text says "We have received your payment of {{3}}".
-   - Cash on Delivery: template `order_confirmation_cod` with the same 3 params, **only if its status is APPROVED** (check once per run with WHATSAPP_GET_MESSAGE_TEMPLATES name_or_content "order_confirmation_cod"). If it is not approved, add the order to `skipped` with the reason and do NOT use `order_confirmation`, because that text claims payment was received.
-5. **Shipped** (a fulfillment createdAt >= start_after and name not in `shipped`): template `order_shipped` with params [first name, order name, carrier, tracking link]. Carrier = trackingInfo.company, else "our courier". Tracking link = trackingInfo.url, else the order's statusPageUrl.
-6. First name: shippingAddress.firstName, else customer.firstName, else "there".
-7. Add each sent order name to `confirmed` or `shipped`, and record send errors in `skipped`. If a customer replies STOP or taps "Stop promotions" on any message, add their phone to `optout`.
-8. Commit and push the state file. Report one line: "WhatsApp orders: N confirmations, M shipped, K skipped". Stay silent if all three are 0.
+4. **Templates (25 Oct, v2 = ends with "For any questions, please WhatsApp us on +91 62907 44782", because replies to +91 81004 47884 are not received).** Once per run, check status with WHATSAPP_GET_MESSAGE_TEMPLATES (name_or_content "_v2" and "order_confirmation_cod").
+   - **Confirmation** (order createdAt >= start_after and name not in `confirmed`), params [first name, order name, "₹" + total with Indian commas]:
+     - Prepaid (gateway is not "Cash on Delivery"): `order_confirmation_v2` if APPROVED, else `order_confirmation` (v1 has no reply prompt, so it is fine).
+     - Cash on Delivery: `order_confirmation_cod_v2` if APPROVED, else `order_confirmation_cod` if APPROVED, else add to `skipped` ("COD template pending"). **Never** use `order_confirmation`/`_v2` for COD: that text says payment was received.
+   - **Shipped** (a fulfillment createdAt >= start_after and name not in `shipped`): **only** `order_shipped_v2`, params [first name, order name, carrier, tracking link]. Carrier = trackingInfo.company, else "our courier". Tracking link = trackingInfo.url, else statusPageUrl. If v2 is not APPROVED yet, add to `skipped` ("shipped v2 pending") and retry next run. Do not use v1 `order_shipped`: it says "Reply to this message", and replies are lost.
+5. First name: shippingAddress.firstName, else customer.firstName, else "there".
+6. Add each sent order name to `confirmed` or `shipped`, and record send errors in `skipped`. If a customer replies STOP or taps "Stop promotions" on any message, add their phone to `optout`.
+7. Commit and push the state file. Report one line: "WhatsApp orders: N confirmations, M shipped, K skipped". Stay silent if all three are 0.
 
 ## Notes
 - Replies to +91 81004 47884 go to a temporary webhook (ngrok), so read customer replies in WhatsApp Manager until the owner fixes it.
