@@ -37,3 +37,10 @@
 - **Main post (Bhai Dooj 11 Nov, Diwali 8 Nov, within 21 days):** localPosts/4099381715667300718 (PROCESSING via Windsor create_local_post). "Sabai grass pot-shaped gift box with lid, Kolkata - from Rs 1,199", pink/blue/green, 8x8 in and 10 in, SHOP -> /products/box-1, Shopify CDN featured image. No phone number, no trade terms. Different product from the 20 Oct post (storage-box).
 - **Makhana:** skipped (not connected in Windsor; had its weekly turn).
 - **Blockers (unchanged, no new owner alert):** Zapier task limit since 18 Oct; Windsor has only the main location. Review replies, post status check and old-post deletions still pending.
+
+## 2026-10-25 (owner session, Diwali push)
+- Main: localPosts/6580992065823118510, "Handwoven Kauna grass gift basket, Kolkata – from ₹340. Diwali gifts under ₹1,000" (Kauna basket camera photo), link /collections/everyday-essentials-under-1000. Free-shipping combo line; no delivery promise; no GI or other claims.
+- Makhana: localPosts/7096491801141118387, "Makhana gift hamper in a handwoven Sabai grass basket, Kolkata – from ₹649" (real makhana photo), link /products/makhana-gift-hamper-in-a-handwoven-sabai-grass-basket. Replaces the rejected 18 Oct post; no phone number.
+- Route: Upload-Post via Composio. Upload-Post cannot fetch image URLs: download the image in COMPOSIO_REMOTE_WORKBENCH, upload_local_file → s3key, then pass the s3key in photos[].
+- **Upload-Post quota: 5 of 10 posts used this cycle (reset 23 Oct).** Ration: at most 1 main post every 3 days plus 1 Makhana post a week until the next reset, or the owner upgrades.
+- Skipped: the product photo for the Sabai round jewellery basket (file_0000…png) looks AI-generated, so it was not used (image generation is paused; real photos only).
