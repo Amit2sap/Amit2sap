@@ -75,3 +75,9 @@
 - Hot leads: none new. Priced catalogue not sent (not before 14:00 IST; later run).
 - Collab items: 9 approved items (23 and 24 Oct) sent from Gmail and marked executed in ArtifactData; logged in sent_log.json (log 2026-10-24 = 9; Gmail Sent before run today = 0, cap 100).
 - Handoff: no open item due today; follow-ups carry to Mon 26 Oct.
+
+## 2026-10-25 (Sunday, steps 1-3 only)
+- Replies (last 24h): no genuine human replies. Bounce sales@bagheecha.com added to do_not_send (others already listed). The Sustainable Marketplace term sheet (24 Oct) left for the owner; no reply, draft r-9079110400029696158 untouched. Releasit support auto-thread and bank/job mail ignored. Hot leads: none new.
+- Priced catalogue: Sristi sent nothing since 22 Oct (no corrections). Sent the PDF (from message 1a167783697c6857) in existing threads, CC sristi@grasscrafts.com, to 9 leads: Upahaar, Ekta Bagla, Hamperology, CherishX, Farmley, Bombay Sweet Shop, Senco, Jaypore, The Knot Co. GIVA skipped (form). Handoff items ticked. Caveat: Sristi never answered the 11 match questions / 7 price conflicts listed in the email, so some products show no price.
+- Collab items: 4 items dated 25 Oct are status "pending", none approved, so nothing sent and no Hunter checks used.
+- Gmail Sent before run today: 0; sent 9 (cap 100).
