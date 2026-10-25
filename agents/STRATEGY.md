@@ -6,16 +6,44 @@ The Email & Actions agent (the lead agent) updates this file **every day** after
 
 **Recording changes:** keep the "Changes" log so we can see what moved and why.
 
-## Current focus (as of 18 Oct 2026)
-1. **Wedding season (mid-Nov to mid-Dec)** is the next big window.
-   - B2B: pitch planners, venues, trousseau packers and bridal jewellers now.
-   - Consumer: Haldi, Mehendi and wedding baskets from 1 Nov.
-2. **Diwali (8 Nov):** consumer posts on Diwali hampers and décor until 8 Nov. Corporate Diwali pitching is closing, so switch corporate emails to **year-end and New Year client gifting**.
-3. **Hotels and resorts:** Christmas and New Year lobby décor, plus room amenities for the Oct–Mar tourist season.
-4. **Search (Google and AI answers):** win "sabai grass", "kauna grass", "madur mat" and "cane planters", plus the open gaps "return gift baskets wedding india" and "bulk hamper baskets".
-5. **Corporate year-end (added 18 Oct):** gifting firms want New Year orders confirmed by 1 Dec (Saif Gifting), so year-end corporate emails go out by about 7 Nov. Add **water hyacinth placemats / table mats** to corporate pitches: the first website bulk enquiry (18 Oct) was 500 placemats for corporate gifting.
-6. **Real estate (added 18 Oct):** developers (Century, Sattva) already buy key-handover hampers from BoxUp. Lead with a handwoven housewarming hamper (Sabai box, Kauna hamper, planter).
-7. **Proof:** collect reviews (Google 4.7★ from 21 reviews; Judge.me is installed) and media mentions (9 pitches out).
+## Current focus (as of 25 Oct 2026; revised from the owner's growth guide)
+**The next 2 weeks are a consumer (B2C) Diwali push.** Dhanteras is 6 Nov, Diwali 8 Nov and Bhai Phota/Bhai Dooj 10–11 Nov *(verify)*. Corporate Diwali orders are placed 3–4 weeks ahead, so that window has closed. Corporate emails switch to year-end, New Year and wedding gifting.
+
+1. **Diwali B2C, until 9 Nov (all channels).**
+   - Lead with **[Gifts Under ₹1,000](https://grasscrafts.com/collections/everyday-essentials-under-1000)** and the **[Diwali collection](https://grasscrafts.com/collections/diwali-gift-hampers)**. Hero products: dry flower toran ₹960 (made to order), makhana gift hamper from ₹649, Kauna gift basket from ₹340, Sabai jewellery basket ₹899.
+   - **Free-shipping angle (fact):** free from ₹1,299, so "toran + any item of ₹339 or more ships free". Makhana packs always ship free.
+   - **Never promise a delivery date.** Say "order early; WhatsApp your pin code if you need it by a date". No lead times are on file.
+   - Instagram countdown posts for 3–5 days before 6 Nov and 8 Nov.
+   - A Bhai Phota gift post on about 5–7 Nov (gift boxes, jewellery boxes, makhana hamper).
+2. **Wedding season (Nov–Feb).** B2B: planners, caterers and venues for return gifts in lots of 50, 100 and 200; trousseau packers; bridal jewellers. Consumer: Haldi, Mehendi and wedding baskets from 1 Nov.
+3. **Corporate year-end, New Year and Christmas** (Christmas is big in Kolkata). Year-end emails go out by about 7 Nov; gifting firms confirm by 1 Dec. Placemats and desk sets go in corporate pitches.
+4. **New B2B segments to add to lead research (weights are set in the table below):** interior designers and architects (trade price + sample kit, once Sristi's price list exists); caterers and event planners (bulk return gifts); homestays and cafés (custom size and colour).
+5. **Hotels and resorts:** Christmas/New Year lobby décor and room amenities for the Oct–Mar season.
+6. **Search and AI answers:** win "sabai grass", "kauna grass", "madur mat", "cane planters", "return gift baskets wedding india", "bulk hamper baskets" and now "makhana gift hamper".
+7. **Proof:** reviews (Google 4.7★, 21 reviews; Judge.me) and media mentions.
+8. **Content:** short reels of weaving and the artisans (real footage only; image generation is paused). **Pinterest gets more weight:** home décor does well there and the traffic is cheap.
+
+## Growth backlog (needs owner/Sristi decisions: prices, stock, new products)
+Agents may draft these but must not create priced products, bundles, discounts or new product lines without the owner.
+- **Bundles ("bouquets").** Each needs owner pricing; tiers about ₹999, ₹1,999, ₹4,999 and ₹9,999.
+  - Diwali light set: pendant lamp + toran + tray.
+  - New-home set: basket + planter + mat + toran.
+  - Wedding return gifts: mini trays or boxes at ₹299–599, in lots of 50, 100 or 200.
+  - Corporate desk set: organiser + tray + coaster.
+  - Puja corner kit.
+  - Poila Boishakh set.
+  - Gourmet: makhana + bamboo tray.
+  - Bhai Phota gift set.
+- **Sizes and variants:** nesting sets (S/M/L) and sets of three; mini gift versions at ₹399–699; lined or lidded options; handle options; two-tone weaves; name or initial tags for personal gifts.
+- **Colours:** natural tones as the base, plus one accent colour per season (indigo, terracotta, olive or sage, deep maroon for festivals), made as limited batches.
+- **New products to test, one small batch at a time:** planter sleeves, laundry hampers, puja corner kit, work-from-home desk organiser sets, coaster and tray sets, wall baskets, kids' toy storage, natural-fibre pet bed.
+- **Channels:**
+  - WhatsApp gift concierge: the buyer gives the recipient and budget, and we suggest a set.
+  - WhatsApp broadcast to opted-in contacts only (draft: `sales/whatsapp_diwali_broadcast_2026-10-25.md`).
+  - A pop-up at the owner's housing society.
+  - Etsy for overseas buyers.
+  - A seasonal "home refresh" subscription box.
+- **Cash rules (no cash buffer):** custom and bulk work is made to order; take pre-orders for new designs; test one new product at a time; **margin target 25–30%** (note: the 25 Oct makhana prices were set at 20% on owner instruction and assumed costs, so Sristi should review them); keep discounts shallow.
 
 ## Sales and revenue targets (proposed by Claude on 17 Oct 2026; owner to confirm or change)
 
@@ -76,3 +104,4 @@ The Email & Actions agent (the lead agent) updates this file **every day** after
 ## Changes
 - 2026-10-17: file created. Segment mix in `agents/lead_research.md` (11 segments).
 - 2026-10-18: weights corporate +1 (19), real_estate +1 (5), luxury_watches −1 (6), gourmet −1 (6). Why: first inbound website bulk enquiry was corporate gifting (500 placemats); developers are proven hamper buyers (BoxUp case studies); the watch pitch window is December and gourmet Diwali packaging is closing. Added focus items 5 (corporate year-end by 7 Nov, placemats in corporate pitches) and 6 (real-estate housewarming hamper). Competitor notes added for Brown Living B2B discount and Gifting Studio, BoxUp/Giftiano and natural-fibre hamper makers. No price, discount, MOQ or lead-time changes (owner only).
+- 2026-10-25 (owner): Current focus rewritten from the owner's growth guide: 2-week B2C Diwali push (Gifts Under ₹1,000, toran, makhana hamper, free-shipping combo, no delivery promises), Bhai Phota post, new B2B segments proposed (interior designers/architects, caterers/event planners, homestays/cafés), Pinterest weight up, Growth backlog added (bundles, sizes, colours, new products, channels, cash rules, 25–30% margin target). Calendar: Bhai Phota, Kolkata Christmas, Rath Yatra, Poila Boishakh corporate kits. No price, discount or product changes made by agents.

@@ -1,0 +1,2 @@
+Page gid://shopify/Page/101703811245 (faq). Only this paragraph changed on 25 Oct:
+<p>Yes, we deliver pan-India via India Post and major courier partners. Orders are carefully packed to ensure safe delivery of your handwoven products. Shipping is free on orders of ₹1,300 and above; orders below ₹1,300 pay a flat ₹120.</p>

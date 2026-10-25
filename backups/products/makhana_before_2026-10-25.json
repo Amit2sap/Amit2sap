@@ -1,0 +1,42 @@
+{
+  "note": "State before 25 Oct makhana launch + shipping/inventory fixes. Full HTML bodies captured verbatim from Admin API on 25 Oct.",
+  "main_makhana": {
+    "id": "gid://shopify/Product/8622201995437",
+    "tags": ["fox nuts", "healthy snack", "lotus seeds", "makhana", "superfood"],
+    "delivery_profile": "MAKHANA - shipping included (gid://shopify/DeliveryProfile/105208381613)",
+    "descriptionHtml_shipping_sentence": "We offer delivery across India; shipping charges and eligibility are shown at checkout.",
+    "descriptionHtml_full": "<h2>Buy Premium Mithila Makhana Online in India</h2>\n<p>Shop <strong>GrassCrafts Premium Makhana</strong>, also known as <strong>phool makhana, fox nuts or lotus seeds</strong>, sourced from the Mithila region of Bihar, India. These traditional lotus seeds are sun-dried and packed plain for you to roast, season and enjoy your way.</p>\n<h3>Why choose GrassCrafts makhana?</h3>\n<ul>\n<li>\n<strong>Plain and simple:</strong> no added oil, salt, sugar or preservatives.</li>\n<li>\n<strong>Versatile snack:</strong> roast at home, add your favourite seasoning, or use in kheer and curries.</li>\n<li>\n<strong>Traditional Mithila sourcing:</strong> from the Mithila region of Bihar.</li>\n<li>\n<strong>Resealable, food-safe pouch:</strong> helps keep the product stored neatly after opening.</li>\n<li>\n<strong>Retail and gifting:</strong> suitable for home pantries, festive hampers, wedding gifts and corporate gifting enquiries.</li>\n</ul>\n<h3>Choose your makhana pack size</h3>\n<p>Available in <strong>250 g, 500 g and 1 kg</strong> pack options. Check the selection and current price above before ordering. We offer delivery across India; shipping charges and eligibility are shown at checkout.</p>\n<h3>How to prepare and store makhana</h3>\n<p>Dry-roast over low heat for around 5–8 minutes until crisp, or prepare with your preferred seasoning. Store in a cool, dry place and reseal the pouch after opening. Best before 6 months from the date of packaging.</p>\n<h3>Bulk, wholesale and corporate gifting</h3>\n<p>Looking to buy makhana in bulk for retail, festive hampers, weddings or corporate gifts? Contact GrassCrafts for a quote through our <a href=\"/pages/wholesale-corporate-gifting\">wholesale and corporate gifting page</a> or WhatsApp <a href=\"https://wa.me/916290744782\">+91 62907 44782</a>.</p>\n<p><a href=\"https://share.google/zzV2YdvRPsrO9Vw0n\"><strong>Find Makhana by GrassCrafts on Google Maps</strong></a> for business details and customer reviews.</p>"
+  },
+  "makhana_collection": {
+    "id": "gid://shopify/Collection/344132583597",
+    "sentences_changed": [
+      "<strong>Pan-India delivery is available.</strong> Please check the product page for current availability and order details.",
+      "<p><strong>Do you deliver makhana across India?</strong> Yes, pan-India delivery is available; shipping charges and eligibility are shown at checkout.</p>"
+    ],
+    "pack_list_before": "<ul>\n<li>\n<strong>250 g pack:</strong> ₹499</li>\n<li>\n<strong>500 g pack:</strong> ₹849</li>\n<li>\n<strong>1 kg pack:</strong> ₹1,599</li>\n</ul>"
+  },
+  "hamper_draft": {
+    "id": "gid://shopify/Product/15265744486573",
+    "status": "DRAFT",
+    "variants": [
+      {"id": "gid://shopify/ProductVariant/67567176581293", "title": "Small (250 g)", "price": "849.00", "tracked": false},
+      {"id": "gid://shopify/ProductVariant/67643861008557", "title": "Large (500 g)", "price": "1349.00", "tracked": false}
+    ],
+    "descriptionHtml": "<p>Plain Mithila makhana (fox nuts / lotus seeds) from Bihar, gift-packed in a handwoven Sabai grass basket made by GrassCrafts artisans. A natural, reusable gift for Diwali, weddings, housewarmings and corporate gifting.</p><ul>\n<li>Plain makhana: no added oil, salt, sugar or preservatives</li>\n<li>Handwoven Sabai grass basket that can be reused for storage or decor</li>\n<li>Bulk and corporate orders welcome</li>\n</ul><p>[SRISTI TO CONFIRM: makhana weight per hamper, basket size, price, photos]</p>",
+    "media": []
+  },
+  "bulk_draft": {
+    "id": "gid://shopify/Product/15265744683181",
+    "status": "DRAFT",
+    "variants": [
+      {"id": "gid://shopify/ProductVariant/67567177171117", "title": "1 kg", "price": "1149.00", "tracked": false},
+      {"id": "gid://shopify/ProductVariant/67643861041325", "title": "5 kg (5 x 1 kg)", "price": "5499.00", "tracked": false}
+    ],
+    "descriptionHtml": "<p>Plain Mithila makhana (fox nuts / lotus seeds) from Bihar in bulk packs for retailers, cafes, hamper makers, wedding planners and corporate gifting teams.</p><ul>\n<li>Plain makhana: no added oil, salt, sugar or preservatives</li>\n<li>Packed in food-safe packs</li>\n<li>Custom gift packing available with GrassCrafts handwoven baskets</li>\n</ul><p>[SRISTI TO CONFIRM: bulk pack sizes, price per pack, minimum order, photos]</p>",
+    "media": []
+  },
+  "inventory_anomalies": {
+    "cane_flower_vase_small": {"variant": "gid://shopify/ProductVariant/45396070727853", "inventoryItem": "gid://shopify/InventoryItem/47499347427501", "available": -1},
+    "toran_variants_untracked": ["67579579007149", "67579579039917", "67579579072685", "67579579105453"]
+  }
+}

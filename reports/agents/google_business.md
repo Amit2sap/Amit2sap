@@ -42,3 +42,10 @@
 - Main (Diwali 8 Nov / Bhai Dooj): localPosts/8460222548547168693, handmade dry flower wreath, link /products/dry-flower-wreath, Shopify CDN photo uploaded as s3key. No prices, no phone.
 - Makhana: localPosts/2026296411966267435, premium Mithila makhana gifting/bulk, link /collections/makhana, product photo. No GI claim.
 - Both completed; Upload-Post usage 3/10 (limit resets daily from 23 Oct 12:39 UTC). Reviews/pending-edit checks not done this run (not in scope).
+
+## 2026-10-25 (owner session, Diwali push)
+- Main: localPosts/6580992065823118510, "Handwoven Kauna grass gift basket, Kolkata – from ₹340. Diwali gifts under ₹1,000" (Kauna basket camera photo), link /collections/everyday-essentials-under-1000. Free-shipping combo line; no delivery promise; no GI or other claims.
+- Makhana: localPosts/7096491801141118387, "Makhana gift hamper in a handwoven Sabai grass basket, Kolkata – from ₹649" (real makhana photo), link /products/makhana-gift-hamper-in-a-handwoven-sabai-grass-basket. Replaces the rejected 18 Oct post; no phone number.
+- Route: Upload-Post via Composio. Upload-Post cannot fetch image URLs: download the image in COMPOSIO_REMOTE_WORKBENCH, upload_local_file → s3key, then pass the s3key in photos[].
+- **Upload-Post quota: 5 of 10 posts used this cycle (reset 23 Oct).** Ration: at most 1 main post every 3 days plus 1 Makhana post a week until the next reset, or the owner upgrades.
+- Skipped: the product photo for the Sabai round jewellery basket (file_0000…png) looks AI-generated, so it was not used (image generation is paused; real photos only).

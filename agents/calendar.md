@@ -20,12 +20,12 @@ Every agent reads this file at the start of each run and picks today's theme fro
 | 29 Oct 2026 *(verify)* | Karwa Chauth | Gift hamper baskets | — |
 | 6 Nov 2026 | Dhanteras | Jewellery boxes, gift boxes | Jewellers: last-minute packaging |
 | 8 Nov 2026 | Diwali / Kali Puja (Lakshmi Puja) | Diwali gift hampers, décor, wall plates | Corporate: last orders by about 25 Oct |
-| 11 Nov 2026 | Bhai Dooj | Gift boxes, hampers | — |
+| 10–11 Nov 2026 *(verify)* | Bhai Dooj / **Bhai Phota** (Bengal) | Gift boxes, jewellery boxes, makhana hamper, Kauna baskets ("Bhai Phota gifts") | — |
 | 14 Nov 2026 | Children's Day | Small baskets, organisers | Schools |
 | 15 Nov 2026 *(verify)* | Chhath Puja | Handwoven baskets (soop/daura style, if in catalogue) | — |
 | mid-Nov – mid-Dec 2026 | **Wedding season peak** (Dev Uthani Ekadashi about 20 Nov *(verify)*) | Wedding, Haldi, Mehendi hamper baskets, trousseau baskets | Planners, venues, trousseau packers, jewellers (bridal) |
 | 24 Nov 2026 | Guru Nanak Jayanti | — (no sales push) | — |
-| 25 Dec 2026 | Christmas | Christmas décor board, hampers | Hotels & resorts (festive lobby décor), corporate client gifting |
+| 25 Dec 2026 | Christmas (big in Kolkata: Park Street, Bow Barracks) | Christmas décor board, wreaths, hampers | Hotels & resorts (festive lobby décor), corporate client gifting |
 | 31 Dec / 1 Jan 2027 | New Year | Desk organisers, gift boxes | Corporate year-end and New Year client gifting (pitch Nov) |
 | 13–14 Jan 2027 | Lohri, Makar Sankranti, Pongal, Bihu | Kauna and Sabai baskets, harvest story | Corporates (pitch mid-Nov) |
 | 26 Jan 2027 | Republic Day | "Made in India" artisan story | Corporates |
@@ -41,10 +41,11 @@ Every agent reads this file at the start of each run and picks today's theme fro
 | Date | Occasion | Consumer theme / collection | B2B pitch window (segments) |
 |---|---|---|---|
 | Mar–Apr 2027 *(verify)* | Eid al-Fitr | Hampers, trays | Food and gourmet brands |
-| 14–15 Apr 2027 | Poila Boishakh (Bengali New Year), Baisakhi, Vishu, Puthandu | Bengal crafts story (Madurkathi, Sabai) | Kolkata corporates, jewellers (Poila Boishakh is a big gold-buying day) |
+| 14–15 Apr 2027 | Poila Boishakh (Bengali New Year), Baisakhi, Vishu, Puthandu | Bengal crafts story (Madurkathi, Sabai); "home refresh" | Kolkata corporates (new financial-year kits), jewellers (Poila Boishakh is a big gold-buying day) |
 | 22 Apr 2027 | Earth Day | Sustainable décor | Corporates (eco gifting), sustainable-décor stores |
 | late Apr–May 2027 *(verify)* | **Akshaya Tritiya** | Jewellery boxes | **Diamond and gold jewellers** (pitch Feb–Mar) |
 | Apr–Jun 2027 | Summer wedding season | Wedding baskets | Planners, venues |
+| Jun–Jul 2027 *(verify)* | Rath Yatra | Puja mats, Bengal/Odisha crafts story | — |
 | 9 May 2027 | Mother's Day (2nd Sunday of May) | Gift boxes, planters | D2C gift brands |
 | 5 Jun 2027 | World Environment Day | Planters, eco décor | **Corporates and CSR** (pitch Apr) |
 | 20 Jun 2027 | Father's Day (3rd Sunday of June) | Desk organisers | Luxury watch boutiques (gift-with-purchase) |

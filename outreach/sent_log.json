@@ -1,6 +1,6 @@
 {
   "sender": "amit2sap@gmail.com",
-  "sent_count": 505,
+  "sent_count": 510,
   "sent": [
     "admin@agrawaljeweller.com",
     "adscrafting@gmail.com",
@@ -506,7 +506,12 @@
     "connect@earthheart.in",
     "contact@weandyoudecor.com",
     "info@ereturngifts.com",
-    "info@vybhogamweddings.com"
+    "info@vybhogamweddings.com",
+    "malhotra.archana72@gmail.com",
+    "sibylbhatt08@gmail.com",
+    "bhamkar.shubhangi@gmail.com",
+    "narayanmishra@hotmail.com",
+    "samiksha242003@yahoo.com"
   ],
   "do_not_send": [
     "akshay.kumar14@tajsats.com",
@@ -548,7 +553,19 @@
     "2026-10-22": 165,
     "2026-10-23": 494,
     "2026-10-24": 9,
-    "2026-10-25": 11
+    "2026-10-25": 11,
+    "2026-10-25-customer-diwali": {
+      "date": "2026-10-25",
+      "type": "customer_marketing_email",
+      "note": "Diwali email to 5 past customers with Shopify email-marketing consent (owner approved). Skipped lavalraj@gmail.com (bounced, do_not_send) and tamilzha2000@gmail.com (order #1037 still unfulfilled). Not B2B outreach.",
+      "to": [
+        "malhotra.archana72@gmail.com",
+        "sibylbhatt08@gmail.com",
+        "bhamkar.shubhangi@gmail.com",
+        "narayanmishra@hotmail.com",
+        "samiksha242003@yahoo.com"
+      ]
+    }
   },
   "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending. 2026-10-23: 100 outbound (8 backlink/AI-search drafts, 23 box pitch, 69 first follow-ups on 15 Oct threads). Hold draft r2409934796046738067 for The Sustainable Marketplace (seller onboarding offer, owner decision). No export buyer-lead emails found in Gmail. 2026-10-24 (Sat): 9 approved collab emails sent (Gmail), no other sends; no genuine human replies.",
   "warm_leads": [

@@ -1,0 +1,8 @@
+{
+  "start_after": "2026-10-25T09:30:00Z",
+  "exclude": ["#1042"],
+  "confirmed": [],
+  "shipped": [],
+  "skipped": [],
+  "optout": []
+}
