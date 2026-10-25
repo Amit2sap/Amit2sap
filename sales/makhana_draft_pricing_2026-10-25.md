@@ -1,4 +1,6 @@
-# Makhana draft products: estimated prices (25 Oct 2026, owner request; SRISTI TO REVIEW)
+# Makhana products: estimated prices (25 Oct 2026, owner request; SRISTI TO REVIEW)
+
+**UPDATE 25 Oct (owner):** hamper sizes are 100 g (small basket) and 250 g (medium basket); products are now ACTIVE. Bulk is 5 kg only (a 1 kg bulk pack at ₹1,149 would undercut the ₹1,599 retail 1 kg pack). Live prices: hamper Small ₹649, Large ₹949; bulk 5 kg ₹5,499. Sections 1 and 2 below are kept for history; the current hamper calculation is in section 1b.
 
 No real cost prices exist in Shopify or in this repo. Every cost below is an ASSUMPTION, so the prices are only a starting point. Sristi: replace the cost lines with real numbers and re-run the formula.
 
@@ -20,6 +22,21 @@ No real cost prices exist in Shopify or in this repo. Every cost below is an ASS
 | Margin at draft price | 23.4% | 21.4% |
 
 Check with Sristi: does 250 g / 500 g of makhana fit in the S / M basket (makhana is bulky, about 10–12 litres per kg)? Basket sizes are not on file.
+
+## 1b. Hamper, revised 25 Oct (100 g / 250 g, owner)
+
+| Line | Small: 100 g + small basket (10×6×3 in) | Large: 250 g + medium basket (12×6×3 in) |
+|---|---|---|
+| Makhana (50% of retail, ₹1/g) | ₹100 | ₹250 |
+| Sabai lidded basket (50% of retail) | ₹350 | ₹425 |
+| Packing (assumed) | ₹50 | ₹60 |
+| Delivery | ₹0 (buyer pays ₹120; hamper is in the General profile) | ₹0 (buyer pays ₹120) |
+| **Total cost** | **₹500** | **₹735** |
+| Cost ÷ 0.8 | ₹625 | ₹919 |
+| **Live price** | **₹649** | **₹949** |
+| Margin | 23.0% | 22.6% |
+
+Stock: 2 + 2, limited by the lidded baskets in stock (small 2, medium 2). These baskets are also sold on their own product page; Shopify does not share stock between products, so recount after any basket sale.
 
 ## 2. Bulk Makhana for Retail, Hampers and Corporate Gifting
 

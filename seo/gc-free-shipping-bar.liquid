@@ -1,0 +1,38 @@
+{%- comment -%}
+  GrassCrafts: free-shipping progress bar + payment trust line (cart drawer and cart page).
+  Threshold ₹1,299 matches the Domestic rates: ₹120 below ₹1,299, free from ₹1,299 (values in paise: 129900).
+  Makhana packs (tag makhana-free-shipping) are in the "MAKHANA - shipping included" profile and always ship free,
+  so they are left out of the progress total (owner, 25 Oct 2026). Shown only for INR carts, i.e. India.
+{%- endcomment -%}
+{%- if cart != empty and cart.currency.iso_code == 'INR' -%}
+  {%- assign gc_threshold = 129900 -%}
+  {%- assign gc_paid_total = 0 -%}
+  {%- for item in cart.items -%}
+    {%- unless item.product.tags contains 'makhana-free-shipping' -%}
+      {%- assign gc_paid_total = gc_paid_total | plus: item.final_line_price -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- assign gc_left = gc_threshold | minus: gc_paid_total -%}
+  {%- assign gc_pct = gc_paid_total | times: 100 | divided_by: gc_threshold -%}
+  {%- if gc_pct > 100 -%}{%- assign gc_pct = 100 -%}{%- endif -%}
+  <div class="gc-ship" role="status">
+    {%- if gc_paid_total == 0 -%}
+      {%- assign gc_pct = 100 -%}
+      <p class="gc-ship__msg">Makhana ships <strong>FREE</strong> across India</p>
+    {%- elsif gc_left > 0 -%}
+      <p class="gc-ship__msg">Add <strong>{{ gc_left | money }}</strong> more for <strong>FREE shipping</strong> in India</p>
+    {%- else -%}
+      <p class="gc-ship__msg">You've unlocked <strong>FREE shipping</strong> in India</p>
+    {%- endif -%}
+    <div class="gc-ship__track" aria-hidden="true"><span style="width: {{ gc_pct }}%"></span></div>
+    <p class="gc-ship__trust">Secure checkout · UPI, cards &amp; netbanking (Razorpay) · Help: WhatsApp <a href="https://wa.me/916290744782">+91 62907 44782</a></p>
+  </div>
+  <style>
+    .gc-ship{margin:0 0 14px;padding:12px 14px;border-radius:6px;background:#f3efe6;color:#3e2723;text-align:left}
+    .gc-ship__msg{margin:0 0 8px;font-size:1.4rem;line-height:1.4}
+    .gc-ship__track{height:7px;border-radius:7px;background:#e2d9c8;overflow:hidden}
+    .gc-ship__track span{display:block;height:100%;background:#6b8e4e;border-radius:7px;transition:width .3s}
+    .gc-ship__trust{margin:8px 0 0;font-size:1.2rem;color:#6d5b55}
+    .gc-ship__trust a{color:inherit}
+  </style>
+{%- endif -%}
