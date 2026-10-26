@@ -615,5 +615,34 @@
     "budget_signal": "estimate: not known",
     "buying_pattern": "",
     "status": "new"
+  },
+  {
+    "found": "2026-10-26",
+    "city": "Kolkata",
+    "signal_url": "",
+    "contact_name": "",
+    "business_phone": "+91 33 2265 2081 / +91 33 2265 2082",
+    "phone_source": "P. C. Chandra Corporate Gifts page (owner-provided)",
+    "occasion": "Corporate and festive gifting; wedding season",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "published",
+    "status": "new",
+    "priority": "owner_requested_2026-10-26_send_in_10:22_run",
+    "segment": "corporate",
+    "company": "P.C. Chandra (Corporate Gifts / Exports)",
+    "website": "https://pcchandraindia.com",
+    "signal": "Corporate gifts desk (owner found 26 Oct). Earlier email only to customercare@.",
+    "role": "Corporate gifts / exports desk",
+    "email": "pccexports@pcchandraindia.com",
+    "email_source": "P. C. Chandra Corporate Gifts page (owner-provided 26 Oct)",
+    "products_to_pitch": [
+      "bulk corporate gift baskets",
+      "custom natural-fibre gift boxes",
+      "presentation trays",
+      "reusable packaging for institutional gifting"
+    ]
   }
 ]
