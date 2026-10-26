@@ -539,5 +539,32 @@
     "budget_signal": "unknown",
     "buying_pattern": "unknown",
     "emailed": "2026-10-22"
+  },
+  {
+    "found": "2026-10-26",
+    "segment": "wedding",
+    "company": "Zapigo",
+    "city": "Bengaluru",
+    "website": "https://www.zapigo.com",
+    "signal": "Ships wedding welcome hampers and return gifts from India to overseas weddings; 2026 hamper trend and wedding season (Nov-Dec muhurats)",
+    "signal_url": "https://www.zapigo.com",
+    "contact_name": "",
+    "role": "General contact (generic)",
+    "email": "hello@zapigo.com",
+    "email_source": "https://www.zapigo.com/contact",
+    "verified": "hunter_valid",
+    "business_phone": "",
+    "phone_source": "",
+    "products_to_pitch": [
+      "Wedding hamper baskets",
+      "Haldi/Mehendi baskets",
+      "trays"
+    ],
+    "occasion": "Nov-Dec 2026 wedding season",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "status": "new"
   }
 ]
