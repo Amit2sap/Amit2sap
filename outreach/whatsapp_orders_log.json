@@ -1,6 +1,9 @@
 {
   "start_after": "2026-10-25T09:30:00Z",
-  "exclude": ["#1042"],
+  "exclude": [
+    "#1042",
+    "#1043"
+  ],
   "confirmed": [],
   "shipped": [],
   "skipped": [],
