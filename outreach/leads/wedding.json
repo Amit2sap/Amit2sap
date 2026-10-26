@@ -566,5 +566,32 @@
     "budget_signal": "estimate: not known",
     "buying_pattern": "",
     "status": "new"
+  },
+  {
+    "found": "2026-10-26",
+    "city": "",
+    "signal_url": "https://qgee.in",
+    "contact_name": "Upasna Ahhlawat; Gaurrav Bahl",
+    "business_phone": "",
+    "phone_source": "",
+    "occasion": "Wedding season",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "to_verify_on_site",
+    "status": "new",
+    "priority": "owner_requested_2026-10-26_send_in_27-10_10:22_run",
+    "segment": "wedding",
+    "company": "QGee",
+    "website": "https://qgee.in",
+    "signal": "Luxury gifting and event curation. ChatGPT agent lead (owner-forwarded 26 Oct). Before sending: open the company's own site and confirm the email is published there (or Hunter 'valid'); if not, skip and log.",
+    "role": "Founders",
+    "email": "info@qgee.in",
+    "email_source": "ChatGPT agent says official website; verify",
+    "products_to_pitch": [
+      "trousseau and return-gift baskets",
+      "premium handwoven hamper baskets"
+    ]
   }
 ]
