@@ -81,3 +81,5 @@ Every segment is still covered every 3 days. Competitor observations only on Mon
 - One contact per company domain per 90 days.
 - Kolkata/West Bengal prospects: skip during Durga Puja week.
 - Stay within the tools you have. If web search or Hunter is refused, log the blocker; do not work around it.
+
+**Hunter budget (26 Oct):** only ~26 of 100 monthly verifications left until 16 Nov. Until then: lead research verifies at most 3 addresses per run (strongest buying signal first); keep the rest for the actions-page collab pitches (agents/daily_actions.md), which verify every address before it goes to the owner.
