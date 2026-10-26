@@ -439,5 +439,59 @@
     "buying_pattern": "festive corporate gifting",
     "status": "new",
     "note": "Phone only: no email published on the site."
+  },
+  {
+    "found": "2026-10-26",
+    "city": "",
+    "signal_url": "https://ohcha.in",
+    "contact_name": "Pallavi Somani Kanoi",
+    "business_phone": "",
+    "phone_source": "",
+    "occasion": "Diwali, wedding season, corporate gifting",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "to_verify_on_site",
+    "status": "new",
+    "priority": "owner_requested_2026-10-26_send_in_27-10_10:22_run",
+    "segment": "gourmet",
+    "company": "Oh Cha",
+    "website": "https://ohcha.in",
+    "signal": "Tea brand with corporate gifting, wedding/festive hampers and custom branding. ChatGPT agent lead (owner-forwarded 26 Oct). Before sending: open the company's own site and confirm the email is published there (or Hunter 'valid'); if not, skip and log.",
+    "role": "Founder",
+    "email": "sales@ohcha.in",
+    "email_source": "ChatGPT agent says official website; verify",
+    "products_to_pitch": [
+      "reusable handwoven hamper baskets for tea gift boxes",
+      "basket-only supply for their own hampers"
+    ]
+  },
+  {
+    "found": "2026-10-26",
+    "city": "New Delhi",
+    "signal_url": "https://www.sanchatea.com",
+    "contact_name": "Sanjay Kapur",
+    "business_phone": "",
+    "phone_source": "",
+    "occasion": "Corporate and festive tea gifting",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "to_verify_on_site",
+    "status": "new",
+    "priority": "owner_requested_2026-10-26_send_in_27-10_10:22_run",
+    "segment": "gourmet",
+    "company": "Sancha Tea",
+    "website": "https://www.sanchatea.com",
+    "signal": "Bespoke corporate and festive tea gifts. ChatGPT agent lead (owner-forwarded 26 Oct). Before sending: open the company's own site and confirm the email is published there (or Hunter 'valid'); if not, skip and log.",
+    "role": "Founder",
+    "email": "webboutique@sanchatea.com",
+    "email_source": "ChatGPT agent says official website; verify",
+    "products_to_pitch": [
+      "handwoven tea-gift baskets and trays",
+      "reusable boxes for tea tins"
+    ]
   }
 ]
