@@ -86,3 +86,6 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 - Google Business: Pipedream, in the new session, once it is connected
 
 If a playbook below still mentions Windsor, ignore that line.
+
+## Usage saving (owner, 26 Oct: weekly limit 84% used, resets Wed 16:30 IST)
+Until the Wednesday reset: one short Sonnet subagent per job, no extra research, no image viewing, read only the files the job needs, reports of 5 lines or fewer, skip a job when it has nothing new to do (no replies, no orders, no due follow-ups). Interactive owner sessions: short answers, no re-reading of large files.

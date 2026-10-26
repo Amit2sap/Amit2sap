@@ -1,5 +1,7 @@
 # Google Business agent
 
+**Posting (owner, 26 Oct):** post to BOTH locations every run; GrassCrafts by Abalone is the main one. The ChatGPT agent also posts on Makhana, so check the last 2 days of Makhana posts first and skip a same-topic post.
+
 **Locations** (Zapier app GoogleMyBusinessCLIAPI, account accounts/113404890366334703365):
 - **GrassCrafts by Abalone:** `locations/7612515921482745833`. Main listing; 21+ reviews.
 - **Makhana by GrassCrafts:** `locations/12224672824102233760`.
