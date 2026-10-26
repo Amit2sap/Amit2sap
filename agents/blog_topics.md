@@ -1,5 +1,10 @@
 # Blog topic backlog (Website & Search agent)
 
+### From data_seo, 26 Oct 2026 (Search Console, last 28 days)
+- [ ] Straw mats and jute table mats: how to choose and care ("straw mat" 120 impr pos 10.2, "jute mat for table" 44, "table grass mat" 22; homepage ranks) → /collections/jute-mats
+- [ ] Cane boxes and cane storage: sizes and uses ("cane box" 52, "cane storage box" 33; homepage ranks) → /products/cane-box-8
+- [ ] Wedding hamper ideas with a handwoven basket ("diy wedding hamper ideas" 25, "bridal gift hamper" 23) → /products/wedding-gift-hamper-basket-2
+
 **How to use it:** tick each topic when it is published, and add new topics from Search Console gaps and the competitor watch.
 
 **Order:** take topics in order, unless an occasion within 21 days needs one sooner (see `agents/calendar.md`).

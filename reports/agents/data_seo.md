@@ -1,5 +1,16 @@
 # data_seo agent log
 
+## 2026-10-26: Monday run
+- **Google (28 days to 23 Oct):** 157 clicks, 8,825 impressions, avg position 8.1. Previous: 165 clicks, 9,306 impressions, position 7.8.
+- **GA4 (28 d) sessions:** Direct 752, Organic Search 205, AI Assistant 76, Organic Social 63, Organic Shopping 43; 1 transaction (₹1,050).
+- **Shopify last 7 days vs previous 7:** 1 order (referrer search) vs 0; total_sales shows 0 for it (check for refund or cancel). Only one channel.
+- **Makhana recrawl (URL inspection):** /collections/makhana lastCrawlTime 2026-10-23 15:05 UTC (same day, before the 25 Oct live theme, so not yet recrawled after it); makhana product 2026-09-30 (NOT recrawled); makhana blog -1 2026-10-25 09:55 (recrawled). All "Submitted and indexed".
+- **Rank tracker highlights:** kauna grass 5.8 (was 7.7), sitalpati 8.9 (was 21), makhana 10.8 (new, 5 impr), sabai grass 8.3 (379 impr, 2 clicks). 17 of 30 tracked keywords have no impressions (incl. all other makhana terms).
+- **Striking distance top:** sabai grass (374 impr, pos 8.0, /pages/grass-weaving-sustainability), kauna grass (131, 5.8), straw mat (120, 10.2, homepage), hyacinth basket (107, 7.9), madurkathi (71, 8.2).
+- **Cannibalisation:** cane planters (/ 67 impr pos 8.8 vs /collections/cane-planter 59 pos 25 vs /products/cane-planters), sabai grass (page vs blog guide vs collection), cane box (/ vs /products/cane-box-8), madurkathi (blog vs collection). Internal links not added this run.
+- **Low CTR (>=200 impr, <1%):** /pages/grass-weaving-sustainability 816 / 0.86%; /products/wedding-gift-hamper-basket-2 511 / 0%; /products/rectangular-water-hyacinth-storage-basket 273 / 0.37%. All three SEO titles/descriptions rewritten (seo/CHANGELOG-2026-10-26-data.md; backup backups/2026-10-26-data-seo-meta.json).
+- **Not connected / skipped:** Windsor (removed); Google Business keywords (Zapier route dead); Bing inbound links 0; sitemap 0 errors. The saved data file is a condensed copy.
+
 ## 2026-10-21: daily run (Wednesday)
 Note: the toolkit stamped its output 2026-10-22 (sandbox clock). This run is logged as 21 Oct, data file `seo/data/2026-10-21.json`.
 - **Google (last 28 days, 22 Sep – 19 Oct):** 149 clicks, 8754 impressions, average position 8.0. Previous 28 days: 161 clicks, 9219 impressions, position 8.0. Clicks down 7%, impressions down 5%.
