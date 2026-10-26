@@ -82,3 +82,12 @@
 - Collab items: 4 items dated 25 Oct are status "pending", none approved, so nothing sent and no Hunter checks used.
 - Gmail Sent before run today: 0; sent 9 (cap 100).
 - Collab pitches 25 Oct: 2 sent (info@ereturngifts.com accept_all 1a171fefb1eaee3a; info@vybhogamweddings.com valid 1a171fefb980e2e9); 2 skipped (hello@aabho.com Hunter error 222 unverified; info@giftingsolutionsindia.com Hunter unknown). Day total 11 of 100.
+
+## 2026-10-26 (Monday)
+- Replies (last 24h): no genuine human replies. Shopify contact-form bulk enquiries 25 Oct 20:40/20:41 IST are the Shweta Chitale lead, already briefed 25 Oct (not re-briefed). The Sustainable Marketplace term sheet left for the owner. Rest was bank, job, newsletter and Google/Meta notices. No hot leads.
+- Gmail Sent before run today: 0. Total outbound today: 100 of 100 (cap reached).
+- Owner-requested leads (4): Senco corporatesales@ (CC seema.nahria@, sristi@), NCB Jewellers, Shreehari, P.C. Chandra, first pitch, no prices; lead statuses set to emailed.
+- Collab items: 4 approved (Lamhenow, FLAMBE, Rani Arts & Teak, Taufaa) sent and marked executed in ArtifactData; no Hunter credits used.
+- Follow-ups: 92 first follow-ups in-thread (15 Oct batch remainder and first 66 of the 16 Oct batch), no sample offer, warm leads and support inboxes skipped. About 72 of the 16 Oct batch remain for Tue 27 Oct; 14 Oct second follow-ups from about 29 Oct.
+- Strategy (Monday): weights wedding +2 (16), corporate -1 (18), gourmet -1 (5); no new competitor entries since 18 Oct. Handoff ticked for the 26 Oct send item.
+- Incident note: a workbench call timed out at 60 s while the 92-follow-up loop was running; the loop finished (92 ok, 0 failed, verified in Gmail Sent), no duplicates.

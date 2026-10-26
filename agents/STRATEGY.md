@@ -88,14 +88,14 @@ Agents may draft these but must not create priced products, bundles, discounts o
 ## Segment weights (lead agent adjustments to the Mix % in agents/lead_research.md; max ±3 points a week per segment)
 | Segment | Base | Now | Changed |
 |---|---|---|---|
-| corporate | 18 | 19 | +1 on 18 Oct |
-| wedding | 14 | 14 | |
+| corporate | 18 | 18 | −1 on 26 Oct |
+| wedding | 14 | 16 | +2 on 26 Oct |
 | hotels | 12 | 12 | |
 | diamond_jewellery | 12 | 12 | |
 | cane_planters | 9 | 9 | |
 | sustainable_decor | 8 | 8 | |
 | luxury_watches | 7 | 6 | −1 on 18 Oct |
-| gourmet | 7 | 6 | −1 on 18 Oct |
+| gourmet | 7 | 5 | −1 on 26 Oct |
 | wellness | 5 | 5 | |
 | real_estate | 4 | 5 | +1 on 18 Oct |
 | ethnic_wear | 4 | 4 | |
@@ -105,3 +105,4 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - 2026-10-17: file created. Segment mix in `agents/lead_research.md` (11 segments).
 - 2026-10-18: weights corporate +1 (19), real_estate +1 (5), luxury_watches −1 (6), gourmet −1 (6). Why: first inbound website bulk enquiry was corporate gifting (500 placemats); developers are proven hamper buyers (BoxUp case studies); the watch pitch window is December and gourmet Diwali packaging is closing. Added focus items 5 (corporate year-end by 7 Nov, placemats in corporate pitches) and 6 (real-estate housewarming hamper). Competitor notes added for Brown Living B2B discount and Gifting Studio, BoxUp/Giftiano and natural-fibre hamper makers. No price, discount, MOQ or lead-time changes (owner only).
 - 2026-10-25 (owner): Current focus rewritten from the owner's growth guide: 2-week B2C Diwali push (Gifts Under ₹1,000, toran, makhana hamper, free-shipping combo, no delivery promises), Bhai Phota post, new B2B segments proposed (interior designers/architects, caterers/event planners, homestays/cafés), Pinterest weight up, Growth backlog added (bundles, sizes, colours, new products, channels, cash rules, 25–30% margin target). Calendar: Bhai Phota, Kolkata Christmas, Rath Yatra, Poila Boishakh corporate kits. No price, discount or product changes made by agents.
+- 2026-10-26: weights wedding +2 (16), corporate −1 (18), gourmet −1 (5). Why: wedding season (Nov–Feb) starts and planners are our most active collab/follow-up segment; the corporate Diwali window has closed and year-end is smaller; gourmet Diwali packaging is closing. No new competitor entries since 18 Oct in reports/competitor_watch.md. No price, discount, MOQ or lead-time changes.
