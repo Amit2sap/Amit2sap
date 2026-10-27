@@ -105,3 +105,8 @@ Within the same run:
   - **1–3★:** apologise, offer to fix it, ask them to WhatsApp +91 62907 44782, and alert the owner the same day.
 - When a past buyer replies to a review request with praise, thank them and send the Google review link: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA
 - **Weekly (Thursday):** one Google post (`create_post`) linking to a collection: wedding baskets, cane planters, corporate gifts, or a new arrival. Only facts and prices from the catalogue.
+
+## CRM + order forms (owner, 27 Oct 2026) — every reply-watcher and Email & Actions run
+1. For every interested reply: create/update in Pipedrive (claude.ai connector) an organisation + person + deal, stage "Contact Made"; label Hot lead for quote/call/sample requests; add a short note with the thread summary. Won orders: mark the deal Won.
+2. Jotform order forms (claude.ai connector): list new submissions since the last run on forms 252869411925465, 252893366646471, 252891622774466, 252628825024053. Treat each as a buyer enquiry: brief to sristi@grasscrafts.com (CC amit2sap@gmail.com) and a Pipedrive deal.
+3. If Pipedrive or Jotform tools are not available in the session, log it once in reports/agents/handoff.md and continue. Details: agents/TOOLS.md.
