@@ -91,3 +91,10 @@
 - Follow-ups: 92 first follow-ups in-thread (15 Oct batch remainder and first 66 of the 16 Oct batch), no sample offer, warm leads and support inboxes skipped. About 72 of the 16 Oct batch remain for Tue 27 Oct; 14 Oct second follow-ups from about 29 Oct.
 - Strategy (Monday): weights wedding +2 (16), corporate -1 (18), gourmet -1 (5); no new competitor entries since 18 Oct. Handoff ticked for the 26 Oct send item.
 - Incident note: a workbench call timed out at 60 s while the 92-follow-up loop was running; the loop finished (92 ok, 0 failed, verified in Gmail Sent), no duplicates.
+
+## 2026-10-27 manual run (Tue)
+- Replies: none needing an answer (autoreplies from Mishtanna and British Hamper Co.; Teresa Palmer/darkchocolateimports is a guest-post pitch to us, ignored; Shweta Chitale contact-form bulk enquiry is with Sristi per handoff). Bounce: hello@karnikaevents.com (domain does not exist) -> do_not_send; Karnika Events needs another contact.
+- Actions page: no approved items. Handoff: no open email tasks.
+- Sent: 71 in-thread first follow-ups (all remaining 16 Oct threads, no sample offer) + 15 new pitches (hamper/gourmet and decor brands, trade-sample-sheet link, no prices) = 86; with 14 earlier from the main session, Gmail Sent today = 100 (cap reached).
+- WhatsApp orders: BLOCKED 141006 (payment method), nothing sent.
+- Next: 14 Oct batch second follow-ups from about 29 Oct; follow-ups to today's 13 owner/ChatGPT pitches in 4-5 days.
