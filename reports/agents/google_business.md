@@ -49,3 +49,6 @@
 - Route: Upload-Post via Composio. Upload-Post cannot fetch image URLs: download the image in COMPOSIO_REMOTE_WORKBENCH, upload_local_file → s3key, then pass the s3key in photos[].
 - **Upload-Post quota: 5 of 10 posts used this cycle (reset 23 Oct).** Ration: at most 1 main post every 3 days plus 1 Makhana post a week until the next reset, or the owner upgrades.
 - Skipped: the product photo for the Sabai round jewellery basket (file_0000…png) looks AI-generated, so it was not used (image generation is paused; real photos only).
+
+## 2026-10-27 (manual run)
+- Main (GrassCrafts by Abalone): localPosts/352132265279169205, Square Kauna grass gift hamper basket (Diwali gift basket, ₹380 as on product page), link in text /products/square-kauna-grass-gift-hamper-basket, real Shopify photo via s3key. Free shipping from ₹1,299, no GST, COD. Upload-Post usage 6/10 (reset 23 Oct).
