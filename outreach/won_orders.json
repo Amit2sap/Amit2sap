@@ -1,0 +1,20 @@
+{
+  "note": "Confirmed B2B / bulk orders won. Agents: check this before any outreach; never pitch or follow up a won buyer from automation. Sristi owns the relationship.",
+  "orders": [
+    {
+      "date_won": "2026-10-27",
+      "buyer": "Shweta Chitale",
+      "city": "Sangli",
+      "email": "shweta_lele@yahoo.com",
+      "phone": "9422672760",
+      "product": "Nilachal Madurkathi Dining Set",
+      "quantity": 12,
+      "use": "festive hampers",
+      "deliver_by": "2026-11-02",
+      "first_contact": "2026-10-25 website bulk-quote form (~20:40 IST)",
+      "source": "ChatGPT search (buyer found GrassCrafts details there)",
+      "owner_followup": "Sristi Dey, directly (Amit in CC)",
+      "status": "WON - order confirmed by owner"
+    }
+  ]
+}

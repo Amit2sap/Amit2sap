@@ -10,3 +10,6 @@
 - Weekly step: chose sabai and wedding return gifts. On-site proposals in seo/website_backlog.md. Off-site: 1 Gmail draft to The Bengal Store (r4620382525200227566), NOT sent (daily cap used); Email agent to send 23 Oct (handoff).
 - llms.txt live and accurate except shipping (still ₹1,300; should be ₹1,299) and the 2 new articles; exact text in seo/website_backlog.md. ai_search.md facts updated (free shipping from ₹1,299, no GST, pages to mention).
 - 7 new citation targets added; backlinks-plan entries untouched. No blockers; no owner alert.
+
+## 2026-10-27 (owner note) — first AI-search-sourced order
+- WON: Shweta Chitale (Sangli), 12 Nilachal Madurkathi dining sets for festive hampers, deliver by 2 Nov. Buyer found GrassCrafts via ChatGPT search, then used the website bulk-quote form (25 Oct). Count as 1 AI-search-attributed B2B order (details: outreach/won_orders.json). Keep dining sets / bulk festive hampers in AI-search queries.
