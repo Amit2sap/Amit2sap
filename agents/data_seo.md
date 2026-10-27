@@ -51,3 +51,12 @@ Our Ahrefs plan returns "Insufficient plan" for Keywords Explorer. Use these fre
 3. **Google Trends:** relative interest and seasonality. Use web search snippets for now. The SerpApi free tier (if the owner connects it) gives the API.
 4. **Google Keyword Planner** (free inside a Google Ads account, no spend needed): the owner can export volume ranges when needed.
 Label every figure with its source. Never present Bing impressions as Google volume.
+
+## Marketplace and trends watch (owner, 27 Oct 2026) — every run (Mon and Thu)
+Goal: understand how the top sellers win (price, pack size, sets, photos, titles, reviews, offers) and apply a better strategy for GrassCrafts. 5 categories per run, 10 a week.
+- **Monday set:** hamper/gift baskets · placemats and table mats · jute/straw bags and totes · planters (cane, grass) · makhana (plain, gift packs).
+- **Thursday set:** storage baskets and organisers · jewellery boxes and gift boxes · wall plates and wall decor · floor/yoga/madur/sitalpati mats · festive decor (torans, door hangings, diyas trays).
+- **Pull (TinyFish via Composio, connection tinyfish_mcp; use the free search and fetch_content tools only, never the paid browser/automation tools):** for each category, the Amazon.in and Flipkart bestseller or top search results page — the top 10 listings: title, brand, price, MRP/discount, pack size or set, rating and rating count. Plus Google Trends (India, last 90 days) for 1–2 search terms per category, via the Composio workbench. If TinyFish is not connected or refuses, use the workbench web_search helper and log the gap; never invent numbers.
+- **Write:** reports/competitors/marketplace_<date>.md: one short table per category; then 3–5 patterns (what the winners do: price band, sets, sizes, title keywords, photo style, offers) and where GrassCrafts sits (our matching products and prices from Shopify).
+- **Apply (content only, back up first, log in seo/CHANGELOG-<date>-marketplace.md):** up to 5 changes a run to our own listings — SEO titles/descriptions using the buyer keywords the winners use, Quick answers, collection intros. Price, set, pack-size or new-product ideas go to agents/STRATEGY.md "Growth backlog" and one line in reports/agents/handoff.md for the owner: never change prices, variants or inventory yourself.
+- Keep it small: about 10 fetches per run; no images; no reviews scraping beyond counts.
