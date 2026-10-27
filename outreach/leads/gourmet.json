@@ -453,7 +453,7 @@
     "budget_signal": "estimate: not known",
     "buying_pattern": "",
     "verified": "to_verify_on_site",
-    "status": "new",
+    "status": "emailed 2026-10-27",
     "priority": "owner_requested_2026-10-26_send_in_27-10_10:22_run",
     "segment": "gourmet",
     "company": "Oh Cha",
@@ -480,7 +480,7 @@
     "budget_signal": "estimate: not known",
     "buying_pattern": "",
     "verified": "to_verify_on_site",
-    "status": "new",
+    "status": "emailed 2026-10-27",
     "priority": "owner_requested_2026-10-26_send_in_27-10_10:22_run",
     "segment": "gourmet",
     "company": "Sancha Tea",
@@ -575,5 +575,57 @@
     "products_to_pitch": [
       "makhana 250 g/500 g/1 kg/5 kg"
     ]
+  },
+  {
+    "found": "2026-10-27",
+    "contact_name": "",
+    "business_phone": "",
+    "phone_source": "",
+    "occasion": "Corporate gifting",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "status": "emailed 2026-10-27",
+    "priority": "owner_requested_2026-10-27",
+    "segment": "gourmet",
+    "role": "",
+    "products_to_pitch": [
+      "basket-only supply for gift sets"
+    ],
+    "city": "",
+    "company": "Tea Trunk",
+    "website": "https://www.teatrunk.in",
+    "signal_url": "https://www.teatrunk.in/pages/corporate-gifting",
+    "signal": "Corporate gifting and customisation programme (ChatGPT agent).",
+    "email": "share@teatrunk.com",
+    "email_source": "teatrunk.in corporate-gifting page",
+    "verified": "published"
+  },
+  {
+    "found": "2026-10-27",
+    "contact_name": "",
+    "business_phone": "",
+    "phone_source": "",
+    "occasion": "Corporate gifting",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "status": "emailed 2026-10-27",
+    "priority": "owner_requested_2026-10-27",
+    "segment": "gourmet",
+    "role": "",
+    "products_to_pitch": [
+      "basket-only supply for gift sets"
+    ],
+    "city": "",
+    "company": "MRK Foods",
+    "website": "https://mrkfoods.in",
+    "signal_url": "https://mrkfoods.in",
+    "signal": "Corporate gifting and customisation (ChatGPT agent). Only a customer-care inbox is published; asked them to forward.",
+    "email": "customer.care@mrkfoods.in",
+    "email_source": "mrkfoods.in",
+    "verified": "published (support inbox)"
   }
 ]
