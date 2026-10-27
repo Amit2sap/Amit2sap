@@ -91,3 +91,8 @@
 **Unfulfilled-order check (22 Oct 2026):** count only open, not-cancelled orders (`status:open -status:cancelled fulfillment_status:unfulfilled`). #1001 and #1037 were cancelled in Feb 2025 and May 2026 and are now archived; don't flag them again.
 
 **GST / Charge tax (22 Oct 2026):** New products must have Charge tax switched off (owner, 22 Oct: GrassCrafts charges no GST). Set `taxable: false` on every variant when creating or duplicating a product, and check `productVariants(query:"taxable:true")` returns 0 after any product import.
+
+## Blog rules (owner, 27 Oct 2026)
+- Every new article gets an explicit SEO description (metafield global.description_tag, 140–160 characters); never leave it auto-derived from the opening text. Verify after publishing.
+- Featured and inline images: real GrassCrafts product or basket photos from Shopify Files only. No AI or "illustrative" images (image generation is paused), and never an image that could be mistaken for our packaging.
+- Wholesale page quote form now asks supply type, contents, inner size, branding, budget per piece and country (seo/CHANGELOG-2026-10-27-makhana-article-quote-form.md). Keep these fields when editing the page.
