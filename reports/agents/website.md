@@ -39,3 +39,6 @@
 
 ## 2026-10-23 (toran launch)
 - Product handmade-dry-flower-toran-door-puja-room-3-ft live (Rs 960, 4 variants), 3 collections, blog dry-flower-toran-ideas-diwali-puja-room-entrance. See seo/CHANGELOG-2026-10-23-toran.md.
+
+## 2026-10-27 Product AEO pass (owner request)
+Top 10 sellers: new SEO title/description on all 10, "Quick answers" added to 9 (hamper already had FAQ), 0 alt texts needed fixing, 0 images flagged as AI. Backups: backups/products/aeo_*_before_2026-10-27.json; log: seo/CHANGELOG-2026-10-27-product-aeo.md. Owner to check: rectangular placemats say "Diameter: 12 inches"; hamper text claims "saves 2,200 litres of water / 800g plastic" (unsourced); storage basket and cane planter text claim carbon offsets/carbon-negative (unsourced).
