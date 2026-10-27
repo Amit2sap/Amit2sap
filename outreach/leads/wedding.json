@@ -593,5 +593,33 @@
       "trousseau and return-gift baskets",
       "premium handwoven hamper baskets"
     ]
+  },
+  {
+    "found": "2026-10-27",
+    "city": "Kolkata",
+    "signal_url": "https://karnikaevents.com",
+    "contact_name": "",
+    "business_phone": "+91 70018 08451",
+    "phone_source": "ChatGPT agent, official contact page",
+    "occasion": "Festive, corporate and wedding season",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "published (ChatGPT agent: official site)",
+    "status": "emailed 2026-10-27",
+    "priority": "owner_hot_lead_2026-10-27",
+    "segment": "wedding",
+    "company": "Karnika Events",
+    "website": "https://karnikaevents.com",
+    "signal": "Wedding and corporate events planner.",
+    "role": "",
+    "email": "hello@karnikaevents.com",
+    "email_source": "official site per ChatGPT agent",
+    "products_to_pitch": [
+      "return-gift baskets",
+      "sitalpati boxes",
+      "hamper trays"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
   "sender": "amit2sap@gmail.com",
-  "sent_count": 519,
+  "sent_count": 524,
   "sent": [
     "admin@agrawaljeweller.com",
     "adscrafting@gmail.com",
@@ -520,7 +520,12 @@
     "info@lamhenow.com",
     "info@flambeevents.com",
     "info@raniartsandteak.com",
-    "contact@taufaa.in"
+    "contact@taufaa.in",
+    "bengalsweetsnbakers@mishtanna.in",
+    "sales@chocolateandwhite.com",
+    "sales4.kol@kenilworthhotels.com",
+    "hello@karnikaevents.com",
+    "axomharvest@gmail.com"
   ],
   "do_not_send": [
     "akshay.kumar14@tajsats.com",
@@ -576,7 +581,13 @@
         "samiksha242003@yahoo.com"
       ]
     },
-    "2026-10-26": 100
+    "2026-10-26": 100,
+    "2026-10-27-owner-hot-leads": {
+      "new_pitches": 5,
+      "by": "main session, owner instruction 27 Oct ('include all hot leads in today's mail outreach')",
+      "addresses": "bengalsweetsnbakers@mishtanna.in,sales@chocolateandwhite.com,sales4.kol@kenilworthhotels.com,hello@karnikaevents.com,axomharvest@gmail.com",
+      "note": "Counts toward the 27 Oct 100/day cap; the 10:22 run may already have sent up to 100, so today may total about 105 by owner instruction."
+    }
   },
   "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending. 2026-10-23: 100 outbound (8 backlink/AI-search drafts, 23 box pitch, 69 first follow-ups on 15 Oct threads). Hold draft r2409934796046738067 for The Sustainable Marketplace (seller onboarding offer, owner decision). No export buyer-lead emails found in Gmail. 2026-10-24 (Sat): 9 approved collab emails sent (Gmail), no other sends; no genuine human replies. 2026-10-26: 100 outbound (92 first follow-ups on 15/16 Oct threads, 4 owner-requested first pitches: Senco corporatesales@ (CC seema.nahria@, sristi@), NCB Jewellers, Shreehari, P.C. Chandra; 4 approved collab emails: Lamhenow, FLAMBE, Rani Arts & Teak, Taufaa). No genuine replies.",
   "warm_leads": [

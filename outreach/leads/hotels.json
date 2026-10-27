@@ -645,5 +645,32 @@
     "status": "new",
     "notes": "partnerships@stayvista.com on same page is for property listing, not suppliers. Opportunity #4.",
     "source_report": "reports/opportunities_trends_export_2026-10-22.md"
+  },
+  {
+    "found": "2026-10-27",
+    "city": "Kolkata",
+    "signal_url": "https://kenilworthhotels.com",
+    "contact_name": "",
+    "business_phone": "+91 33 6621 4100 / WA +91 90511 33954",
+    "phone_source": "ChatGPT agent, official contact page",
+    "occasion": "Festive, corporate and wedding season",
+    "competitor_used": "unknown",
+    "current_products": "",
+    "budget_signal": "estimate: not known",
+    "buying_pattern": "",
+    "verified": "published (ChatGPT agent: official site)",
+    "status": "emailed 2026-10-27",
+    "priority": "owner_hot_lead_2026-10-27",
+    "segment": "hotels",
+    "company": "Kenilworth Hotel Kolkata",
+    "website": "https://kenilworthhotels.com",
+    "signal": "Luxury hotel and event venue.",
+    "role": "",
+    "email": "sales4.kol@kenilworthhotels.com",
+    "email_source": "official site per ChatGPT agent",
+    "products_to_pitch": [
+      "VIP welcome baskets",
+      "event hampers"
+    ]
   }
 ]
