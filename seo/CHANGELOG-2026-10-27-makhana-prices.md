@@ -10,3 +10,4 @@
 - Backup: backups/pages/makhana_shipping_text_before_2026-10-27.json. Undo: restore those three bodies.
 - Owner to paste: seo/shipping_policy_2026-10-27.txt into Settings > Policies > Shipping policy (API has no policy scope).
 - Theme (needs an unpublished copy, owner publishes): llms.txt.liquid sizes/shipping line; gc-free-shipping-bar.liquid treats every makhana-tagged item as free, so a cart with only the 100 g pack would wrongly show "Makhana ships FREE".
+- 27 Oct: owner confirmed the 100 g price ₹199 (final, not a draft).
