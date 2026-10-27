@@ -126,5 +126,5 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - Inbound first: Jotform order-form submissions and email/WhatsApp enquiries are handled before cold outreach.
 - Market intelligence: Firecrawl marketplace watch (10 categories/week) feeds pricing, set-size and title-keyword ideas into the Growth backlog.
 - Decision makers: Lusha (40 free credits) only for the best warm B2B leads.
-- Not available: Ahrefs/Semrush data (no API units) — rely on Search Console, GA4, Bing and the marketplace watch.
+- Not available: Ahrefs (no API access); Semrush removed (paid only) — rely on Search Console, GA4, Bing and the marketplace watch.
 - Claims check: run marketing:brand-review on product copy before publishing; remove unsourced environmental claims.

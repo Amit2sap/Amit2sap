@@ -19,6 +19,7 @@
 - marketing:email-sequence — redesign the follow-up sequence once reply data exists.
 
 ## Connected but NOT usable now
-- **Ahrefs**: "Insufficient plan" (API not in plan). **Semrush**: active subscription but 0 API units. Do not call them in scheduled runs.
+- **Ahrefs**: "Insufficient plan" (API not in plan). Do not call it in scheduled runs.
+- **Semrush: REMOVED by owner decision 27 Oct (paid only). Never use.**
 - **Consensus, Anthropic Economic Index, BigQuery, Indeed, HyperFrames (HeyGen video; compose works only from claude.ai chat, not agents)**: no GrassCrafts use now (Indeed is for Amit's job search).
-- Incomplete sign-ins (owner can finish in claude.ai connector settings if wanted): Gmail (native; Composio Gmail already works), Apollo.io, Unsplash (not needed: real photos only), Vibe Prospecting, Postman, Scite, Bling.
+- **REMOVED by owner decision 27 Oct, never use:** Gmail (native connector; Composio Gmail gmail_movie-arab stays), Apollo.io, Unsplash, Vibe Prospecting, Postman, Scite, Bling.

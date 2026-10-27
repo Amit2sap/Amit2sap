@@ -85,4 +85,4 @@ Every segment is still covered every 3 days. Competitor observations only on Mon
 **Hunter budget (26 Oct):** only ~26 of 100 monthly verifications left until 16 Nov. Until then: lead research verifies at most 3 addresses per run (strongest buying signal first); keep the rest for the actions-page collab pitches (agents/daily_actions.md), which verify every address before it goes to the owner.
 
 ## Tools update (27 Oct 2026) — see agents/TOOLS.md
-Use Exa (claude.ai connector) for searches and contact-page reads. Lusha only for warm/hot leads needing a named buyer (free plan, 40 credits; email reveal only). Ahrefs/Semrush are not usable (no API units).
+Use Exa (claude.ai connector) for searches and contact-page reads. Lusha only for warm/hot leads needing a named buyer (free plan, 40 credits; email reveal only). Ahrefs is not usable (no API access); Semrush was removed (paid only).
