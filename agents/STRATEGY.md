@@ -120,3 +120,11 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - **Qualify every enquiry before production** (reply agent and Sristi use this list): occasion, contents, inner dimensions needed, quantity, target budget per piece, colour, branding (tag, print, ribbon), lining/inserts, delivery city or country, required date, sample needed (paid or free is Sristi's call).
 - **International enquiries:** also capture shipping mode, import rules or packaging/material standards (e.g. fumigation, phytosanitary certificate for grass and cane), and landed-cost owner (who pays freight and duty). No physical sample goes abroad until Sristi has checked freight cost and import rules.
 - **Priority now:** Tea Trunk and MRK Foods (explicit corporate gifting and customisation programmes), then the 5 queued 26 Oct leads.
+
+## Tools leverage (27 Oct 2026)
+- CRM discipline: Pipedrive holds every engaged lead and won order; the weekly owner summary reports deals by stage. Goal: no reply or form enquiry left without a next step.
+- Inbound first: Jotform order-form submissions and email/WhatsApp enquiries are handled before cold outreach.
+- Market intelligence: Firecrawl marketplace watch (10 categories/week) feeds pricing, set-size and title-keyword ideas into the Growth backlog.
+- Decision makers: Lusha (40 free credits) only for the best warm B2B leads.
+- Not available: Ahrefs/Semrush data (no API units) — rely on Search Console, GA4, Bing and the marketplace watch.
+- Claims check: run marketing:brand-review on product copy before publishing; remove unsourced environmental claims.
