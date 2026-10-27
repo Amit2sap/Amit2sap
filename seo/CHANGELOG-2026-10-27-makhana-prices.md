@@ -4,3 +4,4 @@
 - Shipping NOT changed: the 100 gm variant is in the General profile (₹120 below ₹1,299, free from ₹1,299); the other makhana variants stay in "MAKHANA - shipping included". Owner to decide (handoff).
 - Backup: backups/products/makhana_prices_before_2026-10-27.json. Undo: productVariantsBulkUpdate price 5499.00 on the bulk variant; productVariantsBulkDelete the 100 gm variant.
 - To update after the owner's shipping decision: llms.txt (live theme, sizes and "always ship free" line), FAQ/shipping page wording.
+- 27 Oct: owner confirmed the 100 g price ₹199 (final, not a draft).
