@@ -89,3 +89,10 @@ If a playbook below still mentions Windsor, ignore that line.
 
 ## Usage saving (owner, 26 Oct: weekly limit 84% used, resets Wed 16:30 IST)
 Until the Wednesday reset: one short Sonnet subagent per job, no extra research, no image viewing, read only the files the job needs, reports of 5 lines or fewer, skip a job when it has nothing new to do (no replies, no orders, no due follow-ups). Interactive owner sessions: short answers, no re-reading of large files.
+
+## Usage guard (owner, 27 Oct 2026)
+Scheduled task "GrassCrafts Usage guard (every 4 hours)" (trig_01Tzi7HMSivfidkdNSuhZFVQ, fresh session each run, push notification). It reads the Claude weekly-limit status and pauses/resumes GrassCrafts tasks by tier, marking its own pauses with " [paused by usage guard]" in the task name:
+- Never paused: Email & Actions, Reply watcher.
+- Tier 2 (paused when the limit is near and the reset is more than 36 h away, or when the limit is hit): Lead Research, Google Business.
+- Tier 3 (paused first, on any warning): Social, Website, Data & SEO, AI Search.
+- On "allowed" it resumes only the tasks it paused. Tasks the owner pauses himself (no suffix) are left alone.
