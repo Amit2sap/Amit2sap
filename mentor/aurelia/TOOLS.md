@@ -27,3 +27,17 @@ Check each tool's current age rules before suggesting sign-up; set up accounts t
 
 ## For the board exam
 - CISCE specimen question papers (cisce.org) and past papers — from Phase 3 onwards, one timed paper per week.
+
+## Links (all free)
+- Khan Academy: https://www.khanacademy.org
+- DIKSHA: https://diksha.gov.in
+- CISCE specimen papers: https://cisce.org
+- Google Gemini: https://gemini.google.com · NotebookLM: https://notebooklm.google.com
+- Google Family Link (parent controls): https://families.google/familylink/
+- Anki: https://apps.ankiweb.net · Quizlet: https://quizlet.com
+- Forest focus app: https://www.forestapp.cc
+- Teachable Machine: https://teachablemachine.withgoogle.com · AutoDraw: https://www.autodraw.com
+- Elements of AI: https://www.elementsofai.com · Code.org AI: https://code.org/ai
+- Scratch: https://scratch.mit.edu · Krita: https://krita.org · Canva: https://www.canva.com
+- JustinGuitar: https://www.justinguitar.com
+- Helplines: Tele-MANAS 14416 · Cyber crime 1930 / https://cybercrime.gov.in · Emergency 112 · Childline 1098

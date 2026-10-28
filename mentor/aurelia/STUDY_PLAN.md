@@ -19,8 +19,8 @@ Confirm exact chapters with her school syllabus / timetable; this is the frame. 
 | 20 min | Hobby: guitar or drawing (non-negotiable — this is her energy) |
 | Block 2 (45 min) | Second subject / homework |
 | 15 min | Revision: flashcards (Anki/Quizlet) or 5 past-paper questions |
-| 21:00 | Reply email to coach (2 min) |
-| 21:30 | Phone handed to parent / charger outside room. Read or sketch, sleep by 22:30 |
+| 21:45 | Reply to the coach's email (2 min) |
+| 22:00 | After the coach's goodnight email: phone handed to parent / charger outside room. Read or sketch, sleep by 22:30 |
 
 Swimming days: Block 2 shortens to 30 min. Weekend: one 2-hour study session + one longer creative/social plan (meet a friend, art project, swim, family outing).
 
