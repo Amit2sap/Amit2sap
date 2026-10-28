@@ -128,3 +128,10 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - Decision makers: Lusha (40 free credits) only for the best warm B2B leads.
 - Not available: Ahrefs (no API access); Semrush removed (paid only) — rely on Search Console, GA4, Bing and the marketplace watch.
 - Claims check: run marketing:brand-review on product copy before publishing; remove unsourced environmental claims.
+
+## Pipedrive = the one shared lead list (owner decision, 28 Oct 2026)
+- Both agent teams (Claude agents and the ChatGPT agent) use Pipedrive; no separate spreadsheets/workbooks for lead status.
+- **Pipedrive Leads inbox:** every prospect the ChatGPT agent (or the owner) researches goes in as a Lead with organisation, person, published email/phone, source URL and a note "Source: ChatGPT <date>". Our Email & Actions agent reads open Leads that have a verified email and no outreach yet, emails them under the normal rules (cap, no prices), then adds a note "Emailed <date> by Claude agent".
+- **Deals:** every lead that replies, is called by Sristi, gets a catalogue, a quote or an order becomes a Deal (stages Qualified → Contact Made → Demo Scheduled → Proposal Made → Negotiations Started; Won/Lost). Sristi's call outcomes are logged as activities/notes on the deal.
+- **Duplicate check before any outreach:** search Pipedrive organisations/persons AND outreach/sent_log.json. If an open Deal exists (Sristi is handling it), do NOT send a cold pitch or follow-up.
+- Our outreach/leads/*.json stays as the Claude research store and send log; it is not a second CRM.
