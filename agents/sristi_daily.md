@@ -4,7 +4,7 @@ Sristi is busy: she never writes emails. She taps a form. Claude captures her an
 
 ## The form
 Jotform "GrassCrafts – Sristi lead update": https://form.jotform.com/263003605636047 (form id 263003605636047).
-Fields: Lead, Lead ID (both prefilled from the link), What happened? (choice), Next step (choice), Next date, Quantity/requirement, Order value ₹, Notes.
+Fields: Lead, Lead ID (both prefilled from the link), What happened? (choice), Where did this lead come from? (WhatsApp/Facebook/Instagram ad; Email from GrassCrafts; Website or Google; Repeat customer/referral; Exhibition or walk-in; Not sure — added 28 Oct to measure the Meta ad), Next step (choice), Next date, Quantity/requirement, Order value ₹, Notes.
 Prefilled link per lead: https://form.jotform.com/263003605636047?lead=<URL-encoded company>&leadId=<Pipedrive deal or lead id>
 (If the prefill keys do not fill, open the form in the Jotform builder once and set the field "unique names" to lead and leadId.)
 
@@ -29,3 +29,4 @@ Never put prices, MOQ or lead times in this email unless Sristi herself gave the
 
 ## C. Next day's tasks
 The next morning email is built from Pipedrive activities due (B creates them), so Sristi's ticks today become tomorrow's list automatically. Unanswered leads roll over with "(no update yesterday)".
+- Capture the "Where did this lead come from?" answer into the Pipedrive deal note and count ad-sourced leads/orders weekly for the Meta Ads cost-per-order line in the Monday report.
