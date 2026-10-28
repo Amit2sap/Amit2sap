@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-10-28",
+    "day_no": 1,
+    "tasks_set": 2,
+    "tasks_done": 0,
+    "study_blocks_set": 0,
+    "study_blocks_done": 0,
+    "subjects": "",
+    "hobby": null,
+    "life_topic": "Day 1 intro",
+    "life_skill": null,
+    "social": null,
+    "phone_free_night": null,
+    "replied": 0,
+    "mood": null
+  }
+]
