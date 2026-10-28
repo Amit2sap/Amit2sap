@@ -1,6 +1,6 @@
 {
  "sender": "amit2sap@gmail.com",
- "sent_count": 577,
+ "sent_count": 581,
  "sent": [
   "admin@agrawaljeweller.com",
   "adscrafting@gmail.com",
@@ -578,7 +578,11 @@
   "info@shrachi.com",
   "info@evolveback.com",
   "hello@trewellness.in",
-  "inquiry@neytt.com"
+  "inquiry@neytt.com",
+  "hello@urbanwrk.com",
+  "sales@vandersar.nl",
+  "contact@ist1947.com",
+  "operations@timeavenue.com"
  ],
  "do_not_send": [
   "akshay.kumar14@tajsats.com",
@@ -672,6 +676,12 @@
    "total_outbound_today": 30,
    "note": "Missed-run catch-up (weekly limit). No genuine business replies in last 36h (British Hamper, Makaibari, Forest Essentials = auto-replies; Teresa Palmer = guest-post spam). Pitches basket-only/trade-sheet, no prices/MOQ/lead times/samples: 8 gourmet + 8 jewellers (27 Oct leads), plus 14 best older verified new leads (3 jewellers, 4 ethnic wear, 2 watches, 2 real estate, 1 hotel, 1 wellness, 1 sustainable decor). Follow-ups: none due (27 Oct pitches due 1-2 Nov; second follow-ups on 14 Oct batch from 29 Oct). Pipedrive deals 1 and 2 (Tavaasa Cafe, Shweta Motani) marked Won on Sristi's reply 'Deal closed'. Jotform: no new submissions since 27 Oct.",
    "addresses": "hello@vedphal.com,care@ghatside.com,hello@tapuafoods.com,info@elvoragroups.com,care@snakiy.com,wecare@mumchies.com,care@dietethics.com,hello@chaufoods.com,info@crisantojewels.com,rupashree_rb@yahoo.co.in,pynebrothers61@gmail.com,info@proffini.com,info@diviano.com,onlinesales@krishnajewellers.com,info@auryadiamonds.com,contactus@kotharijewellers.com,corporate@palmonas.com,enquiries@orra.co.in,contact@limelightdiamonds.com,info@matsyaworld.com,info@kalkifashion.com,info@kreshabajaj.com,hello@theindianethnicco.com,info@rameshwatch.com,contact@sebastianwatchco.com,marketing@siddhagroup.com,info@shrachi.com,info@evolveback.com,hello@trewellness.in,inquiry@neytt.com"
+  },
+  "2026-10-28-email-run-2": {
+   "new_pitches": 4,
+   "duplicates_sent": 25,
+   "duplicate_addresses": "hello@vedphal.com,care@ghatside.com,hello@tapuafoods.com,info@elvoragroups.com,care@snakiy.com,hello@chaufoods.com,enquiries@orra.co.in,contact@limelightdiamonds.com,info@crisantojewels.com,info@proffini.com,info@diviano.com,info@auryadiamonds.com,onlinesales@krishnajewellers.com,contactus@kotharijewellers.com,info@matsyaworld.com,info@kalkifashion.com,info@kreshabajaj.com,hello@theindianethnicco.com,inquiry@neytt.com,info@evolveback.com,hello@trewellness.in,marketing@siddhagroup.com,info@shrachi.com,info@rameshwatch.com,contact@sebastianwatchco.com",
+   "note": "Second concurrent Email & Actions run; the first run committed its sends at the same time, so these addresses received the pitch twice. total outbound today ~59 plus owner summary."
   }
  },
  "notes": "Never email an address in sent or do_not_send again. Verify each new address with an SMTP RCPT check before sending. 2026-10-23: 100 outbound (8 backlink/AI-search drafts, 23 box pitch, 69 first follow-ups on 15 Oct threads). Hold draft r2409934796046738067 for The Sustainable Marketplace (seller onboarding offer, owner decision). No export buyer-lead emails found in Gmail. 2026-10-24 (Sat): 9 approved collab emails sent (Gmail), no other sends; no genuine human replies. 2026-10-26: 100 outbound (92 first follow-ups on 15/16 Oct threads, 4 owner-requested first pitches: Senco corporatesales@ (CC seema.nahria@, sristi@), NCB Jewellers, Shreehari, P.C. Chandra; 4 approved collab emails: Lamhenow, FLAMBE, Rani Arts & Teak, Taufaa). No genuine replies.",
