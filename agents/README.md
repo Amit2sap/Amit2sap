@@ -96,3 +96,4 @@ Scheduled task "GrassCrafts Usage guard (every 4 hours)" (trig_01EWtAc9rBda9NTBX
 - Tier 2 (paused when the limit is near and the reset is more than 36 h away, or when the limit is hit): Lead Research, Google Business.
 - Tier 3 (paused first, on any warning): Social, Website, Data & SEO, AI Search.
 - On "allowed" it resumes only the tasks it paused. Tasks the owner pauses himself (no suffix) are left alone.
+- 28 Oct: owner parked all WhatsApp tasks (agents/whatsapp_orders.md paused). Usage guard did not resume after the 16:30 reset by 18:04 (its run was at 14:07, before reset); main session resumed the 6 tasks manually.
