@@ -3,6 +3,14 @@
 Sender: amit2sap@gmail.com (Composio Gmail account `gmail_movie-arab`). Hunter.io account `hunter_coster-alert` (free: 50 searches / 100 verifications per month, resets on the 16th).
 State lives in this repo: `outreach/sent_log.json`, `outreach/reserve_prospects.json`, `outreach/decision_makers_*.json`, templates in `outreach/templates.py`, targeting rules in `sales/b2b_targeting_playbook.md`. The Composio workbench resets often; never rely on its files.
 
+
+## Run lock — one sender at a time (owner rule, 28 Oct 2026)
+On 28 Oct two email runs overlapped and 25 companies got the same pitch twice. From now on:
+1. **Who sends:** only the scheduled Email & Actions and Reply watcher runs in the main session (session_01CExgX3LnZkdy4AwdW7vCVh) send outreach, follow-ups or replies. Any other session (manual, catch-up, ChatGPT agent) may research and save Gmail DRAFTS only; it never sends unless the owner names that session in that chat.
+2. **Lock before sending:** `git pull`, then read `outreach/RUN_LOCK.json`. If `active` is true and `started_utc` is less than 90 minutes old, stop and report "skipped: <job> running". Otherwise write `{"active": true, "job": "<job>", "session": "<id>", "started_utc": "<now>"}`, commit "lock: <job>" and push BEFORE the first send. If the push is rejected, pull and re-check the lock.
+3. **Live check per address:** right before each batch, run a Gmail search `in:sent to:<address> newer_than:30d` for every recipient and drop anyone already emailed (sent_log can lag behind Gmail).
+4. **Release:** at the end (also on error) set `active` to false, commit "unlock: <job>" and push.
+
 ## 0. Skip check
 - Saturday/Sunday: do step 1 only (read replies, alert owner on hot leads). No sending.
 - Indian public holiday or major festival day: same as weekend. Check with a web search ("public holiday India <date>") and this list (verify dates each year):
