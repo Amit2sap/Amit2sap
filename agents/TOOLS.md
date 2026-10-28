@@ -23,3 +23,4 @@
 - **Semrush: REMOVED by owner decision 27 Oct (paid only). Never use.**
 - **Consensus, Anthropic Economic Index, BigQuery, Indeed, HyperFrames (HeyGen video; compose works only from claude.ai chat, not agents)**: no GrassCrafts use now (Indeed is for Amit's job search).
 - **REMOVED by owner decision 27 Oct, never use:** Gmail (native connector; Composio Gmail gmail_movie-arab stays), Apollo.io, Unsplash, Vibe Prospecting, Postman, Scite, Bling.
+- **Meta Ads (Composio metaads)**: connection being set up 28 Oct (owner to sign in as the ad-account owner, likely Sristi Dey II). Ad accounts seen: Sristi Dey II act_1003688057061695, Grasscrafts act_779321797815849 / act_781482474833321 (read-only), act_1380279345583309, Sristi Dey act_1183034639541794. Use METAADS_GET_INSIGHTS for the weekly report and a daily lead check.

@@ -61,3 +61,13 @@ Goal: understand how the top sellers win (price, pack size, sets, photos, titles
 - **Apply (content only, back up first, log in seo/CHANGELOG-<date>-marketplace.md):** up to 5 changes a run to our own listings — SEO titles/descriptions using the buyer keywords the winners use, Quick answers, collection intros. Price, set, pack-size or new-product ideas go to agents/STRATEGY.md "Growth backlog" and one line in reports/agents/handoff.md for the owner: never change prices, variants or inventory yourself.
 - Keep it small: about 10 fetches per run; no images; no reviews scraping beyond counts.
 - Tools (27 Oct): marketplace pages via Firecrawl first (billed, max ~10 scrapes/run), TinyFish only as fallback. Ahrefs has no API access and Semrush was removed — skip both.
+
+## Weekly owner report (owner, 28 Oct 2026) — Mondays, end of the run
+Send ONE email to amit2sap@gmail.com, subject "GrassCrafts weekly report – week of <date>", short HTML table, last 7 days vs the 7 before (only real numbers; write "n/a" if a source fails):
+- Website: sessions, add-to-cart sessions, checkouts reached, orders, revenue (Shopify analytics); abandoned checkouts count.
+- Search: Search Console clicks, impressions, average position; top 5 queries.
+- Outreach: emails sent (new / follow-ups), replies, hot leads (outreach/sent_log.json, handoff).
+- Pipedrive: open deals by stage, won/lost this week, overdue activities.
+- Google Business: posts this week; Meta Ads (if the metaads connection is active): spend, reach, clicks, leads/purchases, cost per result per campaign.
+- AI search score (latest from seo/ai_visibility_log.json); marketplace watch highlights (3 bullets).
+- "Decisions needed" (max 3 bullets).
