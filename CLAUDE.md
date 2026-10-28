@@ -17,7 +17,7 @@ Every new Claude session on this repo reads this file first. It is the memory of
 
 ## Where things are
 - Rules per agent: agents/*.md (README.md = shared rules + schedule). Open tasks: reports/agents/handoff.md (lines starting "- [ ]"). Logs: reports/agents/*.md. Changes: seo/CHANGELOG-*.md.
-- Leads: outreach/leads/*.json, outreach/sent_log.json, outreach/DAILY_RUNBOOK.md, sales/b2b_targeting_playbook.md.
+- CRM: Pipedrive is the ONE shared lead list for Claude and ChatGPT agents (owner, 28 Oct; agents/STRATEGY.md). Leads: outreach/leads/*.json, outreach/sent_log.json, outreach/DAILY_RUNBOOK.md, sales/b2b_targeting_playbook.md.
 - Daily actions page (owner approvals): https://claude.ai/artifact/T8hhYdcLaL545XpKfCCoZF (ArtifactData, collection "items").
 - Market map: https://claude.ai/artifact/FCLmZodrJBK1zNUhKHpwER. Trade catalogue (Moda): https://moda.app/canvas/8ffa7e7d-19d4-4579-b84f-b0778f1d3288.
 
