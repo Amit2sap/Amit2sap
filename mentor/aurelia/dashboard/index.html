@@ -1,0 +1,255 @@
+<meta name="dash-one-writer">
+<style>
+  .ap { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+  .ap-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ap-head p { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); }
+  .ap-tiles { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); }
+  .ap-tile, .ap-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .ap-tile { display: grid; gap: var(--cds-gap-xs); align-content: start; }
+  .ap-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); letter-spacing: .02em; }
+  .ap-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .ap-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+  .ap-grid { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+  .ap-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .ap-card .ap-note { margin: var(--cds-gap-xs) 0 var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ap-chart { position: relative; min-height: 220px; }
+  .ap-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+  .ap-tip .ap-tip-d { color: var(--cds-text-secondary); }
+  .ap-scroll { overflow: auto; max-height: 28rem; }
+  .ap-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .ap-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .ap-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ap-table td.ap-yes { color: var(--color-ok); }
+  .ap-table td.ap-no { color: var(--color-bad); }
+  .ap-empty { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+  .ap-good { color: var(--color-ok); }
+  .ap-warn { color: var(--color-warn); }
+  .ap-bad { color: var(--color-bad); }
+  .ap-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ap-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  .ap-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; max-width: 70ch; }
+</style>
+
+<div class="ap">
+  <header class="ap-head" id="top">
+    <h1>Aurelia's progress</h1>
+    <p>Class 9 ICSE · coach plan started 29 Oct 2026 · days logged: <b data-draw="days" data-source="summary" data-field="days_logged" data-row="0">—</b> · last update: <span data-draw="lastdate" data-source="summary" data-field="last_date" data-row="0">—</span></p>
+  </header>
+
+  <section class="ap-tiles" id="scorecard" aria-label="This week">
+    <div class="ap-tile" id="tile-streak">
+      <span class="ap-label">Streak</span>
+      <span class="ap-big" data-draw="streak" data-source="summary" data-field="streak" data-row="0">—</span>
+      <span class="ap-sub">days in a row with tasks done and a reply</span>
+    </div>
+    <div class="ap-tile" id="tile-blocks">
+      <span class="ap-label">Study blocks, last 7 days</span>
+      <span class="ap-big" data-draw="blocks" data-source="summary" data-field="week_blocks" data-row="0">—</span>
+      <span class="ap-sub">target 10 a week (45 min each)</span>
+    </div>
+    <div class="ap-tile" id="tile-tasks">
+      <span class="ap-label">Tasks done, last 7 days</span>
+      <span class="ap-big" data-draw="tasks" data-source="summary" data-field="tasks_pct" data-row="0">—</span>
+      <span class="ap-sub">target 70% or more</span>
+    </div>
+    <div class="ap-tile" id="tile-replies">
+      <span class="ap-label">Evening replies, last 7 days</span>
+      <span class="ap-big" data-draw="replies" data-source="summary" data-field="replies" data-row="0">—</span>
+      <span class="ap-sub">of 7 days</span>
+    </div>
+    <div class="ap-tile" id="tile-phone">
+      <span class="ap-label">Phone-free nights, last 7 days</span>
+      <span class="ap-big" data-draw="phone" data-source="summary" data-field="phone_free" data-row="0">—</span>
+      <span class="ap-sub">phone out of the bedroom by 21:30</span>
+    </div>
+    <div class="ap-tile" id="tile-test">
+      <span class="ap-label">Latest test score</span>
+      <span class="ap-big" data-draw="test" data-source="summary" data-field="latest_test" data-row="0">—</span>
+      <span class="ap-sub" data-draw="testsub" data-source="summary" data-field="latest_test_subject" data-row="0">—</span>
+    </div>
+  </section>
+
+  <div class="ap-grid">
+    <section class="ap-card" id="completion">
+      <h2>Daily tasks done</h2>
+      <p class="ap-note">Share of the day's tasks she reported done, last 30 days. Dashed line: 70% target.</p>
+      <div class="ap-chart" data-draw="completion-chart" data-source="completion"></div>
+    </section>
+    <section class="ap-card" id="tests">
+      <h2>Tests and marks</h2>
+      <p class="ap-note">School tests she reports and the coach's Sunday quizzes.</p>
+      <div class="ap-scroll">
+        <table class="ap-table" data-source="tests" data-row-key="date,subject">
+          <thead><tr><th data-field="date">Date</th><th data-field="subject">Subject</th><th data-field="kind">Type</th><th data-field="marks">Marks</th><th data-field="out_of">Out of</th><th data-field="percent">%</th></tr></thead>
+          <tbody data-draw="tests-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <section class="ap-card" id="habits">
+    <h2>Day by day</h2>
+    <p class="ap-note">From her evening reply email. Blank means she did not report it.</p>
+    <div class="ap-scroll">
+      <table class="ap-table" data-source="daily" data-row-key="date">
+        <thead><tr><th data-field="date">Date</th><th data-field="study_blocks_done">Study blocks</th><th data-field="subjects">Subjects</th><th data-field="hobby">Hobby</th><th data-field="life_topic">Life-skill topic</th><th data-field="life_skill">Read it</th><th data-field="social">Offline / social</th><th data-field="phone_free_night">Phone-free night</th><th data-field="replied">Replied</th><th data-field="mood">Mood</th></tr></thead>
+        <tbody data-draw="daily-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="ap-foot">Updated every night around 21:30 IST by the study coach agent from Aurelia's email reply. Numbers are what she reports, so they measure honesty and habit as much as output. School marks are added when she or her father sends them.</p>
+</div>
+
+<script>
+  dash.calc('summary', {
+    inputs: ['daily', 'tests'],
+    title: 'Weekly scorecard',
+    description: 'Streak, and last-7-day totals from the daily log; latest test percent.',
+    fn: (daily, tests) => {
+      const d = [...daily].sort((a, b) => (a.date < b.date ? -1 : 1));
+      const last7 = d.slice(-7);
+      const sum = (rows, k) => rows.reduce((s, r) => s + (Number(r[k]) || 0), 0);
+      let streak = 0;
+      for (let i = d.length - 1; i >= 0; i--) {
+        if (Number(d[i].replied) === 1 && Number(d[i].tasks_done) > 0) streak++;
+        else break;
+      }
+      const set = sum(last7, 'tasks_set');
+      const t = [...tests].sort((a, b) => (a.date < b.date ? -1 : 1)).pop();
+      return [{
+        days_logged: d.length,
+        last_date: d.length ? d[d.length - 1].date : null,
+        streak: d.length ? streak : null,
+        week_blocks: d.length ? sum(last7, 'study_blocks_done') : null,
+        tasks_pct: set ? sum(last7, 'tasks_done') / set : null,
+        replies: d.length ? sum(last7, 'replied') : null,
+        phone_free: d.length ? sum(last7, 'phone_free_night') : null,
+        latest_test: t ? Number(t.percent) / 100 : null,
+        latest_test_subject: t ? t.subject + ', ' + t.date : null,
+      }];
+    },
+  });
+
+  dash.calc('completion', {
+    inputs: ['daily'],
+    title: 'Daily completion',
+    description: 'Tasks done divided by tasks set, per day, last 30 days.',
+    fn: (daily) => [...daily]
+      .filter((r) => Number(r.tasks_set) > 0)
+      .sort((a, b) => (a.date < b.date ? -1 : 1))
+      .slice(-30)
+      .map((r) => ({ date: r.date, pct: Number(r.tasks_done) / Number(r.tasks_set) })),
+  });
+
+  const TARGET = 0.7;
+  const pct = d3.format('.0%');
+  const S = () => dash.data('summary');
+  const val = (k) => { const s = S(); return s.status === 'ok' && s.data.length ? s.data[0][k] : null; };
+  const fail = (el, id) => { el.replaceChildren(); const f = document.createElement('div'); f.className = 'ap-fail'; f.textContent = 'Failed to load'; el.append(f); };
+
+  const tile = (name, key, fmt, cls) => dash.draw(name, (el) => {
+    const v = val(key);
+    el.classList.remove('ap-good', 'ap-warn', 'ap-bad');
+    if (v === null || v === undefined) { el.textContent = '—'; return; }
+    el.textContent = fmt ? fmt(v) : String(v);
+    if (cls) el.classList.add(cls(v));
+  });
+  tile('days', 'days_logged');
+  tile('lastdate', 'last_date', (v) => d3.utcFormat('%-d %b %Y')(new Date(v)));
+  tile('streak', 'streak', d3.format(','));
+  tile('blocks', 'week_blocks', d3.format(','), (v) => (v >= 10 ? 'ap-good' : v >= 6 ? 'ap-warn' : 'ap-bad'));
+  tile('tasks', 'tasks_pct', pct, (v) => (v >= TARGET ? 'ap-good' : v >= 0.5 ? 'ap-warn' : 'ap-bad'));
+  tile('replies', 'replies', d3.format(','), (v) => (v >= 6 ? 'ap-good' : v >= 4 ? 'ap-warn' : 'ap-bad'));
+  tile('phone', 'phone_free', d3.format(','), (v) => (v >= 6 ? 'ap-good' : v >= 4 ? 'ap-warn' : 'ap-bad'));
+  tile('test', 'latest_test', pct, (v) => (v >= 0.85 ? 'ap-good' : v >= 0.6 ? 'ap-warn' : 'ap-bad'));
+  tile('testsub', 'latest_test_subject');
+
+  dash.draw('completion-chart', (el) => {
+    const c = dash.data('completion');
+    el.replaceChildren();
+    if (c.status === 'error') { fail(el); return; }
+    if (c.status !== 'ok') return;
+    const rows = c.data.map((r) => ({ date: new Date(r.date), pct: r.pct }));
+    if (!rows.length) {
+      const p = document.createElement('p'); p.className = 'ap-empty';
+      p.textContent = 'The first day appears here after her first evening reply.';
+      el.append(p); return;
+    }
+    const w = Math.max(el.clientWidth, 280), h = 220, m = { t: 10, r: 8, b: 26, l: 40 };
+    const x = d3.scaleBand(rows.map((r) => r.date), [m.l, w - m.r]).padding(0.25);
+    const y = d3.scaleLinear([0, 1], [h - m.b, m.t]);
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`);
+    svg.append('g').attr('transform', `translate(${m.l},0)`)
+      .call(d3.axisLeft(y).ticks(5).tickFormat(pct).tickSize(-(w - m.l - m.r)))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.select('.domain').remove())
+      .call((g) => g.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'))
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+    const every = Math.ceil(rows.length / Math.max(2, Math.floor((w - m.l) / 56)));
+    svg.append('g').attr('transform', `translate(0,${h - m.b})`)
+      .call(d3.axisBottom(x).tickValues(rows.filter((_, i) => i % every === 0).map((r) => r.date)).tickFormat(d3.utcFormat('%-d %b')).tickSizeOuter(0))
+      .attr('font-size', null).attr('font-family', null)
+      .call((g) => g.select('.domain').attr('stroke', 'var(--cds-chart-axis)'))
+      .call((g) => g.selectAll('line').remove())
+      .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'));
+    svg.append('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y(TARGET)).attr('y2', y(TARGET))
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+    const tip = document.createElement('div'); tip.className = 'ap-tip'; tip.hidden = true; el.append(tip);
+    svg.append('g').selectAll('rect').data(rows).join('rect')
+      .attr('x', (r) => x(r.date)).attr('width', Math.min(x.bandwidth(), 32))
+      .attr('y', (r) => y(r.pct)).attr('height', (r) => y(0) - y(r.pct)).attr('rx', 3)
+      .attr('fill', (r) => (r.pct >= TARGET ? dash.colors[0] : 'var(--cds-chart-muted)'))
+      .on('pointerenter pointermove', (event, r) => {
+        tip.replaceChildren();
+        const a = document.createElement('div'); a.className = 'ap-tip-d'; a.textContent = d3.utcFormat('%a %-d %b')(r.date);
+        const b = document.createElement('div'); b.textContent = pct(r.pct) + ' of tasks done';
+        tip.append(a, b); tip.hidden = false;
+        const [px, py] = d3.pointer(event, el);
+        tip.style.left = Math.min(px + 10, el.clientWidth - tip.offsetWidth - 4) + 'px';
+        tip.style.top = Math.max(py - 40, 0) + 'px';
+      })
+      .on('pointerleave', () => { tip.hidden = true; });
+  });
+
+  const yesNo = (td, v) => {
+    if (v === null || v === undefined || v === '') { td.textContent = ''; return; }
+    const on = Number(v) === 1;
+    td.textContent = on ? 'yes' : 'no';
+    td.className = on ? 'ap-yes' : 'ap-no';
+  };
+  const cell = (tr, text) => { const td = document.createElement('td'); td.textContent = text ?? ''; tr.append(td); return td; };
+
+  dash.draw('daily-body', (el) => {
+    const g = dash.data('daily');
+    el.replaceChildren();
+    if (g.status !== 'ok') return;
+    [...g.data].sort((a, b) => (a.date < b.date ? 1 : -1)).forEach((r) => {
+      const tr = document.createElement('tr');
+      cell(tr, r.date);
+      cell(tr, r.study_blocks_done === null || r.study_blocks_done === undefined ? '' : r.study_blocks_done + ' of ' + r.study_blocks_set);
+      cell(tr, r.subjects);
+      yesNo(cell(tr), r.hobby);
+      cell(tr, r.life_topic);
+      yesNo(cell(tr), r.life_skill);
+      yesNo(cell(tr), r.social);
+      yesNo(cell(tr), r.phone_free_night);
+      yesNo(cell(tr), r.replied);
+      cell(tr, r.mood);
+      el.append(tr);
+    });
+  });
+
+  dash.draw('tests-body', (el) => {
+    const g = dash.data('tests');
+    el.replaceChildren();
+    if (g.status !== 'ok') return;
+    [...g.data].sort((a, b) => (a.date < b.date ? 1 : -1)).forEach((r) => {
+      const tr = document.createElement('tr');
+      [r.date, r.subject, r.kind, r.marks, r.out_of, r.percent].forEach((v) => cell(tr, v));
+      el.append(tr);
+    });
+  });
+</script>
