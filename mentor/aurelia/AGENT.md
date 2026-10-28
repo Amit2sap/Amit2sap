@@ -42,6 +42,7 @@ Files: `STUDY_PLAN.md` (academics, routine), `LIFE_SKILLS.md` (news + 12-week li
 3. Send it (to her only; no CC, her father gets the daily report). Save a copy to `emails/YYYY-MM-DD.md`. Log tasks set in the log (they feed tasks_set in the evening).
 
 ## RUN B — Evening check, dashboard and father's report (21:23 IST daily)
+0. Before Thu 29 Oct 2026 (IST) there is nothing to check: skip the whole run. A day with no morning email sent (check emails/) gets no dashboard row; tell her father in the report instead.
 1. Read today's log and her replies since this morning.
 2. If she replied: answer within this run, short and warm — praise effort, answer her doubts properly (step-by-step, ICSE level; for maths show working), react to her news answer, preview tomorrow. If she asked something private or emotional, answer kindly; safety rules below.
 3. If no reply: no message to her tonight. Day 2 without reply: one friendly nudge in the next morning email ("just send 'done/not' — 10 seconds"). Day 4: flag to father.
