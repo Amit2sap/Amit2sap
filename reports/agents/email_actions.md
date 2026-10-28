@@ -98,3 +98,10 @@
 - Sent: 71 in-thread first follow-ups (all remaining 16 Oct threads, no sample offer) + 15 new pitches (hamper/gourmet and decor brands, trade-sample-sheet link, no prices) = 86; with 14 earlier from the main session, Gmail Sent today = 100 (cap reached).
 - WhatsApp orders: BLOCKED 141006 (payment method), nothing sent.
 - Next: 14 Oct batch second follow-ups from about 29 Oct; follow-ups to today's 13 owner/ChatGPT pitches in 4-5 days.
+
+## 2026-10-28 (missed-run catch-up, run ~17:00 IST after the weekly limit reset)
+- Replies: none genuine in the last 36 h (British Hamper Co., Makaibari, Forest Essentials = auto-replies; Teresa Palmer = guest-post spam; Sristi's "Deal closed" on the Jotform buyers). Pipedrive deals 1 (Tavaasa Cafe) and 2 (Shweta Motani) set to Won.
+- Jotform (4 forms): no submissions since 27 Oct.
+- Sent 30 new pitches (basket-only / trade sample sheet, no prices, MOQ, lead times or samples): 8 gourmet and 8 jewellers from the 27 Oct leads, plus 14 older verified "new" leads (Palmonas, ORRA, Limelight, Matsya, KALKI, Kresha Bajaj, The Indian Ethnic Co., Ramesh Watch, Sebastian Watch, Siddha, Shrachi, Evolve Back, Trē Wellness, Neytt). No follow-ups due (27 Oct pitches due 1-2 Nov; 14 Oct second follow-ups from 29 Oct). Total outbound today 30 of 100; not padded.
+- Notice: Google One "out of quota, cannot send/receive" mail on 27 Oct 15:07 UTC; a Google One receipt followed 28 Oct, sends worked today.
+- Lead research (light): +8 gourmet, +7 ethnic_wear, status new, priority lead_research_2026-10-28.
