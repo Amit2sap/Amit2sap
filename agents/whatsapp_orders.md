@@ -1,5 +1,7 @@
 # WhatsApp order messages (runs inside the Reply watcher, 15:07 and 19:07 IST)
 
+> **PAUSED by owner, 28 Oct 2026: skip this whole job (JOB 2 of the reply watcher). Send no WhatsApp messages, do not health-check, report nothing about WhatsApp until the owner turns it back on.**
+
 Owner request, 25 Oct 2026. Transactional (UTILITY) messages only: never send a marketing template from this job.
 
 **Sender:** Composio WhatsApp account `whatsapp_guha-marko`, phone_number_id `1292616473939901` (+91 81004 47884, "Gift Hamper"), WABA 28037860215843187. Tool: WHATSAPP_SEND_TEMPLATE_MESSAGE, language_code `en`.
