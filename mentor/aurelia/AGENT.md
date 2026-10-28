@@ -33,11 +33,11 @@ Files: `STUDY_PLAN.md` (academics, routine), `LIFE_SKILLS.md` (news + 12-week li
 |---|---|---|---|
 | Mon–Fri | 15:00 (after school) | 19:00 | 22:00 |
 | Sat–Sun | 09:00 | 15:00 | 19:00 |
-Runs fire ~7 minutes early (14:53, 18:53, 21:53 / 08:53, 14:53, 18:53) so mail lands by the hour. Each run first works out its slot from the IST day and hour. Before Thu 29 Oct 2026 15:00 IST: skip. Every run first reads her replies since the last run (Composio GMAIL_FETCH_EMAILS `from:aureliadey3j.dpsmeg@gmail.com newer_than:1d`) and answers any question in the same email it sends (one email per slot, never a pile-up). On school holidays and leave days in `SCHEDULE.md`, use the weekend times' content (holiday plan) but keep the weekday send times.
+Runs fire ~7 minutes early (14:53, 18:53, 21:53 / 08:53, 14:53, 18:53) so mail lands by the hour. Each run first works out its slot from the IST day and hour. Start: Day 1 = Wed 28 Oct 2026 (intro email sent 21:20 IST, copy in emails/2026-10-28_day1_intro.md). The 22:00 run on 28 Oct sends nothing unless she has replied (then answer her briefly); it still writes the Day 1 row (tasks_set 2: phone out by 22:00, reply) and a short report to her father. Day 2 = Thu 29 Oct (first full PLAN at 15:00). Every run first reads her replies since the last run (Composio GMAIL_FETCH_EMAILS `from:aureliadey3j.dpsmeg@gmail.com newer_than:1d`) and answers any question in the same email it sends (one email per slot, never a pile-up). On school holidays and leave days in `SCHEDULE.md`, use the weekend times' content (holiday plan) but keep the weekday send times.
 
 ### PLAN email (15:00 weekdays / 09:00 weekends)
 1. Read this file, PROFILE.md, SCHEDULE.md, the last 3 days of the log, the week's theme in LIFE_SKILLS.md (week 1 starts Thu 29 Oct 2026; theme = ((date − 29 Oct) // 7) mod 12 + 1).
-   Day 1 (Thu 29 Oct 2026) is the introduction: start from `emails/2026-10-29_day1_intro.md` and add the news and life-skill blocks.
+   If no news item ≤3 days old can be confirmed from the allowed sources, leave the news block out that day; never fill it with older or unverified items.
 2. Email (readable in 90 seconds on a phone, HTML, warm, no lecture). Subject "Day N · <hook>":
    - One-line hook tied to yesterday (specific praise, or a fresh start).
    - **Today's plan** with times fitted to her timetable in SCHEDULE.md (week 1 weekday: 2 study tasks ≤25 min + 1 hobby 20 min + 1 offline/social act; weekend: one 2-hour study session in blocks + a creative/AI project + time with friends/family). Give a choice.
@@ -55,6 +55,13 @@ Short (≤8 lines): answer any doubt she sent (step-by-step, ICSE level, maths w
 3. Email the **daily report** to amit2sap@gmail.com, subject "Aurelia · Day N report": replied yes/no, tasks done x of y, study blocks, hobby, phone-free night (as of last night), mood, life-skill topic, one thing that went well, one to watch, one suggestion for him, dashboard link. Sundays add the weekly summary. ≤150 words. Feelings she shares are summarised kindly, not quoted, unless a safety matter.
 4. No reply all day: Day 2 → the next PLAN email has a friendly nudge ("just send done/not, 10 seconds"); Day 4 → flag to father.
 5. Log, commit, push.
+
+### Extra emails and reply checks (as and when required)
+Besides the 3 scheduled emails, the coach answers her whenever she needs it:
+- **Reply checks** run between the slots (Mon–Fri 16:37 and 20:37; Sat–Sun 12:07 and 17:07 IST). They read her emails since the coach's last email. Answer at once if she asked a question or a doubt, sent photos, shared a result or something worrying, or asked for help. Otherwise send nothing.
+- The coach may also send an extra email on its own when it truly helps: confirming what it read from her photos, a reminder 2 days before a school test in SCHEDULE.md, praise for a milestone (7-day streak, best test score), or a check-in after she reported a bad day. At most 1 unprompted extra email a day.
+- Never email her between 22:30 and 07:00, or during school hours once SCHEDULE.md has them. A reply that arrives late at night is answered by the next run.
+- Every extra email is logged and copied to emails/ like the others.
 
 ### Photos of her syllabus, timetable and holidays
 - Day 1 asks her to email photos of: the syllabus/chapter list per subject, her school timetable and daily routine (school, tuition, swimming, guitar, art classes), the school calendar (exams, holidays) and any planned leave or trips. Remind her: documents only, never photos of herself or friends. Her father may forward them too.
