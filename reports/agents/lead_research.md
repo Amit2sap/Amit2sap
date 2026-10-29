@@ -59,3 +59,9 @@ Group 2 run (luxury_watches, gourmet, ethnic_wear), one segment after another; r
 
 - 2026-10-27 (manual light run) gourmet: +8 (VEDPHAL, Ghatside, Tapua Foods, Elvvora, Snakiy, Mumchies, Diet Ethics, Chau Foods), all published emails, basket-only pitch. Skipped Grain Routes/Kenzio (no email / packaging supplier), MAKVORA site 500.
 - 2026-10-27 (manual light run) diamond_jewellery: +8 (Crisanto Jewels, Rupashree Jewellers, Pyne Brothers, Proffini Jewels, Diviano, Krishna Jewellers, Aurya Diamonds, Kothari Jewellers), all published emails; Hunter not used.
+
+- 2026-10-29 corporate: +7 (The Hand Made Store, Planet Earth Shop, Vrikshit Eco Mart, Tohfa, re n ue, Vaanavizha, Help Us Green), published emails; Sacred Peepal skipped (already in sent_log). Hunter not used.
+- 2026-10-29 wedding: +4 (Kala Kriti Events, The Gift Concierge, Wedtree, Gift Emotions); The Knot Planner skipped (in sent_log). Karnika: new site karnikaeventplanners.in contact page still lists hello@karnikaevents.com (the bounced address) plus phone 070018 08451; no working email published, phone only for Sristi. Opus Kreation email only on LinkedIn aggregator, not saved.
+- 2026-10-29 hotels: +2 (Garden Gate Resorts opening Feb 2027; Atmosphere Core, Ozen Mansion Kolkata 2027 pipeline). Few published-email openings found.
+- 2026-10-29 real_estate: +4 (Orchid Developer, Ambuja Neotia Realty, Vishnu Projects, Poddar Groups), all Kolkata, published emails; Hunter not used.
+- Blockers: WebSearch/Composio not used (Exa only); WebFetch cannot resolve karnikaeventplanners.in (Exa fetch worked). Targets of 8 not reached for wedding/hotels/real_estate: few new verifiable contacts.
