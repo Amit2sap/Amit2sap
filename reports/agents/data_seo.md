@@ -1,5 +1,15 @@
 # data_seo agent log
 
+## 2026-10-29: Thursday run
+- **Google (28 days to 26 Oct):** 167 clicks, 8990 impressions, avg position 8.1; previous: 167 clicks, 9296 impressions, position 7.5.
+- **Bing:** connected, site verified; inbound links 0. **GA4 (28 d) sessions:** Direct 758, Organic Search 213, AI Assistant 91 (3 transactions, Rs 5,060), Organic Social 60, Organic Shopping 43 (1 transaction, Rs 1,050), Unassigned 24, Referral 15, Cross-network 3.
+- **Sitemaps:** both main files 0 errors.
+- **Rank tracker highlights:** sabai grass 8.2 (387 impr, 1 click); kauna grass 6.0 (142); madurkathi 8.1 (69); cane planters 15.3 (140 impr, 0 clicks); sitalpati 8.9 (was 34); makhana 9 (12 impr); 15 of 30 tracked keywords have no impressions.
+- **Low CTR (>=200 impr, <1%):** /pages/grass-weaving-sustainability 834 / 0.72%; /products/wedding-gift-hamper-basket-2 535 / 0%; /products/rectangular-water-hyacinth-storage-basket 261 / 0%. All three titles were rewritten 26 Oct, so no new rewrite (too early to judge; recheck Mon 2 Nov).
+- **Cannibalisation:** sabai grass (page vs blog guide vs collection), cane planters (/ vs /collections/cane-planter pos 24.7 vs /products/cane-planters), cane box, madurkathi, kauna grass.
+- **Actions today:** 2 changes (seo/CHANGELOG-2026-10-29-data.md).
+- Striking-distance top: sabai grass (375 impr, pos 8.0), kauna grass (142, 6.0), hyacinth basket (106, 7.9), straw mat (94, 9.8, homepage), madurkathi (66, 8.3), cane planters (60, 9.1 homepage).
+
 ## 2026-10-26: Monday run
 - **Google (28 days to 23 Oct):** 157 clicks, 8,825 impressions, avg position 8.1. Previous: 165 clicks, 9,306 impressions, position 7.8.
 - **GA4 (28 d) sessions:** Direct 752, Organic Search 205, AI Assistant 76, Organic Social 63, Organic Shopping 43; 1 transaction (₹1,050).
@@ -227,3 +237,4 @@ New SEO titles and descriptions with prices; "carbon-conscious" claim removed.
 ### Next steps
 - The new homepage "Shop by Category" tiles plus internal links should move cane-planter, table-mats and madurkathi ahead of the homepage.
 - Add a "straw mat" mention and link to the Madurkathi collection copy.
+

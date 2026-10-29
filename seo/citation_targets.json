@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "targets": [
     {
       "source": "India wedding / return-gift roundup blogs",
@@ -48,7 +48,7 @@
     },
     {
       "source": "Unlinked brand mentions (web_search, 18 Oct)",
-      "why": "Web results describe 'Grasscrafts' / 'GrassCrafts by Abalone' (Kolkata, natural-fibre home décor) from third-party pages, but Bing Webmaster Tools reports 0 inbound links to grasscrafts.com",
+      "why": "Web results describe 'Grasscrafts' / 'GrassCrafts by Abalone' (Kolkata, natural-fibre home d\u00e9cor) from third-party pages, but Bing Webmaster Tools reports 0 inbound links to grasscrafts.com",
       "action": "AI Search/Email agents: open the cited pages from the 18 Oct brand_mentions results in seo/data/2026-10-18.json, find the ones that name the brand without linking, and ask each for a link to grasscrafts.com",
       "added_by": "data_seo",
       "date": "2026-10-18"
@@ -164,6 +164,11 @@
       "action": "study their hamper and bulk pages; competitor",
       "added_by": "ai_search",
       "date": "2026-10-22"
+    },
+    {
+      "source": "Indian home-decor and planter roundup blogs (cane planters)",
+      "why": "cane planters 140 impressions, pos 15.3, 0 clicks; no inbound links (Bing 0)",
+      "action": "find via web search, pitch a feature without prices (Email agent)"
     }
   ]
 }

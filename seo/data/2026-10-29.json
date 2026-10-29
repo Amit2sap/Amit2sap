@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-29",
+ "note": "condensed copy",
+ "summary": {
+  "period": [
+   "2026-09-29",
+   "2026-10-26"
+  ],
+  "current": {
+   "clicks": 167,
+   "impressions": 8990,
+   "position": 8.12
+  },
+  "previous": {
+   "clicks": 167,
+   "impressions": 9296,
+   "position": 7.46
+  }
+ },
+ "low_ctr_pages": [
+  {
+   "page": "/pages/grass-weaving-sustainability",
+   "impressions": 834,
+   "ctr": 0.72
+  },
+  {
+   "page": "/products/wedding-gift-hamper-basket-2",
+   "impressions": 535,
+   "ctr": 0
+  },
+  {
+   "page": "/products/rectangular-water-hyacinth-storage-basket",
+   "impressions": 261,
+   "ctr": 0
+  }
+ ],
+ "ga4": [
+  [
+   "Direct",
+   758,
+   0
+  ],
+  [
+   "Organic Search",
+   213,
+   0
+  ],
+  [
+   "AI Assistant",
+   91,
+   3
+  ],
+  [
+   "Organic Social",
+   60,
+   0
+  ],
+  [
+   "Organic Shopping",
+   43,
+   1
+  ]
+ ],
+ "bing": {
+  "connected": true,
+  "inbound_links": 0
+ }
+}

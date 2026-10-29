@@ -62,3 +62,7 @@ Each topic shows its main keyword and the link target.
 ### From data_seo, 21 Oct 2026 (Search Console, last 28 days)
 - [ ] Water hyacinth storage baskets: sizes, uses and care ("hyacinth basket" 97 impr pos 7.8; "eco-friendly water hyacinth basket" 37 impr pos 6.1) → /products/rectangular-water-hyacinth-storage-basket
 - [ ] Kauna reed totes and boxes: what kauna reed is and how to use it ("kauna reed", 21 impr, pos 8.6; two product pages compete) → /products/sahar-kauna-reed-tote-earthy-ochre, /products/heritage-kauna-grass-trinket-box-handwoven-reed-storage
+
+### From data_seo, 29 Oct 2026 (Search Console, 28 days to 26 Oct)
+- [ ] Cane planters buying guide: indoor vs balcony, sizes, how to use with nursery pots ("cane planters" 140 impr, pos 15.3, 0 clicks; collection ranks 24.7) -> /collections/cane-planter
+- [ ] Bridal and wedding gift hamper ideas with a handwoven basket ("bridal gift hamper", "gift hamper basket for wedding", 535 impr on the page, 0 clicks) -> /products/wedding-gift-hamper-basket-2
