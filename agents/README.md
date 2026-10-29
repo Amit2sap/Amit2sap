@@ -62,16 +62,20 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 
 | Agent | Task ID | Time (IST) | Subagent model |
 |---|---|---|---|
-| Data & SEO | trig_01CUREij3CJdjc5fZN4htmSe | 08:37 Mon, Thu | Sonnet |
-| Lead Research (3–4 segments a day) | trig_01XKSz9LU53FqDRG1yEBbnth | 09:07 Mon–Fri | Sonnet |
-| Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 10:22 daily | default |
-| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | paused (disabled) | Sonnet |
-| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 11:52 Mon, Wed, Fri | Sonnet |
-| Social (Instagram + Facebook + Pinterest) | trig_013nvpY1RgSiVREyaGQW3y3U | 12:41 daily | Sonnet |
-| AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 13:47 Thursdays | Sonnet |
-| Reply watcher (3x daily, 4h15m window) | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 11:07, 15:07, 19:07 | Sonnet |
-| Facebook (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 | disabled | — |
-| Pinterest (old, merged into Social) | trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
+| Data & SEO | trig_01CUREij3CJdjc5fZN4htmSe | 07:37 Mon, Thu | Sonnet |
+| Lead Research | trig_01XKSz9LU53FqDRG1yEBbnth | 08:07 Mon–Fri | Sonnet |
+| Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 10:22 daily | Sonnet |
+| Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 11:14 Tue, Sat | Sonnet |
+| Social (Instagram + Facebook + Pinterest + LinkedIn + actions page) | trig_013nvpY1RgSiVREyaGQW3y3U | 13:41 daily (posts on alternate days) | Sonnet |
+| Reply watcher | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 15:07, 19:07 | Sonnet |
+| AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 16:07 Mon, Thu (moved 29 Oct from 13:47, which clashed with Social) | Sonnet |
+| Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 17:22 Mon, Wed, Fri | Sonnet |
+| Usage guard | trig_01EWtAc9rBda9NTBXixc4Mv2 | every 4 h (:37) | Haiku, own session |
+| Facebook / Pinterest (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 / trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
+
+**Shared weekly limit (29 Oct):** the same Claude account also runs the Aurelia study coach (7 runs/weekday) and the job-application agent (2 runs/weekday, which failed on 28 Oct with "usage limit reached"). They draw on the same weekly limit as GrassCrafts; the usage guard pauses the Aurelia tasks in tier 3.
+
+**Usage optimisations (29 Oct):** actions-page kit only on posting days; owner to-dos in Todoist instead of long owner emails; no two jobs at the same minute (AI Search moved); Social on off days = comments + approved saves only.
 
 **Known blockers at set-up:**
 - **Instagram:** Composio is connected to the wrong account (@terraleatherco). Windsor reads are paused (free plan, 8 accounts connected).

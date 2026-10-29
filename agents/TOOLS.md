@@ -13,6 +13,15 @@
 | **Supermetrics** | Marketing data incl. social (manage_social_media) | Data & SEO (Instagram/Facebook insights if authorised) | Check auth status before use. |
 | Shopify, Composio (Gmail, Instagram, Facebook, Pinterest, LinkedIn, GSC, GA4, Bing, Hunter, WhatsApp, Upload-Post), claude-code-remote | unchanged | as before | |
 
+## New connectors reviewed 29 Oct 2026
+| Tool | Verdict | Use |
+|---|---|---|
+| **Todoist** (claude.ai, Amit's Free account) | ADOPTED | Project "GrassCrafts – owner actions" (id 6hrWjrHwPxWHV4rw) = the owner's to-do list with phone reminders. Email & Actions adds each NEW owner decision/click as a task (dueString, priority p1–p4; Free plan has no deadlines, no assignees) and completes tasks the owner has done; the daily owner email then only says "N open owner tasks in Todoist" instead of repeating them. Sristi stays on her daily form email (not Todoist). |
+| **PostHog** (project 695384, empty, 0 events) | PARKED, owner decision | Would add session recordings + heatmaps to see why visitors abandon carts (GA4 cannot show this). Needs the PostHog snippet in a theme COPY and a cookie/consent check; the owner publishes. Do not install without owner OK. |
+| **LunarCrush** | NOT USED | Crypto/stocks social analytics; no subscription, outputs limited. No GrassCrafts value. |
+| **Kuliko AI** (study library), **LinkedIn Hiring Pro** (one free job post) | NOT USED | Not GrassCrafts work. |
+| Plugin MCPs (Canva, Figma, HubSpot, Klaviyo, Similarweb, Notion, Slack, Asana, Supermetrics plugin, Ahrefs plugin…) | FAIL to connect from cloud sessions (proxy 403) | Do not call. Their skills (marketing:brand-review, performance-report, seo-audit, content-creation) still work without the connector. |
+
 ## Plugins (skills) worth using
 - marketing:brand-review — check product copy/claims before publishing (e.g. the unsourced "carbon-negative", "2,200 L water saved" claims).
 - marketing:competitive-brief, marketing:seo-audit, marketing:performance-report — monthly reviews, run inside the existing agent, not as extra agents.

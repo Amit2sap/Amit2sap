@@ -3,6 +3,8 @@
 **Page:** https://claude.ai/artifact/T8hhYdcLaL545XpKfCCoZF. It is private to the owner; Amit can share it with Sristi from the page's Share menu.
 Agents write to the page's database with the ArtifactData tool (load it with ToolSearch). Pass `url` = the page above and `collection` = "items". The page shows the latest `date` first.
 
+**Usage rule (owner, 29 Oct 2026):** build the next kit ONLY on posting days ((today - 2026-10-18).days even). On off days the Social run only executes approved saves and replies to comments. Recent kits often had 0 verifiable comment items, so do not spend searches padding them: if no dated post with a real URL is found in 3 searches, write 0 comment items and move on.
+
 ## Item schema (one document per action)
 `doc_id` = `<YYYY-MM-DD>-<kind>-<n>`, for example `2026-10-23-comment-01`.
 
