@@ -136,3 +136,10 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - **Duplicate check before any outreach:** search Pipedrive organisations/persons AND outreach/sent_log.json. If an open Deal exists (Sristi is handling it), do NOT send a cold pitch or follow-up.
 - Our outreach/leads/*.json stays as the Claude research store and send log; it is not a second CRM.
 - Update 28 Oct (owner): ChatGPT free plan cannot connect to Pipedrive. The owner pastes ChatGPT lead lists and Sristi's call outcomes into the Claude chat; Claude enters them into Pipedrive (duplicate check first) and the agents work from there. ChatGPT formats its output with sales/chatgpt_agent_pipedrive_instructions_2026-10-28.md.
+
+## Pipedrive columns: Lead source + Converted to sale (owner, 29 Oct 2026)
+Two custom DEAL fields (leads share deal fields), created by the owner in Pipedrive Settings → Data fields:
+- **Lead source** (single option): ChatGPT agent · Claude lead research · Meta ad (WhatsApp) · Website / Jotform · Email reply · LinkedIn · Google Business · Referral · Walk-in / trade fair · Other.
+- **Converted to sale** (single option): Yes · No.
+Every agent that creates or updates a Pipedrive lead or deal fills both (read the field keys with getAccountContext → custom_fields.deal; never guess a key). Lead source = where the lead first came from (Sristi's form answer "Where did this lead come from?" wins). Converted to sale = Yes only when the deal is Won or a paid order exists (Shopify/Jotform/won_orders.json); otherwise No. Until the fields exist, write "Source: … / Converted: …" in the first note. The Monday owner report counts leads and sales per source.
+
