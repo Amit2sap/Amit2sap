@@ -7,7 +7,7 @@ Goal: only the best, authentic B2B buyers; never waste free credits. Pipedrive s
 2. **Apollo people search** (`apollo_mixed_people_api_search`, `apollo_mixed_companies_search`) — names, titles, LinkedIn URLs; normally NO credits. Use it to find the right buyer and for Amit's LinkedIn kit. Check the response's mcp_credits block; if a search shows a cost, stop and log.
 3. **Apollo email reveal** (`apollo_people_match`, 1 lead credit) — only for an A-fit or warm company whose only published contact is a generic inbox, and only for a buyer role (founder/owner, procurement/purchase, admin, gifting/marketing head, hotel F&B/rooms head). Accept only emails Apollo marks verified.
 4. **Lusha** — second opinion when Apollo has no verified email (rules in agents/linkedin_manual_outreach.md; 40 credits).
-5. **Vibe Prospecting** — company DISCOVERY only: `fetch-entities` / `fetch-entities-statistics` previews are free (e.g. India gifting/hospitality/jewellery companies by size and city). NEVER `export-to-csv` or paid enrich without the owner's explicit OK in chat; never auto-export.
+5. **Vibe Prospecting** — company DISCOVERY only. FREE: `fetch-entities-statistics` (counts) and `fetch-entities` masked previews (5 rows: company name, website, city, description). PAID (checked 29 Oct): `show-sample` = 5 credits per table; export = about 1 credit per company row (10 rows quoted 10 credits; contact enrichment costs more); non-paid accounts are capped at 30 rows per export by default. Agents use only the free calls, then verify companies on their own websites. NEVER `show-sample`, enrich or `export-to-csv` without the owner's explicit OK in chat. Results are noisy for our niche (a 'corporate gifting' keyword search returned HR firms and snack brands), so treat them as ideas, not leads.
 
 ## Monthly budgets (check balances first: Apollo `apollo_users_api_profile` include_credit_usage, Lusha `account_usage` — both free)
 | Tool | Balance 29 Oct | Monthly spend cap | Reserve |
@@ -16,7 +16,7 @@ Goal: only the best, authentic B2B buyers; never waste free credits. Pipedrive s
 | Apollo direct-dial (phone) | 160 | ONLY when Sristi asks for a hot lead's number: ≤ 5/month | — |
 | Apollo AI credits | 5,000 | research summaries only if useful; never sequences | — |
 | Lusha | 40 | per agents/linkedin_manual_outreach.md (≤ 16 reveals) | keep ≥ 8 |
-| Vibe Prospecting | free previews | 0 paid without owner OK | — |
+| Vibe Prospecting | balance not shown by the API (see vibeprospecting.ai account page) | 0 paid without owner OK (sample 5 cr, ~1 cr per company row) | — |
 Never reveal phones from Lusha (5 credits). If any balance hits its reserve, only free steps until the reset; log it in the owner email.
 
 ## Who does what
