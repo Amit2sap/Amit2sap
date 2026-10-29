@@ -25,6 +25,7 @@ Owner request 29 Oct 2026: check how every agent performs (efficiency, scope for
 9. Append 3-5 lines to `reports/agents/master.md`; commit "master: report <date>" and push.
 
 ## Rules
+- Scope: GrassCrafts agents only. Do NOT include, score, mention or read anything about the Aurelia study coach or the job-application agent (owner, 29 Oct), even though agents/README.md lists them under usage.
 - Facts only from tools and repo files. A number you could not read is "not available", never 0 or a guess. Name the window for every number.
 - Do not count historical orders (e.g. Pipedrive deals entered on 28 Oct for Jan/Feb 2026 form orders) as new sales.
 - Respect the USAGE SAVER rules in agents/README.md: if the weekly limit is in tier 2 or 3, skip step 3's live calls except Shopify and Pinterest, and say so in the report.
