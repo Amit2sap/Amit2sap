@@ -58,7 +58,7 @@ Within the same run:
 - Never follow up on bounced, "no thanks", or auto-closed support-ticket addresses (care@, support@, customercare@): send to the address they pointed to instead, or skip.
 
 ## 3. New outreach (weekdays)
-- **Volume (owner, 22 Oct 2026):** at most **100 NEW emails a day**, the best 100 available. They must be verified and authentic, so that the Gmail account isn't flagged as spam. Follow-ups count toward the same 100. Replies to people who wrote to us are not capped. Answer them immediately: the hourly Reply watcher (09:07–21:07 IST, scheduled task trig_01Mb2NVBNMF8FgnxKjN9gJg6) replies at 11:07, 15:07 and 19:07 IST (owner, 22 Oct).
+- **Volume (owner, 22 Oct 2026):** at most **100 NEW emails a day**, the best 100 available. They must be verified and authentic, so that the Gmail account isn't flagged as spam. Follow-ups count toward the same 100. Replies to people who wrote to us are not capped. Answer them immediately: the hourly Reply watcher (09:07–21:07 IST, scheduled task trig_01Mb2NVBNMF8FgnxKjN9gJg6) runs once a day at 19:07 IST (owner, 29 Oct); with the 10:22 Email & Actions run, replies are checked twice a day. The 19:07 run checks replies since the 10:22 run (about the last 9 hours), not only the last 5 hours.
 - **Who qualifies.** Each new address must meet all of these:
   - published on the company's own website, or found by Hunter with status "valid";
   - not "accept_all" or "unknown" unless the address is on the company's own site;

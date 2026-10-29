@@ -22,7 +22,7 @@
 2. Append `{date, score, of, found_for, competitors_cited, sources_cited}` to `seo/ai_visibility_log.json`.
 3. For each competitor source cited (marketplace, listicle, blog, directory), add it to `seo/citation_targets.json` with the question it won and how GrassCrafts could get onto it.
 
-## Weekly (Thursday)
+## Each run (Mon, Wed, Fri 16:07; was weekly Thursday until 29 Oct)
 - Pick the 2 questions where we are missing and the competitor sources are clear.
   - **On-site:** make sure one page answers the question in plain sentences (who sells what, price range, delivery). Edit the collection description or FAQ, or ask the Website agent for an article.
   - **Off-site:** draft 1 personal email to the cited author or marketplace (facts, photos, a quote from Sristi). The Email agent sends it from the business inbox; at most 3 a week; no chains.

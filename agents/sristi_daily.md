@@ -22,7 +22,7 @@ Each lead is one card:
 4. Footer: "Tap a button, pick an option, Save. No email reply needed." Also accept short email replies like "1 won, 2 call Friday" if she replies instead.
 Never put prices, MOQ or lead times in this email unless Sristi herself gave them.
 
-## B. Capture (reply watcher 15:07 and 19:07, and the 10:22 run)
+## B. Capture (reply watcher 19:07, and the 10:22 run)
 - List new submissions of form 263003605636047 since the last run (Jotform list_submissions / analyze_submissions).
 - Also read Sristi's email replies to the morning email.
 - For each answer: update Pipedrive (stage per status: interested/catalogue -> Contact Made; quote -> Proposal Made; sample -> Demo Scheduled; won -> Won with value; not interested -> Lost "not interested now"; wrong contact -> Lost "wrong contact" + lead research task), add a note with her words, and create the next activity on Next date with Next step as subject.

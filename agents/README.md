@@ -10,7 +10,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 | Google Business | `agents/google_business.md` | paused until Pipedream is connected | GrassCrafts by Abalone + Makhana by GrassCrafts (Zapier) |
 | Website & Search | `agents/website.md` | 11:52 Mon, Wed, Fri | Shopify, Search Console |
 | Social (Instagram, then Facebook, then Pinterest, one agent) | `agents/instagram.md`, `agents/facebook.md`, `agents/pinterest.md` | 12:41 daily | @grasscrafts.com_, Page 142803116227246, Pinterest amit2sap |
-| AI Search | `agents/ai_search.md` | 16:07 Thursdays | Buyer questions, llms.txt, citation targets |
+| AI Search | `agents/ai_search.md` | 16:07 Mon, Wed, Fri | Buyer questions, llms.txt, citation targets |
 
 **Usage rules (owner, 19 Oct 2026):** runs are spaced at least 30 minutes apart and never run side by side. Routine agents (Data & SEO, Google Business, Website, Social, AI Search) run on the lighter Sonnet model. Lead Research and Email & Actions keep the default model. Keep reports short.
 
@@ -67,13 +67,13 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 | Email & Actions (lead) | trig_01XBZ9tjd6uumiGACGGgYK6L | 10:22 daily | Sonnet |
 | Google Business | trig_01RqepKXvQDRmUEzzVRymJ31 | 11:14 Tue, Sat | Sonnet |
 | Social (Instagram + Facebook + Pinterest + LinkedIn + actions page) | trig_013nvpY1RgSiVREyaGQW3y3U | 13:41 daily (posts on alternate days) | Sonnet |
-| Reply watcher | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 15:07, 19:07 | Sonnet |
-| AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 16:07 Thu only (weekly from 29 Oct, owner: optimise, don't stop) | Sonnet |
+| Reply watcher | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 19:07 only (owner, 29 Oct; replies are checked twice a day: 10:22 Email run + 19:07) | Sonnet |
+| AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 16:07 Mon, Wed, Fri (owner, 29 Oct; Thu 29 Oct run kept, Thursday dropped after it) | Sonnet |
 | Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 17:22 Mon, Wed, Fri | Sonnet |
 | Usage guard | trig_01EWtAc9rBda9NTBXixc4Mv2 | every 4 h (:37) | Haiku, own session |
 | Facebook / Pinterest (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 / trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 
-**Shared weekly limit (29 Oct):** the same Claude account also runs the Aurelia study coach (7 runs/weekday) and the job-application agent (now weekly, Mon 09:07 + 11:30; was 2 runs/weekday, which failed on 28 Oct with "usage limit reached"). They draw on the same weekly limit as GrassCrafts; the usage guard pauses the Aurelia tasks in tier 3.
+**Shared weekly limit (29 Oct):** the same Claude account also runs the Aurelia study coach (2 runs a day, 15:00 and 21:00 IST, owner 29 Oct) and the job-application agent (now weekly, Mon 09:07 + 11:30; was 2 runs/weekday, which failed on 28 Oct with "usage limit reached"). They draw on the same weekly limit as GrassCrafts; the usage guard pauses the Aurelia tasks in tier 3.
 
 **LinkedIn manual kit (owner, 29 Oct):** Mondays in the Lead Research run, 5 people for Amit to contact himself (agents/linkedin_manual_outreach.md); Lusha used only per that file's budget.
 
@@ -83,7 +83,7 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 - **Instagram:** Composio is connected to the wrong account (@terraleatherco). Windsor reads are paused (free plan, 8 accounts connected).
 - **Pinterest:** connected via Composio (`pinterest_whosen-hoose`) on 17 Oct; test pin 1127799931724040361 posted.
 - **Facebook:** reading posts with a Page token worked, but one later Page-token call was refused by the permission prompt.
-- **AI Search agent** (agents/ai_search.md): weekly, Thursdays 16:07 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
+- **AI Search agent** (agents/ai_search.md): Mon, Wed, Fri 16:07 IST, scheduled task trig_01DgrfXPRKk3z49NyuonLWcn. Runs the buyer-question checks, keeps llms.txt honest and builds the citation targets.
 - **Data & SEO agent** (agents/data_seo.md, toolkit seo/data_agent.py): Mon/Thu at 08:37 IST, scheduled task trig_01CUREij3CJdjc5fZN4htmSe. Our own Windsor + Ahrefs: GSC rank tracker, striking distance, cannibalisation, low CTR, Bing backlinks, GA4, GBP and Shopify.
 
 **Windsor.ai is retired (owner, 22 Oct 2026).** The owner is removing every Windsor connection. Agents must not use Windsor tools for anything. Instead use:
@@ -95,7 +95,7 @@ If a playbook below still mentions Windsor, ignore that line.
 
 ## USAGE SAVER until the weekly reset Wed 4 Nov 16:30 IST (owner, 29 Oct)
 - SOCIAL: comments and approved Pinterest saves ONLY. No posts on any channel (Instagram, Facebook, Pinterest, LinkedIn) and no actions-page kit, even on posting days. Normal posting resumes after the reset.
-- AI Search runs weekly, Thu 16:07 (short run, owner 29 Oct: optimise, don't stop). Job-application agent is weekly: Mon 09:07 drafts (trig_01HgahpVdNUWFiTTDaedD2ED), Mon 11:30 send (trig_01XUhLmiSgHQVBADWKhWvPfS). Aurelia coach keeps running, trimmed (owner, 29 Oct): weekday 15:00 PLAN + 22:00 NIGHT + one 19:07 reply check; weekend 09:00 PLAN + 19:00 NIGHT + one 15:07 reply check (was 5 runs a day, now 3) (names end with "[paused until 4 Nov reset]"; the main session re-enables them).
+- AI Search runs Mon, Wed, Fri 16:07 (short run, owner 29 Oct). Reply watcher runs once, 19:07 (15:07 dropped, owner 29 Oct). Job-application agent is weekly: Mon 09:07 drafts (trig_01HgahpVdNUWFiTTDaedD2ED), Mon 11:30 send (trig_01XUhLmiSgHQVBADWKhWvPfS). Aurelia coach runs 2 a day, every day (owner, 29 Oct): 15:00 PLAN + 21:00 NIGHT (the NIGHT run also answers her replies), task trig_01GMprY9Pn6VEsqd3jGDkT9g (fires 14:53/20:53). The weekend-emails task and both reply-check tasks are disabled.
 - No one-off big jobs (no extra blogs, research batches or audits). Scheduled Email & Actions, Reply watcher, Lead Research, Data & SEO, Website, Google Business continue, kept short.
 
 ## Usage saving (owner, 26 Oct: weekly limit 84% used, resets Wed 16:30 IST)

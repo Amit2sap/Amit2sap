@@ -1,4 +1,4 @@
-# WhatsApp order messages (runs inside the Reply watcher, 15:07 and 19:07 IST)
+# WhatsApp order messages (runs inside the Reply watcher, 19:07 IST; 15:07 dropped 29 Oct)
 
 > **PAUSED by owner, 28 Oct 2026: skip this whole job (JOB 2 of the reply watcher). Send no WhatsApp messages, do not health-check, report nothing about WhatsApp until the owner turns it back on.**
 
