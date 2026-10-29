@@ -30,14 +30,13 @@ Files: `STUDY_PLAN.md` (academics, routine), `LIFE_SKILLS.md` (news + 12-week li
 - Todoist (father's account): project "Aurelia · Study plan" id 6hrQVp9R2w654fvx. PLAN runs add that day's study tasks with times (add-tasks, projectId above); recurring habits already exist (guitar/drawing 18:30, flashcards 19:30, reply 21:40, phone out 22:00). When she replies "Todoist ready", tell her father in that night's report (subject line too) to invite her: Todoist → project "Aurelia · Study plan" → Share → aureliadey3j.dpsmeg@gmail.com (the Todoist tools here cannot send invites). Once shared, NIGHT runs read completed tasks (find-completed-tasks for the project, today) and use them alongside her email reply for the dashboard row.
 - Dashboard: https://claude.ai/artifact/HuWdB8kdRp1Lqd9RZyLXhE (see "Updating the dashboard").
 
-## Email schedule (father, 28 Oct 2026) — three emails a day, IST
-| Day | PLAN | CHECK-IN | NIGHT |
-|---|---|---|---|
-| Mon–Fri | 15:00 (after school) | 19:00 | 22:00 |
-| Sat–Sun | 09:00 | 15:00 | 19:00 |
-Runs fire ~7 minutes early (14:53, 18:53, 21:53 / 08:53, 14:53, 18:53) so mail lands by the hour. Each run first works out its slot from the IST day and hour. Start: Day 1 = Wed 28 Oct 2026 (intro email sent 21:20 IST, copy in emails/2026-10-28_day1_intro.md). The 22:00 run on 28 Oct sends nothing unless she has replied (then answer her briefly); it still writes the Day 1 row (tasks_set 2: phone out by 22:00, reply) and a short report to her father. Day 2 = Thu 29 Oct (first full PLAN at 15:00). Every run first reads her replies since the last run (Composio GMAIL_FETCH_EMAILS `from:aureliadey3j.dpsmeg@gmail.com newer_than:1d`) and answers any question in the same email it sends (one email per slot, never a pile-up). On school holidays and leave days in `SCHEDULE.md`, use the weekend times' content (holiday plan) but keep the weekday send times.
+## Email schedule (father, 29 Oct 2026) — two emails a day, IST
+| Day | PLAN | NIGHT (includes the reply check) |
+|---|---|---|
+| Every day (Mon–Sun) | 15:00 | 21:00 |
+Was three emails plus separate reply checks; trimmed to two runs a day on 29 Oct to save the shared weekly usage limit. There is no CHECK-IN email and no separate reply-check run any more. If the scheduled task's text still mentions a CHECK-IN or the old 19:00/22:00 times, this file wins: before 18:00 IST = PLAN, after = NIGHT, every day. Runs fire ~7 minutes early (14:53, 20:53) so mail lands by the hour. Each run first works out its slot from the IST hour (before 18:00 = PLAN, after = NIGHT) and uses the weekday or weekend content from the IST day. Start: Day 1 = Wed 28 Oct 2026 (intro email sent 21:20 IST, copy in emails/2026-10-28_day1_intro.md). Day 2 = Thu 29 Oct (first full PLAN at 15:00). Every run first reads her replies since the coach's last email (Composio GMAIL_FETCH_EMAILS `from:aureliadey3j.dpsmeg@gmail.com newer_than:1d`) and answers any question in the same email it sends (one email per slot, never a pile-up). On school holidays and leave days in `SCHEDULE.md`, use the weekend content (holiday plan) at the same send times.
 
-### PLAN email (15:00 weekdays / 09:00 weekends)
+### PLAN email (15:00 every day)
 1. Read this file, PROFILE.md, SCHEDULE.md, the last 3 days of the log, the week's theme in LIFE_SKILLS.md (week 1 starts Thu 29 Oct 2026; theme = ((date − 29 Oct) // 7) mod 12 + 1).
    App links were already sent on 28 Oct (emails/2026-10-28_apps_setup.md); Day 2 PLAN only reminds her in one line if she hasn't replied "Todoist ready" or opened Kuliko. Original wording, for reference: Kuliko (check her inbox for the share invite from Kuliko, sign up with this same email at https://kuliko.ai or the Kuliko AI app, then open the Week 1 flashcards, 5 min a day) and Todoist (accept the invite to "Aurelia · Study plan" when it arrives, install the free app from https://todoist.com, tick tasks as she does them).
    If no news item ≤3 days old can be confirmed from the allowed sources, leave the news block out that day; never fill it with older or unverified items.
@@ -49,19 +48,16 @@ Runs fire ~7 minutes early (14:53, 18:53, 21:53 / 08:53, 14:53, 18:53) so mail l
    - Sunday: weekly review with her dashboard numbers, a 5-question quiz, she picks next week's goal.
 3. Log tasks set (they feed tasks_set).
 
-### CHECK-IN email (19:00 weekdays / 15:00 weekends)
-Short (≤8 lines): answer any doubt she sent (step-by-step, ICSE level, maths with working); "how did block 1 go?"; one quick quiz question on today's subject or the life skill; encouragement for the next block. If she has not opened the plan, a light nudge with the single easiest task.
-
-### NIGHT email (22:00 weekdays / 19:00 weekends)
-1. Email her: thanks for today, react to what she reported, the reply checklist if she hasn't sent it — `1 done/not · 2 done/not · 3 done/not · 4 done/not · phone out of room tonight yes/no · mood (1 word) · news answer · one question` — and (weekdays) "phone on the charger outside your room now, sleep by 22:30". Weekends: plan for the evening, phone out by 21:30.
+### NIGHT email (21:00 every day)
+1. Email her: answer any doubt or question she sent since the PLAN (step-by-step, ICSE level, maths with working; this replaces the old CHECK-IN and reply checks), thanks for today, react to what she reported, the reply checklist if she hasn't sent it — `1 done/not · 2 done/not · 3 done/not · 4 done/not · phone out of room tonight yes/no · mood (1 word) · news answer · one question` — one quick quiz question on today's subject or the life skill, and (weekdays) "phone on the charger outside your room by 22:00, sleep by 22:30". Weekends: phone out by 21:30.
 2. Add or update today's row in `dashboard/daily.json` from what she reported so far, test marks to `tests.json`, and update the dashboard. A reply that arrives after this run is counted for that day by the next run (update the row, re-upload).
 3. Email the **daily report** to amit2sap@gmail.com, subject "Aurelia · Day N report": replied yes/no, tasks done x of y, study blocks, hobby, phone-free night (as of last night), mood, life-skill topic, one thing that went well, one to watch, one suggestion for him, dashboard link. Sundays add the weekly summary. ≤150 words. Feelings she shares are summarised kindly, not quoted, unless a safety matter.
 4. No reply all day: Day 2 → the next PLAN email has a friendly nudge ("just send done/not, 10 seconds"); Day 4 → flag to father.
 5. Log, commit, push.
 
 ### Extra emails and reply checks (as and when required)
-Besides the 3 scheduled emails, the coach answers her whenever she needs it:
-- **Reply checks** run between the slots (Mon–Fri 16:37 and 20:37; Sat–Sun 12:07 and 17:07 IST). They read her emails since the coach's last email. Answer at once if she asked a question or a doubt, sent photos, shared a result or something worrying, or asked for help. Otherwise send nothing.
+Besides the 2 scheduled emails:
+- **No separate reply checks** (removed 29 Oct). Her questions, doubts, photos, results or worries are answered in the next scheduled email (PLAN 15:00 or NIGHT 21:00), first thing in that email.
 - The coach may also send an extra email on its own when it truly helps: confirming what it read from her photos, a reminder 2 days before a school test in SCHEDULE.md, praise for a milestone (7-day streak, best test score), or a check-in after she reported a bad day. At most 1 unprompted extra email a day.
 - Never email her between 22:30 and 07:00, or during school hours once SCHEDULE.md has them. A reply that arrives late at night is answered by the next run.
 - Every extra email is logged and copied to emails/ like the others.
