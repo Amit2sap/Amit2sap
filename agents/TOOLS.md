@@ -22,6 +22,9 @@
 | **Kuliko AI** (study library), **LinkedIn Hiring Pro** (one free job post) | NOT USED | Not GrassCrafts work. |
 | Plugin MCPs (Canva, Figma, HubSpot, Klaviyo, Similarweb, Notion, Slack, Asana, Supermetrics plugin, Ahrefs plugin…) | FAIL to connect from cloud sessions (proxy 403) | Do not call. Their skills (marketing:brand-review, performance-report, seo-audit, content-creation) still work without the connector. |
 
+## Kapso (WhatsApp platform) — set up 29 Oct 2026, not live yet
+Project MCP server in `.mcp.json` (https://api.kapso.ai/mcp, key read from env var KAPSO_API_KEY — never commit the key). Needs, from the owner: (1) KAPSO_API_KEY added in the cloud environment settings, (2) api.kapso.ai allowed in the environment's network access, (3) a NEW session. Until the owner restarts WhatsApp work (paused 28 Oct) and Meta billing error 141006 is fixed, agents use Kapso READ-ONLY (inbox, conversations) and send nothing.
+
 ## Plugins (skills) worth using
 - marketing:brand-review — check product copy/claims before publishing (e.g. the unsourced "carbon-negative", "2,200 L water saved" claims).
 - marketing:competitive-brief, marketing:seo-audit, marketing:performance-report — monthly reviews, run inside the existing agent, not as extra agents.
