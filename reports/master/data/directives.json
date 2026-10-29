@@ -94,5 +94,61 @@
   "directive": "Each run, check once whether a Google Business Profile insights/reviews reader is available (Composio search \"google business profile insights reviews\"). If yes, log views, calls, direction requests and new reviews, and reply to reviews per outreach/REVIEW_KIT.md. If no, log \"reader not available\" in one line and do not work around it.",
   "note": "",
   "round": "Round 1 — issued 2026-10-29 (report reports/master/2026-10-29.md)"
+ },
+ {
+  "id": "D13",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Add the information-gain checklist to your blog and page steps: each article opens with a first-hand angle and has one \"From our workshop\" paragraph from the story bank; log \"New thing: …\" per piece. When blogs resume (12 Nov) and once Sristi fills the brackets, publish marketing/drafts/2026-10-29/our_story_page.md as a section of the Our Story page (backup, changelog, 48 h notice rule).",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D14",
+  "agent": "AI Search",
+  "status": "open",
+  "directive": "Answer pages: direct answer in the first 2 sentences, then one fact only GrassCrafts can state (from the story bank). Start with marketing/drafts/2026-10-29/answer_page_madurkathi_dining_sets.md once its brackets are filled (Shopify facts you can fill yourself; Sristi's details and the owner OK on the buyer line stay bracketed until confirmed).",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D15",
+  "agent": "Social",
+  "status": "open",
+  "directive": "From 5 Nov: each posting day, one story post per channel (making detail, real question from a Live, or a lesson) built from the story bank; captions end with a real question. Use marketing/drafts/2026-10-29/instagram_story_post.md and facebook_live_questions_post.md first (fill the Shopify brackets yourself). Add every real question from comments and Lives, anonymised, to the story bank \"Real questions\" list.",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D16",
+  "agent": "Social",
+  "status": "open",
+  "directive": "LinkedIn: from 5 Nov, posts are lessons and experiences in Amit's voice from our own data. marketing/drafts/2026-10-29/linkedin_lesson_post.md needs the owner's OK on the numbers: put it on the daily actions page for approval; post only when approved.",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D17",
+  "agent": "Google Business",
+  "status": "open",
+  "directive": "Posts describe the real product with a making or use detail from the story bank, no slogans. Next main post: marketing/drafts/2026-10-29/gbp_post.md (within the Upload-Post quota).",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D18",
+  "agent": "Email & Actions",
+  "status": "open",
+  "directive": "Add one \"Story question\" to Sristi's morning email each day, taken in order from the \"To collect\" list in marketing/story_bank.md. When she answers, move the answer to the Verified section with date and source, and tick the question. Pitches: one line of our own real experience (story bank) instead of generic praise.",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D19",
+  "agent": "Data & SEO",
+  "status": "open",
+  "directive": "For each low-CTR or striking-distance page you touch, check that the page states something the top results don't (a fact from the story bank, a real size or use); if not, add one sentence from the story bank and log it.",
+  "note": "",
+  "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
  }
 ]

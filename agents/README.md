@@ -36,6 +36,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
   - Blog articles follow the same posting days.
   - **Off days:** reply to comments, reviews and messages; prepare the next post. No feed posts.
   - Replies, reviews, hot leads and emails still run **every day**.
+- **Information gain (owner, 29 Oct): every piece of content must add something new.** Follow `marketing/information_gain_playbook.md`: each blog, page, post, pin, GBP post and pitch carries at least one first-hand element (opinion, story, failure, experience or lesson learned) taken only from the Verified section of `marketing/story_bank.md`, Shopify data or repo files. Before publishing, write in your log the one line "New thing:" that this piece says and the top results do not. Missing detail = `[ASK SRISTI: …]` and a question in the story bank, never a guess. No generic AI copy ("elevate your space", "look no further", lists of generic tips).
 - **Festivals and seasons.** Pick the theme from `agents/calendar.md`. An occasion within the next 21 days wins; otherwise use the weekly mix. B2B pitches go 6–8 weeks before the occasion.
 - **Competitor watch (every agent, weekly on Mondays only, from 19 Oct 2026).**
   - Spend about 10 minutes checking the competitors in `agents/STRATEGY.md` **on your own channel**. What did they post or publish, what offer or new product did they launch, which keywords or pages rank, what got engagement?
