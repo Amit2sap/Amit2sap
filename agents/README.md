@@ -93,6 +93,11 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 
 If a playbook below still mentions Windsor, ignore that line.
 
+## USAGE SAVER until the weekly reset Wed 4 Nov 16:30 IST (owner, 29 Oct)
+- SOCIAL: comments and approved Pinterest saves ONLY. No posts on any channel (Instagram, Facebook, Pinterest, LinkedIn) and no actions-page kit, even on posting days. Normal posting resumes after the reset.
+- AI Search, Aurelia coach and job-application tasks are paused until the reset (names end with "[paused until 4 Nov reset]"; the main session re-enables them).
+- No one-off big jobs (no extra blogs, research batches or audits). Scheduled Email & Actions, Reply watcher, Lead Research, Data & SEO, Website, Google Business continue, kept short.
+
 ## Usage saving (owner, 26 Oct: weekly limit 84% used, resets Wed 16:30 IST)
 Until the Wednesday reset: one short Sonnet subagent per job, no extra research, no image viewing, read only the files the job needs, reports of 5 lines or fewer, skip a job when it has nothing new to do (no replies, no orders, no due follow-ups). Interactive owner sessions: short answers, no re-reading of large files.
 
