@@ -23,6 +23,7 @@
 | Plugin MCPs (Canva, Figma, HubSpot, Klaviyo, Similarweb, Notion, Slack, Asana, Supermetrics plugin, Ahrefs plugin…) | FAIL to connect from cloud sessions (proxy 403) | Do not call. Their skills (marketing:brand-review, performance-report, seo-audit, content-creation) still work without the connector. |
 
 ## Kapso (WhatsApp platform) — set up 29 Oct 2026, not live yet
+**Composio connection kapso_parser-billon ACTIVE (29 Oct)** — use this (works in all sessions; the .mcp.json route below is only a fallback). On 29 Oct Kapso held ONLY its Sandbox number (phone_number_id 597907523413541); the GrassCrafts Meta number +91 81004 47884 is not yet connected inside Kapso (owner: Kapso → WhatsApp → Connect number via Meta embedded signup). Read-only until the owner restarts WhatsApp work.
 Project MCP server in `.mcp.json` (https://api.kapso.ai/mcp, key read from env var KAPSO_API_KEY — never commit the key). Needs, from the owner: (1) KAPSO_API_KEY added in the cloud environment settings, (2) api.kapso.ai allowed in the environment's network access, (3) a NEW session. Until the owner restarts WhatsApp work (paused 28 Oct) and Meta billing error 141006 is fixed, agents use Kapso READ-ONLY (inbox, conversations) and send nothing.
 
 ## Plugins (skills) worth using
