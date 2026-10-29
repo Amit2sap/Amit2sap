@@ -1,1 +1,47 @@
-[]
+[
+ {
+  "name": "Deepak Prasad",
+  "title": "East Head",
+  "company": "Sun Apparels & Gifting Co",
+  "profile_url": "https://in.linkedin.com/in/deepak-prasad-58887a245",
+  "source": "ChatGPT lead / Pipedrive (sunapparelsgifting.com; own site + search result)",
+  "date_suggested": "2026-10-29",
+  "status": "suggested"
+ },
+ {
+  "name": "Smriti Jhunjhunwala",
+  "title": "Co-Founder",
+  "company": "Studio Immri",
+  "profile_url": "https://www.linkedin.com/in/smriti-bordia-jhunjhunwala-51a289131",
+  "source": "ChatGPT lead / Pipedrive (studioimmri.com; Lusha preview)",
+  "date_suggested": "2026-10-29",
+  "status": "suggested"
+ },
+ {
+  "name": "Subhadeep Saha",
+  "title": "Head of Design and Procurement",
+  "company": "P. C. Chandra Jewellers",
+  "profile_url": "https://www.linkedin.com/in/subhadeep-saha-2b0a8718",
+  "source": "Pipedrive open deal (PCC Exports corporate gifts; Lusha preview)",
+  "date_suggested": "2026-10-29",
+  "status": "suggested"
+ },
+ {
+  "name": "Viren R Mehta",
+  "title": "Director",
+  "company": "Virki Pvt Ltd",
+  "profile_url": "search LinkedIn: Viren R Mehta Virki Pvt Ltd",
+  "source": "ChatGPT lead / Pipedrive (virki.in; director per public company registry)",
+  "date_suggested": "2026-10-29",
+  "status": "suggested"
+ },
+ {
+  "name": "Tarang Arora",
+  "title": "Creative Director",
+  "company": "Amrapali Jewels",
+  "profile_url": "https://www.linkedin.com/in/tarang-arora-0473148",
+  "source": "Pipedrive open deal (jewellery packaging, catalogue shared; Lusha preview)",
+  "date_suggested": "2026-10-29",
+  "status": "suggested"
+ }
+]

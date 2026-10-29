@@ -65,3 +65,9 @@ Group 2 run (luxury_watches, gourmet, ethnic_wear), one segment after another; r
 - 2026-10-29 hotels: +2 (Garden Gate Resorts opening Feb 2027; Atmosphere Core, Ozen Mansion Kolkata 2027 pipeline). Few published-email openings found.
 - 2026-10-29 real_estate: +4 (Orchid Developer, Ambuja Neotia Realty, Vishnu Projects, Poddar Groups), all Kolkata, published emails; Hunter not used.
 - Blockers: WebSearch/Composio not used (Exa only); WebFetch cannot resolve karnikaeventplanners.in (Exa fetch worked). Targets of 8 not reached for wedding/hotels/real_estate: few new verifiable contacts.
+
+## Lusha credits 2026-10-29 (LinkedIn kit)
+- 2026-10-29 account_usage: 40 credits remaining before kit (free).
+- 2026-10-29 prospecting_contact_search (5 warm-lead domains, 8 results): 1 credit.
+- 2026-10-29 prospecting_contact_search (7 company names, 50 results shown): 2 credits.
+- Total 3 credits, 0 reveals. Balance: 37 of 40 (calculated; the second search charged 2). No names found for Event Mantra Kolkata or Ganguram's; Virki name from public company registry (no LinkedIn URL).
