@@ -315,5 +315,169 @@
    "Mahabir Stores"
   ],
   "note": "web_search returned brand names with numbered citations but no URLs, so sources_cited is domain/brand level only. New wins vs 18 Oct: cane planters and jewellery boxes (3/14, was 1/14). Still missing: sabai, madur, corporate Diwali, bulk hampers, wedding return gifts, sustainable decor, sitalpati and all 4 makhana questions. Brand question describes GrassCrafts correctly but adds 'zero-waste practices', which we cannot prove (not on our site: ignore, do not repeat)."
+ },
+ {
+  "date": "2026-10-29",
+  "agent": "ai_search",
+  "method": "workbench web_search, full check, 15 questions (14 scored + brand question)",
+  "score": 4,
+  "of": 14,
+  "found_for": [
+   "Where can I buy sabai grass products online in India?",
+   "Where to buy kauna grass bags and baskets online India",
+   "Wedding return gift baskets India handmade",
+   "Handwoven jewellery boxes for jewellers India bulk"
+  ],
+  "brand_query_ok": true,
+  "competitors_cited": {
+   "sabai": [
+    "Brown Living",
+    "Handmade Earth",
+    "Shuchi Heritage",
+    "Kadam Haat",
+    "Odisha eStore",
+    "ArtisanSoul",
+    "Utkalamrita"
+   ],
+   "madur mat": [
+    "Zishta",
+    "iTokri",
+    "My Bengal",
+    "GiTAGGED",
+    "Tribes India",
+    "Amazon",
+    "Bangabasi"
+   ],
+   "kauna": [
+    "Ethica Online",
+    "The Villagecraft Store",
+    "Dharini",
+    "Smris",
+    "Brown Living",
+    "Now & Zen",
+    "MyStore"
+   ],
+   "corporate diwali": [
+    "Handmade Havens",
+    "Aipankari",
+    "Gharana",
+    "BioQ",
+    "Eco Bloomer",
+    "Claymistry"
+   ],
+   "cane planters": [
+    "Akway",
+    "ArtyCraftz",
+    "India Handmade",
+    "Ethica Online",
+    "Handmade Earth",
+    "Soiled"
+   ],
+   "hamper baskets bulk": [
+    "Gravitfy Studio",
+    "Boxello",
+    "Party Wholesale Hub",
+    "Craftehind",
+    "Optima Bags",
+    "Hamper Hive",
+    "The Gift Desk"
+   ],
+   "wedding return gifts": [
+    "Kottanz",
+    "Sirohi",
+    "WeddingReturnGifts.com"
+   ],
+   "sustainable decor brands": [
+    "The House of Things",
+    "Pinklay",
+    "Amouve",
+    "The Yellow Dwelling",
+    "Thenga",
+    "Comorin Coconuts",
+    "The Bamboo Co",
+    "Scrapshala",
+    "Akhirah Eco",
+    "Baro Design"
+   ],
+   "jewellery boxes bulk": [
+    "Indikraftshub",
+    "Diwam Handicrafts",
+    "Boxjewellery.in",
+    "Tagsen",
+    "Hanumant Handicraft"
+   ],
+   "sitalpati": [
+    "Bamboo Roots Global",
+    "Avbodhan",
+    "Amazon India",
+    "BongHaat",
+    "Ethica Online",
+    "BongMela",
+    "Hunarsetu",
+    "Reeaam"
+   ],
+   "mithila makhana": [
+    "Mithila Naturals",
+    "RootWell",
+    "Mithila Farms",
+    "Mithila Roots",
+    "Mithila White Gold",
+    "Khetika"
+   ],
+   "makhana gift hamper": [
+    "Sumewam",
+    "Funkhana",
+    "Chau Foods"
+   ],
+   "bulk makhana kolkata": [
+    "Bihaari Makhana",
+    "Nature to Home Agro Traders",
+    "Mahabir Stores",
+    "Raghunath Traders",
+    "Jagrit Texpro India Private Limited",
+    "Grain Routes"
+   ],
+   "makhana vrat": [
+    "Chau Foods",
+    "Mithila Farms",
+    "The Nut Basket",
+    "Patanjali",
+    "Farmley",
+    "Tata Sampann",
+    "Zepto",
+    "Flipkart",
+    "Bigbasket"
+   ]
+  },
+  "sources_cited": [
+   "Brown Living",
+   "Handmade Earth",
+   "Shuchi Heritage",
+   "Kadam Haat",
+   "Odisha eStore",
+   "Zishta",
+   "iTokri",
+   "My Bengal",
+   "GiTAGGED",
+   "Tribes India",
+   "Ethica Online",
+   "Handmade Havens",
+   "BioQ",
+   "Kottanz",
+   "WeddingReturnGifts.com",
+   "Tagsen",
+   "Avbodhan",
+   "BongHaat",
+   "BongMela",
+   "Hunarsetu",
+   "mithilanaturals.com",
+   "root-well.com",
+   "mithilafarms.com",
+   "Chau Foods",
+   "Mahabir Stores",
+   "Bihaari Makhana"
+  ],
+  "real_buyer_note": "27 Oct 2026: Shweta Chitale (Sangli) found GrassCrafts via ChatGPT search and placed a WON order for 12 Nilachal Madurkathi dining sets (outreach/won_orders.json). First AI-search-attributed B2B order. Note our own web_search check still does not name us for madur mat, so dining sets / bulk festive hampers should be kept in the question set.",
+  "note": "Score 4/14 (was 3/14 on 22 Oct). New wins: sabai, wedding return gifts. Lost: cane planters (won 22 Oct, not named today). Still missing: madur, corporate Diwali, bulk hampers, sustainable decor, sitalpati, all 4 makhana. Sources are brand-level (web_search gives no URLs). Brand question OK, no unverifiable claims flagged. llms.txt check: live file matches seo/llms.txt.liquid and the live Shipping policy on shipping/COD/international; gaps: collection line says 250 g/500 g/1 kg and omits the 100 g pack (Shopify has 100 g Rs 199, 250 g 499, 500 g 849, 1 kg 1599; separate 5 kg bulk Rs 7500; hamper Small 100 g Rs 649 / Large 250 g Rs 949), and it never states that the 100 g pack and the hamper follow standard rates (policy does)."
  }
 ]

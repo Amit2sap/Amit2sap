@@ -18,3 +18,6 @@ Proposal: add a 4-6 line plain-sentence block at the top of https://grasscrafts.
 
 ### 3. Question: "Wedding return gift baskets India handmade" (missing; WeddingReturnGifts.com, Kottanz)
 Proposal: on https://grasscrafts.com/collections/wedding-gift-hamper add a plain-sentence intro stating which baskets suit return gifts (Kash, Sabai, Kauna baskets), the price range taken from live product prices, and that bulk and custom orders go through the wholesale page. Link the Haldi-Mehendi article and the wholesale page. No MOQ, lead time or discount claims (owner only).
+
+## 2026-10-29 llms.txt fix (AI Search agent; theme change, owner publishes)
+In seo/llms.txt.liquid: (1) change the makhana collection line to "Makhana (plain Mithila fox nuts, 100 g / 250 g / 500 g / 1 kg)"; (2) change the shipping line to "Makhana packs of 250 g and larger (250 g, 500 g, 1 kg and the 5 kg bulk pack) always ship free, with no minimum. The 100 g pack and the makhana gift hamper follow standard rates" (matches the live Shipping policy and Shopify data).

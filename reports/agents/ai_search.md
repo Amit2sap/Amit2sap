@@ -13,3 +13,9 @@
 
 ## 2026-10-27 (owner note) — first AI-search-sourced order
 - WON: Shweta Chitale (Sangli), 12 Nilachal Madurkathi dining sets for festive hampers, deliver by 2 Nov. Buyer found GrassCrafts via ChatGPT search, then used the website bulk-quote form (25 Oct). Count as 1 AI-search-attributed B2B order (details: outreach/won_orders.json). Keep dining sets / bulk festive hampers in AI-search queries.
+
+## 2026-10-29 (Thu, full check)
+- Score 4 of 14 (sabai and wedding return gifts new; kauna, jewellery boxes kept; cane planters lost). Brand question OK, nothing unprovable. Missing: madur, corporate Diwali, bulk hampers, sustainable decor, sitalpati, all 4 makhana.
+- Real buyer: Shweta Chitale (12 dining sets, 27 Oct) found us via ChatGPT search; logged in seo/ai_visibility_log.json.
+- llms.txt matches the live Shipping policy and Shopify prices, except the makhana collection line omits the 100 g pack and no line says the 100 g pack and hamper pay standard rates. Fix text in seo/website_backlog.md (Website agent, owner publishes).
+- 11 citation targets added. Off-site email: none this run (no verified published contact in hand; nothing guessed). Missing-question action: on-site fix proposed for makhana (the 4 missing makhana questions share one answer page). No owner alert.
