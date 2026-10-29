@@ -11,6 +11,7 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 | Website & Search | `agents/website.md` | 11:52 Mon, Wed, Fri | Shopify, Search Console |
 | Social (Instagram, then Facebook, then Pinterest, one agent) | `agents/instagram.md`, `agents/facebook.md`, `agents/pinterest.md` | 12:41 daily | @grasscrafts.com_, Page 142803116227246, Pinterest amit2sap |
 | AI Search | `agents/ai_search.md` | 16:07 Mon, Wed, Fri | Buyer questions, llms.txt, citation targets |
+| Master (performance review + dashboard) | `agents/master.md` | 09:03 Mon, Thu (Sonnet) | Reads all agent logs + Instagram, Facebook, Pinterest, Shopify, Pipedrive; dashboard https://claude.ai/artifact/W8mCBBXQJJ9SfDk9UMVS75 |
 
 **Usage rules (owner, 19 Oct 2026):** runs are spaced at least 30 minutes apart and never run side by side. Routine agents (Data & SEO, Google Business, Website, Social, AI Search) run on the lighter Sonnet model. Lead Research and Email & Actions keep the default model. Keep reports short.
 
@@ -70,6 +71,7 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 | Reply watcher | trig_01Mb2NVBNMF8FgnxKjN9gJg6 | 19:07 only (owner, 29 Oct; replies are checked twice a day: 10:22 Email run + 19:07) | Sonnet |
 | AI Search | trig_01DgrfXPRKk3z49NyuonLWcn | 16:07 Mon, Wed, Fri (owner, 29 Oct; Thu 29 Oct run kept, Thursday dropped after it) | Sonnet |
 | Website & Search | trig_01U3ezGQGdHZNkSeNyUyJEuN | 17:22 Mon, Wed, Fri | Sonnet |
+| Master report (agents/master.md) | trig_017kXchFNTpxw9HoGHTUz9tw | 09:03 Mon, Thu | Sonnet |
 | Usage guard | trig_01EWtAc9rBda9NTBXixc4Mv2 | every 4 h (:37) | Haiku, own session |
 | Facebook / Pinterest (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 / trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 

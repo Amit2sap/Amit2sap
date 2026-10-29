@@ -1,0 +1,51 @@
+[
+ {
+  "rank": 1,
+  "area": "AEO",
+  "action": "Put AI Search first: it produced the only new B2B order and 3 of 4 website orders. Ship one answer page per missing buyer question each week.",
+  "owner": "AI Search + Website",
+  "effort": "low"
+ },
+ {
+  "rank": 2,
+  "area": "Sales",
+  "action": "Email quality over volume: 50 personalised emails a day instead of 100 generic ones, and a daily call list for Sristi from every reply.",
+  "owner": "Email & Actions",
+  "effort": "low"
+ },
+ {
+  "rank": 3,
+  "area": "Measurement",
+  "action": "Connect a reader for Google Business insights and reviews; without it 2 agents work blind.",
+  "owner": "Owner (Amit)",
+  "effort": "low"
+ },
+ {
+  "rank": 4,
+  "area": "Website",
+  "action": "Conversion before content: about 1,200 visits gave 4 orders. Add real reviews, COD and free-shipping trust lines on top products; pause new blogs for 2 weeks.",
+  "owner": "Website",
+  "effort": "medium"
+ },
+ {
+  "rank": 5,
+  "area": "SEO",
+  "action": "Fix cane planters and sabai cannibalisation (found 3 runs in a row) and send the 7 drafted backlink pitches; inbound links are still 0.",
+  "owner": "Data & SEO + Website",
+  "effort": "medium"
+ },
+ {
+  "rank": 6,
+  "area": "Social",
+  "action": "Answer every Facebook Live price ask; ask Sristi for one Live a week; Instagram moves to reels; Pinterest judged by clicks to site.",
+  "owner": "Social + Owner",
+  "effort": "medium"
+ },
+ {
+  "rank": 7,
+  "area": "Efficiency",
+  "action": "The weekly limit ran out on 28 Oct. Skip agent runs with nothing new, keep reports to 5 lines, and stop duplicate runs (use outreach/RUN_LOCK.json every time).",
+  "owner": "All agents",
+  "effort": "low"
+ }
+]
