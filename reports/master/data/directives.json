@@ -150,5 +150,37 @@
   "directive": "For each low-CTR or striking-distance page you touch, check that the page states something the top results don't (a fact from the story bank, a real size or use); if not, add one sentence from the story bank and log it.",
   "note": "",
   "round": "Round 2 — issued 2026-10-29 (owner: information-gain content strategy, marketing/information_gain_playbook.md)"
+ },
+ {
+  "id": "D20",
+  "agent": "Google Business",
+  "status": "open",
+  "directive": "Every link in a Google Business post gets UTM tags: `?utm_source=google_business&utm_medium=organic&utm_campaign=gbp_<yyyymmdd>` (Makhana listing: `utm_campaign=gbp_makhana_<yyyymmdd>`). Each run, read rating and review count with Firecrawl Maps (agents/master.md step 3 has the exact calls) and log them; if a new review appeared, reply to it per outreach/REVIEW_KIT.md (or flag it for the owner if replies are not possible through Upload-Post).",
+  "note": "",
+  "round": "Round 3 — issued 2026-10-29 (measurement fix for Google Business and LinkedIn)"
+ },
+ {
+  "id": "D21",
+  "agent": "Email & Actions",
+  "status": "open",
+  "directive": "Restart Google reviews (only 1 new review in 2026): with Sristi's OK in the morning email, send each customer whose order was delivered in the last 30 days one review request with the Google review link for \"GrassCrafts by Abalone\" (place_id ChIJj8JSa12f-DkRUC8tUXwc-kA: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA), per outreach/REVIEW_KIT.md. Skip anyone already asked in outreach/review_requests.json (16 asked on 17 Oct) and log each new request there. Only customers with an order; never ask for a 5-star rating; never write a review. Makhana buyers get the Makhana listing link (placeid ChIJaTAdYkSf-DkR_eOcRy_huoI).",
+  "note": "",
+  "round": "Round 3 — issued 2026-10-29 (measurement fix for Google Business and LinkedIn)"
+ },
+ {
+  "id": "D22",
+  "agent": "Social",
+  "status": "open",
+  "directive": "LinkedIn: every link in a post gets `?utm_source=linkedin&utm_medium=social&utm_campaign=li_<yyyymmdd>`; log each post URN in reports/agents/linkedin.md so the master agent can read its reactions. Same for Instagram bio/story links (`utm_source=instagram`), Facebook (`utm_source=facebook`) and Pinterest pin links (`utm_source=pinterest`).",
+  "note": "",
+  "round": "Round 3 — issued 2026-10-29 (measurement fix for Google Business and LinkedIn)"
+ },
+ {
+  "id": "D23",
+  "agent": "Data & SEO",
+  "status": "open",
+  "directive": "In every run, add GA4 sessions and transactions for the last 28 days by session source for google_business, linkedin, instagram, facebook, pinterest (utm_source) to seo/data/<date>.json under \"ga4_by_source\", so the master agent can measure each channel's visits.",
+  "note": "",
+  "round": "Round 3 — issued 2026-10-29 (measurement fix for Google Business and LinkedIn)"
  }
 ]

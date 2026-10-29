@@ -36,8 +36,33 @@
  },
  {
   "date": "2026-10-29",
+  "id": "gbp_makhana_reviews",
+  "value": 0
+ },
+ {
+  "date": "2026-10-29",
   "id": "gbp_posts",
   "value": 8
+ },
+ {
+  "date": "2026-10-29",
+  "id": "gbp_rating",
+  "value": 4.7
+ },
+ {
+  "date": "2026-10-29",
+  "id": "gbp_reply_rate",
+  "value": 100
+ },
+ {
+  "date": "2026-10-29",
+  "id": "gbp_reviews",
+  "value": 21
+ },
+ {
+  "date": "2026-10-29",
+  "id": "gbp_reviews_2026",
+  "value": 1
  },
  {
   "date": "2026-10-29",
@@ -73,6 +98,11 @@
   "date": "2026-10-29",
   "id": "li_posts",
   "value": 3
+ },
+ {
+  "date": "2026-10-29",
+  "id": "li_reactions",
+  "value": 0
  },
  {
   "date": "2026-10-29",

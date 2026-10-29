@@ -240,15 +240,63 @@
   "change": null
  },
  {
-  "id": "li_posts",
-  "area": "LinkedIn",
-  "metric": "LinkedIn posts published",
-  "value": 3,
-  "prev": 0,
-  "unit": "posts",
-  "window": "since 22 Oct",
+  "id": "gbp_rating",
+  "area": "Google Business",
+  "metric": "Google rating (main listing)",
+  "value": 4.7,
+  "prev": null,
+  "unit": "stars",
+  "window": "now (baseline)",
   "good": "up",
-  "source": "reports/agents/linkedin.md (reach not readable: API 403)",
+  "source": "Firecrawl Maps businesses/search, feature 0x39f89f5d6b52c28f:0x40fa1c7c512d2f50, 29 Oct",
+  "change": null
+ },
+ {
+  "id": "gbp_reviews",
+  "area": "Google Business",
+  "metric": "Google reviews (main listing)",
+  "value": 21,
+  "prev": null,
+  "unit": "reviews",
+  "window": "lifetime (baseline)",
+  "good": "up",
+  "source": "Firecrawl Maps businesses/search, 29 Oct",
+  "change": null
+ },
+ {
+  "id": "gbp_reviews_2026",
+  "area": "Google Business",
+  "metric": "New Google reviews in 2026",
+  "value": 1,
+  "prev": null,
+  "unit": "reviews",
+  "window": "Jan-Oct 2026 (last one June)",
+  "good": "up",
+  "source": "Firecrawl Maps businesses/rating_trend, 29 Oct",
+  "change": null
+ },
+ {
+  "id": "gbp_reply_rate",
+  "area": "Google Business",
+  "metric": "Reviews with an owner reply",
+  "value": 100,
+  "prev": null,
+  "unit": "%",
+  "window": "all 21 reviews",
+  "good": "up",
+  "source": "Firecrawl Maps businesses/rating_trend, 29 Oct",
+  "change": null
+ },
+ {
+  "id": "gbp_makhana_reviews",
+  "area": "Google Business",
+  "metric": "Google reviews (Makhana listing)",
+  "value": 0,
+  "prev": null,
+  "unit": "reviews",
+  "window": "lifetime",
+  "good": "up",
+  "source": "Firecrawl Maps businesses/search, 29 Oct",
   "change": null
  },
  {
@@ -260,7 +308,31 @@
   "unit": "posts",
   "window": "since 18 Oct",
   "good": "up",
-  "source": "reports/agents/google_business.md (views, calls, reviews not readable)",
+  "source": "reports/agents/google_business.md",
+  "change": null
+ },
+ {
+  "id": "li_posts",
+  "area": "LinkedIn",
+  "metric": "LinkedIn posts published",
+  "value": 3,
+  "prev": 0,
+  "unit": "posts",
+  "window": "since 22 Oct",
+  "good": "up",
+  "source": "reports/agents/linkedin.md",
+  "change": null
+ },
+ {
+  "id": "li_reactions",
+  "area": "LinkedIn",
+  "metric": "Reactions on our LinkedIn posts",
+  "value": 0,
+  "prev": null,
+  "unit": "reactions",
+  "window": "3 posts, 22-24 Oct",
+  "good": "up",
+  "source": "Composio LINKEDIN_LIST_REACTIONS on the 3 post URNs, 29 Oct",
   "change": null
  }
 ]

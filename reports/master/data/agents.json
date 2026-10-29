@@ -82,21 +82,21 @@
  {
   "agent": "Google Business",
   "schedule": "Tue/Thu/Sat 11:14",
-  "score": 42,
-  "status": "blind",
+  "score": 45,
+  "status": "weak",
   "output": "8 posts across 2 listings",
-  "impact": "Unknown: views, calls, direction requests and reviews cannot be read since 18 Oct",
-  "issue": "Upload-Post can post but not read; Zapier limit; quota 10 posts per cycle",
-  "next": "Owner: connect a Google Business Profile reader (Composio google_my_business or Pipedream) so impact can be measured; reply to reviews"
+  "impact": "4.7 stars from 21 reviews, all replied to; only 1 new review in 2026 (June). Makhana listing has 0 reviews. 8 posts since 18 Oct",
+  "issue": "Review collection stalled; post views and calls still not readable (Supermetrics trial expired)",
+  "next": "Ask every recent buyer (Shweta Chitale order first, with Sristi's OK) for a Google review per outreach/REVIEW_KIT.md; UTM-tag every post link so GA4 shows its visits"
  },
  {
   "agent": "Social: LinkedIn",
   "schedule": "with Social",
   "score": 35,
-  "status": "blind",
+  "status": "weak",
   "output": "3 posts on Amit's profile",
-  "impact": "Unknown: post stats return 403",
-  "issue": "Personal profile API gives no reach; no company page",
-  "next": "Keep the Monday manual kit (5 people for Amit); measure by replies to Amit, not posts"
+  "impact": "3 posts, 0 reactions so far (now readable)",
+  "issue": "Personal-profile posts reach few buyers; impressions not available from the API",
+  "next": "Lesson posts in Amit's voice (D16), UTM-tagged links; judge by reactions, link visits in GA4 and replies to Amit"
  }
 ]
