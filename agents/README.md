@@ -22,7 +22,8 @@ Each agent is a separate daily scheduled run (a fresh session) with one job. All
 ## Setup at the start of every run
 1. If the repo is missing, clone `https://github.com/amit2sap/amit2sap`. Then `git checkout claude/grassctafts-sales-growth-d8azah && git pull origin claude/grassctafts-sales-growth-d8azah`.
 2. Read this file, `agents/STRATEGY.md` (live strategy), `agents/calendar.md` (festivals and seasons) and your own playbook. Read the last 3 days of your own log in `reports/agents/`.
-3. Tools come from the MCP servers: Composio (Gmail session, Search Console, Facebook Graph, workbench web_search), Shopify, Zapier (Google Business Profile), Windsor.ai. If a tool you need is missing or refused, **do not work around it**. Log it as a blocker for the owner.
+3. **Master directives (owner, 29 Oct):** open `reports/agents/master_directives.md`, apply every open `- [ ]` directive addressed to you, update your playbook and mark it `[x] CONFIRMED` (or `[!] REFUSED` with the reason if it breaks a hard rule). Commit this with your run.
+4. Tools come from the MCP servers: Composio (Gmail session, Search Console, Facebook Graph, workbench web_search), Shopify, Zapier (Google Business Profile), Windsor.ai. If a tool you need is missing or refused, **do not work around it**. Log it as a blocker for the owner.
 
 ## Shared rules (every agent)
 - **Facts.** Use only facts from the store (Shopify product data and prices) or from repo files. Never invent MOQ, trade prices, lead times, awards, client names, certifications or reviews. Madurkathi is GI-tagged (GI no. 567). Do not claim a GI for Sabai.

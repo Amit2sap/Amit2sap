@@ -7,6 +7,7 @@ Owner request 29 Oct 2026: check how every agent performs (efficiency, scope for
 - Model: one Sonnet subagent, short run. Read-only on every channel: the master agent never posts, emails customers, edits the website or changes another agent's playbook. It only proposes.
 
 ## Steps (keep the run under ~25 tool calls)
+0. **Directives check:** read `reports/agents/master_directives.md`. For each directive count CONFIRMED / REFUSED / open. Open after the agent has run twice since issue: re-issue it in the next round with "(re-issued)" and lower that agent's reliability score. REFUSED: rewrite it so it fits the rule named, or drop it. Measure whether confirmed directives moved the numbers and say so in the agent's impact line.
 1. Setup as in agents/README.md. Copy the previous `reports/master/<last date>.json` to `reports/master/<today>.json` and update every value.
 2. **Agent logs** (read only the entries since the last report): `reports/agents/*.md`, `reports/agents/handoff.md` (count open `- [ ]`), `outreach/sent_log.json` (sent count, warm_leads, do_not_send), `outreach/won_orders.json`, `seo/ai_visibility_log.json`, `seo/data/<latest>.json`, latest `seo/CHANGELOG-*`.
 3. **Live numbers** (one batched Composio call where possible):
@@ -20,8 +21,9 @@ Owner request 29 Oct 2026: check how every agent performs (efficiency, scope for
 4. **Score each agent 0-100**: output against its playbook (40), business impact in the numbers above (40), reliability and blockers (20). Write 1 line each for output, impact, issue, next step. Compare with the last report: name what improved or slipped.
 5. **Recommendations**: 5-7 ranked actions, each with owner and effort. Prefer actions that cut usage or move sales. Never recommend anything that breaks the hard rules in CLAUDE.md.
 6. Run `python3 scripts/master_report.py <today>`.
-7. **Dashboard refresh** (Dashboard artifact above): upload each changed `reports/master/data/{kpis,agents,actions,summary}.json` with the Artifact tool (`url` = dashboard, `asset: true`, `file_path`), then with ArtifactData read `datasets/<id>` and `update` it with the new `source.url`, `source.name` and `updated: {at, by: "Master agent (Claude)"}` (pin `if_version`). Do not change `files/index.html` unless a new metric needs a new tile.
-8. **Email** amit2sap@gmail.com (one email, subject "GrassCrafts master report <date>"): the takeaway, top 3 actions, the dashboard link. Keep it under 15 lines. This counts as the owner summary, not outreach.
+6b. **Issue directives:** append "## Round N — issued <date>" to `reports/agents/master_directives.md` with one `- [ ] Dn (<agent>) ...` line per new recommendation an agent can do itself (numbering continues). Owner-only items go to the email, not here. Directives must stay inside CLAUDE.md hard rules and owner decisions. No owner approval is needed for directives (owner, 29 Oct).
+7. **Dashboard refresh** (Dashboard artifact above): upload each changed `reports/master/data/{kpis,agents,actions,directives,summary}.json` with the Artifact tool (`url` = dashboard, `asset: true`, `file_path`), then with ArtifactData read `datasets/<id>` and `update` it with the new `source.url`, `source.name` and `updated: {at, by: "Master agent (Claude)"}` (pin `if_version`). Do not change `files/index.html` unless a new metric needs a new tile.
+8. **Email** amit2sap@gmail.com (one email, subject "GrassCrafts master report <date>"): the takeaway, results of confirmed directives, anything only the owner can do, the dashboard link. Keep it under 15 lines. This counts as the owner summary, not outreach.
 9. Append 3-5 lines to `reports/agents/master.md`; commit "master: report <date>" and push.
 
 ## Rules

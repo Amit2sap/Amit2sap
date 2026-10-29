@@ -1,0 +1,23 @@
+# Master agent directives (owner, 29 Oct: agents apply these and confirm, no owner step needed)
+
+How it works:
+- The Master agent (agents/master.md) writes directives here after each Mon/Thu report.
+- **Every agent, at the start of each run:** find the open lines addressed to you (`- [ ] Dn (<your agent>)`). Apply each one: add a dated line "Master directive Dn (date): ..." to your playbook `agents/<you>.md` under a heading "## Master directives", and follow it from this run on. Then change `- [ ]` to `- [x]` and append ` — CONFIRMED <date> by <agent>: <what you changed, 1 line>`.
+- A directive starting "From 5 Nov" is still confirmed now (playbook updated); you start doing it on that date.
+- If a directive would break a hard rule in CLAUDE.md, an owner decision in agents/README.md or the USAGE SAVER, do not apply it: mark `- [!]` and append ` — REFUSED <date> by <agent>: <reason>`. The master agent then rewrites it.
+- The master agent checks this file every report. An open directive after the agent's 2nd run is re-issued and shown on the dashboard as "not confirmed".
+
+## Round 1 — issued 2026-10-29 (report reports/master/2026-10-29.md)
+
+- [ ] D1 (Email & Actions) Quality over volume. New pitches: at most 30 a day, each with a first line that names one real fact from the company's own site (a product line, a launch, an occasion they sell for); no generic opener. Due follow-ups continue in thread. Daily total stays well under the 100 cap (aim ≤60). Never pad to a number.
+- [ ] D2 (Email & Actions) Add a "Call list for Sristi" to the morning form email: every human reply and hot lead from the last 48 h, with company, phone if published, and what they asked. No prices.
+- [ ] D3 (Email & Actions) Track replies per segment: keep `segment_stats` in outreach/sent_log.json as {segment: {pitched, human_replies, hot}} and update it each run. Lead Research uses it.
+- [ ] D4 (Email & Actions) Take outreach/RUN_LOCK.json and check Gmail Sent for today before every send batch (stops the 28 Oct duplicate sends).
+- [ ] D5 (Lead Research) Choose segments by reply rate, not rotation: priority hotels, corporate gifting companies, gourmet/hamper brands, wedding planners. Pause luxury_watches and real_estate until one of them gets a human reply (read segment_stats from D3). Keep the Hunter budget (~26 checks until 16 Nov) for priority segments.
+- [ ] D6 (Data & SEO) Each run, fix one cannibalisation cluster end to end (content only, backup + changelog): start with "cane planters" (make /collections/cane-planter the target: internal links from the homepage tile text, blog posts and product pages, collection copy using the phrase), then "sabai grass". Report the target page's position for that query next run.
+- [ ] D7 (Website) Conversion before content: no new general blog articles until 12 Nov (AI Search answer pages excepted). Instead, on the top 10 products, add a short trust block to the description: free shipping from ₹1,299, Cash on Delivery available (₹100 COD fee), no GST added, handmade by women artisan communities. Only these confirmed facts; backup + changelog; the existing 48 h notice rule applies.
+- [ ] D8 (Website) Send the 7 drafted backlink pitches (seo/citation_targets.json, draft_ready_not_sent) via the Email & Actions run inside its daily cap: add them to reports/agents/handoff.md today.
+- [ ] D9 (AI Search) From 5 Nov (after the usage reset): each week, ship one on-site answer page (or a Quick answers block on the best page) for one buyer question where AI does not name GrassCrafts yet. Order: corporate Diwali gifts, wedding return gifts, sabai grass, madurkathi, makhana gift hamper. Re-check that question the week after and log the result.
+- [ ] D10 (Social) Facebook: every run, answer real questions on the Page's Live videos and posts (product, availability, makhana) with retail facts from Shopify and the website/WhatsApp link; no trade prices. Log each price/bulk ask as a lead in the handoff.
+- [ ] D11 (Social) From 5 Nov: Pinterest pins carry the product name and retail price from Shopify in the title and link to the collection page; track outbound clicks per pin and keep the format that gets clicks. Instagram: prefer carousels or reels made from real photos/footage only (image generation stays paused); ask a question in the caption to invite comments.
+- [ ] D12 (Google Business) Each run, check once whether a Google Business Profile insights/reviews reader is available (Composio search "google business profile insights reviews"). If yes, log views, calls, direction requests and new reviews, and reply to reviews per outreach/REVIEW_KIT.md. If no, log "reader not available" in one line and do not work around it.

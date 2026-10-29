@@ -1,7 +1,7 @@
 """Master agent: turn a run snapshot (reports/master/<date>.json) into dashboard datasets.
 
 Usage: python3 scripts/master_report.py 2026-10-29
-Writes reports/master/data/{kpis,agents,actions,history,summary}.json and
+Writes reports/master/data/{kpis,agents,actions,history,directives,summary}.json and
 reports/master/<date>.md (the short text report emailed to the owner).
 """
 import json
@@ -17,6 +17,26 @@ def change(k):
     if k.get("prev") in (None, 0) or k.get("value") is None:
         return None
     return round((k["value"] - k["prev"]) / abs(k["prev"]), 3)
+
+
+def directives():
+    """Parse reports/agents/master_directives.md into rows with their confirmation state."""
+    import re
+    rows, rnd = [], ""
+    path = ROOT / "reports" / "agents" / "master_directives.md"
+    if not path.exists():
+        return rows
+    for line in path.read_text().splitlines():
+        if line.startswith("## Round"):
+            rnd = line[3:].strip()
+        m = re.match(r"- \[(.)\] (D\d+) \(([^)]+)\) (.*)", line)
+        if not m:
+            continue
+        mark, did, agent, rest = m.groups()
+        text, _, note = rest.partition(" — ")
+        status = {"x": "confirmed", "!": "refused"}.get(mark, "open")
+        rows.append({"id": did, "agent": agent, "status": status, "directive": text.strip(), "note": note.strip(), "round": rnd})
+    return rows
 
 
 def main(date):
@@ -41,6 +61,7 @@ def main(date):
         "agents": snap["agents"],
         "actions": snap["recommendations"],
         "history": history,
+        "directives": directives(),
         "summary": [{"date": date, "takeaway": snap["takeaway"], "window": snap["window"]}],
     }
     for name, rows in out.items():
@@ -49,6 +70,9 @@ def main(date):
     lines = [f"# GrassCrafts master report {date}", "", snap["takeaway"], "", "## Agent scores"]
     lines += [f"- {a['agent']}: {a['score']}/100 ({a['status']}). Next: {a['next']}" for a in sorted(snap["agents"], key=lambda a: -a["score"])]
     lines += ["", "## Top actions"] + [f"{r['rank']}. [{r['owner']}] {r['action']}" for r in snap["recommendations"]]
+    ds = out["directives"]
+    lines += ["", "## Directives to agents"]
+    lines += [f"- {d['id']} {d['agent']}: {d['status']}" + (f" ({d['note']})" if d["note"] else "") for d in ds]
     lines += ["", "## Key numbers"]
     for k in kpis:
         ch = f" ({k['change']:+.0%} vs before)" if k["change"] is not None else ""
