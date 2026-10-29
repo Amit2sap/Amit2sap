@@ -1,0 +1,10 @@
+PRIVACY POLICY — paste-in for PostHog (29 Oct 2026)
+Where: Shopify admin > Settings > Policies > Privacy policy.
+
+1) Change the first line to:
+Last updated: October 29, 2026
+
+2) Paste this NEW section directly after the two "Cookies" paragraphs (before "How We Disclose Personal Information"):
+
+Website Analytics
+We use PostHog, a website analytics service, to understand how visitors use grasscrafts.com, for example which pages are viewed, which buttons are clicked and where visitors leave, so that we can fix problems and improve the Site. PostHog may record anonymised replays of how a page is used (mouse movements, clicks and scrolling). Everything you type into forms, such as your name, phone number, address or payment details, is masked and is not recorded. IP addresses are not stored. Checkout and payment pages are run by Shopify and are not recorded by PostHog. You can block this by rejecting or deleting Cookies in your browser.

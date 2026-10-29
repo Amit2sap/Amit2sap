@@ -24,3 +24,9 @@ Shopify checkout and thank-you pages are Shopify-hosted and do not use the theme
 
 ## Undo
 Publish the previous theme 189623959725 again, or delete `snippets/posthog.liquid` and the last line of `snippets/meta-tags.liquid` in the live theme. Optionally turn off session replay in PostHog project settings.
+
+## Change 2 (owner approved 29 Oct): removed the Women's Day FAQ schema from every article
+`layout/theme.liquid` in the same copy: deleted the hidden FAQPage JSON-LD block that was output on EVERY blog article (3 Women's Day 2026 questions: "100% biodegradable", "over 200 women artisans in rural India, providing living wages, skill development, and safe ethical workspaces", "Women lead over 60% of grassroots sustainability movements"). Reason: unconfirmed claims (living wages, 60% stat) and FAQ markup that does not match the visible article (against Google's structured-data rules). BlogPosting schema and the Kash-flower article FAQ are kept.
+Backup: backups/theme/theme.liquid_before_faq_removal_2026-10-29.liquid (md5 ff3a6417…, identical to live). New file md5 f7aaaa3b… (verified on Shopify).
+Owner confirmed "over 200 women artisans" is true (see CLAUDE.md Business) — can be used in future visible content, without the living-wage wording.
+Privacy policy paste-in: seo/privacy_policy_posthog_addition_2026-10-29.txt.
