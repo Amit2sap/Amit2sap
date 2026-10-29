@@ -18,6 +18,7 @@ Each lead is one card:
    - One-line description and requirement (what they buy, quantity if known, occasion, date)
    - Questions with ready options (what the form asks): What happened? / Next step / Next date
    - A big button "Update this lead" = the prefilled form link above
+   - RULE (owner, 29 Oct): EVERY lead card in EVERY section (orders, call retries, new leads, older leads, call-only leads) gets its own "Update this lead" button. No lead is ever listed without one. If a lead has no Pipedrive id, use a lowercase slug of its name as leadId.
 4. Footer: "Tap a button, pick an option, Save. No email reply needed." Also accept short email replies like "1 won, 2 call Friday" if she replies instead.
 Never put prices, MOQ or lead times in this email unless Sristi herself gave them.
 
