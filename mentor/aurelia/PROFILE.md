@@ -15,3 +15,6 @@
 - [ ] Latest marks per subject
 - [ ] Favourite and hardest subject
 - [ ] Next school test dates
+
+## Added 29 Oct 2026 (her email)
+- Classes: Mon drawing ~19:30, Tue/Thu maths tuition 17:30–19:00, Wed guitar ~18:30, Sat dance. Wants no study after classes; likes reading, friends, watching things. Studies syllabus in her own order. Said "Todoist ready" (father to invite).

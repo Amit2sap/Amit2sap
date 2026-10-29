@@ -14,5 +14,21 @@
     "phone_free_night": null,
     "replied": 0,
     "mood": null
+  },
+  {
+    "date": "2026-10-29",
+    "day_no": 2,
+    "tasks_set": 3,
+    "tasks_done": null,
+    "study_blocks_set": 2,
+    "study_blocks_done": null,
+    "subjects": "Chemistry, Literature",
+    "hobby": null,
+    "life_topic": "Phone, reels and your brain",
+    "life_skill": null,
+    "social": null,
+    "phone_free_night": null,
+    "replied": 1,
+    "mood": null
   }
 ]
