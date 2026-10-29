@@ -95,7 +95,7 @@ If a playbook below still mentions Windsor, ignore that line.
 
 ## USAGE SAVER until the weekly reset Wed 4 Nov 16:30 IST (owner, 29 Oct)
 - SOCIAL: comments and approved Pinterest saves ONLY. No posts on any channel (Instagram, Facebook, Pinterest, LinkedIn) and no actions-page kit, even on posting days. Normal posting resumes after the reset.
-- AI Search, Aurelia coach and job-application tasks are paused until the reset (names end with "[paused until 4 Nov reset]"; the main session re-enables them).
+- AI Search and job-application tasks are paused until the reset. Aurelia coach keeps running, trimmed (owner, 29 Oct): weekday 15:00 PLAN + 22:00 NIGHT + one 19:07 reply check; weekend 09:00 PLAN + 19:00 NIGHT + one 15:07 reply check (was 5 runs a day, now 3) (names end with "[paused until 4 Nov reset]"; the main session re-enables them).
 - No one-off big jobs (no extra blogs, research batches or audits). Scheduled Email & Actions, Reply watcher, Lead Research, Data & SEO, Website, Google Business continue, kept short.
 
 ## Usage saving (owner, 26 Oct: weekly limit 84% used, resets Wed 16:30 IST)
