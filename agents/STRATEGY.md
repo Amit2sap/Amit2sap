@@ -135,7 +135,7 @@ Agents may draft these but must not create priced products, bundles, discounts o
 - **Deals:** every lead that replies, is called by Sristi, gets a catalogue, a quote or an order becomes a Deal (stages Qualified → Contact Made → Demo Scheduled → Proposal Made → Negotiations Started; Won/Lost). Sristi's call outcomes are logged as activities/notes on the deal.
 - **Duplicate check before any outreach:** search Pipedrive organisations/persons AND outreach/sent_log.json. If an open Deal exists (Sristi is handling it), do NOT send a cold pitch or follow-up.
 - Our outreach/leads/*.json stays as the Claude research store and send log; it is not a second CRM.
-- Update 28 Oct (owner): ChatGPT free plan cannot connect to Pipedrive. The owner pastes ChatGPT lead lists and Sristi's call outcomes into the Claude chat; Claude enters them into Pipedrive (duplicate check first) and the agents work from there. ChatGPT formats its output with sales/chatgpt_agent_pipedrive_instructions_2026-10-28.md.
+- Update 28 Oct (owner): ChatGPT free plan cannot connect to Pipedrive. The owner pastes ChatGPT lead lists and Sristi's call outcomes into the Claude chat; Claude enters them into Pipedrive (duplicate check first) and the agents work from there. ChatGPT formats its output with sales/chatgpt_agent_instructions_v3_2026-10-29.md (v3, 29 Oct: priority segments, weekly AI-search check, information-gain content; replaces v2).
 
 ## Pipedrive columns: Lead source + Converted to sale (owner, 29 Oct 2026)
 Two custom DEAL fields (leads share deal fields), created by the owner in Pipedrive Settings → Data fields:
