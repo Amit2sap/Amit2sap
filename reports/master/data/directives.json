@@ -182,5 +182,61 @@
   "directive": "In every run, add GA4 sessions and transactions for the last 28 days by session source for google_business, linkedin, instagram, facebook, pinterest (utm_source) to seo/data/<date>.json under \"ga4_by_source\", so the master agent can measure each channel's visits.",
   "note": "",
   "round": "Round 3 — issued 2026-10-29 (measurement fix for Google Business and LinkedIn)"
+ },
+ {
+  "id": "D24",
+  "agent": "AI Search",
+  "status": "open",
+  "directive": "Read agents/scorecard_95.md. Add \"## Strategy v2\" (your section) to your playbook, follow every item A1-A6 and S1-S4 from this run; log which items you met.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D25",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Same for W1-W6 + S1-S4.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D26",
+  "agent": "Data & SEO",
+  "status": "open",
+  "directive": "Same for E1-E5 + S1-S4.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D27",
+  "agent": "Email & Actions",
+  "status": "open",
+  "directive": "Same for M1-M6 + S1-S4.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D28",
+  "agent": "Lead Research",
+  "status": "open",
+  "directive": "Same for L1-L5 + S1-S4.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D29",
+  "agent": "Social",
+  "status": "open",
+  "directive": "Same for Pinterest P1-P5, Facebook F1-F5, Instagram I1-I5 and LinkedIn K1-K5 + S1-S4; log each channel's items separately.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
+ },
+ {
+  "id": "D30",
+  "agent": "Google Business",
+  "status": "open",
+  "directive": "Same for G1-G5 + S1-S4.",
+  "note": "",
+  "round": "Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)"
  }
 ]

@@ -38,3 +38,13 @@ How it works:
 - [ ] D21 (Email & Actions) Restart Google reviews (only 1 new review in 2026): with Sristi's OK in the morning email, send each customer whose order was delivered in the last 30 days one review request with the Google review link for "GrassCrafts by Abalone" (place_id ChIJj8JSa12f-DkRUC8tUXwc-kA: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA), per outreach/REVIEW_KIT.md. Skip anyone already asked in outreach/review_requests.json (16 asked on 17 Oct) and log each new request there. Only customers with an order; never ask for a 5-star rating; never write a review. Makhana buyers get the Makhana listing link (placeid ChIJaTAdYkSf-DkR_eOcRy_huoI).
 - [ ] D22 (Social) LinkedIn: every link in a post gets `?utm_source=linkedin&utm_medium=social&utm_campaign=li_<yyyymmdd>`; log each post URN in reports/agents/linkedin.md so the master agent can read its reactions. Same for Instagram bio/story links (`utm_source=instagram`), Facebook (`utm_source=facebook`) and Pinterest pin links (`utm_source=pinterest`).
 - [ ] D23 (Data & SEO) In every run, add GA4 sessions and transactions for the last 28 days by session source for google_business, linkedin, instagram, facebook, pinterest (utm_source) to seo/data/<date>.json under "ga4_by_source", so the master agent can measure each channel's visits.
+
+## Round 4 — issued 2026-10-29 (owner: every agent to 95, upgrade and refine strategy)
+
+- [ ] D24 (AI Search) Read agents/scorecard_95.md. Add "## Strategy v2" (your section) to your playbook, follow every item A1-A6 and S1-S4 from this run; log which items you met.
+- [ ] D25 (Website) Same for W1-W6 + S1-S4.
+- [ ] D26 (Data & SEO) Same for E1-E5 + S1-S4.
+- [ ] D27 (Email & Actions) Same for M1-M6 + S1-S4.
+- [ ] D28 (Lead Research) Same for L1-L5 + S1-S4.
+- [ ] D29 (Social) Same for Pinterest P1-P5, Facebook F1-F5, Instagram I1-I5 and LinkedIn K1-K5 + S1-S4; log each channel's items separately.
+- [ ] D30 (Google Business) Same for G1-G5 + S1-S4.
