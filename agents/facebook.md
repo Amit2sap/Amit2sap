@@ -22,3 +22,9 @@ Live teasers and after-Live posts follow the owner's Live schedule and may go ou
 Never post bare links without text. Never post the same text twice in a day.
 
 **Log:** `reports/agents/facebook.md`.
+
+## How to read and answer comments (works since 29 Oct 2026)
+- Use Composio account **facebook_unroll-miller** (reconnected by owner 29 Oct with all Page permissions).
+- READ: FACEBOOK_GET_COMMENTS and FACEBOOK_GET_POST are still refused (#10). Instead call FACEBOOK_GET_PAGE_POSTS (page_id 142803116227246, since "7 days ago") with fields `id,comments.limit(100).filter(toplevel){id,message,comment_count}`. comment_count 0 = not answered yet.
+- REPLY: FACEBOOK_CREATE_COMMENT fails on Live-video comment ids. In COMPOSIO_REMOTE_WORKBENCH, get the Page token with run_composio_tool("FACEBOOK_LIST_MANAGED_PAGES", {"fields":"id,name,access_token"}, account="facebook_unroll-miller") (never print it), then POST https://graph.facebook.com/v21.0/<full comment id>/comments with message + access_token. Keep each cell under ~25 replies (1 s apart) to stay inside the 180 s limit; re-check comment_count before retrying so nobody gets two replies.
+- Reply in the customer's language. Facts only: free shipping from ₹1,299; COD available (₹100 extra); order at grasscrafts.com or WhatsApp +91 62907 44782; handwoven by women artisans. No prices in comments: send the link or WhatsApp. Sizes/colours/custom → WhatsApp Sristi. Skip greetings and tag spam.

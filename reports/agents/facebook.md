@@ -32,3 +32,6 @@
 
 ## 2026-10-29 (Thu, social run, USAGE SAVER)
 - No post (usage saver). FACEBOOK_GET_COMMENTS refused again (#10 pages_read_user_content / Page Public Content Access), so full threads not readable (blocker unchanged). Used the 5 comments embedded in FACEBOOK_GET_PAGE_POSTS for the 28 Oct Live post (77 comments) and replied to 3 (natural jute mat, natural floor mat, lamps on verandah): pointed to grasscrafts.com / WhatsApp +91 62907 44782, no claims or prices. ~70 comments there still unread. No hot leads.
+
+## 2026-10-29 (owner-approved catch-up, main session)
+- After the owner reconnected Facebook (facebook_unroll-miller), read all 131 comments on the 28 Oct (77) and 24 Oct (54) Lives. Replied to 40 buying questions (price/pp → website + WhatsApp, booking, COD, payment mode, shipping, sizes/colours/mats/boxes → WhatsApp Sristi, makhana pack sizes, handmade). Greetings/compliments/tag spam skipped. No prices quoted. Method saved in agents/facebook.md.
