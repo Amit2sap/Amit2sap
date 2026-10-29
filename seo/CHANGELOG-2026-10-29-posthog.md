@@ -30,3 +30,7 @@ Publish the previous theme 189623959725 again, or delete `snippets/posthog.liqui
 Backup: backups/theme/theme.liquid_before_faq_removal_2026-10-29.liquid (md5 ff3a6417…, identical to live). New file md5 f7aaaa3b… (verified on Shopify).
 Owner confirmed "over 200 women artisans" is true (see CLAUDE.md Business) — can be used in future visible content, without the living-wage wording.
 Privacy policy paste-in: seo/privacy_policy_posthog_addition_2026-10-29.txt.
+
+## Status 29 Oct (check)
+- Owner published theme 189857562797 (role MAIN). PostHog project shows ingested_event=true and $pageview events.
+- Privacy policy: owner switched to the new Shopify template (Last updated October 29, 2026) but the PostHog "Website Analytics" paragraph is NOT in it yet; the template's "opt-out ... here" link has an empty href. Owner to paste the paragraph and fix/remove the link.
