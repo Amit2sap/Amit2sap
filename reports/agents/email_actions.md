@@ -108,3 +108,12 @@
 
 ## 2026-10-28 second run (manual, concurrent with the catch-up above)
 - A second Email & Actions run executed at the same time (my Gmail Sent count showed 0 at the start). It sent 29 basket-only pitches; 25 of them duplicated the catch-up run's recipients (exact list in sent_log log "2026-10-28-email-run-2"); only 4 were unique (Van der Sar, UrbanWrk, IST 1947, Time Avenue). Total outbound today about 59 plus 1 owner summary. Lesson: re-check git log/Gmail Sent right before sending when a catch-up run may be active.
+
+## 2026-10-29 (Thu) 10:22 run, session_01CExgX3LnZkdy4AwdW7vCVh
+- Lock taken (job email_actions), released at end. Gmail Sent today before sends: 0.
+- Replies (last 24h): no genuine business replies. Only auto-replies (Bitespeed for The Indian Ethnic Co., care@dietethics.com) and non-business mail. No hot leads.
+- Sent 100 outbound: 35 new basket-only pitches (no prices, MOQ, lead times or samples; trade sample sheet linked) + 65 first follow-ups in-thread on the 22 Oct batch (136 were due; 71 carry to 30 Oct). Live Gmail duplicate guard run per pitch recipient: 0 duplicates. 25 duplicate-pitch addresses from 28 Oct and all do_not_send addresses excluded; support/care inboxes excluded.
+- Pipedrive: "Emailed" notes added to the 6 ChatGPT 29 Oct Leads. No open Deal conflicts (4 open deals: Shreehari, P.C. Chandra, Chocolate and White, Amrapali).
+- Sristi morning form email sent (CC Amit): 0 unfulfilled Shopify orders, Shweta Chitale delivery due 2 Nov, 5 call retries (Mishtanna, Aabho, Umang, NCB, Senco), 6 new leads with phones, Sugar Story and PA5NCH call-only. Jotform: no new submissions.
+- Collab items on actions page with status approved: none.
+- Not done this run (usage): strategy update, lead tracker rebuild, Todoist task sync, AI-visibility check.
