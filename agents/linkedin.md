@@ -26,3 +26,7 @@
 - scrape anything.
 
 Log each post (date, URN and topic) in `reports/agents/linkedin.md`.
+
+## Amit's personal LinkedIn outreach (owner, 29 Oct 2026)
+Connection requests and messages from Amit's own profile are MANUAL. Agents only prepare the weekly kit (Mondays, Lead Research run) per agents/linkedin_manual_outreach.md and deliver it as Todoist tasks. Never send from any profile, never scrape.
+

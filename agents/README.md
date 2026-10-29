@@ -75,6 +75,8 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 
 **Shared weekly limit (29 Oct):** the same Claude account also runs the Aurelia study coach (7 runs/weekday) and the job-application agent (2 runs/weekday, which failed on 28 Oct with "usage limit reached"). They draw on the same weekly limit as GrassCrafts; the usage guard pauses the Aurelia tasks in tier 3.
 
+**LinkedIn manual kit (owner, 29 Oct):** Mondays in the Lead Research run, 5 people for Amit to contact himself (agents/linkedin_manual_outreach.md); Lusha used only per that file's budget.
+
 **Usage optimisations (29 Oct):** actions-page kit only on posting days; owner to-dos in Todoist instead of long owner emails; no two jobs at the same minute (AI Search moved); Social on off days = comments + approved saves only.
 
 **Known blockers at set-up:**
