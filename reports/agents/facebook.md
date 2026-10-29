@@ -25,3 +25,7 @@
 
 ## 2026-10-25 (Sun, off day)
 - Comments: live video post 142803116227246_1429292278642198 (24 Oct) has 52 comments, mostly greetings/price asks. Replied to 8 (thanks, festive wish, no prices; price/design asks pointed to grasscrafts.com and WhatsApp +91 62907 44782). Other posts 0 comments. Note FACEBOOK_CREATE_COMMENT needs the numeric comment id only (compound id is read as a page id). Remaining ~44 comments (greetings, size feedback) left for next run.
+
+## 2026-10-29 (owner-requested posting run)
+- Posted 1 native photo post: Handwoven Bamboo Gift Basket (handle handwoven-bamboo-gift-basket-black, Rs 680). Post id 142803116227246_1683305083806872.
+- Comments: replied to 1 real question ("Price of makhana?" on the 24 Oct Live, comment 1850436836167201: from Rs 199 for the 100 g pack, website and WhatsApp). Left unanswered: natural jute/floor mat asks and "lamps on verandah?" on post 142803116227246_2602283660197160 (77 comments; not read fully). No hot leads.
