@@ -34,3 +34,4 @@ Privacy policy paste-in: seo/privacy_policy_posthog_addition_2026-10-29.txt.
 ## Status 29 Oct (check)
 - Owner published theme 189857562797 (role MAIN). PostHog project shows ingested_event=true and $pageview events.
 - Privacy policy: owner switched to the new Shopify template (Last updated October 29, 2026) but the PostHog "Website Analytics" paragraph is NOT in it yet; the template's "opt-out ... here" link has an empty href. Owner to paste the paragraph and fix/remove the link.
+- 29 Oct 03:15 UTC: owner added the PostHog paragraph (as a bullet under "How We Disclose Personal Information"); contact email now sristi@grasscrafts.com. Still open: "opt-out of those uses here" link has no address.
