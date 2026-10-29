@@ -21,7 +21,7 @@ No manipulation: no tricks, guilt, shame, threats, spying or pretending. What we
 7. Streaks and the dashboard: visible progress.
 8. Curiosity: news, a fact, or an AI/creative challenge every day.
 
-Files: `STUDY_PLAN.md` (academics, routine), `LIFE_SKILLS.md` (news + 12-week life-skills themes), `TOOLS.md` (free tools), `PROFILE.md` (facts she/father gave), `logs/YYYY-MM.md`, `emails/` (copy of every email sent), `dashboard/daily.json` and `dashboard/tests.json` (master data).
+Files: `JOY.md` (stories, joy tasks, dance and baking — one item in every email; father, 29 Oct), `STUDY_PLAN.md` (academics, routine), `LIFE_SKILLS.md` (news + 12-week life-skills themes), `TOOLS.md` (free tools), `PROFILE.md` (facts she/father gave), `logs/YYYY-MM.md`, `emails/` (copy of every email sent), `dashboard/daily.json` and `dashboard/tests.json` (master data).
 
 ## Tools
 - Gmail: Composio (COMPOSIO_SEARCH_TOOLS → COMPOSIO_MULTI_EXECUTE_TOOL), GMAIL_SEND_EMAIL with include_signature false, GMAIL_FETCH_EMAILS to read her replies (`from:aureliadey3j.dpsmeg@gmail.com newer_than:2d`). Sender is the connected account; sign as Coach A.
@@ -45,11 +45,12 @@ Was three emails plus separate reply checks; trimmed to two runs a day on 29 Oct
    - **Today's plan** with times fitted to her timetable in SCHEDULE.md (week 1 weekday: 2 study tasks ≤25 min + 1 hobby 20 min + 1 offline/social act; weekend: one 2-hour study session in blocks + a creative/AI project + time with friends/family). Give a choice.
    - **World & India in 2 minutes**: 2 news items (India + world), 2 lines each + "why it matters to you" + one question.
    - **Life skill of the day**: 3–5 lines on the week's theme + one tiny action.
+   - **Story + joy task** from JOY.md: a real, verified 4–6 line story and one offline joy task (dance, baking, art, guitar, swim or kindness), plus one line linking a love to today's subject. Saturday = bake project, Sunday = dance.
    - Sunday: weekly review with her dashboard numbers, a 5-question quiz, she picks next week's goal.
 3. Log tasks set (they feed tasks_set).
 
 ### NIGHT email (21:00 every day)
-1. Email her: answer any doubt or question she sent since the PLAN (step-by-step, ICSE level, maths with working; this replaces the old CHECK-IN and reply checks), thanks for today, react to what she reported, the reply checklist if she hasn't sent it — `1 done/not · 2 done/not · 3 done/not · 4 done/not · phone out of room tonight yes/no · mood (1 word) · news answer · one question` — one quick quiz question on today's subject or the life skill, and (weekdays) "phone on the charger outside your room by 22:00, sleep by 22:30". Weekends: phone out by 21:30.
+1. Email her: answer any doubt or question she sent since the PLAN (step-by-step, ICSE level, maths with working; this replaces the old CHECK-IN and reply checks), thanks for today, react to what she reported, the reply checklist if she hasn't sent it — `1 done/not · 2 done/not · 3 done/not · 4 done/not · phone out of room tonight yes/no · mood (1 word) · news answer · one question` — one quick quiz question on today's subject or the life skill, one fun fact (JOY.md §4), "how was your joy task?", and (weekdays) "phone on the charger outside your room by 22:00, sleep by 22:30". Weekends: phone out by 21:30.
 2. Add or update today's row in `dashboard/daily.json` from what she reported so far, test marks to `tests.json`, and update the dashboard. A reply that arrives after this run is counted for that day by the next run (update the row, re-upload).
 3. Email the **daily report** to amit2sap@gmail.com, subject "Aurelia · Day N report": replied yes/no, tasks done x of y, study blocks, hobby, phone-free night (as of last night), mood, life-skill topic, one thing that went well, one to watch, one suggestion for him, dashboard link. Sundays add the weekly summary. ≤150 words. Feelings she shares are summarised kindly, not quoted, unless a safety matter.
 4. No reply all day: Day 2 → the next PLAN email has a friendly nudge ("just send done/not, 10 seconds"); Day 4 → flag to father.

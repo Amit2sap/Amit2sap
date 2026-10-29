@@ -3,6 +3,7 @@
 - Name: Aurelia Dey · Class 9 · ICSE (CISCE) · India
 - Email: aureliadey3j.dpsmeg@gmail.com
 - Interests/strengths (father, 28 Oct 2026): swimming, drawing, guitar, art and crafts
+- Also (father, 29 Oct 2026): dance (she says it's her favourite) and she loved cake making and baking
 - Concern (father): phone addiction, not serious about study
 - Her reply 28 Oct: no single thing she 'loves' right now; says dance is the one (firm); also sometimes guitar, sometimes studying. Will send timetable/routine on 29 Oct (asked for one reminder).
 - Target: ICSE Class 10 boards 2028, topper

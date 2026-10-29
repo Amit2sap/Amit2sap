@@ -16,13 +16,13 @@ Confirm exact chapters with her school syllabus / timetable; this is the frame. 
 | 06:30 | Wake, water, 5-min stretch; phone stays on charger outside the room |
 | After school | Snack + 30 min free time (phone allowed) |
 | Block 1 (45 min) | Hardest subject of the day — 2 x 20-min Pomodoros + 5-min break |
-| 20 min | Hobby: guitar or drawing (non-negotiable — this is her energy) |
+| 20 min | Hobby: dance, guitar, drawing or a baking mini-task (non-negotiable — this is her energy; see JOY.md) |
 | Block 2 (45 min) | Second subject / homework |
 | 15 min | Revision: flashcards (Anki/Quizlet) or 5 past-paper questions |
 | 21:45 | Reply to the coach's email (2 min) |
 | 22:00 | After the coach's goodnight email: phone handed to parent / charger outside room. Read or sketch, sleep by 22:30 |
 
-Swimming days: Block 2 shortens to 30 min. Weekend: one 2-hour study session + one longer creative/social plan (meet a friend, art project, swim, family outing).
+Swimming days: Block 2 shortens to 30 min. Weekend: one 2-hour study session + Saturday bake project (adult present) + Sunday dance + time with friends/family (see JOY.md).
 
 ## Weekly subject rotation
 | Day | Block 1 | Block 2 | Extra |
