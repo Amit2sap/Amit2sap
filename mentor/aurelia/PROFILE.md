@@ -4,6 +4,7 @@
 - Email: aureliadey3j.dpsmeg@gmail.com
 - Interests/strengths (father, 28 Oct 2026): swimming, drawing, guitar, art and crafts
 - Concern (father): phone addiction, not serious about study
+- Her reply 28 Oct: no single thing she 'loves' right now; says dance is the one (firm); also sometimes guitar, sometimes studying. Will send timetable/routine on 29 Oct (asked for one reminder).
 - Target: ICSE Class 10 boards 2028, topper
 
 ## To find out (ask gently, one per email)
