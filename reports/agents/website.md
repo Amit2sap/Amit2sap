@@ -42,3 +42,6 @@
 
 ## 2026-10-27 Product AEO pass (owner request)
 Top 10 sellers: new SEO title/description on all 10, "Quick answers" added to 9 (hamper already had FAQ), 0 alt texts needed fixing, 0 images flagged as AI. Backups: backups/products/aeo_*_before_2026-10-27.json; log: seo/CHANGELOG-2026-10-27-product-aeo.md. Owner to check: rectangular placemats say "Diameter: 12 inches"; hamper text claims "saves 2,200 litres of water / 800g plastic" (unsourced); storage basket and cane planter text claim carbon offsets/carbon-negative (unsourced).
+
+## 2026-10-29 Blog Engine (owner request, 4 articles)
+Published straw mats and jute table mats (~1,170 words), hotel room amenities (~1,150), jewellery packaging (~1,130) and cane boxes and cane storage (~1,115), all on news-the-grass-guide, 9 to 12 ACTIVE products linked each, real product photos, FAQPage JSON-LD, SEO title and description set. The sandbox could not fetch grasscrafts.com, so status and read-back were checked through the Admin API; /pages/wholesale is not a real page, so /pages/wholesale-corporate-gifting was linked. The Guides lines on collection descriptions were not updated this run (to do). Details in seo/CHANGELOG-blog.md.
