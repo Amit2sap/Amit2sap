@@ -2,7 +2,12 @@
 
 **Goal:** when someone asks an AI assistant where to buy Sabai/Kauna/Madurkathi/cane products, eco corporate gifts, wedding baskets or Mithila makhana in India, GrassCrafts is named.
 
-## Every 2 days (posting days)
+## Schedule (owner, 29 Oct 2026): Mon, Wed, Fri 16:07 IST, Sonnet, short runs
+- **Monday = full check:** run all 15 questions below, log, update citation targets, check llms.txt, act on 2 missing questions.
+- **Wednesday and Friday = light check:** re-run only the questions marked missing in the latest Monday entry of `seo/ai_visibility_log.json` (skip the ones we already win), log them, act on 1 missing question. No llms.txt check.
+- Off-site emails: at most 1 per run and 3 a week.
+
+## The 15 buyer questions
 1. In the Composio workbench, run these questions with `web_search` (and `invoke_llm` to extract the brands named):
    1. Where can I buy sabai grass products online in India?
    2. Best place to buy madur mat online
@@ -22,11 +27,11 @@
 2. Append `{date, score, of, found_for, competitors_cited, sources_cited}` to `seo/ai_visibility_log.json`.
 3. For each competitor source cited (marketplace, listicle, blog, directory), add it to `seo/citation_targets.json` with the question it won and how GrassCrafts could get onto it.
 
-## Each run (Mon, Wed, Fri 16:07; was weekly Thursday until 29 Oct)
-- Pick the 2 questions where we are missing and the competitor sources are clear.
+## Acting on missing questions (every run)
+- Pick the questions (2 on Monday, 1 on Wed/Fri) where we are missing and the competitor sources are clear.
   - **On-site:** make sure one page answers the question in plain sentences (who sells what, price range, delivery). Edit the collection description or FAQ, or ask the Website agent for an article.
-  - **Off-site:** draft 1 personal email to the cited author or marketplace (facts, photos, a quote from Sristi). The Email agent sends it from the business inbox; at most 3 a week; no chains.
-- Check https://grasscrafts.com/llms.txt still matches the facts below. If it differs, tell the Website agent (theme change → draft copy → owner publishes).
+  - **Off-site:** draft 1 personal email to the cited author or marketplace (facts, photos, a quote from Sristi). The Email agent sends it from the business inbox; at most 1 per run and 3 a week; no chains.
+- Mondays only: check https://grasscrafts.com/llms.txt still matches the facts below. If it differs, tell the Website agent (theme change → draft copy → owner publishes).
 
 ## Facts AI engines must see (use only these)
 - **Who:** GrassCrafts (GrassCrafts by Abalone), Kolkata, founded 2015, founder Sristi Dey.

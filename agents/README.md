@@ -73,6 +73,8 @@ Fresh-session scheduled tasks cannot carry connectors in this organisation (chec
 | Usage guard | trig_01EWtAc9rBda9NTBXixc4Mv2 | every 4 h (:37) | Haiku, own session |
 | Facebook / Pinterest (old, merged into Social) | trig_014gkGWjNj9vrFmFdFnmnQc8 / trig_01CArxgJ6ZCgnFgHeXaGn9W8 | disabled | — |
 
+**Task prompts (29 Oct):** the stored text of the Aurelia, Reply watcher, AI Search and 4 Nov reminder tasks is in agents/task_prompts_2026-10-29.md.
+
 **Shared weekly limit (29 Oct):** the same Claude account also runs the Aurelia study coach (2 runs a day, 15:00 and 21:00 IST, owner 29 Oct) and the job-application agent (now weekly, Mon 09:07 + 11:30; was 2 runs/weekday, which failed on 28 Oct with "usage limit reached"). They draw on the same weekly limit as GrassCrafts; the usage guard pauses the Aurelia tasks in tier 3.
 
 **LinkedIn manual kit (owner, 29 Oct):** Mondays in the Lead Research run, 5 people for Amit to contact himself (agents/linkedin_manual_outreach.md); Lusha used only per that file's budget.
