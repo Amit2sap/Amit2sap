@@ -113,3 +113,6 @@ Scheduled task "GrassCrafts Usage guard (every 4 hours)" (trig_01EWtAc9rBda9NTBX
 - Tier 3 (paused first, on any warning): Social, Website, Data & SEO, AI Search.
 - On "allowed" it resumes only the tasks it paused. Tasks the owner pauses himself (no suffix) are left alone.
 - 28 Oct: owner parked all WhatsApp tasks (agents/whatsapp_orders.md paused). Usage guard did not resume after the 16:30 reset by 18:04 (its run was at 14:07, before reset); main session resumed the 6 tasks manually.
+
+## Fact check before any customer-facing answer (owner, 29 Oct 2026)
+Every agent (social replies, email replies, WhatsApp, GBP, blog) must check product, pack-size, price and shipping facts against live Shopify data and the published Shipping/Refund policies before writing them. CLAUDE.md is a summary, not the source of truth. If live data and CLAUDE.md differ, use live data and flag the difference in reports/agents/handoff.md. Lesson: on 29 Oct a Facebook reply listed makhana packs without the 100 g pack and called 5 kg a pack of the same product; corrected the same day.
