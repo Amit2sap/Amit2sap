@@ -29,3 +29,6 @@
 ## 2026-10-29 (owner-requested posting run)
 - Posted 1 native photo post: Handwoven Bamboo Gift Basket (handle handwoven-bamboo-gift-basket-black, Rs 680). Post id 142803116227246_1683305083806872.
 - Comments: replied to 1 real question ("Price of makhana?" on the 24 Oct Live, comment 1850436836167201: from Rs 199 for the 100 g pack, website and WhatsApp). Left unanswered: natural jute/floor mat asks and "lamps on verandah?" on post 142803116227246_2602283660197160 (77 comments; not read fully). No hot leads.
+
+## 2026-10-29 (Thu, social run, USAGE SAVER)
+- No post (usage saver). FACEBOOK_GET_COMMENTS refused again (#10 pages_read_user_content / Page Public Content Access), so full threads not readable (blocker unchanged). Used the 5 comments embedded in FACEBOOK_GET_PAGE_POSTS for the 28 Oct Live post (77 comments) and replied to 3 (natural jute mat, natural floor mat, lamps on verandah): pointed to grasscrafts.com / WhatsApp +91 62907 44782, no claims or prices. ~70 comments there still unread. No hot leads.

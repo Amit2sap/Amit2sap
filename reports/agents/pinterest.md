@@ -36,3 +36,6 @@
 
 ## 2026-10-29 (owner-requested posting run)
 - 3 pins: handwoven-bamboo-puja-tray -> Diwali & Door Decor (1127799931725130587); makhana-gift-hamper-in-a-handwoven-sabai-grass-basket -> Gifts (1127799931725130591); handwoven-cane-ottoman-morah -> Cane furniture (1127799931725130588). Do not repin before 28 Nov. No blocker.
+
+## 2026-10-29 (Thu, USAGE SAVER)
+- No pins (not a posting day, usage saver). Approved saves: none.
