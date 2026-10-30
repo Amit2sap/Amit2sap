@@ -18,3 +18,6 @@
 
 ## Added 29 Oct 2026 (her email)
 - Classes: Mon drawing ~19:30, Tue/Thu maths tuition 17:30–19:00, Wed guitar ~18:30, Sat dance. Wants no study after classes; likes reading, friends, watching things. Studies syllabus in her own order. Said "Todoist ready" (father to invite).
+
+## Added 30 Oct 2026 (her email, 29 Oct night)
+- Own study order: Nov = English Literature and Language, Economics (favourites); Dec = Geography, History, Physics, Hindi (average); Jan = Maths, Chemistry (hardest, later so she remembers better); Feb = ready. Does some maths daily. Did Julius Caesar Act 4 Sc 1 on 29 Oct.
