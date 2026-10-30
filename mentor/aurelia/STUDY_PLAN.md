@@ -25,6 +25,7 @@ Confirm exact chapters with her school syllabus / timetable; this is the frame. 
 Swimming days: Block 2 shortens to 30 min. Weekend: one 2-hour study session + Saturday bake project (adult present) + Sunday dance + time with friends/family (see JOY.md).
 
 ## Weekly subject rotation
+(Replaced from Nov 2026 by PLAN_NOV_FEB.md: Maths and Science first.)
 | Day | Block 1 | Block 2 | Extra |
 |---|---|---|---|
 | Mon | Maths | English Language (composition/letter) | Guitar |
