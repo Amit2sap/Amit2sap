@@ -5,6 +5,39 @@ SIG = ("\n\nWarm regards,\nAmit Dey\nGrassCrafts — handwoven natural-fibre gif
        "grasscrafts.com  |  Instagram @grasscrafts.com_\n\n"
        "If this isn't the right inbox, I'd be grateful if you could forward it to the person who handles "
        "gifting or purchasing. If you'd rather not hear from us, just reply \"no thanks\" and I won't email again.")
+# Owner USPs, 30 Oct 2026 (sales/grasscrafts_usp_pitch_2026-10-30.md). No prices, MOQ, lead times or samples.
+USP = {
+    "made": "- Made to your requirements: design, dimensions, shape, colours, materials and functional details, subject to feasibility.",
+    "brand": "- Customised for your brand: baskets, gift hampers, reusable packaging and presentation that match your identity and occasion.",
+    "craft": "- Authentic Indian artisan craftsmanship: traditional weaving skills and distinctive natural textures.",
+    "fibre": "- Natural-fibre alternatives: Sabai grass, Kauna, Madurkathi, cane, bamboo and jute instead of conventional synthetic products.",
+    "premium": "- Premium, differentiated presentation: unique handcrafted designs for gifting, weddings, luxury and premium retail.",
+    "reuse": "- Reusable with everyday utility: many baskets and containers keep serving a purpose after the gift.",
+    "range": "- Versatile B2B range: corporate gifting, hospitality, wedding hampers, retail packaging and home décor.",
+    "story": "- Artisan-made with a story: products that communicate craftsmanship, cultural heritage and thoughtful material choices.",
+}
+SEG_USP = {
+    "Jewellery": ("brand", "premium", "reuse", "story"),
+    "Corporate gifting companies": ("made", "brand", "premium", "range"),
+    "Wedding & event planners": ("made", "craft", "premium", "reuse"),
+    "Festive hamper brands": ("brand", "fibre", "reuse", "premium"),
+    "Cane planters (hotels, cafes, designers)": ("made", "fibre", "craft", "story"),
+    "Sustainable decor brands": ("craft", "fibre", "range", "story"),
+    "Diamond jewellery boxes & baskets": ("made", "brand", "premium", "reuse"),
+    "Luxury watches": ("brand", "premium", "reuse", "story"),
+    "Hotels & resorts": ("made", "fibre", "reuse", "story"),
+    "Spas & wellness": ("fibre", "craft", "reuse", "story"),
+    "Real estate developers": ("brand", "premium", "reuse", "story"),
+    "Ethnic wear boutiques": ("made", "craft", "premium", "reuse"),
+}
+DEFAULT_USP = ("craft", "fibre", "range", "story")
+
+
+def usp_block(seg):
+    keys = SEG_USP.get(seg, DEFAULT_USP)
+    return "What makes us useful to businesses like yours:\n" + "\n".join(USP[k] for k in keys) + "\n\n"
+
+
 CLIENTS = ("We have supplied businesses such as My E-haat Display Centre (HCL Foundation), Grill Splendour "
            "Services, VBev, Broadarks Technology and Ru & Ki Gifts.")
 
@@ -21,22 +54,22 @@ def render(seg, co):
         s = f"Handwoven jewellery boxes for {name}'s festive packaging" if name else "Handwoven, plastic-free jewellery boxes for festive packaging"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Kauna and Sabai grass jewellery boxes, display trays and gift boxes, woven by Indian artisans with no plastic.\n\n"
              "For the festive and wedding season they work as a premium, reusable alternative to standard jewellery packaging — the box becomes part of the gift. We take bulk orders with custom sizes and colours, and can mix designs in one order.\n\n"
-             f"{CLIENTS} I've attached our catalogue with retail prices; volume pricing depends on quantity.\n\nWould you be open to a quick call, or shall I send a couple of samples?")
+             f"{CLIENTS} I've attached our catalogue.\n\nWould you be open to a quick call, or could you point me to the person who handles packaging?")
     elif seg == "Corporate gifting companies":
         s = f"Handwoven eco gift range for {name}'s corporate clients" if name else "Handwoven eco-friendly gift range for your corporate clients"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven, plastic-free gift baskets, bamboo trays, Sabai grass gift boxes and desk organisers, woven by Indian artisans.\n\n"
-             "For Diwali and year-end hampers, our pieces work either as the hamper packaging or as the gift itself, and we're happy to supply on a reseller basis. Prices start under ₹500 per piece, with volume pricing on bulk orders.\n\n"
-             f"{CLIENTS} Our catalogue is attached.\n\nWould it help if I shared a shortlist and samples for your eco-gifting range?")
+             "For Diwali and year-end hampers, our pieces work either as the hamper packaging or as the gift itself, and we're happy to supply on a reseller basis.\n\n"
+             f"{CLIENTS} Our catalogue is attached.\n\nWould it help if I shared a shortlist for your eco-gifting range?")
     elif seg == "Wedding & event planners":
         s = f"Handwoven return-gift and trousseau baskets for {name}" if name else "Handwoven return-gift and trousseau baskets for your weddings"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Kauna and Sabai grass hamper baskets, bamboo trays and gift boxes — a natural, plastic-free option for wedding return gifts, trousseau packing and ceremonies like Haldi, Mehendi and Godh Bharai.\n\n"
-             "We take bulk orders, can mix designs, and offer custom sizes and colours on request. Hamper baskets start under ₹500.\n\n"
+             "We take bulk orders, can mix designs, and offer custom sizes and colours on request.\n\n"
              f"{CLIENTS} I've attached our catalogue.\n\nCould we share options for your upcoming wedding season?")
     elif seg == "Festive hamper brands":
         s = f"Reusable handwoven baskets for {name}'s festive hampers" if name else "Reusable handwoven baskets for your festive hampers"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven Kauna grass hamper baskets, bamboo baskets and trays, and Sabai grass gift boxes, woven by Indian artisans with no plastic.\n\n"
-             "For Diwali and gifting hampers, they can replace cardboard or plastic packaging with something customers keep and reuse. We supply in bulk with custom sizes and colours on request; hamper baskets start under ₹500.\n\n"
-             f"{CLIENTS} Our catalogue is attached.\n\nWould you like samples of two or three basket styles to try?")
+             "For Diwali and gifting hampers, they can replace cardboard or plastic packaging with something customers keep and reuse. We supply in bulk with custom sizes and colours on request.\n\n"
+             f"{CLIENTS} Our catalogue is attached.\n\nWould a shortlist of two or three basket styles for your hampers be useful?")
     elif seg == "Cane planters (hotels, cafes, designers)":
         s = f"Handwoven cane planters for {name}'s spaces" if name else "Handwoven cane planters for hotels, cafés and interiors"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven cane planters – table-top, floor planters with stands, tall 38-inch statement planters and sets of three – along with cane baskets, trays and ottomans, all woven by Indian artisans.\n\n"
@@ -80,6 +113,7 @@ def render(seg, co):
     else:
         s = f"Handwoven baskets, planters and decor for {name}" if name else "Handwoven baskets, planters and decor for your store"
         b = (f"{g}\n\nI'm Amit from GrassCrafts. We make handwoven baskets, planters, wall plates, trays and gift boxes from Kauna, Sabai grass, cane, bamboo and water hyacinth, woven by Indian artisans with no plastic.\n\n"
-             "If you stock home decor or gifts, we'd love to supply you at wholesale prices — in time for Diwali and the wedding season. Small mixed orders are fine to start with.\n\n"
-             f"{CLIENTS} I've attached our catalogue with retail prices.\n\nShall I share our wholesale pricing?")
-    return s, b + SIG
+             "If you stock home decor or gifts, we'd love to supply you on a trade basis for the festive and wedding seasons. Small mixed orders are fine to start with.\n\n"
+             f"{CLIENTS} I've attached our catalogue.\n\nWould a short call to discuss a trial assortment suit you?")
+    i = b.find("\n\n", b.find("I'm Amit")) + 2
+    return s, b[:i] + usp_block(seg) + b[i:] + SIG
