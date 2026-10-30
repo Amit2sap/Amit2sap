@@ -1429,5 +1429,53 @@
   "buying_pattern": "bridal + festive",
   "status": "emailed 2026-10-28",
   "priority": "lead_research_2026-10-27"
+ },
+ {
+  "found": "2026-10-30",
+  "segment": "diamond_jewellery",
+  "company": "Glora Diamonds",
+  "city": "Chennai (T. Nagar) / Bengaluru (Dickenson Road)",
+  "website": "https://gloradiamonds.com",
+  "signal": "Opened Bengaluru showroom (announced 11 Oct 2026), second city after Chennai",
+  "signal_url": "https://gloradiamonds.com/blogs/news/from-chennai-with-trust-to-bangalore-with-heart",
+  "contact_name": "",
+  "role": "Sales team",
+  "email": "salesteam@gloradiamonds.com",
+  "email_source": "https://gloradiamonds.com/blogs/news/from-chennai-with-trust-to-bangalore-with-heart",
+  "verified": "published",
+  "products_to_pitch": [
+   "Sabai/Kauna jewellery boxes",
+   "display trays"
+  ],
+  "occasion": "Wedding season / new showroom packaging",
+  "competitor_used": "unknown",
+  "current_products": "Lab-grown diamond jewellery",
+  "budget_signal": "unknown",
+  "buying_pattern": "estimate: festive/wedding season",
+  "status": "new"
+ },
+ {
+  "found": "2026-10-30",
+  "segment": "diamond_jewellery",
+  "company": "Jewelbox",
+  "city": "Kolkata-originated; Bengaluru, Mumbai (Borivali, Vashi)",
+  "website": "https://jewelbox.co.in",
+  "signal": "Expanding stores: Mumbai (23 Oct 2026) and Bengaluru HSR/Jayanagar (27 Oct 2026) press releases; mentions gifting",
+  "signal_url": "https://www.prlog.org/13178600-jewelbox-brings-modern-lab-grown-diamond-jewellery-to-mumbai-consumers.html",
+  "contact_name": "",
+  "role": "Support / media contact (founders Vidita Kochar Jain, Nipun Kochar per press release)",
+  "email": "support@jewelbox.co.in",
+  "email_source": "https://www.prlog.org/13179326-jewelbox-expands-its-lab-grown-diamond-ring-collection-in-bangalore.html",
+  "verified": "published",
+  "products_to_pitch": [
+   "Sabai jewellery boxes",
+   "Kauna gift baskets"
+  ],
+  "occasion": "Wedding/festive gifting",
+  "competitor_used": "unknown",
+  "current_products": "Lab-grown diamond jewellery",
+  "budget_signal": "unknown",
+  "buying_pattern": "estimate: festive/wedding season",
+  "status": "new"
  }
 ]

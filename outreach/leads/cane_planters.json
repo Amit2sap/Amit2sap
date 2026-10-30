@@ -436,5 +436,77 @@
   "occasion": "New centre fit-outs",
   "current_products": "Coworking / managed offices",
   "buying_pattern": "estimate: several centres a quarter"
+ },
+ {
+  "found": "2026-10-30",
+  "segment": "cane_planters",
+  "company": "The Urban Jungle (Mumbai)",
+  "city": "Mumbai (Parel)",
+  "website": "https://theurbanjungle.in",
+  "signal": "Indoor landscaping studio for homes, offices and retail; custom plans include plants and planters",
+  "signal_url": "https://theurbanjungle.in/",
+  "contact_name": "Munish",
+  "role": "Founder/designer",
+  "email": "munish@theurbanjungle.in",
+  "email_source": "https://theurbanjungle.in/",
+  "verified": "published",
+  "products_to_pitch": [
+   "cane planters (table, stand, floor)",
+   "sets of 3"
+  ],
+  "occasion": "Project fit-outs",
+  "competitor_used": "unknown",
+  "current_products": "Interior landscaping",
+  "budget_signal": "unknown",
+  "buying_pattern": "estimate: festive/wedding season",
+  "status": "new"
+ },
+ {
+  "found": "2026-10-30",
+  "segment": "cane_planters",
+  "company": "Neo Roots Design",
+  "city": "Bengaluru (Domlur)",
+  "website": "https://neoroots.design",
+  "signal": "Garden and landscaping for homes, offices, hospitality; sells planters",
+  "signal_url": "https://neoroots.design/pages/about-us",
+  "contact_name": "",
+  "role": "Studio (enquiries)",
+  "email": "hello@neoroots.design",
+  "email_source": "https://neoroots.design/pages/about-us",
+  "verified": "published",
+  "products_to_pitch": [
+   "cane planters",
+   "grass planters"
+  ],
+  "occasion": "Project fit-outs",
+  "competitor_used": "unknown",
+  "current_products": "Landscaping and planters",
+  "budget_signal": "unknown",
+  "buying_pattern": "estimate: festive/wedding season",
+  "status": "new"
+ },
+ {
+  "found": "2026-10-30",
+  "segment": "cane_planters",
+  "company": "My Cube Coworking",
+  "city": "Kolkata",
+  "website": "https://www.mycube.co.in",
+  "signal": "Promoting Kolkata coworking hub with lounges (company LinkedIn post, 5 Oct 2026)",
+  "signal_url": "https://www.linkedin.com/posts/mycube%2Eco%2Ein_coworkingspacekolkata-kolkatastartups-activity-7512739419142037504-VbbC",
+  "contact_name": "",
+  "role": "Admin / enquiries",
+  "email": "admin@mycube.co.in",
+  "email_source": "https://www.linkedin.com/posts/mycube%2Eco%2Ein_coworkingspacekolkata-kolkatastartups-activity-7512739419142037504-VbbC",
+  "verified": "published",
+  "products_to_pitch": [
+   "cane floor planters (38 in)",
+   "planter sets of 3"
+  ],
+  "occasion": "Lounge/lobby decor",
+  "competitor_used": "unknown",
+  "current_products": "Coworking",
+  "budget_signal": "unknown",
+  "buying_pattern": "estimate: festive/wedding season",
+  "status": "new"
  }
 ]

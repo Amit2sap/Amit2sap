@@ -71,3 +71,10 @@ Group 2 run (luxury_watches, gourmet, ethnic_wear), one segment after another; r
 - 2026-10-29 prospecting_contact_search (5 warm-lead domains, 8 results): 1 credit.
 - 2026-10-29 prospecting_contact_search (7 company names, 50 results shown): 2 credits.
 - Total 3 credits, 0 reveals. Balance: 37 of 40 (calculated; the second search charged 2). No names found for Event Mantra Kolkata or Ganguram's; Virki name from public company registry (no LinkedIn URL).
+
+## 2026-10-30
+- 2026-10-30 diamond_jewellery: 2 leads. Best: Jewelbox (Kolkata-originated LGD brand, opening Mumbai/Bengaluru stores Oct 2026; support@). Also Glora Diamonds (Bengaluru showroom Oct 2026). Aukera skipped (already known/sent).
+- 2026-10-30 cane_planters: 3 leads. Best: The Urban Jungle Mumbai (plantscaping studio, planters in plans). Also Neo Roots Design, My Cube Kolkata (weak signals).
+- 2026-10-30 sustainable_decor: 0 leads. Ellementry and Namah Home Decor already in sent_log/lead file; Makon Home is a competitor; Maati Earthcraft Kolkata (new store Jul 2026) has no published email.
+- 2026-10-30 wellness: 4 leads. Best: Vanyara Resort & Spa, Corbett (opens 1 Nov 2026; sales@). Also The Cube Munnar (opens Oct 2026), Fazlani Nature's Nest, Mountain Shadows Wayanad.
+- Blockers: WebFetch cannot resolve some hosts (e.g. suvarnamjewels.com); WebSearch returns no contact emails, Exa worked. Hunter not used (not today's Hunter segment).
