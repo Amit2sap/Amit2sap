@@ -33,3 +33,4 @@ Undo: productUpdate(product:{id, descriptionHtml}) with the originals in backups
 - File uploaded: grasscrafts-hero-natural-fibre-dining.jpg (owner-supplied image, Gemini watermark cropped), alt text as owner suggested.
 - templates/index.json in the copy: hero image swapped, heading block enabled "Handcrafted Natural Fibre Home Décor & Gifts from India" (h1 size), overlay 20->30; buttons unchanged. Upload verified by MD5 match; preview renders heading + image, no Liquid error in HTML.
 - Preview: https://grasscrafts.com/?preview_theme_id=189922181293 . Owner publishes. Undo: keep/re-publish 189857562797. Backup: backups/2026-10-30-hero/.
+- Alt text updated (owner, 30 Oct): "Handwoven natural fibre table setting with grass baskets and artisan-made décor by GrassCrafts India" (file gid://shopify/MediaImage/46888934244525).
