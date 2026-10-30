@@ -2,7 +2,7 @@
 
 | Claim | Verified 30 Oct | Note |
 |---|---|---|
-| GA4 purchases 4, ₹6,110 | Yes in GA4 | **All 4 orders are VOIDED in Shopify**: #1043, #1044, #1045 = owner COD-fee tests (26 Oct, these are the 3 "ChatGPT" purchases); #1042 = customer order 23 Oct ₹1,170, voided. Verified sales ₹0. |
+| GA4 purchases 4, ₹6,110 | Yes in GA4 (owner confirmed 30 Oct: #1043-#1045 are test orders) | **All 4 orders are VOIDED in Shopify**: #1043, #1044, #1045 = owner COD-fee tests (26 Oct, these are the 3 "ChatGPT" purchases); #1042 = customer order 23 Oct ₹1,170, voided. Verified sales ₹0. |
 | ChatGPT 97 sessions, 3 purchases ₹5,060 | Sessions yes; purchases = test orders | first-user source of those purchases is "(direct)" |
 | ChatGPT landing pages (wholesale 27, home 25 …) | Yes | wholesale page engaged 23 of 27 |
 | GSC 172 clicks, 8,866 impr, pos 8.15 | Close: 181 / 9,271 / 8.17 with fresh data | final vs all data |
