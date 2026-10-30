@@ -27,3 +27,9 @@ Undo: productUpdate(product:{id, descriptionHtml}) with the originals in backups
 - Source: owner said "check knowledge article for care". Text taken from blog articles "Kauna Grass: A Sustainable Luxury Material from Manipur" (Caring for Kauna Products) and "Jute vs Water Hyacinth vs Sabai Grass vs Cane" (care table + care list).
 - Changed: appended `<div class="gc-care-block">` to the end of /collections/sabai-grass (330117316781) and /collections/kauna-grass-manipur (330117185709). Nothing else changed. Read back via Admin API: OK.
 - Backup/undo: backups/2026-10-30-care/README.md. Undo = delete the gc-care-block div from each description.
+
+## Homepage hero image (30 Oct, owner request) — THEME COPY ONLY, not live
+- New unpublished theme 189922181293 "Grasscrafts – new hero image 30 Oct" (duplicate of live 189857562797).
+- File uploaded: grasscrafts-hero-natural-fibre-dining.jpg (owner-supplied image, Gemini watermark cropped), alt text as owner suggested.
+- templates/index.json in the copy: hero image swapped, heading block enabled "Handcrafted Natural Fibre Home Décor & Gifts from India" (h1 size), overlay 20->30; buttons unchanged. Upload verified by MD5 match; preview renders heading + image, no Liquid error in HTML.
+- Preview: https://grasscrafts.com/?preview_theme_id=189922181293 . Owner publishes. Undo: keep/re-publish 189857562797. Backup: backups/2026-10-30-hero/.
