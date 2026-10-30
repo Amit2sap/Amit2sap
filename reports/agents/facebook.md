@@ -36,3 +36,6 @@
 ## 2026-10-29 (owner-approved catch-up, main session)
 - After the owner reconnected Facebook (facebook_unroll-miller), read all 131 comments on the 28 Oct (77) and 24 Oct (54) Lives. Replied to 40 buying questions (price/pp → website + WhatsApp, booking, COD, payment mode, shipping, sizes/colours/mats/boxes → WhatsApp Sristi, makhana pack sizes, handmade). Greetings/compliments/tag spam skipped. No prices quoted. Method saved in agents/facebook.md.
 - Correction 29 Oct (owner): 2 makhana replies (24 Oct Live) listed "250 g, 500 g, 1 kg and 5 kg packs, all free shipping" and linked the collection. Edited in place to the live facts: 100/250/500 g/1 kg packs + separate 5 kg bulk; free shipping on 250 g and above; 100 g at standard rates; product-page link. Fact-check rule added to agents/README.md and agents/facebook.md.
+
+## 2026-10-30 (Fri, USAGE SAVER)
+- No post (usage saver). Read 9 posts from the last 7 days via GET_PAGE_POSTS: unanswered top-level comments on the 28 Oct and 24 Oct Lives were only greetings, compliments, tags and spam (no buying questions), so no replies. No hot leads.
