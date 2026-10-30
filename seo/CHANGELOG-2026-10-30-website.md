@@ -22,3 +22,8 @@ Facts verified live first: Shipping policy (free from ₹1,299, ₹120 below; ma
 Products (10): Dry Flower Toran 3 ft; Makhana Premium Lotus Seeds; Kauna Embroidered Handbag (8189831315629); Water Hyacinth Rectangular Placemats; Sitalpati Handbag cane handle; Bamboo Cage Pendant Lamp 12x12; Kauna Grass Gift Hamper Basket; Water Hyacinth Rectangular Storage Basket; Kauna Jewellery Display Tray; Cane Planters set.
 Makhana block: shipping line reworded (250 g and larger free no minimum; 100 g free from ₹1,299), COD and no-GST lines kept, artisan line omitted (food product).
 Undo: productUpdate(product:{id, descriptionHtml}) with the originals in backups/2026-10-30-directives/products.json, or simply delete the <div class="gc-trust-block">...</div> at the end.
+
+## Care blocks on Sabai and Kauna collections (30 Oct, owner-approved)
+- Source: owner said "check knowledge article for care". Text taken from blog articles "Kauna Grass: A Sustainable Luxury Material from Manipur" (Caring for Kauna Products) and "Jute vs Water Hyacinth vs Sabai Grass vs Cane" (care table + care list).
+- Changed: appended `<div class="gc-care-block">` to the end of /collections/sabai-grass (330117316781) and /collections/kauna-grass-manipur (330117185709). Nothing else changed. Read back via Admin API: OK.
+- Backup/undo: backups/2026-10-30-care/README.md. Undo = delete the gc-care-block div from each description.
