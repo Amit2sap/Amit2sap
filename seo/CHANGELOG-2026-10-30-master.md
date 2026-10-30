@@ -19,3 +19,11 @@ Backups: backups/2026-10-30/.
 6. **D39 (preserve what ranks):** Madurkathi collection: one paragraph appended (GI no. 567, Nilachal dining set link, wholesale link, delivery facts). Sabai collection: one paragraph appended (wholesale link, material comparison blog, delivery facts). No titles, H1s or URLs changed. Kauna already had wholesale + guide links: unchanged.
 7. **D41 alt text:** Kash wedding basket's 3 images now name the material (before texts in the backup file). All other photos on the D38 collections already had descriptive alt text naming product and material.
 Re-measure: live rank re-check 5 Nov (master), Search Console clicks/CTR from 13 Nov.
+
+8. **Shipping threshold ₹1,299 everywhere (owner request, 30 Oct).** Live homepage already said ₹1,299 in every block (announcement bar, trust bar, USP strip, FAQ, SEO text); Shopify shipping rates confirm free from ₹1,299, ₹120 below. Old figures (₹1,250 / ₹1,300) removed from 15 other places, text only ("above ₹1,250" → "from ₹1,299"; "₹1,250+" → "₹1,299+"):
+   - Page /pages/grass-weaving-sustainability (3 places incl. FAQ JSON-LD).
+   - Articles madur-mat-buying-guide (3) and sabai-grass-products-buyers-guide-india (4).
+   - Collections: SEO descriptions of planters, jute-mats, stylish-straw-plates-..., cane, kauna-grass-manipur, kash-grass; body of cane-planter.
+   - Products: SEO of wedding-gift-hamper-basket-2; body + SEO of 4 water hyacinth products (rectangular storage box, utility basket, heritage basket, wall/vanity organiser).
+   Undo: restore from backups/2026-10-30/shipping_text_before_1299_fix.json (all originals) and page_grass-weaving-sustainability_before.html. Verified after: 0 matches of ₹/Rs 1,250 or 1,300 across 17 pages, 43 articles, 48 collections, 248 products.
+   Not touched (not shipping, flag for owner): heritage basket + wall organiser FAQs claim "850g of plant matter" and "2,400 litres of water" saved, and the organiser says "jute rope is included" — unverified.
