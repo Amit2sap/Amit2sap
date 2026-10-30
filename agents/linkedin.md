@@ -1,5 +1,8 @@
 # LinkedIn playbook (from 22 Oct 2026)
 
+**USPs and pitch (owner, 30 Oct 2026):** every B2B pitch, post and proposal uses the 8 USPs and the wording in `sales/grasscrafts_usp_pitch_2026-10-30.md` (made to order, brand customisation, artisan craftsmanship, natural fibres, premium presentation, reusable, versatile B2B range, artisan story). Segment templates in `outreach/templates.py` stay as the base; add the matching USP bullets and the segment hook from that file.
+
+
 **Account:** Composio LinkedIn connection `linkedin_lacca-cob`, posting as the member profile "grasscrafts ." (author `urn:li:person:19s_VB0aGJ`, linkedin.com/in/grasscrafts-889b4624). The owner approved this on 22 Oct until a company page is connected. When a company page is connected, switch to it: the author becomes `urn:li:organization:<id>`, found with LINKEDIN_GET_COMPANY_INFO.
 
 **Who it's for:** B2B buyers only. Write for HR and admin heads, procurement, gifting-company founders, hotel GMs and housekeeping heads, wedding planners, and jewellery and watch retailers. It is not for consumers.

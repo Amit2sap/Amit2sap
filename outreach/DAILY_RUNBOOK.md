@@ -79,6 +79,8 @@ Within the same run:
   - After sending, set `status` to `"emailed"` with the date.
 - **The rest** go to verified info@/sales@ addresses from web search.
 - **Segment mix (owner, 17 Oct):** use the "Mix %" column in `agents/lead_research.md`, adjusted by `agents/STRATEGY.md`. The 11 segments are corporate 18, wedding 14, hotels & resorts 12, diamond jewellery 12, cane planters 9, sustainable décor 8, luxury watches 7, gourmet 7, wellness 5, real estate 4, ethnic wear 4.
+**USPs and pitch (owner, 30 Oct 2026):** every B2B pitch, post and proposal uses the 8 USPs and the wording in `sales/grasscrafts_usp_pitch_2026-10-30.md` (made to order, brand customisation, artisan craftsmanship, natural fibres, premium presentation, reusable, versatile B2B range, artisan story). Segment templates in `outreach/templates.py` stay as the base; add the matching USP bullets and the segment hook from that file.
+
 - **Template for each segment slug:**
 
   | Slug | Template |

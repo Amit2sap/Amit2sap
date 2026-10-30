@@ -1,4 +1,7 @@
 # Paste this into the ChatGPT "GrassCrafts Growth Report" chat (owner) — v3, 29 Oct 2026
+
+**USPs and pitch (owner, 30 Oct 2026):** every B2B pitch, post and proposal uses the 8 USPs and the wording in `sales/grasscrafts_usp_pitch_2026-10-30.md` (made to order, brand customisation, artisan craftsmanship, natural fibres, premium presentation, reusable, versatile B2B range, artisan story). Segment templates in `outreach/templates.py` stay as the base; add the matching USP bullets and the segment hook from that file.
+
 (Replaces v2 of 28 Oct. The owner copies your output into Claude; Claude enters it into Pipedrive and the agents act on it.)
 
 ## Where we stand (29 Oct)
