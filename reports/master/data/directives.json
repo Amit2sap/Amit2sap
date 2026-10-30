@@ -294,5 +294,45 @@
   "directive": "The ChatGPT \"Daily Makhana Post\" workflow posts to Google Business. To avoid double posting, our agent does NOT post on the Makhana by GrassCrafts listing from now on (G5 becomes: request its first review only). Keep posting on the main GrassCrafts by Abalone listing.",
   "note": "",
   "round": "Round 5 — issued 2026-10-30 (from the ChatGPT growth feed, verified by the master agent)"
+ },
+ {
+  "id": "D38",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Commercial landing pages, built on EXISTING collections (no new thin pages, no duplicate products): /collections/wedding-gift-hamper (5 products) for \"wedding hamper basket\", \"basket for wedding gift\", \"gift hamper basket for wedding\"; /collections/baskets-trays (Cane Baskets & Trays, 7) for \"cane basket(s)\"; /collections/water-hyacinth (19; SEO title is empty",
+  "note": "set one) for \"water hyacinth basket\", \"hyacinth basket\". For each: buyer-intent intro (uses, sizes from Shopify, care, bulk route), 3–5 FAQs from verified facts, links to the best products, the wholesale page and the matching blog guide. Backup + changelog; one collection per run.",
+  "round": "Round 6 — issued 2026-10-30 (ChatGPT SEO priorities, checked against the 30 Oct live rank baseline grasscrafts_seo_audit/live_rank_check_2026-10-30.csv)"
+ },
+ {
+  "id": "D39",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Preserve and strengthen what already ranks: Kauna (#5), Sabai bags (#9), Madurkathi blog (#9). Add content and internal links only; do NOT change their URLs, H1 or SEO titles without a logged reason.",
+  "note": "",
+  "round": "Round 6 — issued 2026-10-30 (ChatGPT SEO priorities, checked against the 30 Oct live rank baseline grasscrafts_seo_audit/live_rank_check_2026-10-30.csv)"
+ },
+ {
+  "id": "D40",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Internal links each run: collection ↔ its best products ↔ the matching blog guide ↔ /pages/wholesale-corporate-gifting. Log every link added.",
+  "note": "",
+  "round": "Round 6 — issued 2026-10-30 (ChatGPT SEO priorities, checked against the 30 Oct live rank baseline grasscrafts_seo_audit/live_rank_check_2026-10-30.csv)"
+ },
+ {
+  "id": "D41",
+  "agent": "Website",
+  "status": "open",
+  "directive": "Images on the D38 pages: real GrassCrafts product photos only (image generation paused), descriptive alt text naming the product and material.",
+  "note": "",
+  "round": "Round 6 — issued 2026-10-30 (ChatGPT SEO priorities, checked against the 30 Oct live rank baseline grasscrafts_seo_audit/live_rank_check_2026-10-30.csv)"
+ },
+ {
+  "id": "D42",
+  "agent": "Data & SEO",
+  "status": "open",
+  "directive": "Organic rank tracking separate from Search Console average position: keep grasscrafts_seo_audit/live_rank_check_2026-10-30.csv as the baseline; never report GSC average position as a \"rank\".",
+  "note": "",
+  "round": "Round 6 — issued 2026-10-30 (ChatGPT SEO priorities, checked against the 30 Oct live rank baseline grasscrafts_seo_audit/live_rank_check_2026-10-30.csv)"
  }
 ]
