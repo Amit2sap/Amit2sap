@@ -8,7 +8,7 @@ Fields: Lead, Lead ID (both prefilled from the link), What happened? (choice), W
 Prefilled link per lead: https://form.jotform.com/263003605636047?lead=<URL-encoded company>&leadId=<Pipedrive deal or lead id>
 (If the prefill keys do not fill, open the form in the Jotform builder once and set the field "unique names" to lead and leadId.)
 
-## A. Morning email to Sristi (sent by the 10:22 Email & Actions run, every day incl. weekends; also right after the owner pastes ChatGPT data)
+## A. Morning email to Sristi (MANDATORY every day; owner 30 Oct: the 30 Oct run skipped it. Send it before pitches, never skip it for usage, and log the Gmail id) (sent by the 10:22 Email & Actions run, every day incl. weekends; also right after the owner pastes ChatGPT data)
 To sristi@grasscrafts.com, CC amit2sap@gmail.com. Subject: "Today's leads – <date> – <N> to act on". HTML email, mobile friendly, no long text. Sections:
 1. **Orders to ship** (daily unfulfilled-order check, Shopify: orders unfulfilled, not cancelled, not test, last 30 days; plus won B2B orders with a due date from outreach/won_orders.json and Pipedrive Won deals): order, customer, items, due date, days waiting. Flag anything older than 3 days in red.
 2. **Today's calls / follow-ups** from Pipedrive activities due today or overdue, sorted P1 → P3.
