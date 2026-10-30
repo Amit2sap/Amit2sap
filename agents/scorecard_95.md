@@ -81,7 +81,7 @@ Strategy v2: reviews and real-product posts; measured via Firecrawl Maps and GA4
 - G2 (15) Every new review replied to within 24 h (or flagged to the owner the same day if the API cannot reply).
 - G3 (15) Review requests running (with Email & Actions, D21); new reviews since the last report ≥1, or cause and fix.
 - G4 (10) Posts within the Upload-Post quota, real product + making/use detail, UTM links (D17, D20).
-- G5 (10) Makhana listing: one post a week and its first review requested from a makhana buyer.
+- G5 (10) Makhana listing: first review requested from a makhana buyer (posts there are owned by the ChatGPT Daily Makhana Post workflow, D37).
 
 ## LinkedIn (70)
 Strategy v2: Amit's lessons + direct outreach, measured by reactions, visits and replies.

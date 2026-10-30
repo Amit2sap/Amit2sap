@@ -2,25 +2,25 @@
  {
   "id": "orders_web",
   "area": "Sales",
-  "metric": "Website orders (GA4 transactions)",
-  "value": 4,
+  "metric": "Website orders, Shopify-verified (not voided)",
+  "value": 0,
   "prev": 0,
   "unit": "orders",
-  "window": "28 d to 26 Oct",
+  "window": "2-29 Oct",
   "good": "up",
-  "source": "GA4 via Data & SEO 29 Oct; prev = Shopify 0 orders 20 Sep-18 Oct",
+  "source": "Shopify list-orders 30 Oct: GA4 shows 4 purchases, but all 4 orders are VOIDED (#1043-#1045 owner COD-fee tests 26 Oct; #1042 customer order 23 Oct voided)",
   "change": null
  },
  {
   "id": "revenue_web",
   "area": "Sales",
-  "metric": "Website revenue (GA4)",
-  "value": 6110,
+  "metric": "Website revenue, Shopify-verified",
+  "value": 0,
   "prev": 0,
   "unit": "INR",
-  "window": "28 d to 26 Oct",
+  "window": "2-29 Oct",
   "good": "up",
-  "source": "GA4: AI Assistant Rs 5,060 + Organic Shopping Rs 1,050",
+  "source": "Shopify 30 Oct (GA4 purchase revenue Rs 6,110 is from voided orders)",
   "change": null
  },
  {
@@ -75,37 +75,37 @@
   "id": "gsc_clicks",
   "area": "SEO",
   "metric": "Google clicks",
-  "value": 167,
-  "prev": 167,
+  "value": 181,
+  "prev": null,
   "unit": "clicks",
-  "window": "28 d to 26 Oct",
+  "window": "2-29 Oct (incl. fresh data)",
   "good": "up",
-  "source": "Search Console via Data & SEO 29 Oct",
-  "change": 0.0
+  "source": "Search Console 30 Oct, data_state all (ChatGPT report: 172 on final data)",
+  "change": null
  },
  {
   "id": "gsc_impr",
   "area": "SEO",
   "metric": "Google impressions",
-  "value": 8990,
-  "prev": 9296,
+  "value": 9271,
+  "prev": null,
   "unit": "impressions",
-  "window": "28 d to 26 Oct",
+  "window": "2-29 Oct (incl. fresh data)",
   "good": "up",
-  "source": "Search Console via Data & SEO 29 Oct",
-  "change": -0.033
+  "source": "Search Console 30 Oct",
+  "change": null
  },
  {
   "id": "gsc_pos",
   "area": "SEO",
   "metric": "Average Google position",
-  "value": 8.12,
-  "prev": 7.46,
+  "value": 8.17,
+  "prev": null,
   "unit": "position",
-  "window": "28 d to 26 Oct",
+  "window": "2-29 Oct",
   "good": "down",
-  "source": "Search Console via Data & SEO 29 Oct",
-  "change": 0.088
+  "source": "Search Console 30 Oct",
+  "change": null
  },
  {
   "id": "backlinks",
@@ -134,14 +134,14 @@
  {
   "id": "ai_sessions",
   "area": "AEO",
-  "metric": "Visits from AI assistants (GA4)",
-  "value": 91,
-  "prev": 38,
+  "metric": "Visits from AI assistants (ChatGPT + Gemini, GA4)",
+  "value": 100,
+  "prev": null,
   "unit": "sessions",
-  "window": "28 d to 26 Oct vs 28 d to 15 Oct",
+  "window": "2-29 Oct",
   "good": "up",
-  "source": "GA4 via Data & SEO 29 Oct and 18 Oct",
-  "change": 1.395
+  "source": "GA4 property 358606571, sessionSource chatgpt.com 97 + gemini 3 (verified 30 Oct; ChatGPT report)",
+  "change": null
  },
  {
   "id": "ig_followers",
@@ -333,6 +333,30 @@
   "window": "3 posts, 22-24 Oct",
   "good": "up",
   "source": "Composio LINKEDIN_LIST_REACTIONS on the 3 post URNs, 29 Oct",
+  "change": null
+ },
+ {
+  "id": "ai_wholesale",
+  "area": "AEO",
+  "metric": "ChatGPT visits landing on the wholesale/corporate page",
+  "value": 27,
+  "prev": null,
+  "unit": "sessions",
+  "window": "2-29 Oct",
+  "good": "up",
+  "source": "GA4 sessionSource chatgpt.com x landingPage, 30 Oct",
+  "change": null
+ },
+ {
+  "id": "wedding_q",
+  "area": "SEO",
+  "metric": "Wedding-basket searches: impressions at position 2-8 with 0 clicks",
+  "value": 230,
+  "prev": null,
+  "unit": "impressions",
+  "window": "2-29 Oct",
+  "good": "down",
+  "source": "Search Console query x page 30 Oct, /products/wedding-gift-hamper-basket-2",
   "change": null
  }
 ]

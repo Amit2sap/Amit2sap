@@ -5,12 +5,32 @@
   "value": 3
  },
  {
+  "date": "2026-10-30",
+  "id": "aeo_score",
+  "value": 3
+ },
+ {
   "date": "2026-10-29",
   "id": "ai_sessions",
   "value": 91
  },
  {
+  "date": "2026-10-30",
+  "id": "ai_sessions",
+  "value": 100
+ },
+ {
+  "date": "2026-10-30",
+  "id": "ai_wholesale",
+  "value": 27
+ },
+ {
   "date": "2026-10-29",
+  "id": "b2b_won",
+  "value": 1
+ },
+ {
+  "date": "2026-10-30",
   "id": "b2b_won",
   "value": 1
  },
@@ -20,7 +40,17 @@
   "value": 0
  },
  {
+  "date": "2026-10-30",
+  "id": "backlinks",
+  "value": 0
+ },
+ {
   "date": "2026-10-29",
+  "id": "deals_open",
+  "value": 4
+ },
+ {
+  "date": "2026-10-30",
   "id": "deals_open",
   "value": 4
  },
@@ -30,7 +60,17 @@
   "value": 616
  },
  {
+  "date": "2026-10-30",
+  "id": "emails_sent",
+  "value": 616
+ },
+ {
   "date": "2026-10-29",
+  "id": "fb_followers",
+  "value": 2661
+ },
+ {
+  "date": "2026-10-30",
   "id": "fb_followers",
   "value": 2661
  },
@@ -40,7 +80,17 @@
   "value": 0
  },
  {
+  "date": "2026-10-30",
+  "id": "gbp_makhana_reviews",
+  "value": 0
+ },
+ {
   "date": "2026-10-29",
+  "id": "gbp_posts",
+  "value": 8
+ },
+ {
+  "date": "2026-10-30",
   "id": "gbp_posts",
   "value": 8
  },
@@ -50,7 +100,17 @@
   "value": 4.7
  },
  {
+  "date": "2026-10-30",
+  "id": "gbp_rating",
+  "value": 4.7
+ },
+ {
   "date": "2026-10-29",
+  "id": "gbp_reply_rate",
+  "value": 100
+ },
+ {
+  "date": "2026-10-30",
   "id": "gbp_reply_rate",
   "value": 100
  },
@@ -60,7 +120,17 @@
   "value": 21
  },
  {
+  "date": "2026-10-30",
+  "id": "gbp_reviews",
+  "value": 21
+ },
+ {
   "date": "2026-10-29",
+  "id": "gbp_reviews_2026",
+  "value": 1
+ },
+ {
+  "date": "2026-10-30",
   "id": "gbp_reviews_2026",
   "value": 1
  },
@@ -70,9 +140,19 @@
   "value": 167
  },
  {
+  "date": "2026-10-30",
+  "id": "gsc_clicks",
+  "value": 181
+ },
+ {
   "date": "2026-10-29",
   "id": "gsc_impr",
   "value": 8990
+ },
+ {
+  "date": "2026-10-30",
+  "id": "gsc_impr",
+  "value": 9271
  },
  {
   "date": "2026-10-29",
@@ -80,7 +160,17 @@
   "value": 8.12
  },
  {
+  "date": "2026-10-30",
+  "id": "gsc_pos",
+  "value": 8.17
+ },
+ {
   "date": "2026-10-29",
+  "id": "ig_clicks",
+  "value": 17
+ },
+ {
+  "date": "2026-10-30",
   "id": "ig_clicks",
   "value": 17
  },
@@ -90,7 +180,17 @@
   "value": 2848
  },
  {
+  "date": "2026-10-30",
+  "id": "ig_followers",
+  "value": 2848
+ },
+ {
   "date": "2026-10-29",
+  "id": "ig_reach",
+  "value": 2843
+ },
+ {
+  "date": "2026-10-30",
   "id": "ig_reach",
   "value": 2843
  },
@@ -100,7 +200,17 @@
   "value": 3
  },
  {
+  "date": "2026-10-30",
+  "id": "li_posts",
+  "value": 3
+ },
+ {
   "date": "2026-10-29",
+  "id": "li_reactions",
+  "value": 0
+ },
+ {
+  "date": "2026-10-30",
   "id": "li_reactions",
   "value": 0
  },
@@ -110,7 +220,17 @@
   "value": 4
  },
  {
+  "date": "2026-10-30",
+  "id": "orders_web",
+  "value": 0
+ },
+ {
   "date": "2026-10-29",
+  "id": "pin_followers",
+  "value": 136
+ },
+ {
+  "date": "2026-10-30",
   "id": "pin_followers",
   "value": 136
  },
@@ -120,7 +240,17 @@
   "value": 53459
  },
  {
+  "date": "2026-10-30",
+  "id": "pin_impr",
+  "value": 53459
+ },
+ {
   "date": "2026-10-29",
+  "id": "pin_out",
+  "value": 20
+ },
+ {
+  "date": "2026-10-30",
   "id": "pin_out",
   "value": 20
  },
@@ -130,13 +260,33 @@
   "value": 81
  },
  {
+  "date": "2026-10-30",
+  "id": "pin_saves",
+  "value": 81
+ },
+ {
   "date": "2026-10-29",
   "id": "revenue_web",
   "value": 6110
  },
  {
+  "date": "2026-10-30",
+  "id": "revenue_web",
+  "value": 0
+ },
+ {
   "date": "2026-10-29",
   "id": "warm_leads",
   "value": 15
+ },
+ {
+  "date": "2026-10-30",
+  "id": "warm_leads",
+  "value": 15
+ },
+ {
+  "date": "2026-10-30",
+  "id": "wedding_q",
+  "value": 230
  }
 ]

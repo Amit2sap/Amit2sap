@@ -28,6 +28,8 @@ Owner request 29 Oct 2026: check how every agent performs (efficiency, scope for
 9. Append 3-5 lines to `reports/agents/master.md`; commit "master: report <date>" and push.
 
 ## Rules
+- Sales = Shopify orders that are not voided, cancelled or tests (owner's own orders are tests). Never use GA4 purchases as sales (30 Oct: all 4 Oct GA4 purchases were voided). Show GA4 purchases separately, labelled.
+- Read the latest ChatGPT growth feed the owner pastes (sales/chatgpt_feed_*.md); verify its numbers before using them and list any disagreement.
 - Scope: GrassCrafts agents only. Do NOT include, score, mention or read anything about the Aurelia study coach or the job-application agent (owner, 29 Oct), even though agents/README.md lists them under usage.
 - Facts only from tools and repo files. A number you could not read is "not available", never 0 or a guess. Name the window for every number.
 - Do not count historical orders (e.g. Pipedrive deals entered on 28 Oct for Jan/Feb 2026 form orders) as new sales.

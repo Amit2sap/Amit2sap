@@ -48,3 +48,13 @@ How it works:
 - [ ] D28 (Lead Research) Same for L1-L5 + S1-S4.
 - [ ] D29 (Social) Same for Pinterest P1-P5, Facebook F1-F5, Instagram I1-I5 and LinkedIn K1-K5 + S1-S4; log each channel's items separately.
 - [ ] D30 (Google Business) Same for G1-G5 + S1-S4.
+
+## Round 5 — issued 2026-10-30 (from the ChatGPT growth feed, verified by the master agent)
+
+- [ ] D31 (Email & Actions) Put in Sristi's next morning email: customer order #1042 (23 Oct, ₹1,170, Shopify status VOIDED) was a real order; ask her why it was voided and whether to contact the customer to complete it. Do not contact the customer yourself. Log the answer.
+- [ ] D32 (Website) P1: audit /pages/wholesale-corporate-gifting (27 of 97 ChatGPT visits land here): bulk-enquiry button above the fold, working mobile enquiry route (form/WhatsApp/email), product categories with links, verified trust facts only (no MOQ, prices, lead times or certifications). Back up first; log before/after HTML and status (proposed / drafted / changed / live, verified by Admin API read-back). Theme changes only in an unpublished copy.
+- [ ] D33 (Data & SEO) P3: /products/wedding-gift-hamper-basket-2 ranks 2.4-8 for "basket for wedding gift" and similar (≈230 impressions, 0 clicks, 2-29 Oct). Check the live title, description and product image in search results; rewrite title/description for the wedding-gift intent (backup + changelog); re-measure CTR 14 days later.
+- [ ] D34 (Website) P2: Sabai and Kauna collection pages (/collections/sabai-grass, /collections/kauna-grass-manipur): add a short buyer-selection section (uses, sizes, care, which product for which occasion) from Shopify data and the story bank only; [ASK SRISTI] for care details.
+- [ ] D35 (AI Search) AEO tracking format for every check: question, platform (ChatGPT Search / Gemini / Perplexity / Google AI), GrassCrafts mentioned / cited / linked, exact cited page, competing brands, date, evidence URL or "NOT CHECKED". Merge the ChatGPT agent's AEO block into seo/ai_visibility_log.json in the same format.
+- [ ] D36 (Data & SEO) Sales in every report = Shopify orders that are not voided, cancelled or test (customer "Amit Dey" orders are tests unless the owner says otherwise). Report GA4 purchases separately and label them "GA4 (may include tests)".
+- [ ] D37 (Google Business) The ChatGPT "Daily Makhana Post" workflow posts to Google Business. To avoid double posting, our agent does NOT post on the Makhana by GrassCrafts listing from now on (G5 becomes: request its first review only). Keep posting on the main GrassCrafts by Abalone listing.

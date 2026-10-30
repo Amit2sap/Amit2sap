@@ -1,50 +1,50 @@
 [
  {
   "rank": 1,
-  "area": "AEO",
-  "action": "Put AI Search first: it produced the only new B2B order and 3 of 4 website orders. Ship one answer page per missing buyer question each week.",
-  "owner": "AI Search + Website",
+  "area": "Sales",
+  "action": "Find out why customer order #1042 (23 Oct, Rs 1,170) was voided and recover it; stop counting test orders as sales (Shopify-verified sales only in every report).",
+  "owner": "Sristi + Email & Actions",
   "effort": "low"
  },
  {
   "rank": 2,
-  "area": "Sales",
-  "action": "Email quality over volume: 50 personalised emails a day instead of 100 generic ones, and a daily call list for Sristi from every reply.",
-  "owner": "Email & Actions",
-  "effort": "low"
- },
- {
-  "rank": 3,
-  "area": "Measurement",
-  "action": "Restart Google reviews: only 1 new review in 2026. Ask recent buyers (with Sristi's OK) and add review links to order follow-ups; reviews and rating are now tracked twice a week.",
-  "owner": "Email & Actions + Sristi",
-  "effort": "low"
- },
- {
-  "rank": 4,
   "area": "Website",
-  "action": "Conversion before content: about 1,200 visits gave 4 orders. Add real reviews, COD and free-shipping trust lines on top products; pause new blogs for 2 weeks.",
+  "action": "Improve /pages/wholesale-corporate-gifting: it is where ChatGPT sends buyers (27 of 97 visits). Clear bulk-enquiry button, mobile form, real categories, trust facts.",
   "owner": "Website",
   "effort": "medium"
  },
  {
+  "rank": 3,
+  "area": "SEO",
+  "action": "Wedding-basket searches rank at position 2-8 with 0 clicks (230 impressions): check the live snippet and fix title, description and image for /products/wedding-gift-hamper-basket-2.",
+  "owner": "Data & SEO",
+  "effort": "low"
+ },
+ {
+  "rank": 4,
+  "area": "AEO",
+  "action": "Weekly AI check with platform, cited page and evidence URL for each of the 10 buyer questions; mark NOT CHECKED when not tested.",
+  "owner": "AI Search + ChatGPT agent",
+  "effort": "low"
+ },
+ {
   "rank": 5,
   "area": "SEO",
-  "action": "Fix cane planters and sabai cannibalisation (found 3 runs in a row) and send the 7 drafted backlink pitches; inbound links are still 0.",
-  "owner": "Data & SEO + Website",
+  "action": "Sabai and Kauna collection pages: add buyer-intent selection help (uses, sizes, care) from verified facts.",
+  "owner": "Website",
   "effort": "medium"
  },
  {
   "rank": 6,
-  "area": "Social",
-  "action": "Answer every Facebook Live price ask; ask Sristi for one Live a week; Instagram moves to reels; Pinterest judged by clicks to site.",
-  "owner": "Social + Owner",
-  "effort": "medium"
+  "area": "Reviews",
+  "action": "Restart Google reviews (1 new in 2026): review requests to delivered customers with Sristi's OK.",
+  "owner": "Email & Actions + Google Business",
+  "effort": "low"
  },
  {
   "rank": 7,
   "area": "Efficiency",
-  "action": "The weekly limit ran out on 28 Oct. Skip agent runs with nothing new, keep reports to 5 lines, and stop duplicate runs (use outreach/RUN_LOCK.json every time).",
+  "action": "Agents follow agents/scorecard_95.md; skip runs with nothing new; one run at a time.",
   "owner": "All agents",
   "effort": "low"
  }

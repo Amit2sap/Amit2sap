@@ -2,11 +2,11 @@
  {
   "agent": "AI Search",
   "schedule": "Mon/Wed/Fri 16:07",
-  "score": 82,
-  "status": "strong",
+  "score": 76,
+  "status": "good",
   "output": "AI answers naming GrassCrafts 1 -> 3 of 14; llms.txt fixed; 7 citation targets",
-  "impact": "First AI-sourced B2B order (12 dining sets). AI visits 38 -> 91, 3 of 4 web orders",
-  "issue": "Only 3 of 14 buyer questions; all 4 makhana questions missing",
+  "impact": "ChatGPT sent 97 visits (27 to the wholesale page) and the Shweta Chitale B2B order (owner-reported). No verified website sale: the 3 GA4 'ChatGPT purchases' were the owner's voided test orders",
+  "issue": "Correction 30 Oct: earlier report credited it with 3 web orders; AEO tracking lacks platform, cited page and evidence URL",
   "next": "Give it 1 on-site answer page per missing question per week (sabai, madur, corporate Diwali, wedding return gifts, makhana)"
  },
  {
@@ -15,9 +15,9 @@
   "score": 70,
   "status": "good",
   "output": "Landing pages, 208-product audit, AEO on top 10, 7 blog articles, theme copy",
-  "impact": "Content live; conversion still ~0.3% (4 orders from ~1,200 sessions)",
+  "impact": "Content live; 1,240 visits gave 0 verified orders in Oct (all 4 GA4 purchases voided). 27 ChatGPT visitors landed on the wholesale page",
   "issue": "Output is content-heavy; backlinks plan (45 targets) not executed; 0 inbound links",
-  "next": "Pause new blogs for 2 weeks; work the conversion list (reviews on product pages, COD/free-shipping trust line) and send the 7 drafted backlink pitches"
+  "next": "P1: audit and improve /pages/wholesale-corporate-gifting (CTA, mobile enquiry route, trust info), before/after evidence; then trust block (D7)"
  },
  {
   "agent": "Data & SEO",
