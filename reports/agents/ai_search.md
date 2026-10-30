@@ -19,3 +19,8 @@
 - Real buyer: Shweta Chitale (12 dining sets, 27 Oct) found us via ChatGPT search; logged in seo/ai_visibility_log.json.
 - llms.txt matches the live Shipping policy and Shopify prices, except the makhana collection line omits the 100 g pack and no line says the 100 g pack and hamper pay standard rates. Fix text in seo/website_backlog.md (Website agent, owner publishes).
 - 11 citation targets added. Off-site email: none this run (no verified published contact in hand; nothing guessed). Missing-question action: on-site fix proposed for makhana (the 4 missing makhana questions share one answer page). No owner alert.
+
+## 2026-10-30 (Fri, light check)
+- Re-ran the 10 questions missing in the 29 Oct full check (madur, corporate Diwali, cane planters, bulk hampers, sustainable decor, sitalpati, 4 makhana): GrassCrafts named in 0 of 10. Competitors and sources logged in seo/ai_visibility_log.json; 4 new rows in seo/citation_targets.json.
+- Action (1 question): madur mat on-site answer text added to seo/website_backlog.md for the Website agent (uses only GI no. 567 and standing shipping facts; prices to be checked on live Shopify first). Shopify not queried this run as no prices were written.
+- Off-site email: none (no verified published contact in hand). No owner alert.

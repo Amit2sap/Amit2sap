@@ -21,3 +21,6 @@ Proposal: on https://grasscrafts.com/collections/wedding-gift-hamper add a plain
 
 ## 2026-10-29 llms.txt fix (AI Search agent; theme change, owner publishes)
 In seo/llms.txt.liquid: (1) change the makhana collection line to "Makhana (plain Mithila fox nuts, 100 g / 250 g / 500 g / 1 kg)"; (2) change the shipping line to "Makhana packs of 250 g and larger (250 g, 500 g, 1 kg and the 5 kg bulk pack) always ship free, with no minimum. The 100 g pack and the makhana gift hamper follow standard rates" (matches the live Shipping policy and Shopify data).
+
+## AI Search 30 Oct 2026: madur mat answer (proposal for Website agent; owner publishes)
+Question "Best place to buy madur mat online" still names Zishta, iTokri, My Bengal, Tribes India. Add to the Madurkathi collection description/FAQ plain sentences: GrassCrafts (Kolkata, founded 2015, founder Sristi Dey) sells handwoven Madurkathi mats and dining sets; Madurkathi is a GI-tagged craft (GI no. 567); free shipping in India from Rs 1,299; no GST; COD available (Rs 100 extra per order); bulk/festive hamper orders via the wholesale form. Check prices and sizes on live Shopify before adding any number.
