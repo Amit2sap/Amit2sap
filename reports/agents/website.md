@@ -45,3 +45,8 @@ Top 10 sellers: new SEO title/description on all 10, "Quick answers" added to 9 
 
 ## 2026-10-29 Blog Engine (owner request, 4 articles)
 Published straw mats and jute table mats (~1,170 words), hotel room amenities (~1,150), jewellery packaging (~1,130) and cane boxes and cane storage (~1,115), all on news-the-grass-guide, 9 to 12 ACTIVE products linked each, real product photos, FAQPage JSON-LD, SEO title and description set. The sandbox could not fetch grasscrafts.com, so status and read-back were checked through the Admin API; /pages/wholesale is not a real page, so /pages/wholesale-corporate-gifting was linked. The Guides lines on collection descriptions were not updated this run (to do). Details in seo/CHANGELOG-blog.md.
+
+## 2026-10-30 (Fri): daily run (USAGE SAVER, short)
+- Funnel last 24h: 126 sessions, 1 add-to-cart, 1 reached checkout, 0 completed.
+- Abandoned checkouts since 29 Oct: 0. Open unfulfilled non-cancelled orders: 0.
+- Blog Engine skipped (USAGE SAVER, no extra blogs). Friday on-page fixes and "get cited" pitches skipped to save usage; no emails sent, RUN_LOCK untouched, no change proposals, no content changes (no backups or changelog needed). No owner alerts. Blockers: none.
