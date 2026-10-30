@@ -123,7 +123,7 @@
   "phone_source": "",
   "competitor_used": "unknown",
   "status": "emailed",
-  "company": "Mayavé",
+  "company": "Mayav\u00e9",
   "city": "Delhi NCR",
   "website": "https://mayave.com",
   "signal": "Opened five stores across Delhi NCR (Noida, Ghaziabad, Gurugram, Dwarka, NSP) in 45 days",
@@ -369,7 +369,7 @@
    "bridal hamper baskets",
    "display trays"
   ],
-  "occasion": "Wedding season (Tamil Nadu Thai muhurtham Jan–Feb)",
+  "occasion": "Wedding season (Tamil Nadu Thai muhurtham Jan\u2013Feb)",
   "current_products": "Gold, diamond, silver jewellery",
   "buying_pattern": "estimate: rapid store expansion"
  },
@@ -990,7 +990,7 @@
  {
   "found": "2026-10-22",
   "segment": "diamond_jewellery",
-  "company": "Réia Diamonds",
+  "company": "R\u00e9ia Diamonds",
   "city": "Bengaluru",
   "website": "https://reia.diamonds",
   "signal": "Lab-grown engagement ring studios in Bengaluru: HSR Layout studio opened 15 Aug 2026 (after a Dickenson Road studio, Apr 2026).",
@@ -1452,7 +1452,7 @@
   "current_products": "Lab-grown diamond jewellery",
   "budget_signal": "unknown",
   "buying_pattern": "estimate: festive/wedding season",
-  "status": "new"
+  "status": "emailed 2026-10-30"
  },
  {
   "found": "2026-10-30",

@@ -33,7 +33,7 @@
   "company": "Just In Time",
   "city": "Mumbai / pan-India (100 stores)",
   "website": "https://justintime.in",
-  "signal": "100th store at Hughes Road, Mumbai (Jul 2026); flagship boutique in Connaught Place, New Delhi (Mar 2026); target ₹1,000 cr by FY27",
+  "signal": "100th store at Hughes Road, Mumbai (Jul 2026); flagship boutique in Connaught Place, New Delhi (Mar 2026); target \u20b91,000 cr by FY27",
   "signal_url": "https://www.tribuneindia.com/news/business/just-in-time-opens-100th-store-celebrating-two-decades-of-building-indias-most-trusted-destination-for-international-timepieces/",
   "contact_name": "Rajesh Chheda",
   "role": "Founder & Managing Director (source: https://justintime.in/pages/about-us)",
@@ -86,10 +86,10 @@
  {
   "found": "2026-10-18",
   "segment": "luxury_watches",
-  "company": "TimeVallée by Art of Time (Hyderabad)",
+  "company": "TimeVall\u00e9e by Art of Time (Hyderabad)",
   "city": "Hyderabad",
   "website": "https://artoftimeindia.com",
-  "signal": "Opened TimeVallée luxury watch boutique at Road No. 62, Jubilee Hills, Hyderabad (May 2026)",
+  "signal": "Opened TimeVall\u00e9e luxury watch boutique at Road No. 62, Jubilee Hills, Hyderabad (May 2026)",
   "signal_url": "https://www.retail4growth.com/news/timevallee-opens-new-boutique-in-hyderabad-7983",
   "contact_name": "",
   "role": "Boutique team",
@@ -228,7 +228,7 @@
   "company": "Zimson Watches (Zimson Times Pvt Ltd)",
   "city": "Coimbatore / South India",
   "website": "https://zimsonwatches.com",
-  "signal": "Running a Diwali 2026 gifting programme (free gift wrap, handwritten card, presentation box, ₹500 engraving) across 14 showrooms",
+  "signal": "Running a Diwali 2026 gifting programme (free gift wrap, handwritten card, presentation box, \u20b9500 engraving) across 14 showrooms",
   "signal_url": "https://zimsonwatches.com/blogs/news/tissot-watch-diwali-festival-gift-india-2026",
   "contact_name": "",
   "role": "Corporate office",
@@ -245,7 +245,7 @@
   "occasion": "Festive gift packaging / gift-with-purchase; Valentine's Day",
   "competitor_used": "unknown",
   "current_products": "Official brand presentation boxes, gift wrap and cards (source: signal URL)",
-  "budget_signal": "their engraving add-on ₹500 (source: signal URL)",
+  "budget_signal": "their engraving add-on \u20b9500 (source: signal URL)",
   "buying_pattern": "festive gifting push (Diwali 2026, source: signal URL)",
   "status": "new"
  },
@@ -433,7 +433,7 @@
   "current_products": "Indian microbrand watches, brand collaborations",
   "budget_signal": "Tithi listed at Rs 5,499 (WatchTime India)",
   "buying_pattern": "several limited editions a year (source above)",
-  "status": "new"
+  "status": "emailed 2026-10-30"
  },
  {
   "found": "2026-10-22",
