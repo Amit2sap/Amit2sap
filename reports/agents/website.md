@@ -50,3 +50,8 @@ Published straw mats and jute table mats (~1,170 words), hotel room amenities (~
 - Funnel last 24h: 126 sessions, 1 add-to-cart, 1 reached checkout, 0 completed.
 - Abandoned checkouts since 29 Oct: 0. Open unfulfilled non-cancelled orders: 0.
 - Blog Engine skipped (USAGE SAVER, no extra blogs). Friday on-page fixes and "get cited" pitches skipped to save usage; no emails sent, RUN_LOCK untouched, no change proposals, no content changes (no backups or changelog needed). No owner alerts. Blockers: none.
+
+## 2026-10-30 directive run (D32, D34, D7; owner approved)
+- D32: wholesale page mobile-checked, passes, no change. D34: Sabai + Kauna collections got buyer-selection sections (Kauna stale ₹1,250 shipping fixed to ₹1,299). D7: trust block added to 10 products (toran, makhana, Kauna embroidered handbag, WH placemats, Sitalpati handbag, bamboo cage lamp, Kauna hamper basket, WH storage basket, Kauna jewellery tray, cane planter set).
+- Backups in backups/2026-10-30-directives/; undo in seo/CHANGELOG-2026-10-30-website.md. No emails, no theme change.
+- New thing: buyer-selection copy lists real sizes/colours per use from live variants. Blocker: care details need Sristi.

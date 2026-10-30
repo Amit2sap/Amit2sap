@@ -100,3 +100,8 @@
 ## PostHog (from the owner's publish of theme 189857562797, 29 Oct 2026)
 Mondays, after the funnel check: PostHog connector (mcp__PostHog__exec; `learn` skills first, confirm events with read-data-schema). Report in 5 lines: visitors, top 5 pages, funnel product_viewed -> add-to-cart click -> checkout click, and what 3-5 replays of cart-but-no-checkout sessions show (e.g. shipping cost surprise, slow page, dead clicks). Turn findings into backlog items in seo/website_backlog.md. Never watch more than 5 replays a run; never change PostHog settings.
 
+
+## Master directives
+- D32 (30 Oct, confirmed): wholesale page audited on mobile; CTA, form, WhatsApp route and category links present. Keep these fields when editing the page.
+- D34 (30 Oct, confirmed): Sabai and Kauna collection descriptions carry a "which piece for which use" section built only from live product data. Do not write care instructions until Sristi supplies them.
+- D7 (30 Oct, confirmed): top-10 products carry a <div class="gc-trust-block"> at the end of the description. Skip a product if the block exists. Makhana uses its own shipping wording and no artisan line. Conversion before content: no new general blog articles until 12 Nov (AI Search answer pages excepted).

@@ -272,3 +272,5 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - Sun Apparels and Event Mantra Kolkata: already in Pipedrive and pitched 29 Oct; notes added, no duplicates.
 - [ ] Hamper Hive, House of Hampers, SETU & CO., Euro India Foods: not added. ChatGPT gave no website, and searches found no official site matching the names. Need ChatGPT's source URLs first.
 - [x] 2026-10-30 from:reply_watcher (13:50 UTC) | No new human replies since 10:00 IST (only Jotform Sristi lead-update forms, bank/job mail, a Bitespeed survey auto-mail). Bounces added to do_not_send: info@pygcorp.com, munish@theurbanjungle.in (temporary delays ignored). No master directives addressed to Reply watcher. WhatsApp: paused. 0 replies, 0 hot, 0 confirmations, 0 shipped.
+- [ ] [ASK SRISTI] care details for Sabai and Kauna (cleaning, moisture, sunlight) so they can go on the collection pages; none written (D34, 30 Oct, Website).
+- [ ] 2026-10-30 from:website | Wholesale page FAQ says baskets "start under ₹500" and names past clients; confirm both are approved (D32 flag). Kauna collection had a stale "₹1,250" free-shipping line, now ₹1,299.
