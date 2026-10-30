@@ -22,3 +22,9 @@ In this folder: gsc_totals.csv, segments_last_28d.csv, E_striking_distance_pos4-
 - searchAppearance pulled on its own (cannot combine with query/page). Country, device and query×country/device are last_28d only.
 - "Branded" = regex `grass ?crafts?|grasscraft|abalone`; it also tags generic phrases like "kauna grass craft" and "sabai grass craft" as branded, so branded figures are slightly high.
 - Step 2 (site audit from Shopify) is not in this extract yet.
+
+## Findings row files (30 Oct, for ChatGPT's keyword-by-keyword plan)
+- gsc_query_report_findings.csv — 298 rows: every query in the findings (106 queries: striking distance, zero-click, competing pages) for last_28d, prev_28d and last_3m. Checksum-verified against the source extract.
+- gsc_query_page_report_findings.csv — 382 rows: the same queries × the pages that got ≥3 impressions, same three periods. Page paths are relative to https://grasscrafts.com. Checksum-verified.
+- Full, unfiltered gsc_query_report.csv (7,887 rows) and gsc_query_page_report.csv (10,719 rows, all 5 periods) are in the zip.
+- competitor_top5.csv is ChatGPT's deliverable (Step 4, real Google results checks); Search Console cannot provide competitor rankings.
