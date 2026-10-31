@@ -24,3 +24,5 @@
 
 ## 2026-10-30 (Fri, USAGE SAVER)
 - No post (usage saver). Actions-page kit not built. Approved saves executed: 0 (none approved).
+
+- 2026-10-31 (off day, social): no post. Directives D15/D16/D22/D29 confirmed; lesson post goes on actions page on next posting-day kit. Post URNs: none new.

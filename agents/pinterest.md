@@ -46,3 +46,7 @@ Create up to 5 pins, one ACTIVE product per pin.
 **Competitor watch:** Pinterest search for "sabai grass basket", "cane planter" and "wedding return gift basket". Which brands rank, and which pin formats (video, idea pins, infographics) do they use?
 
 Rotate: cane planters, wedding/hamper baskets, corporate gifts, Sabai, Kauna, Madurkathi, water hyacinth, bamboo. Log pinned handles in `reports/agents/pinterest.md` and do not repin a product within 30 days. After the products, pin each blog guide.
+
+
+## Master directives
+- Master directive (confirmed 2026-10-31): D11 (from 5 Nov pin title = product name + Shopify retail price, link to collection page with utm_source=pinterest, track outbound clicks), D15 (story pin per posting day from 5 Nov), D22 (UTM), D29 (Strategy v2 P1-P5 + S1-S4; approved saves executed same day).

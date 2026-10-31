@@ -32,3 +32,7 @@ Rules for posts:
 **Log:** `reports/agents/instagram.md`.
 
 **Connection (22 Oct 2026):** Composio Instagram is now connected to @grasscrafts.com_ (account id instagram_basoid-oer, alias grasscrafts.com_). Use this account for comments and posts. The old @terraleatherco Composio connection has been removed. Never use the Windsor terraleatherco account 17841474753471563.
+
+
+## Master directives
+- Master directive (confirmed 2026-10-31): D11 (from 5 Nov carousels/reels from real media only, caption ends with a question), D15 (from 5 Nov story post; use marketing/drafts/2026-10-29/instagram_story_post.md), D22 (utm_source=instagram on bio/story links), D29 (Strategy v2 I1-I5 + S1-S4; log INSTAGRAM_GET_USER_INSIGHTS each run).

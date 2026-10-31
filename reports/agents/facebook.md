@@ -39,3 +39,5 @@
 
 ## 2026-10-30 (Fri, USAGE SAVER)
 - No post (usage saver). Read 9 posts from the last 7 days via GET_PAGE_POSTS: unanswered top-level comments on the 28 Oct and 24 Oct Lives were only greetings, compliments, tags and spam (no buying questions), so no replies. No hot leads.
+
+- 2026-10-31 (off day, social): 7 posts in last 7 days, 79 unanswered top-level comments (mostly greetings/chat from Lives of 24 and 28 Oct; skipped per rules). 7 replies posted (200 OK, no retries, no price/product claims, WhatsApp/website only): Live 'what are you showing', Kolkata, size ask, price-genuine thanks. No price/bulk asks, no new leads. Facebook D10 confirmed. Shopify not queried: no price/shipping stated.

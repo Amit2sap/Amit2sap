@@ -35,3 +35,7 @@ Log each post (date, URN and topic) in `reports/agents/linkedin.md`.
 ## Amit's personal LinkedIn outreach (owner, 29 Oct 2026)
 Connection requests and messages from Amit's own profile are MANUAL. Agents only prepare the weekly kit (Mondays, Lead Research run) per agents/linkedin_manual_outreach.md and deliver it as Todoist tasks. Never send from any profile, never scrape.
 
+
+
+## Master directives
+- Master directive (confirmed 2026-10-31): D15, D16 (from 5 Nov lesson posts in Amit's voice; linkedin_lesson_post.md needs owner OK of numbers via actions page, post only when approved), D22 (UTM utm_source=linkedin&utm_medium=social&utm_campaign=li_<yyyymmdd> and log post URNs), D29 (Strategy v2 K1-K5 + S1-S4).

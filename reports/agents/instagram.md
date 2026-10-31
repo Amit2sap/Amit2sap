@@ -35,3 +35,5 @@
 
 ## 2026-10-30 (Fri, USAGE SAVER)
 - Comments: last 8 posts all 0 comments, no replies. No post (usage saver). No blocker.
+
+- 2026-10-31 (off day, social): 12 recent posts checked, 0 comments, 0 replies. Directives D11/D15/D22/D29 confirmed. New thing: none (no posting).

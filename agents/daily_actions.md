@@ -43,3 +43,7 @@ Query items where kind=="collab" and status=="approved". Send each from Gmail wi
 **How to find collab targets when site fetch is blocked (23 Oct):** run the search and the check inside the Composio workbench (COMPOSIO_REMOTE_WORKBENCH): `web_search()` for "<segment> <city> email address", keep business-domain emails only (no gmail/yahoo), drop any domain in outreach/sent_log.json or outreach/leads/, then `requests.get` the site's home, /contact, /contact-us and /pages/contact pages and keep the email ONLY if it appears on the company's own page (store that page as url). Pinterest saves need a global pin search; Composio's Pinterest search covers only our own pins, so skip saves unless the owner pastes pin links.
 
 **Bounce check (24 Oct):** 4 of 9 collab emails bounced even though each address was published on the company's site (weandyoudecor, earthheart, mattergifts, inchingindia). From now on also run Hunter email-verifier on every collab address before adding it; skip any that are not "valid" or "accept_all", and note the Hunter result in the item's context.
+
+
+## Master directives
+- Master directive (confirmed 2026-10-31): D16 (put linkedin_lesson_post.md on the next posting-day kit for owner approval), D29 (log items met).
