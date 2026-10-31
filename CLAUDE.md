@@ -13,7 +13,7 @@ Every new Claude session on this repo reads this file first. It is the memory of
 - Never quote prices, discounts, MOQ, lead times or samples in outreach — except the Sristi-approved priced trade catalogue. Never accept partnerships or sign-ups: save a draft and flag.
 - Never invent facts, reviews, certifications, client names or numbers. No consumer profiling or follower scraping. Never auto-comment on other people's posts (owner approves via the actions page).
 - Website: back up before every change (backups/), log undo steps (seo/CHANGELOG-*.md). Theme edits only in an unpublished theme copy; the owner publishes. Never change prices, inventory, discounts, payments, checkout, shipping or apps without the owner.
-- Image generation is PAUSED (agents/lifestyle_images.md). Use only real photos.
+- Image generation is PAUSED (agents/lifestyle_images.md). Use only real photos. No GrassCrafts logo or wordmark on any image or collage the agents make (owner, 31 Oct).
 - Usage: Sonnet subagents for routine runs, one job at a time, no image viewing, small outputs.
 
 ## Where things are
