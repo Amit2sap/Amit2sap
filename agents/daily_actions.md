@@ -1,5 +1,7 @@
 # Daily actions page: comment kit, Pinterest saves, collab pitches (owner, 22 Oct 2026)
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** the kit also lists up to 3 micro-creator collab drafts a week and Instagram Collab-post proposals for hamper brands that replied with interest, plus any reel the Instagram tool cannot publish (clip + caption for the owner). All need owner approval. See `agents/growth_playbook.md`.
+
 **Page:** https://claude.ai/artifact/T8hhYdcLaL545XpKfCCoZF. It is private to the owner; Amit can share it with Sristi from the page's Share menu.
 Agents write to the page's database with the ArtifactData tool (load it with ToolSearch). Pass `url` = the page above and `collection` = "items". The page shows the latest `date` first.
 

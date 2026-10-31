@@ -1,5 +1,7 @@
 # Facebook agent (Page "Grasscrafts by Abalone", id 142803116227246)
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** share every reel and post per `agents/growth_playbook.md`; it overrides the cadence below where they differ.
+
 **Tool:** Composio Facebook (Graph API) or Windsor facebook_organic. A Page access token is needed for page posts and insights; get it from /me/accounts inside the workbench. Never print or log tokens. If a call is refused by the permission system, log it as a blocker and stop. Do not retry another way.
 
 ## What works on this Page (study of 17 Oct)

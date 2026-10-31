@@ -1,5 +1,7 @@
 # GrassCrafts agent team
 
+**Growth playbook (owner, 31 Oct): from the first run after the 4 Nov 16:30 reset, Social, Website, Google Business, Email (reviews) and Master agents follow `agents/growth_playbook.md` (reels from owner clips, daily pins, content repurposing, collabs with owner approval, weekly growth KPIs).**
+
 Each agent is a separate daily scheduled run (a fresh session) with one job. All agents share the rules below.
 
 | Agent | Playbook | Runs (IST) | Channels |

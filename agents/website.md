@@ -1,5 +1,7 @@
 # Website & Search agent (Shopify + Google + AI search)
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** blog articles answer buyer questions for AI search; each new article is repurposed (1 carousel, up to 5 pins, 1 LinkedIn post, 1 Google Business post, llms.txt check) via a handoff line. See `agents/growth_playbook.md`.
+
 ## Daily
 1. **AI-visibility check.** Run `seo/ai_visibility_check.py` in the Composio workbench and append the result to `seo/ai_visibility_log.json`.
 2. **Store health.** Pull last-24-hour sessions, add-to-carts, checkouts and orders (Shopify analytics). Log the conversion funnel.

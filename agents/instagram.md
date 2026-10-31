@@ -1,5 +1,7 @@
 # Instagram agent (@grasscrafts.com_)
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** follow `agents/growth_playbook.md`: up to 3 reels a week (Mon/Wed/Fri) from owner clips (email subject `CLIPS`), plus 1 post every posting day; it overrides the cadence below where they differ.
+
 **Tools**, in order of preference:
 1. Composio Instagram connected to @grasscrafts.com_. The current Composio connection is @terraleatherco, which is the **wrong account**: never post there.
 2. Windsor.ai instagram (account 17841446592736656): actions create_image_post, create_carousel_post, reply_to_comment.

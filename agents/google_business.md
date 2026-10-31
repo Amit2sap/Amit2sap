@@ -1,5 +1,7 @@
 # Google Business agent
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** 2 posts a week (Tue, Sat; free limit 10 a month), weekly real-photo uploads when the tool allows, reply to every new review. See `agents/growth_playbook.md`.
+
 **Posting (owner, 26 Oct):** post to BOTH locations every run; GrassCrafts by Abalone is the main one. The ChatGPT agent also posts on Makhana, so check the last 2 days of Makhana posts first and skip a same-topic post.
 
 **Locations** (Zapier app GoogleMyBusinessCLIAPI, account accounts/113404890366334703365):

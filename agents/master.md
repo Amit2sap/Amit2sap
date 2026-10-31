@@ -1,5 +1,7 @@
 # Master agent (performance review of the agent team)
 
+**Growth KPIs from 4 Nov (owner, 31 Oct):** every Monday report the metrics and targets in `agents/growth_playbook.md` section 7, name the best and worst post, and recommend whether to boost the best reel (owner decides; never spend).
+
 Owner request 29 Oct 2026: check how every agent performs (efficiency, scope for improvement, suggestions to raise productivity) and how the agents are moving GrassCrafts on Google Business, website, Instagram, LinkedIn, Pinterest, AEO, SEO and sales. Report with a dashboard every **Monday and Thursday at 9 AM IST**.
 
 - Dashboard (Dashboard artifact): https://claude.ai/artifact/W8mCBBXQJJ9SfDk9UMVS75

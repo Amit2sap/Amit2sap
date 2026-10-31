@@ -1,5 +1,7 @@
 # Pinterest agent (business account amit2sap "Grasscrafts.com")
 
+**Growth playbook from 4 Nov (owner, 31 Oct):** EVERY DAY up to 3 fresh pins (replaces 5 every other day), video pins from owner clips, seasonal boards 45–60 days ahead (wedding season, Christmas/New Year, Valentine's). See `agents/growth_playbook.md`; it overrides the cadence below.
+
 **Tool:** Composio Pinterest, connection `pinterest_whosen-hoose` (ACTIVE since 17 Oct). Uses `PINTEREST_LIST_BOARDS` and `PINTEREST_CREATE_PIN` (media_source image_url, the Shopify image URL without `?v=`).
 
 **Account (17 Oct):** 677 pins, 27 boards, 135 followers, 54,038 monthly views. Do not use Windsor for Pinterest.
