@@ -1,0 +1,51 @@
+[
+ {
+  "rank": 1,
+  "area": "Sales",
+  "action": "Find out why customer order #1042 (23 Oct, Rs 1,170) was voided and recover it; stop counting test orders as sales (Shopify-verified sales only in every report).",
+  "owner": "Sristi + Email & Actions",
+  "effort": "low"
+ },
+ {
+  "rank": 2,
+  "area": "Website",
+  "action": "Improve /pages/wholesale-corporate-gifting: it is where ChatGPT sends buyers (27 of 97 visits). Clear bulk-enquiry button, mobile form, real categories, trust facts.",
+  "owner": "Website",
+  "effort": "medium"
+ },
+ {
+  "rank": 3,
+  "area": "SEO",
+  "action": "Wedding-basket searches rank at position 2-8 with 0 clicks (230 impressions): check the live snippet and fix title, description and image for /products/wedding-gift-hamper-basket-2.",
+  "owner": "Data & SEO",
+  "effort": "low"
+ },
+ {
+  "rank": 4,
+  "area": "AEO",
+  "action": "Weekly AI check with platform, cited page and evidence URL for each of the 10 buyer questions; mark NOT CHECKED when not tested.",
+  "owner": "AI Search + ChatGPT agent",
+  "effort": "low"
+ },
+ {
+  "rank": 5,
+  "area": "SEO",
+  "action": "Sabai and Kauna collection pages: add buyer-intent selection help (uses, sizes, care) from verified facts.",
+  "owner": "Website",
+  "effort": "medium"
+ },
+ {
+  "rank": 6,
+  "area": "Reviews",
+  "action": "Restart Google reviews (1 new in 2026): review requests to delivered customers with Sristi's OK.",
+  "owner": "Email & Actions + Google Business",
+  "effort": "low"
+ },
+ {
+  "rank": 7,
+  "area": "Efficiency",
+  "action": "Agents follow agents/scorecard_95.md; skip runs with nothing new; one run at a time.",
+  "owner": "All agents",
+  "effort": "low"
+ }
+]

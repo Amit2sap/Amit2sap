@@ -1,0 +1,60 @@
+{%- comment -%}
+  GrassCrafts: bulk / corporate enquiry on product pages.
+  Uses Shopify's built-in contact form, which emails the store's contact address. No app needed.
+  No prices, MOQ or lead times are promised here; Sristi replies with a quote.
+{%- endcomment -%}
+{%- assign gc_wa = 'Hi GrassCrafts, I want a bulk quote for: ' | append: product.title | append: ' ' | append: shop.url | append: product.url | append: ' . Quantity: , Occasion: , City: ' | url_encode -%}
+<div class="gc-bulk">
+  {%- form 'contact', id: 'GcBulkEnquiry', class: 'gc-bulk__form' -%}
+    {%- if form.posted_successfully? -%}
+      <p class="gc-bulk__ok" role="status">Thank you! Sristi from GrassCrafts will get back to you with a quote soon.</p>
+    {%- else -%}
+      <details class="gc-bulk__box"{% if form.errors %} open{% endif %}>
+        <summary class="gc-bulk__btn">Buying in bulk? Get a quote for gifting &amp; events</summary>
+        <p class="gc-bulk__intro">Corporate gifts, wedding return gifts, hotels and stores: tell us what you need and we'll reply with a quote. Custom sizes and colours on request.</p>
+        {%- if form.errors -%}<div class="gc-bulk__err">{{ form.errors | default_errors }}</div>{%- endif -%}
+        <input type="hidden" name="contact[Enquiry type]" value="Bulk quote from product page">
+        <input type="hidden" name="contact[Product]" value="{{ product.title | escape }} – {{ shop.url }}{{ product.url }}">
+        <div class="gc-bulk__grid">
+          <label>Name*<input type="text" name="contact[name]" required autocomplete="name"></label>
+          <label>Company / organisation<input type="text" name="contact[Company]" autocomplete="organization"></label>
+          <label>Email*<input type="email" name="contact[email]" required autocomplete="email"></label>
+          <label>Phone / WhatsApp*<input type="tel" name="contact[phone]" required autocomplete="tel"></label>
+          <label>Quantity (approx.)*<input type="number" name="contact[Quantity]" min="1" required></label>
+          <label>Needed by<input type="date" name="contact[Needed by]"></label>
+          <label>Occasion
+            <select name="contact[Occasion]">
+              <option>Corporate gifting</option><option>Wedding / return gifts</option><option>Hotel / café / interiors</option>
+              <option>Festive hampers</option><option>Retail / resale</option><option>Other</option>
+            </select>
+          </label>
+          <label>Delivery city<input type="text" name="contact[City]" autocomplete="address-level2"></label>
+        </div>
+        <label class="gc-bulk__full">Anything else? (sizes, colours, branding)<textarea name="contact[body]" rows="3"></textarea></label>
+        <div class="gc-bulk__actions">
+          <button type="submit" class="button">Request a quote</button>
+          <a class="gc-bulk__wa" href="https://wa.me/916290744782?text={{ gc_wa }}" target="_blank" rel="noopener">or WhatsApp us</a>
+        </div>
+        <p class="gc-bulk__more">More on <a href="/pages/wholesale-corporate-gifting">wholesale &amp; corporate gifting</a>.</p>
+      </details>
+    {%- endif -%}
+  {%- endform -%}
+</div>
+<style>
+  .gc-bulk{margin:10px 0 6px}
+  .gc-bulk__box{border:1px solid rgba(62,39,35,.25);border-radius:6px;background:#fff}
+  .gc-bulk__btn{cursor:pointer;list-style:none;padding:13px 14px;font-weight:600;font-size:1.45rem;color:#3e2723}
+  .gc-bulk__btn::-webkit-details-marker{display:none}
+  .gc-bulk__btn::after{content:"＋";float:right}
+  details[open] .gc-bulk__btn::after{content:"－"}
+  .gc-bulk__intro,.gc-bulk__more{margin:0 14px 10px;font-size:1.3rem;color:#6d5b55}
+  .gc-bulk__grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 14px}
+  .gc-bulk label{display:flex;flex-direction:column;font-size:1.25rem;color:#3e2723;gap:4px}
+  .gc-bulk input,.gc-bulk select,.gc-bulk textarea{font:inherit;font-size:1.4rem;padding:9px 10px;border:1px solid rgba(62,39,35,.3);border-radius:4px;background:#fff;color:#3e2723}
+  .gc-bulk__full{margin:10px 14px 0}
+  .gc-bulk__actions{display:flex;align-items:center;gap:14px;margin:12px 14px 10px;flex-wrap:wrap}
+  .gc-bulk__wa{color:#3e2723;text-decoration:underline;font-size:1.35rem}
+  .gc-bulk__ok{padding:12px 14px;background:#eef4e8;border-radius:6px;color:#2f4a1e}
+  .gc-bulk__err{margin:0 14px 10px;color:#b00020;font-size:1.3rem}
+  @media (max-width:480px){.gc-bulk__grid{grid-template-columns:1fr}}
+</style>

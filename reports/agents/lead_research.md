@@ -1,0 +1,80 @@
+# Lead Research log (segment agents)
+
+## 2026-10-18
+Segment agents ran in parallel. Hunter belonged to corporate today: 1 search and 1 verification used, about 30 searches and 61 verifications left; the quota resets 16 Nov. Kolkata prospects were skipped for Durga Puja week.
+
+- corporate: 10 leads. Best: Swageazy (₹5.4 Cr raise, 800+ enterprise clients; Hemant Arora, Senior Sourcing Manager, Hunter-valid). Kavyatva already buys natural-fibre baskets for its hampers.
+- wedding: 10 leads. Best: Deepali Creations, Hyderabad (sells and rents baskets and trays). Volume: Tamarind Global Weddings (welcome hampers).
+- hotels: 10 leads. Best: Riomara Kochi (opens Dec 2026, pre-opening). Also King's Mansion Goa (GM Claude Pinto) and Soma Seven Springs.
+- diamond_jewellery: 10 leads. Best: Chandukaka Saraf (25th showroom opens 18 Oct). Ivana Jewels has openings 18–25 Oct.
+- cane_planters: 10 leads. Best: Awfis Elite Aerocity (100,000 sq ft, biophilic). Volume: Nothing Before Coffee and Third Wave Coffee rollouts.
+- sustainable_decor: 10 leads. Best: The Sustainable Marketplace (onboarding brands). Contacts are search-confirmed only; recheck before sending.
+- luxury_watches: 10 leads. Best: Jaipur Watch Company (founder Gaurav Mehta). Pitch window: December, ahead of Valentine's Day.
+- gourmet: 10 leads. Best: Mittal Teas (founder Nikita Mittal). Gourmet Company already uses wicker baskets.
+- wellness: 9 leads. Best: ELE|NA Ayur, Ajabgarh (spa opens 1 Nov). Volume: Tattva, Bodhi and Carlton spa chains.
+- real_estate: 10 leads. Best: Century Real Estate and Sattva, both proven key-handover hamper buyers (from BoxUp).
+- ethnic_wear: 10 leads. Best: Snusha, Pune (new bridal store). SHREE plans 20–25 stores.
+- Blockers:
+  - The shared Composio workbench (session "upon") timed out repeatedly under parallel load, and agents overwrote each other's variables. Next time give each segment its own session or use unique variable names.
+  - web_search drops source URLs unless the query asks for them; COMPOSIO_SEARCH_EXA_ANSWER returns them.
+  - A rate-limit pause from 03:4x to 05:10 UTC interrupted the run; all agents resumed and finished.
+- Revisit after 21 Oct (Kolkata, skipped for Puja week): Virachi (ethnic wear), Srijan Realty (real estate), Golden Tips Tea (gourmet), Seiko Kolkata salon (luxury watches).
+
+## 2026-10-20
+Group 0 (corporate, wedding, hotels, real_estate), run one segment after another (finished 22 Oct UTC). Hunter belonged to hotels today: 1 search + 1 verification used (27 searches, 55 verifications left; resets 16 Nov). Source: Composio EXA answer (cited URLs) in the workbench, with unique variable names. No competitor watch (not Monday). Kolkata/WB prospects skipped (Puja week): CYC Events, Summit Falling Water Darjeeling, Rishi Pranaya.
+- 2026-10-20 corporate: 9 leads. Best: Consortium Gifts (EcoVadis Gold Sept 2026; MD Gaurav Bhagat). Also GIVOO (bulk-gifting platform launched 15 Oct), Bigsmall Corporate (vendor-partnership page), Weavehand (bamboo-basket hampers). The Good Road skipped (already in sent_log).
+- 2026-10-20 wedding: 9 leads. Best: Aarunya Club & Convention by Tivoli, Greater Noida (opens 15 Nov, peak season). Also Poonam Mayank Sharma (expanding, Oct 2026) and trousseau packers Grace, DOTTEDi, Weddings & Marigolds. Shaandaar Events skipped (sales@ already in sent_log).
+- 2026-10-20 hotels: 9 leads. Best: The Leela Jaisalmer (opens Dec 2026; GM Abhissek Basu, Hunter-valid). Also Bookmark Cheetahgarh Jawai, Azalea Goa, juSTa Monsoon Palace and Wyndham Garden Udaipur (all opened Oct 2026), Rosetta Sakleshpur (new GM).
+- 2026-10-20 real_estate: 9 leads. Best: Puravankara (Purva Zenium Phase 2 completing Oct 2026; crm@). Also GHR Infra (1,190-home handovers), Rustomjee Urbania towers done; new CRM heads at Adarsh, Bhumika, Mayfair, ANHAD.
+- Blockers: direct page fetch is blocked (proxy 403 / DNS), so contacts come from search-indexed page text only. Exa hides Cloudflare-protected emails ("[email protected]"), so those leads were left out. Generic info@/sales@ inboxes make up most of the contacts.
+
+## 2026-10-21
+Group 1 run, segments done one after another. Hunter day = diamond_jewellery: 1 domain search + 1 verification used (lucirajewelry.com); quota before use 29 searches / 59 verifications, resets 16 Nov. No competitor watch (not Monday). Composio web_search answers dropped or invented details, so every signal was re-checked with WebSearch and every contact taken from the company's own site.
+
+- diamond_jewellery: 8 leads. Best: Lucira Jewelry (7th store, Malleshwaram, 10 Oct; 20+ stores planned). Ananya Verma, Executive Merchandiser, Hunter-valid. Also PNG Jewellers, Thangamayil, Palmonas, ORRA, Tamannaah Fine Jewellery, Firefly, Limelight. Skipped KISNA and Lalithaa (already in sent_log).
+- cane_planters: 6 leads. Best: UrbanWrk (2nd Hyderabad centre, 85,000 sq ft, 22 Sep). Also The Hazelnut Factory (named contact on own site), MyBranch, Beanlore, The Executive Centre Gurugram, WeWork India. Note: MyBranch and Beanlore have a phone number only.
+- sustainable_decor: 6 leads. Best: The Artment (Rs 10 Cr raise, co-founder Aditya Agarwal's email on own site). Also Verdlo (0% commission for founding brands), Wibhoo, Sokka Tableware, Neytt, Vedas Homes (WhatsApp only).
+- wellness: 3 leads. Best: Jeena Sikho Lifecare (new hospitals and Panchakarma clinics in pipeline). Also Trē Wellness and Kapiva Ayurveda Clinics.
+- Blockers: no tool refused. Dropped for lack of a sourced contact: Vysyaraju Jewellers, CMR Jewellery, P-TAL, Vojara (email not verifiable), Activ8 Pilates, Smartworks. WebFetch could not resolve some hosts (DNS), so the workbench was used to fetch pages.
+
+## 2026-10-22
+Group 2 run (luxury_watches, gourmet, ethnic_wear), one segment after another; restarted once after a container restart (no leads had been written before it). Hunter day = cane_planters, so no Hunter use. No competitor watch (Thursday). Composio web_search answers again invented or shifted dates (e.g. TAG Heuer Noida "15 Oct 2026" was Apr 2026; Sierra x DWC "Mar 2026" was Nov 2025), so every signal was re-checked with WebSearch and every contact read from the company's own page.
+- 2026-10-22 luxury_watches: 6 leads. Best: Ramesh Watch Company, Hyderabad (11 stores, MD Rohit Chugani plans to double the footprint and enter Vizag/Vijayawada; info@rameshwatch.com). Also Rotoris, IST 1947, Delhi Watch Company, Sebastian Watch Co., Time Avenue. Dropped: Johnson & Co (no current signal), Swiss Time House Kochi (site 403), Seiko India (site unreachable).
+- 2026-10-22 gourmet: 6 leads. Best: Manam Chocolate (Diwali Edit 2026 + corporate bulk page naming Bikramjit Mohapatra, bikramjit.m@manamchocolate.com). Also Something's Brewing, Orchard Treasure, Golden Tips Tea, Makaibari, SMOOR (phone only). Skipped Third Wave Coffee (orders@ already in sent_log).
+- 2026-10-22 ethnic_wear: 5 leads. Best: Kasturi Kundal (first Delhi boutique, Mehrauli, Sep 2026). Also Matsya by Utkarsh Ahuja (Kala Ghoda couture flagship, Sep 2026), KALKI Fashion (Chennai flagship with bridal suites), Kresha Bajaj (Treasury of Trousseau 2026), The Indian Ethnic Co. (Ahmedabad store, May 2026). Dropped Vionara Hyderabad (opened Oct 2026, but no sourced contact; vionara.in is an unrelated shoe brand).
+- 2026-10-22 dead addresses from handoff: Ravi Sweets -> ravisweetshyd@gmail.com (own Stores page); Event Basket -> info@eventbasket.in (own contact page); Puravankara -> info@puravankara.com (company letterhead, 2021 BSE filing); Riomara Kochi -> no valid replacement found (only reservations@ on the site), status no_valid_contact; Hamper Hubb -> dropped (domain does not resolve).
+- Blockers: none refused. Direct page fetches worked through the Composio workbench.
+
+## 2026-10-22 (owner-approved box pitch: jewellers and watch retailers)
+- 23 targets added with priority box_pitch: 19 jewellers (diamond_jewellery.json) and 4 watch (luxury_watches.json). Every email is published on the company's own site (verified: published), with the source URL. No Hunter was used: today's Hunter segment was cane_planters. No personal mobiles. Skipped anything already in the lead files or sent_log, and any domain already in them: Tanishq/Mia (titan.co.in), CaratLane, Senco and Melorra (now run by Senco), PP Jewellers, Lalithaa, GIVA, Aukera, Inarra.
+- Best: Malabar (Maninagar showroom 11 Oct 2026), TBZ (GRT takeover 31 Aug 2026), PC Jeweller (up to 100 franchise showrooms; Universal Flockers client), Kalyan (Universal Flockers client; 2026 openings), Divine Solitaires (215 partner stores).
+- Blockers: the Composio workbench sandbox failed on every call, and WebFetch/curl could not resolve or tunnel to any site (DNS ENOTFOUND / proxy 403). Contacts therefore come from WebSearch results limited to each company's own domain. Dropped for no email published on their own site: GRT (Cloudflare-masked), VBJ, Lukson, Solitario, Josco, Sagaramal, Shree Hari, Jewelbox (masked), Infinity Timeless, Exclusive Lines, Timex India (masked), Kala Watch Co. Dropped for no current signal: Johnson Watch Co, The Helvetica, Motisons, Waman Hari Pethe, Popley, Manubhai.
+
+## 2026-10-26 (group 0: corporate, wedding, hotels, real_estate)
+- corporate: +3 (The Bare Bar, Royal Bee Brothers, Bulkysanta), all Hunter valid, emails on own sites. Best: The Bare Bar (corporate Diwali eco hamper line plus bulk-order phone).
+- wedding: +1 (Zapigo, Bengaluru; Hunter valid). Shaadi Squad, Giftcart and Bombay Sweet Shop already in files, skipped; The Wedding Company dropped (no signal).
+- hotels: +0. Crown Heritage Panjim (Atmosphere Core, Q1 2027), Fern Eco Bliss Moolakada (2027), Eco Boutique Udaipur: no email published on a reachable own page. Alsisar and Park/Lemon Tree pages have emails but no signal.
+- real_estate: +3 Kolkata (Siddha, Srijan, Shrachi), Hunter valid; signals are active launch listings (weak). Dropped Eden Realty (email domain is a Dubai firm, not Eden Group Kolkata), PS Group (no signal), Sanghvi (Mumbai, stale 2025 signal).
+- Blockers: WebSearch returns few company pages and no emails; WebFetch cannot resolve hosts; workbench requests works but guessed domains mostly return nothing. Hunter verifications left about 26 of 100 (reset 16 Nov), so the 8-per-segment target was not reached; no Hunter domain search used. Monday competitor notes: none added (no reliable competitor observations found in search results).
+
+- 2026-10-27 (manual light run) gourmet: +8 (VEDPHAL, Ghatside, Tapua Foods, Elvvora, Snakiy, Mumchies, Diet Ethics, Chau Foods), all published emails, basket-only pitch. Skipped Grain Routes/Kenzio (no email / packaging supplier), MAKVORA site 500.
+- 2026-10-27 (manual light run) diamond_jewellery: +8 (Crisanto Jewels, Rupashree Jewellers, Pyne Brothers, Proffini Jewels, Diviano, Krishna Jewellers, Aurya Diamonds, Kothari Jewellers), all published emails; Hunter not used.
+
+- 2026-10-29 corporate: +7 (The Hand Made Store, Planet Earth Shop, Vrikshit Eco Mart, Tohfa, re n ue, Vaanavizha, Help Us Green), published emails; Sacred Peepal skipped (already in sent_log). Hunter not used.
+- 2026-10-29 wedding: +4 (Kala Kriti Events, The Gift Concierge, Wedtree, Gift Emotions); The Knot Planner skipped (in sent_log). Karnika: new site karnikaeventplanners.in contact page still lists hello@karnikaevents.com (the bounced address) plus phone 070018 08451; no working email published, phone only for Sristi. Opus Kreation email only on LinkedIn aggregator, not saved.
+- 2026-10-29 hotels: +2 (Garden Gate Resorts opening Feb 2027; Atmosphere Core, Ozen Mansion Kolkata 2027 pipeline). Few published-email openings found.
+- 2026-10-29 real_estate: +4 (Orchid Developer, Ambuja Neotia Realty, Vishnu Projects, Poddar Groups), all Kolkata, published emails; Hunter not used.
+- Blockers: WebSearch/Composio not used (Exa only); WebFetch cannot resolve karnikaeventplanners.in (Exa fetch worked). Targets of 8 not reached for wedding/hotels/real_estate: few new verifiable contacts.
+
+## Lusha credits 2026-10-29 (LinkedIn kit)
+- 2026-10-29 account_usage: 40 credits remaining before kit (free).
+- 2026-10-29 prospecting_contact_search (5 warm-lead domains, 8 results): 1 credit.
+- 2026-10-29 prospecting_contact_search (7 company names, 50 results shown): 2 credits.
+- Total 3 credits, 0 reveals. Balance: 37 of 40 (calculated; the second search charged 2). No names found for Event Mantra Kolkata or Ganguram's; Virki name from public company registry (no LinkedIn URL).
+
+## 2026-10-30
+- 2026-10-30 diamond_jewellery: 2 leads. Best: Jewelbox (Kolkata-originated LGD brand, opening Mumbai/Bengaluru stores Oct 2026; support@). Also Glora Diamonds (Bengaluru showroom Oct 2026). Aukera skipped (already known/sent).
+- 2026-10-30 cane_planters: 3 leads. Best: The Urban Jungle Mumbai (plantscaping studio, planters in plans). Also Neo Roots Design, My Cube Kolkata (weak signals).
+- 2026-10-30 sustainable_decor: 0 leads. Ellementry and Namah Home Decor already in sent_log/lead file; Makon Home is a competitor; Maati Earthcraft Kolkata (new store Jul 2026) has no published email.
+- 2026-10-30 wellness: 4 leads. Best: Vanyara Resort & Spa, Corbett (opens 1 Nov 2026; sales@). Also The Cube Munnar (opens Oct 2026), Fazlani Nature's Nest, Mountain Shadows Wayanad.
+- Blockers: WebFetch cannot resolve some hosts (e.g. suvarnamjewels.com); WebSearch returns no contact emails, Exa worked. Hunter not used (not today's Hunter segment).

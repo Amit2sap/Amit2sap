@@ -1,0 +1,897 @@
+{
+  "sections": {
+    "image_banner_kA67GL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wi8Hjt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handcrafted Natural Fibre Home Décor & Gifts from India",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_gcHero": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Bestsellers",
+            "button_link_1": "shopify://collections/best-sellers",
+            "button_style_secondary_1": false,
+            "button_label_2": "Bulk & Corporate Orders",
+            "button_link_2": "shopify://pages/wholesale-corporate-gifting",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_wi8Hjt",
+        "buttons_gcHero"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/grasscrafts-hero-natural-fibre-dining.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
+        "show_text_below": false
+      }
+    },
+    "rich_text_G3GixA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8teFFh": {
+          "type": "heading",
+          "settings": {
+            "heading": "From India's Grasslands to Your Home",
+            "heading_size": "h2"
+          }
+        },
+        "text_JndtgR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kauna grass, Sitalpati, Water Hyacinth — harvested by hand, never by machine.</p>"
+          }
+        },
+        "button_Qq4ygT": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8teFFh",
+        "text_JndtgR",
+        "button_Qq4ygT"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "gc_advanced_media_CdMVgB": {
+      "type": "gc-advanced-media",
+      "blocks": {
+        "media_block_VJQQJJ": {
+          "type": "media_block",
+          "settings": {
+            "media_type": "video",
+            "video": "https://cdn.shopify.com/videos/c/o/v/449fd1d7803f40c09730628ebc9fd769.mp4",
+            "youtube_url": "",
+            "overlay_opacity": 0.4,
+            "alignment": "center",
+            "heading": "Watch the Craft",
+            "text": "",
+            "button_text": "",
+            "button_link": "shopify://collections/the-earth-edit"
+          }
+        },
+        "media_block_ztk8Ue": {
+          "type": "media_block",
+          "disabled": true,
+          "settings": {
+            "media_type": "youtube",
+            "video": "",
+            "youtube_url": "https://youtu.be/SydgeQo0lYU",
+            "overlay_opacity": 0.3,
+            "alignment": "left",
+            "heading": "",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_block_VJQQJJ",
+        "media_block_ztk8Ue"
+      ],
+      "disabled": true,
+      "name": "GC Advanced Media",
+      "settings": {}
+    },
+    "multicolumn_9HatpN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PgFnpL": {
+          "type": "column",
+          "settings": {
+            "title": "Rare Natural Fibres",
+            "text": "<p>Harvested from India's most prized wetlands & grass fields</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gzR3Xm": {
+          "type": "column",
+          "settings": {
+            "title": "Master Weavers Only",
+            "text": "<p>Each piece signed off by artisans with decades of craft mastery</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8g6QXC": {
+          "type": "column",
+          "settings": {
+            "title": "Zero Compromise",
+            "text": "<p>No chemicals, no shortcuts — earth-positive from harvest to home</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bgpHRb": {
+          "type": "column",
+          "settings": {
+            "title": "Heirloom Quality",
+            "text": "<p>Woven to outlast trends and be passed down through generations</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PgFnpL",
+        "column_gzR3Xm",
+        "column_8g6QXC",
+        "column_bgpHRb"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17873171794e1d0611": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_11812ab_4y4MeC": {
+          "type": "ai_gen_block_11812ab",
+          "settings": {
+            "heading": "New Arrivals",
+            "subheading": "Discover our latest handcrafted pieces",
+            "collection": "new-arrivals",
+            "products_to_show": 8,
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "heading_alignment": "center",
+            "image_aspect_ratio": "square",
+            "show_vendor": false,
+            "show_price": true,
+            "show_cta_button": true,
+            "cta_button_label": "Shop Now",
+            "button_style": "outline",
+            "hide_scrollbar": true,
+            "background_color": "#faf8f5",
+            "text_color": "#3e2723",
+            "card_background_color": "#ffffff",
+            "button_color": "#6b8e4e",
+            "button_text_color": "#ffffff",
+            "heading_font_size": 40,
+            "card_border_radius": 4,
+            "card_shadow": true,
+            "padding_top": 60,
+            "padding_bottom": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_11812ab_4y4MeC"
+      ],
+      "settings": {}
+    },
+    "featured_collection_UmzFNb": {
+      "type": "featured-collection",
+      "name": "The Earth Edit",
+      "settings": {
+        "collection": "the-earth-edit",
+        "products_to_show": 3,
+        "title": "The Earth Edit",
+        "heading_size": "h2",
+        "description": "<p>Refined textures and organic silhouettes, designed to bring the serenity of nature indoors.</p>",
+        "show_description": true,
+        "description_style": "subtitle",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collection_list_7Tfa8P": {
+      "type": "collection-list",
+      "blocks": {
+        "cat_0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "storage-baskets"
+          }
+        },
+        "cat_1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tote-atelier"
+          }
+        },
+        "cat_2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "planters"
+          }
+        },
+        "cat_3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stylish-straw-plates-and-baskets-for-elegant-wall-art-decoration"
+          }
+        },
+        "cat_4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "table-mats"
+          }
+        },
+        "cat_5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "madurkathi-grass"
+          }
+        },
+        "cat_6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bed-mats-1"
+          }
+        },
+        "cat_7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "diamond-jewellery-boxes"
+          }
+        }
+      },
+      "block_order": [
+        "cat_0",
+        "cat_1",
+        "cat_2",
+        "cat_3",
+        "cat_4",
+        "cat_5",
+        "cat_6",
+        "cat_7"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_ELJqVP": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news-the-grass-guide",
+        "post_limit": 3,
+        "heading": "Journal of Slow Living",
+        "heading_size": "h2",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "material_story_grid_BMk6GJ": {
+      "type": "material-story-grid",
+      "blocks": {
+        "material_card_BfTfQw": {
+          "type": "material_card",
+          "name": "Water Hyacinth",
+          "settings": {
+            "material_name": "Water Hyacinth",
+            "tagline": "Invasive plant, beautiful purpose",
+            "description": "<p>An invasive plant, reclaimed. Woven into objects of quiet beauty from the wetlands of Assam.</p>",
+            "link": "shopify://collections/water-hyacinth",
+            "cta_label": "Shop Water Hyacinth",
+            "image_1": "shopify://shop_images/water-hyacinth.png",
+            "image_2": "shopify://shop_images/handwoven-water-hyacinth-basket.png",
+            "video_url": ""
+          }
+        },
+        "material_card_gAeKYN": {
+          "type": "material_card",
+          "name": "Kauna",
+          "settings": {
+            "material_name": "Kauna Grass",
+            "tagline": "Soft strength, woven by hand",
+            "description": "<p>A hollow reed from Manipur's floodplains. Soft, buoyant, and woven by hand into enduring form.</p>",
+            "link": "shopify://collections/kauna-grass-manipur",
+            "cta_label": "Shop Kauna",
+            "image_1": "shopify://shop_images/kauna-grass-wetlands.png",
+            "video_url": ""
+          }
+        },
+        "material_card_YjkbgL": {
+          "type": "material_card",
+          "name": "Sitalpati ",
+          "settings": {
+            "material_name": "Sitalpati Grass",
+            "tagline": "Cool touch, ancient craft",
+            "description": "<p>Cool to the touch, ancient in origin. Bengal's most refined weave, made by hand.</p>",
+            "link": "shopify://collections/sitalpati-grass",
+            "cta_label": "Shop Sitalpati",
+            "image_1": "shopify://shop_images/sitalpati-mat-hero-image.png",
+            "image_2": "shopify://shop_images/sitalpati-collection-image.png",
+            "video_url": ""
+          }
+        },
+        "material_card_zRDXRh": {
+          "type": "material_card",
+          "name": "Kashi ",
+          "settings": {
+            "material_name": "Kashi Grass",
+            "tagline": "Sacred fibre, contemporary form",
+            "description": "<p>Wild-grown along the Ganga. Coiled into objects that carry the quiet weight of sacred craft.</p>",
+            "link": "shopify://collections/kash-grass",
+            "cta_label": "Shop Kashi",
+            "image_1": "shopify://shop_images/kash-flower-grass.png",
+            "video_url": ""
+          }
+        },
+        "material_card_Qf78C8": {
+          "type": "material_card",
+          "name": "Jute",
+          "settings": {
+            "material_name": "Jute",
+            "tagline": "India's golden fibre, re-imagined",
+            "description": "<p>India's golden fibre, reimagined. Biodegradable, warm-textured, and woven for the long run.</p>",
+            "link": "shopify://collections/jute",
+            "cta_label": "Shop Jute",
+            "image_1": "shopify://shop_images/golden-jute-fibers.png",
+            "video_url": ""
+          }
+        },
+        "material_card_CCVVKh": {
+          "type": "material_card",
+          "name": "Madurkathi",
+          "settings": {
+            "material_name": "Madurkathi Grass",
+            "tagline": "Bengal's finest geometric weave",
+            "description": "<p>A GI-tagged sedge from Medinipur. Geometric, precise, and unmistakably Bengali in character.</p>",
+            "link": "shopify://collections/madurkathi-grass",
+            "cta_label": "Shop Madurkathi",
+            "image_1": "shopify://shop_images/madurkathi-mat-hero-image.png",
+            "image_2": "shopify://shop_images/madurkathi-weaving.png",
+            "video_url": ""
+          }
+        },
+        "material_card_mk4aK7": {
+          "type": "material_card",
+          "name": "Cane",
+          "settings": {
+            "material_name": "Cane",
+            "tagline": "Sculptural, strong, timeless",
+            "description": "<p>Harvested from Northeast India's rattan forests. Sculptural strength, shaped entirely by hand.</p>",
+            "link": "shopify://collections/cane",
+            "cta_label": "Shop Cane",
+            "image_1": "shopify://shop_images/cane-weaving.png",
+            "video_url": ""
+          }
+        },
+        "material_card_VjgXJB": {
+          "type": "material_card",
+          "name": "Sabai",
+          "settings": {
+            "material_name": "Sabai Grass",
+            "tagline": "Durable everyday luxury",
+            "description": "<p>Coiled by tribal artisans in Odisha's forests. Dense, durable, and deeply rooted in place.</p>",
+            "link": "shopify://collections/sabai-grass",
+            "cta_label": "Shop Sabai",
+            "image_1": "shopify://shop_images/sabai-grass-baskets-blog-hero.png",
+            "image_2": "shopify://shop_images/DSC03630_2.png",
+            "video_url": ""
+          }
+        },
+        "material_card_UU8qUY": {
+          "type": "material_card",
+          "name": "Bamboo",
+          "settings": {
+            "material_name": "Bamboo",
+            "tagline": "Fast-grown, slow-crafted",
+            "description": "<p>Fast-grown, slow-crafted. Woven from the forests of Assam into objects built to last.</p>",
+            "link": "shopify://collections/bamboo",
+            "cta_label": "Shop Bamboo",
+            "image_1": "shopify://shop_images/1771576603178_2.jpg",
+            "image_2": "shopify://shop_images/bamboo-basket-weaving.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "material_card_BfTfQw",
+        "material_card_gAeKYN",
+        "material_card_YjkbgL",
+        "material_card_zRDXRh",
+        "material_card_Qf78C8",
+        "material_card_CCVVKh",
+        "material_card_mk4aK7",
+        "material_card_VjgXJB",
+        "material_card_UU8qUY"
+      ],
+      "name": "Material Story Grid",
+      "settings": {
+        "title": "The Material Edit",
+        "subtitle": "Discover the soul of our fibres",
+        "bg_color": "#f9f7f2",
+        "view_all_url": "",
+        "view_all_label": "View All Materials"
+      }
+    },
+    "most_loved_U36Lqk": {
+      "type": "most-loved",
+      "name": "Most Loved",
+      "settings": {
+        "heading": "Most Loved",
+        "subheading": "Objects woven from nature. Crafted slowly by skilled artisans.",
+        "collection": "best-sellers",
+        "product_count_desktop": 3,
+        "product_count_mobile": 4,
+        "background_color": "#f9f7f2",
+        "section_padding": 80,
+        "show_view_all": true,
+        "view_all_label": "Explore More"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "new-arrivals",
+        "products_to_show": 12,
+        "title": "Curated Collections",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collection_list_HVtYaT": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_QgYkni": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mehendi-ceremony-gift-hamper"
+          }
+        },
+        "featured_collection_CRabMw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wedding-gift-hamper"
+          }
+        },
+        "featured_collection_YRiYFY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "haldi-ceremony-gift-hamper"
+          }
+        },
+        "featured_collection_Cm3LYx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-shower-ceremony"
+          }
+        },
+        "featured_collection_iYQJWh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jute-mats"
+          }
+        },
+        "featured_collection_MCqA77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-tote-atelier"
+          }
+        },
+        "featured_collection_EgwNL4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baskets-trays"
+          }
+        },
+        "featured_collection_WtMK8h": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "storage-baskets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_QgYkni",
+        "featured_collection_CRabMw",
+        "featured_collection_YRiYFY",
+        "featured_collection_Cm3LYx",
+        "featured_collection_iYQJWh",
+        "featured_collection_MCqA77",
+        "featured_collection_EgwNL4",
+        "featured_collection_WtMK8h"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hidden-font {display: none;}"
+      ],
+      "settings": {
+        "title": "Explore by Category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "contact_form_wbVaMw": {
+      "type": "contact-form",
+      "custom_css": [
+        "h2 {color: #000000;}",
+        "div {color: #000000;}"
+      ],
+      "settings": {
+        "heading": "Begin a Conversation",
+        "heading_size": "h2",
+        "color_scheme": "scheme-soft-earthy-header",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "1724857098a57f6e58": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "google_reviews_home": {
+      "type": "custom-liquid",
+      "name": "Google reviews",
+      "settings": {
+        "custom_liquid": "{% render 'google-reviews' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "gc_usp_strip": {
+      "type": "custom-liquid",
+      "name": "Why GrassCrafts",
+      "settings": {
+        "custom_liquid": "{%- assign gr = shop.metafields.custom.google_reviews.value -%}\n<div class=\"gc-usp page-width\" aria-label=\"Why shop with GrassCrafts\">\n  <div class=\"gc-usp__item\"><span class=\"gc-usp__ic\" aria-hidden=\"true\">&#127807;</span><div><strong>Handwoven in India</strong><span>Made by artisan weavers from natural grasses</span></div></div>\n  <div class=\"gc-usp__item\"><span class=\"gc-usp__ic\" aria-hidden=\"true\">&#128666;</span><div><strong>Free shipping ₹1,299+</strong><span>Flat ₹120 below that, pan-India</span></div></div>\n  <div class=\"gc-usp__item\"><span class=\"gc-usp__ic\" aria-hidden=\"true\">&#8617;</span><div><strong>3-day returns</strong><span>With your unboxing video</span></div></div>\n  {%- if gr and gr.average -%}<div class=\"gc-usp__item\"><span class=\"gc-usp__ic\" aria-hidden=\"true\">&#9733;</span><div><strong>{{ gr.average }}★ on Google</strong><span>From {{ gr.count }} customer reviews</span></div></div>{%- endif -%}\n  <a class=\"gc-usp__item\" href=\"/pages/wholesale-corporate-gifting\"><span class=\"gc-usp__ic\" aria-hidden=\"true\">&#127873;</span><div><strong>Bulk &amp; corporate orders</strong><span>Get a quote from our team</span></div></a>\n</div>\n<style>\n.gc-usp{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;padding-top:6px;padding-bottom:6px}\n.gc-usp__item{display:flex;gap:10px;align-items:flex-start;padding:14px;border:1px solid rgba(62,39,35,.12);border-radius:6px;background:#fff;color:#3e2723;text-decoration:none}\n.gc-usp__item strong{display:block;font-size:1.45rem}.gc-usp__item span{font-size:1.25rem;color:#6d5b55}\n.gc-usp__ic{font-size:2.2rem;line-height:1;color:#6b8e4e}\n@media(max-width:749px){.gc-usp{grid-template-columns:1fr 1fr}.gc-usp__item{padding:10px}}\n</style>",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "gc_gift_occasion": {
+      "type": "collection-list",
+      "blocks": {
+        "occ_0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "diwali-gift-hampers"
+          }
+        },
+        "occ_1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wedding-gift-hamper"
+          }
+        },
+        "occ_2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "corporate-gifts-handcrafted-gifts"
+          }
+        },
+        "occ_3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "haldi-ceremony-gift-hamper"
+          }
+        },
+        "occ_4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mehendi-ceremony-gift-hamper"
+          }
+        },
+        "occ_5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-shower-ceremony"
+          }
+        }
+      },
+      "block_order": [
+        "occ_0",
+        "occ_1",
+        "occ_2",
+        "occ_3",
+        "occ_4",
+        "occ_5"
+      ],
+      "name": "Gift by Occasion",
+      "settings": {
+        "title": "Gift by Occasion",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1ddce828-85bb-4c11-bbf1-571b471742e0",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "gc_shop_by_price": {
+      "type": "custom-liquid",
+      "name": "Shop by Price",
+      "settings": {
+        "custom_liquid": "<div class=\"gc-price page-width\">\n  <h2 class=\"gc-price__h\">Shop by Price</h2>\n  <div class=\"gc-price__grid\">\n    <a href=\"/collections/all?filter.v.price.lte=999&amp;sort_by=best-selling\" class=\"gc-price__t\"><span>Under</span><strong>₹999</strong><em>Everyday picks &amp; return gifts</em></a>\n    <a href=\"/collections/all?filter.v.price.gte=1000&amp;filter.v.price.lte=2500&amp;sort_by=best-selling\" class=\"gc-price__t\"><span>₹1,000 to</span><strong>₹2,500</strong><em>Gifts &amp; home favourites</em></a>\n    <a href=\"/collections/all?filter.v.price.gte=2500&amp;sort_by=best-selling\" class=\"gc-price__t\"><span>Above</span><strong>₹2,500</strong><em>Statement pieces &amp; hampers</em></a>\n  </div>\n</div>\n<style>\n.gc-price__h{text-align:center;margin:0 0 18px}\n.gc-price__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}\n.gc-price__t{display:flex;flex-direction:column;align-items:center;padding:26px 12px;border-radius:6px;background:#e8dfd5;color:#3e2723;text-decoration:none;transition:transform .2s}\n.gc-price__t:hover{transform:translateY(-3px)}\n.gc-price__t span{font-size:1.3rem;letter-spacing:.06em;text-transform:uppercase}\n.gc-price__t strong{font-size:3rem;line-height:1.2;color:#6b8e4e}\n.gc-price__t em{font-style:normal;font-size:1.3rem;color:#6d5b55;text-align:center}\n@media(max-width:749px){.gc-price__grid{grid-template-columns:1fr}.gc-price__t{padding:16px}}\n</style>",
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "gc_home_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you deliver all over India?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, we deliver pan-India. Shipping is free on orders of ₹1,299 and above; orders below ₹1,299 pay a flat ₹120.</p>"
+          }
+        },
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We ship to the US, UK, Canada, Australia, Singapore, the UAE and most of Europe at a flat ₹1,700 per order; the exact charge is shown at checkout.</p>"
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "question_mark",
+            "row_content": "<p>You can request a return or report a damaged or incorrect item within 3 days. Please keep the unboxing video and your proof of purchase. See our <a href=\"/policies/refund-policy\">refund policy</a>.</p>"
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you take bulk and corporate gifting orders?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. For corporate gifting, weddings, events or wholesale, use the quote form on our <a href=\"/pages/wholesale-corporate-gifting\">wholesale &amp; corporate gifting page</a> or WhatsApp +91 62907 44782.</p>"
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What materials do you use?",
+            "icon": "question_mark",
+            "row_content": "<p>Natural fibres including Kauna, Sabai, Madurkathi, Sitalpati and Kash grass, plus cane, bamboo, jute and water hyacinth, handwoven by artisans across India. Compare them in our <a href=\"/pages/materials-guide-compare-natural-grasses-fibers\">materials guide</a>.</p>"
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for natural grass products?",
+            "icon": "question_mark",
+            "row_content": "<p>Keep away from prolonged moisture and direct sunlight, wipe with a dry or slightly damp cloth and store in a cool, dry place. Avoid machine washing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_0",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5"
+      ],
+      "name": "Homepage FAQ",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently asked questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "gc_seo_text": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handwoven baskets, mats and home decor from India",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GrassCrafts brings you handwoven storage baskets, tote bags, planters, wall plates, table mats and gift hampers made by Indian artisans from natural grasses and fibres. Shop Madurkathi mats from Medinipur, Kauna grass from Manipur, Sabai grass, Sitalpati, cane, bamboo, jute and water hyacinth, with free shipping across India on orders of ₹1,299 and above, and bulk orders for corporate gifting and weddings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "name": "About GrassCrafts (SEO)",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "gc_trust_bar": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'gc-home-trust' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gc_occasion_row": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'gc-home-occasion' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gc_bulk_cta": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'gc-home-bulk-cta' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner_kA67GL",
+    "gc_trust_bar",
+    "gc_usp_strip",
+    "gc_occasion_row",
+    "google_reviews_home",
+    "collection_list_7Tfa8P",
+    "17873171794e1d0611",
+    "most_loved_U36Lqk",
+    "gc_gift_occasion",
+    "gc_bulk_cta",
+    "gc_shop_by_price",
+    "featured_collection_UmzFNb",
+    "material_story_grid_BMk6GJ",
+    "featured_blog_ELJqVP",
+    "gc_home_faq",
+    "gc_seo_text",
+    "contact_form_wbVaMw",
+    "rich_text_G3GixA",
+    "gc_advanced_media_CdMVgB",
+    "multicolumn_9HatpN",
+    "featured-collection",
+    "collection_list_HVtYaT",
+    "1724857098a57f6e58"
+  ]
+}

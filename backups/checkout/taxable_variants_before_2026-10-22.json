@@ -1,0 +1,1219 @@
+{
+ "captured_at": "2026-10-22",
+ "source": "Admin GraphQL productVariants(query:\"taxable:true\")",
+ "count": 173,
+ "product_count": 39,
+ "variants": [
+  {
+   "product_id": "gid://shopify/Product/7885181583533",
+   "handle": "bed-runner",
+   "variant_id": "gid://shopify/ProductVariant/43713228734637",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7885182730413",
+   "handle": "bed-runner-1",
+   "variant_id": "gid://shopify/ProductVariant/43713249214637",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7885185581229",
+   "handle": "bed-runner-2",
+   "variant_id": "gid://shopify/ProductVariant/43713299382445",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7885185974445",
+   "handle": "bed-runner-3",
+   "variant_id": "gid://shopify/ProductVariant/43713300201645",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/43872896712877",
+   "title": "Red / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/43872896745645",
+   "title": "Yellow / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/43872896778413",
+   "title": "Black / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/43872896811181",
+   "title": "Blue / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/43974052380845",
+   "title": "Classic",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547923629",
+   "handle": "dry-flower-wreath-copy",
+   "variant_id": "gid://shopify/ProductVariant/43974053363885",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977548316845",
+   "handle": "dry-flower-wreath-copy-1",
+   "variant_id": "gid://shopify/ProductVariant/43974055329965",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7988506034349",
+   "handle": "dry-flower-wreath-copy-2",
+   "variant_id": "gid://shopify/ProductVariant/43996683272365",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7988506362029",
+   "handle": "dry-flower-wreath-1",
+   "variant_id": "gid://shopify/ProductVariant/43996691005613",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934420811949",
+   "handle": "table-mats-1",
+   "variant_id": "gid://shopify/ProductVariant/44086124642477",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934420811949",
+   "handle": "table-mats-1",
+   "variant_id": "gid://shopify/ProductVariant/44086124675245",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237567149",
+   "title": "Red / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237599917",
+   "title": "Red / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237632685",
+   "title": "Red / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237665453",
+   "title": "Yellow / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237698221",
+   "title": "Yellow / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237730989",
+   "title": "Yellow / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237763757",
+   "title": "Black / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237796525",
+   "title": "Black / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237829293",
+   "title": "Black / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237862061",
+   "title": "Blue / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237894829",
+   "title": "Blue / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934413209773",
+   "handle": "madurkathi-table-runner-6-mats-set",
+   "variant_id": "gid://shopify/ProductVariant/44378237927597",
+   "title": "Blue / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378248872109",
+   "title": "Red / Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378248904877",
+   "title": "Red / Table mat - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378248937645",
+   "title": "Red / Table mat - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378248970413",
+   "title": "Red / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249003181",
+   "title": "Yellow / Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249035949",
+   "title": "Yellow / Table mat - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249068717",
+   "title": "Yellow / Table mat - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249101485",
+   "title": "Yellow / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249134253",
+   "title": "Black / Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249167021",
+   "title": "Black / Table mat - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249199789",
+   "title": "Black / Table mat - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249232557",
+   "title": "Black / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249265325",
+   "title": "Beige / Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249298093",
+   "title": "Beige / Table mat - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249330861",
+   "title": "Beige / Table mat - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934404067501",
+   "handle": "madurkathi-dining-suite",
+   "variant_id": "gid://shopify/ProductVariant/44378249363629",
+   "title": "Beige / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934420811949",
+   "handle": "table-mats-1",
+   "variant_id": "gid://shopify/ProductVariant/44378252345517",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7934420811949",
+   "handle": "table-mats-1",
+   "variant_id": "gid://shopify/ProductVariant/44378252378285",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550446253",
+   "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+   "variant_id": "gid://shopify/ProductVariant/44378255556781",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550446253",
+   "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+   "variant_id": "gid://shopify/ProductVariant/44378255589549",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550446253",
+   "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+   "variant_id": "gid://shopify/ProductVariant/44378255622317",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550446253",
+   "handle": "madurkathi-grass-table-mats-runner-terracotta-black-multi-band",
+   "variant_id": "gid://shopify/ProductVariant/44378255655085",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550970541",
+   "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+   "variant_id": "gid://shopify/ProductVariant/44378257785005",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550970541",
+   "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+   "variant_id": "gid://shopify/ProductVariant/44378257817773",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550970541",
+   "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+   "variant_id": "gid://shopify/ProductVariant/44378257850541",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150550970541",
+   "handle": "madurkathi-grass-table-mats-runner-micro-diamond-lattice",
+   "variant_id": "gid://shopify/ProductVariant/44378257883309",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551199917",
+   "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+   "variant_id": "gid://shopify/ProductVariant/44378258964653",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551199917",
+   "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+   "variant_id": "gid://shopify/ProductVariant/44378258997421",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551199917",
+   "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+   "variant_id": "gid://shopify/ProductVariant/44378259030189",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551199917",
+   "handle": "madurkathi-grass-table-mats-runner-vertical-pinstripe-black-natural",
+   "variant_id": "gid://shopify/ProductVariant/44378259062957",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551330989",
+   "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+   "variant_id": "gid://shopify/ProductVariant/44378259325101",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551330989",
+   "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+   "variant_id": "gid://shopify/ProductVariant/44378259357869",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551330989",
+   "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+   "variant_id": "gid://shopify/ProductVariant/44378259390637",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150551330989",
+   "handle": "madurkathi-grass-table-mats-runner-burgundy-herringbone",
+   "variant_id": "gid://shopify/ProductVariant/44378259423405",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150553985197",
+   "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+   "variant_id": "gid://shopify/ProductVariant/44378260832429",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150553985197",
+   "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+   "variant_id": "gid://shopify/ProductVariant/44378260865197",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150553985197",
+   "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+   "variant_id": "gid://shopify/ProductVariant/44378260897965",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150553985197",
+   "handle": "madurkathi-grass-table-mats-runner-checkerboard-weave-rounded",
+   "variant_id": "gid://shopify/ProductVariant/44378260930733",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555918509",
+   "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+   "variant_id": "gid://shopify/ProductVariant/44378261029037",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555918509",
+   "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+   "variant_id": "gid://shopify/ProductVariant/44378261061805",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555918509",
+   "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+   "variant_id": "gid://shopify/ProductVariant/44378261094573",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555918509",
+   "handle": "madurkathi-grass-table-mats-runner-striped-herringbone-grey-burgundy",
+   "variant_id": "gid://shopify/ProductVariant/44378261127341",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555984045",
+   "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+   "variant_id": "gid://shopify/ProductVariant/44378262995117",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555984045",
+   "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+   "variant_id": "gid://shopify/ProductVariant/44378263027885",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555984045",
+   "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+   "variant_id": "gid://shopify/ProductVariant/44378263060653",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150555984045",
+   "handle": "madurkathi-grass-table-mats-runner-set-diamond-weave",
+   "variant_id": "gid://shopify/ProductVariant/44378263093421",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150556115117",
+   "handle": "table-mats-with-runner-12",
+   "variant_id": "gid://shopify/ProductVariant/44378266271917",
+   "title": "Table mat - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150556115117",
+   "handle": "table-mats-with-runner-12",
+   "variant_id": "gid://shopify/ProductVariant/44378266304685",
+   "title": "Table mat -  6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150556115117",
+   "handle": "table-mats-with-runner-12",
+   "variant_id": "gid://shopify/ProductVariant/44378266337453",
+   "title": "Table mat - 6 Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8150556115117",
+   "handle": "table-mats-with-runner-12",
+   "variant_id": "gid://shopify/ProductVariant/44378266370221",
+   "title": "Table runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8353899839661",
+   "handle": "happy-diwali",
+   "variant_id": "gid://shopify/ProductVariant/45023192055981",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8398791966893",
+   "handle": "wreath",
+   "variant_id": "gid://shopify/ProductVariant/45219810541741",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8398792491181",
+   "handle": "wreath-3",
+   "variant_id": "gid://shopify/ProductVariant/45219812671661",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921478317",
+   "title": "Red / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921511085",
+   "title": "Red / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921543853",
+   "title": "Red / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921576621",
+   "title": "Red / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921609389",
+   "title": "Yellow / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921642157",
+   "title": "Yellow / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921674925",
+   "title": "Yellow / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921707693",
+   "title": "Yellow / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921740461",
+   "title": "Black / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921773229",
+   "title": "Black / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921805997",
+   "title": "Black / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921838765",
+   "title": "Black / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921871533",
+   "title": "Blue / Table mats - 4",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921904301",
+   "title": "Blue / Table mats - 6",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921937069",
+   "title": "Blue / Table mats - 6 Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8535724916909",
+   "handle": "nilachal-madurkathi-dining-set",
+   "variant_id": "gid://shopify/ProductVariant/45846921969837",
+   "title": "Blue / Table Runner - 1",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750322196653",
+   "title": "Red",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750322458797",
+   "title": "Black",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750329634989",
+   "title": "Green",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750329667757",
+   "title": "Maroon",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750329700525",
+   "title": "Grey",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8647056425133",
+   "handle": "madurkathi-grass-handloom-refrigerator-top-cover-51x24",
+   "variant_id": "gid://shopify/ProductVariant/46750329733293",
+   "title": "Beige",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715923456173",
+   "handle": "handwoven-bamboo-gift-basket-black",
+   "variant_id": "gid://shopify/ProductVariant/47288531943597",
+   "title": "Black",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715923456173",
+   "handle": "handwoven-bamboo-gift-basket-black",
+   "variant_id": "gid://shopify/ProductVariant/47288531976365",
+   "title": "Maroon",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715931648173",
+   "handle": "handwoven-bamboo-serving-tray",
+   "variant_id": "gid://shopify/ProductVariant/47288554553517",
+   "title": "Peacock Blue",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715931648173",
+   "handle": "handwoven-bamboo-serving-tray",
+   "variant_id": "gid://shopify/ProductVariant/47288554586285",
+   "title": "Black",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715933778093",
+   "handle": "handwoven-bamboo-puja-tray",
+   "variant_id": "gid://shopify/ProductVariant/47288571265197",
+   "title": "Green",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715933778093",
+   "handle": "handwoven-bamboo-puja-tray",
+   "variant_id": "gid://shopify/ProductVariant/47288571297965",
+   "title": "Black",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715933778093",
+   "handle": "handwoven-bamboo-puja-tray",
+   "variant_id": "gid://shopify/ProductVariant/47288571330733",
+   "title": "Maroon",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715935219885",
+   "handle": "handwoven-square-bamboo-tray-set-of-3",
+   "variant_id": "gid://shopify/ProductVariant/47288573919405",
+   "title": "Smal",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715935219885",
+   "handle": "handwoven-square-bamboo-tray-set-of-3",
+   "variant_id": "gid://shopify/ProductVariant/47288573952173",
+   "title": "Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715935219885",
+   "handle": "handwoven-square-bamboo-tray-set-of-3",
+   "variant_id": "gid://shopify/ProductVariant/47288573984941",
+   "title": "Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8715935219885",
+   "handle": "handwoven-square-bamboo-tray-set-of-3",
+   "variant_id": "gid://shopify/ProductVariant/47288574017709",
+   "title": "Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8729373016237",
+   "handle": "handwoven-bamboo-pendant-lamp-eco-friendly-woven-ceiling-light",
+   "variant_id": "gid://shopify/ProductVariant/47324490236077",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8729428492461",
+   "handle": "handwoven-bamboo-dome-pendant-lamp-wide-woven-ceiling-light",
+   "variant_id": "gid://shopify/ProductVariant/47324709650605",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8729447268525",
+   "handle": "handwoven-bamboo-bell-pendant-lamp-tapered-artisan-ceiling-light",
+   "variant_id": "gid://shopify/ProductVariant/47324819226797",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8729452937389",
+   "handle": "handwoven-bamboo-two-tier-drum-pendant-lamp-double-layer-woven-ceiling-light",
+   "variant_id": "gid://shopify/ProductVariant/47324869853357",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8748789596333",
+   "handle": "handwoven-bamboo-hanging-lamp-21-inch-dome",
+   "variant_id": "gid://shopify/ProductVariant/47411211731117",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8748797526189",
+   "handle": "handwoven-bamboo-layered-pendant-lamp-15x14",
+   "variant_id": "gid://shopify/ProductVariant/47411372261549",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8748805750957",
+   "handle": "handwoven-bamboo-globe-pendant-lamp-11x18",
+   "variant_id": "gid://shopify/ProductVariant/47411462930605",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8748810698925",
+   "handle": "handwoven-bamboo-cage-pendant-lamp-12x12",
+   "variant_id": "gid://shopify/ProductVariant/47411536724141",
+   "title": "Default Title",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804594861",
+   "title": "Bishnupur / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804627629",
+   "title": "Bishnupur / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804660397",
+   "title": "Bishnupur / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804693165",
+   "title": "Bishnupur / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804725933",
+   "title": "Shantiniketan / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804758701",
+   "title": "Shantiniketan / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804791469",
+   "title": "Shantiniketan / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804824237",
+   "title": "Shantiniketan / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804857005",
+   "title": "Bankura / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804889773",
+   "title": "Bankura / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804922541",
+   "title": "Bankura / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804955309",
+   "title": "Bankura / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222804988077",
+   "title": "Jhargram / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805020845",
+   "title": "Jhargram / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805053613",
+   "title": "Jhargram / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805086381",
+   "title": "Jhargram / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805119149",
+   "title": "Sundarban / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805151917",
+   "title": "Sundarban / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805184685",
+   "title": "Sundarban / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805217453",
+   "title": "Sundarban / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805250221",
+   "title": "Murshidabad / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805282989",
+   "title": "Murshidabad / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805315757",
+   "title": "Murshidabad / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805348525",
+   "title": "Murshidabad / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805381293",
+   "title": "Darjeeling / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805414061",
+   "title": "Darjeeling / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805446829",
+   "title": "Darjeeling / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805479597",
+   "title": "Darjeeling / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805512365",
+   "title": "Kalimpong / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805545133",
+   "title": "Kalimpong / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805577901",
+   "title": "Kalimpong / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805610669",
+   "title": "Kalimpong / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805643437",
+   "title": "Purulia / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805676205",
+   "title": "Purulia / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805708973",
+   "title": "Purulia / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8088418943149",
+   "handle": "wall-plates",
+   "variant_id": "gid://shopify/ProductVariant/67222805741741",
+   "title": "Purulia / S+M+L=Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222805840045",
+   "title": "Mini",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222805872813",
+   "title": "Petite",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222805905581",
+   "title": "Rustic",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222805938349",
+   "title": "Harvest",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222805971117",
+   "title": "Garden",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/7977547628717",
+   "handle": "dry-flower-wreath",
+   "variant_id": "gid://shopify/ProductVariant/67222806003885",
+   "title": "Meadow",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807052461",
+   "title": "Kaziranga / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807085229",
+   "title": "Kaziranga / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807117997",
+   "title": "Kaziranga / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807150765",
+   "title": "Kaziranga / Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807183533",
+   "title": "Shillong / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807216301",
+   "title": "Shillong / Medium",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807249069",
+   "title": "Shillong / Large",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807281837",
+   "title": "Shillong / Set of 3",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807314605",
+   "title": "Agartala / Small",
+   "taxable": true
+  },
+  {
+   "product_id": "gid://shopify/Product/8125556293805",
+   "handle": "handwoven-cane-planter-set",
+   "variant_id": "gid://shopify/ProductVariant/67222807347373",
+   "title": "Agartala / Large",
+   "taxable": true
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+(CSS blocks omitted here; full source is in the theme copy.) BreadcrumbList snippet: snippets/gc-breadcrumb-jsonld.liquid, rendered via custom-liquid section gc_breadcrumb_ld in templates/product.json and templates/collection.json.

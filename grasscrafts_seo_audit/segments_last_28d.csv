@@ -1,0 +1,13 @@
+segment_type,segment,clicks,impressions,ctr,avg_position,window
+branded_query,branded,18,200,0.09,,2026-09-30..2026-10-27
+branded_query,non_branded,24,3678,0.0065,,2026-09-30..2026-10-27
+country,india,121,5935,0.0204,7.79,2026-09-30..2026-10-27
+country,international,45,3137,0.0143,8.83,2026-09-30..2026-10-27
+device,MOBILE,110,6680,0.0165,7.75,2026-09-30..2026-10-27
+device,DESKTOP,52,2331,0.0223,9.29,2026-09-30..2026-10-27
+device,TABLET,4,61,0.0656,7.67,2026-09-30..2026-10-27
+search_appearance,PRODUCT_SNIPPETS,55,2296,0.024,11.42,2026-09-30..2026-10-27
+search_appearance,MERCHANT_LISTINGS,9,30,0.3,4.1,2026-09-30..2026-10-27
+search_appearance,REVIEW_SNIPPET,0,8,0,7.5,2026-09-30..2026-10-27
+branded_query_3m,branded,57,700,0.0814,,2026-07-28..2026-10-27
+branded_query_3m,non_branded,84,13882,0.0061,,2026-07-28..2026-10-27

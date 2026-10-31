@@ -1,0 +1,249 @@
+{
+  "updated": "2026-10-29",
+  "targets": [
+    {
+      "source": "India wedding / return-gift roundup blogs",
+      "why": "wedding hamper page: 511 impressions, 0 clicks; queries 'bridal gift hamper', 'diy wedding hamper ideas'",
+      "action": "find via web search, pitch a feature without prices (Email agent)"
+    },
+    {
+      "source": "Bing Webmaster inbound links",
+      "why": "0 inbound links found",
+      "action": "build backlink list from brand-mention results (AI Search agent)"
+    },
+    {
+      "source": "Ethica Online",
+      "why": "cited for kauna, cane planters, sitalpati",
+      "action": "apply as seller / ask for brand feature"
+    },
+    {
+      "source": "IndiaMART",
+      "why": "cited for sitalpati and bulk makhana Kolkata",
+      "action": "free seller listing for handicrafts and makhana (owner)"
+    },
+    {
+      "source": "Brown Living",
+      "why": "cited for sabai",
+      "action": "seller application (Sristi)"
+    },
+    {
+      "source": "Tribes India",
+      "why": "cited for madur mat",
+      "action": "supplier application (Sristi)"
+    },
+    {
+      "source": "iTokri",
+      "why": "cited for madur mat",
+      "action": "seller application"
+    },
+    {
+      "source": "BongHaat / My Bengal",
+      "why": "Bengal craft marketplaces cited for sitalpati and madur",
+      "action": "seller application"
+    },
+    {
+      "source": "bioQ / Handmade Havens listicles",
+      "why": "cited for eco corporate Diwali gifts",
+      "action": "1:1 email offering facts and photos"
+    },
+    {
+      "source": "Unlinked brand mentions (web_search, 18 Oct)",
+      "why": "Web results describe 'Grasscrafts' / 'GrassCrafts by Abalone' (Kolkata, natural-fibre home décor) from third-party pages, but Bing Webmaster Tools reports 0 inbound links to grasscrafts.com",
+      "action": "AI Search/Email agents: open the cited pages from the 18 Oct brand_mentions results in seo/data/2026-10-18.json, find the ones that name the brand without linking, and ask each for a link to grasscrafts.com",
+      "added_by": "data_seo",
+      "date": "2026-10-18"
+    },
+    {
+      "source": "Suspire \"7 Best Sustainable Home Decor Brands in India (2026)\"",
+      "why": "listicle",
+      "action": "personal 1:1 pitch suggesting sabai buyer guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Upcycleluxe \"30 Eco-Friendly Conscious Brands\"",
+      "why": "listicle names Sabai brands",
+      "action": "personal 1:1 pitch suggesting material comparison article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Tapwell \"10 Best Eco-Friendly Corporate Gift Ideas for Diwali 2026\"",
+      "why": "includes Sabai hamper",
+      "action": "personal 1:1 pitch suggesting eco-friendly Diwali corporate gifts article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Box n Bond \"Eco Friendly Corporate Gifts India 2026\"",
+      "why": "handwoven basket idea",
+      "action": "personal 1:1 pitch suggesting bulk hamper baskets guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "AIACA CraftKatha Madur Kathi",
+      "why": "craft documentation body",
+      "action": "personal 1:1 pitch suggesting madur mat buying guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Souvenirs of India sustainable corporate gifting guide",
+      "why": "corporate gifting advice",
+      "action": "personal 1:1 pitch suggesting eco-friendly Diwali corporate gifts article; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Taalapatra Diwali handcrafted gift guide",
+      "why": "mentions Sabai",
+      "action": "personal 1:1 pitch suggesting sabai buyer guide; saved as Gmail draft 22 Oct, NOT sent (Gmail count already 224 vs owner cap ~200). Send 23 Oct.",
+      "status": "sent_2026-10-23",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Backlinks plan",
+      "why": "45 opportunities",
+      "action": "see seo/backlinks_plan_2026-10-22.md and seo/backlinks_owner_checklist.md",
+      "added_by": "website",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Handmade Earth",
+      "why": "cited for sabai, cane planters (22 Oct)",
+      "action": "seller/brand-feature enquiry; low priority until reviews grow",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Kadam Haat",
+      "why": "cited for sabai and madur (22 Oct); also on Amazon India",
+      "action": "competitor; study product pages, no outreach",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "The Bengal Store (thebengalstore.com)",
+      "why": "cited for sabai via 'sabai grass products' search (22 Oct)",
+      "action": "personal 1:1 resource email to support@thebengalstore.com; saved as Gmail draft r4620382525200227566 on 22 Oct, NOT sent. Send 23 Oct.",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "WeddingReturnGifts.com / Kottanz",
+      "why": "won 'Wedding return gift baskets India handmade' (22 Oct)",
+      "action": "on-site: haldi-mehendi and wedding hamper content; competitor retailers, no outreach",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Avbodhan / BongMela",
+      "why": "won 'Sitalpati mat buy online' (22 Oct)",
+      "action": "study; consider Sitalpati FAQ on collection page",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Mithila Naturals / Redbasil / RootWell",
+      "why": "won 'Buy plain Mithila makhana online' (22 Oct)",
+      "action": "study; no GI claim",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Chau Foods",
+      "why": "won makhana hamper, bulk Kolkata and vrat questions (22 Oct)",
+      "action": "study their hamper and bulk pages; competitor",
+      "added_by": "ai_search",
+      "date": "2026-10-22"
+    },
+    {
+      "source": "Indian home-decor and planter roundup blogs (cane planters)",
+      "why": "cane planters 140 impressions, pos 15.3, 0 clicks; no inbound links (Bing 0)",
+      "action": "find via web search, pitch a feature without prices (Email agent)"
+    },
+    {
+      "source": "Shuchi Heritage / Odisha eStore / Utkalamrita / ArtisanSoul",
+      "why": "cited for sabai (29 Oct)",
+      "action": "seller or brand-feature application; Sristi"
+    },
+    {
+      "source": "GiTAGGED / Bangabasi",
+      "why": "cited for madur mat (29 Oct)",
+      "action": "GI-craft marketplace listing; Madurkathi is GI no. 567; Sristi to apply"
+    },
+    {
+      "source": "Gharana / Claymistry / Aipankari",
+      "why": "cited for eco corporate Diwali gifts (29 Oct)",
+      "action": "brand feature or listicle outreach, no prices"
+    },
+    {
+      "source": "Hamper Hive / The Gift Desk / Gravitfy Studio / Boxello",
+      "why": "cited for bulk Diwali hamper baskets (29 Oct)",
+      "action": "supplier directory listing; plain-fact pitch"
+    },
+    {
+      "source": "Sirohi",
+      "why": "cited for wedding return gifts (29 Oct) alongside us",
+      "action": "monitor"
+    },
+    {
+      "source": "Amouve / Thenga / Comorin Coconuts / The Bamboo Co / Akhirah Eco / Baro Design",
+      "why": "cited for sustainable home decor (29 Oct)",
+      "action": "brand-list roundups; find authors, pitch with facts only"
+    },
+    {
+      "source": "Indikraftshub / Diwam Handicrafts / Boxjewellery.in / Hanumant Handicraft",
+      "why": "cited for jewellery boxes bulk (29 Oct)",
+      "action": "benchmark only; we already appear"
+    },
+    {
+      "source": "Hunarsetu / Reeaam / Bamboo Roots Global",
+      "why": "cited for sitalpati (29 Oct)",
+      "action": "marketplace listing; Sitalpati has no GI, do not claim one"
+    },
+    {
+      "source": "Mithila Farms / Mithila Roots / Mithila White Gold / Khetika",
+      "why": "cited for plain Mithila makhana (29 Oct)",
+      "action": "benchmark; own-site makhana page needs clearer answer"
+    },
+    {
+      "source": "Sumewam / Funkhana / Chau Foods",
+      "why": "cited for makhana gift hamper (29 Oct)",
+      "action": "benchmark for hamper page copy"
+    },
+    {
+      "source": "Bihaari Makhana / Grain Routes / Jagrit Texpro",
+      "why": "cited for bulk makhana Kolkata (29 Oct)",
+      "action": "IndiaMART-type listing for the 5 kg bulk pack (owner)"
+    },
+    {
+      "source": "Paschim Banga Marketing Corporation",
+      "why": "cited for madur mat (30 Oct)",
+      "action": "West Bengal state marketing body; ask Sristi whether a listing route exists (owner)"
+    },
+    {
+      "source": "Maati Gifts / Procter Hampers",
+      "why": "cited for corporate Diwali / bulk hampers (30 Oct)",
+      "action": "benchmark for corporate hamper page copy"
+    },
+    {
+      "source": "Phantom Hands / Oorjaa / Junekeri Homes / Anomalia",
+      "why": "cited for sustainable decor brands (30 Oct)",
+      "action": "listicle outreach later, verified contact needed"
+    },
+    {
+      "source": "Makhana Gold / Prosperra Foods / Elvvora / FoxNutWallah / Biharimakhana.com",
+      "why": "cited for makhana hamper, Mithila makhana, bulk (30 Oct)",
+      "action": "benchmark for makhana answer page"
+    }
+  ]
+}

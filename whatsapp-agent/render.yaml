@@ -1,0 +1,105 @@
+# Render Blueprint for the GrassCrafts WhatsApp agent.
+# In Render: New + > Blueprint > pick this repo. Render reads this file.
+services:
+  - type: web
+    name: grasscrafts-whatsapp-agent
+    runtime: docker
+    dockerfilePath: ./whatsapp-agent/Dockerfile
+    dockerContext: ./whatsapp-agent
+    buildFilter:
+      paths:
+        - whatsapp-agent/**
+    # free plan: no persistent disk, sleeps after 15 min idle. The automations (abandoned carts,
+    # review requests, daily digest) need the app awake: use plan: starter with the disk below,
+    # or at least an external uptime monitor pinging /health every 10 minutes.
+    plan: free
+    region: singapore
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      # SQLite location. On the free plan /tmp is wiped on every restart/redeploy,
+      # which clears chat history and /pause settings (they rebuild automatically).
+      # For persistence switch to plan: starter, uncomment the disk block below and
+      # set DATABASE_PATH to /var/data/agent.db.
+      - key: DATABASE_PATH
+        value: /tmp/agent.db
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: ANTHROPIC_EFFORT
+        value: low
+      - key: SHOPIFY_STORE_DOMAIN
+        value: 605e40-ba.myshopify.com
+      - key: SHOPIFY_API_VERSION
+        value: "2025-01"
+      - key: WHATSAPP_API_VERSION
+        value: v21.0
+      - key: DEFAULT_COUNTRY_CODE
+        value: "91"
+      - key: RATE_LIMIT_PER_HOUR
+        value: "20"
+      - key: PAUSED
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      # ---- Automations: everything that messages customers first starts OFF ----
+      - key: TEMPLATE_LANG
+        value: en
+      - key: LEAD_CAPTURE_ENABLED
+        value: "true"
+      - key: ORDER_CONFIRMATION_ENABLED
+        value: "false"
+      - key: SHIPPING_UPDATE_ENABLED
+        value: "false"
+      - key: ABANDONED_CART_ENABLED
+        value: "false"
+      - key: ABANDONED_CART_DELAY_MINUTES
+        value: "60"
+      - key: REVIEW_REQUEST_ENABLED
+        value: "false"
+      - key: REVIEW_REQUEST_DAYS
+        value: "7"
+      - key: OPT_OUT_ENABLED
+        value: "true"
+      - key: MARKETING_REQUIRES_OPT_IN
+        value: "true"
+      - key: UTILITY_REQUIRES_OPT_IN
+        value: "false"
+      - key: BROADCAST_ENABLED
+        value: "false"
+      - key: BROADCAST_RATE_PER_SECOND
+        value: "5"
+      - key: DIGEST_ENABLED
+        value: "false"
+      - key: DIGEST_HOUR
+        value: "9"
+      - key: DIGEST_CHANNELS
+        value: whatsapp,email
+      - key: ADMIN_USER
+        value: admin
+      # Secrets: "sync: false" means you type the value in the Render dashboard.
+      - key: WHATSAPP_VERIFY_TOKEN
+        generateValue: true
+      - key: WHATSAPP_APP_SECRET
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: OWNER_WHATSAPP_NUMBER
+        sync: false
+      - key: SHOPIFY_ADMIN_TOKEN
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: SHOPIFY_WEBHOOK_SECRET
+        sync: false
+      - key: WHATSAPP_BUSINESS_ACCOUNT_ID
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      # Optional, add later under Environment: CATALOGUE_PDF_URL, REVIEW_URL, OWNER_ALERT_TEMPLATE,
+      # SMTP_* (for e-mail copies and the e-mail digest). See .env.example.
+    # disk:
+    #   name: agent-data
+    #   mountPath: /var/data
+    #   sizeGB: 1

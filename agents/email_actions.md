@@ -1,0 +1,51 @@
+# Email & Actions agent (lead agent)
+
+**Attachments and images (owner, 31 Oct 2026):** first cold emails are text only (no PDF, no images) and link the trade sample sheet; the business-specific catalogue PDF and 3–4 real product photos chosen for the buyer's industry go only in replies to people who wrote back. Use the matching industry collage from `sales/collages_2026-10-31.md` (one image per reply, embedded from its Shopify link); only the collages marked owner-approved there (31 Oct: hotels, jewellery, décor). Never use AI-generated images in any email or post (image generation paused, agents/lifestyle_images.md).
+
+**USPs and pitch (owner, 30 Oct 2026):** every B2B pitch, post and proposal uses the 8 USPs and the wording in `sales/grasscrafts_usp_pitch_2026-10-30.md` (made to order, brand customisation, artisan craftsmanship, natural fibres, premium presentation, reusable, versatile B2B range, artisan story). Segment templates in `outreach/templates.py` stay as the base; add the matching USP bullets and the segment hook from that file.
+
+
+Main playbook: `outreach/DAILY_RUNBOOK.md` (send, reply, follow up, hot leads to Sristi) + `sales/b2b_targeting_playbook.md`.
+
+**Extra duties as the lead agent:**
+1. Read `reports/agents/handoff.md`. Act on every open item, then mark it done with the date.
+   - Hot leads → the Sristi brief plus a WhatsApp alert.
+   - Abandoned-checkout reminders → one polite email.
+   - Owner alerts → include them in the summary.
+2. Read yesterday's entries in `reports/agents/*.md` and include a short section per agent in the **one daily owner email**: emails sent, replies, hot leads, Google posts and reviews, website and AI-visibility score, Instagram/Facebook/Pinterest posts, blockers and owner to-dos.
+3. Handle replies to media pitches (`outreach/pr_pitches.json`) and customer review requests (`outreach/review_requests.json`).
+   - When a buyer replies with praise, thank them and send the Google review link: https://search.google.com/local/writereview?placeid=ChIJj8JSa12f-DkRUC8tUXwc-kA
+   - With their permission, save the review text in `outreach/reviews_collected.json`.
+
+4. **Daily strategy update.**
+   - Read today's `reports/competitor_watch.md` entries, yesterday's agent logs, email reply rates by segment (`sent_log.json`) and the leads added (`outreach/leads/`).
+   - Update `agents/STRATEGY.md`: current focus, competitor notes, and segment weights (±3 points a week at most). Add a dated line to its "Changes" log saying what changed and why.
+   - Put the top 3 competitor moves and the strategy changes in the daily owner email.
+5. **Lead pipeline.** In the owner email, report leads found by segment (Lead Research), emailed, replied and hot.
+
+**Weekends and holidays:** replies and hot leads only; no new outreach.
+
+## Lead tracker
+- Local file: `sales/lead_tracker.xlsx` (tabs: Leads, Summary, Hot leads), built by `scripts/build_lead_tracker.py` from outreach/leads/*.json, outreach/sent_log.json, outreach/competitor_customers.json, reports/agents/handoff.md and the hot-leads report. Extend the `R` dict in the script when a new reply or hot lead is logged.
+- Google Sheet 'GrassCrafts Lead Tracker': **STILL NOT CREATED** (22 Oct 2026). Composio Google Sheets (connection googlesheets_ribes-busied) is ACTIVE but GOOGLESHEETS_CREATE_GOOGLE_SHEET returned 403 PERMISSION_DENIED ("The caller does not have permission" - likely the Sheets/Drive OAuth scope or the Sheets API is not enabled for that connection). Google Drive toolkit in Composio is not connected, so sharing via Composio is also unavailable. Owner (Amit): re-authorise Google Sheets in Composio with full spreadsheets+drive scopes, or upload `sales/lead_tracker.xlsx` to Drive > Open with Google Sheets, then Share > add sristi@grasscrafts.com as editor and paste the id below.
+- Sheet file id: (to be filled in once created)
+- Rule: At the end of every Email & Actions run, re-run scripts/build_lead_tracker.py and update the Google Sheet (same file id) via the Composio Google Sheets connection (tabs Leads, Hot leads, Summary); never overwrite manual Status/Notes edits made by Sristi in the sheet - read the sheet first and keep any row where Status or Notes differ from our data, preferring the sheet's values. Update procedure once the sheet exists: read the 'Leads' tab first (GOOGLESHEETS_BATCH_GET), keep any Status/Notes values Sristi changed (sheet wins), then rewrite all three tabs with GOOGLESHEETS_UPDATE_VALUES_BATCH. (Old note, Drive connector: the Drive tools only expose read_file_content for reading and create_file for writing; update_file changes metadata only, so an in-place content update may need the file to be re-created or edited via another connector.)
+
+## B2B reply qualification (owner, 27 Oct 2026)
+When a B2B lead replies with interest, the reply (or the draft for Sristi) asks only for what is missing from: occasion, contents, inner dimensions, quantity, target budget per piece, colour, branding, lining/inserts, delivery city/country, required date, sample needed. International: also shipping mode, import/packaging standards, who pays freight and duty. Offer basket-only supply where the buyer already has products. Share product/collection photo links (real photos only). Never state a price, MOQ, lead time or sample terms; Sristi (CC) quotes. Full rule: agents/STRATEGY.md "B2B basket-only route".
+- Trade sample sheet (live 27 Oct): https://grasscrafts.com/pages/trade-sample-sheet. Link it in B2B pitches and interested replies instead of listing products. It shows retail references only; never add prices to the email itself.
+- CRM (27 Oct): every interested reply -> Pipedrive organisation + person + deal (stage Contact Made; Hot lead label for quote/call/sample requests) with a note linking the thread. Check Jotform order-form submissions (4 forms, see agents/TOOLS.md) and treat each as an enquiry.
+
+## Owner to-dos go to Todoist (owner, 29 Oct 2026)
+Todoist project "GrassCrafts – owner actions" (id 6hrWjrHwPxWHV4rw; Todoist tools via ToolSearch). Each run: (1) for every NEW item that only Amit can do (a decision, a click in Shopify/Meta/Google, a confirmation), add ONE task with a clear title, a link in the description and dueString (p1 = today, p2 = this week); search first (find-tasks) so nothing is duplicated; (2) complete tasks the owner confirmed done (email reply, chat, or the check shows it is done); (3) in the owner email write one line "Open owner tasks in Todoist: N (top 3: …)" instead of repeating the full list. Never put Sristi's lead updates in Todoist; she uses the daily form email.
+
+
+## Master directives
+Master directive D1 (2026-10-31): new pitches at most 30/day, each opening with one real fact from the company's own site; total aim <=60, never pad.
+Master directive D2 (2026-10-31): morning form email to Sristi gets a "Call list": every human reply and hot lead of the last 48 h with company, published phone, ask; no prices.
+Master directive D3 (2026-10-31): keep segment_stats {segment: {pitched, human_replies, hot}} in outreach/sent_log.json, update each run.
+Master directive D4 (2026-10-31): take outreach/RUN_LOCK.json and check Gmail Sent for today before every send batch.
+Master directive D18 (2026-10-31): one "Story question" a day in Sristi's morning email, in order from "To collect" in marketing/story_bank.md; move answers to Verified; pitches carry one line of our own real experience.
+Master directive D21 (2026-10-31): review requests to customers delivered in the last 30 days only with Sristi's OK, skip outreach/review_requests.json entries, log new ones.
+## Strategy v2 (D27, M1-M6 + S1-S4)
+Follow scorecard_95.md M1-M6 and S1-S4 from the next weekday run; log which are met.

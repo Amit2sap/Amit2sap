@@ -1,0 +1,36 @@
+{"menu":"gid://shopify/Menu/205940588717","handle":"main-menu","title":"Main menu","items":[
+{"id":"gid://shopify/MenuItem/581787844781","title":"THE GIFT ATELIER","type":"SEARCH","url":"/search","items":[
+ {"id":"gid://shopify/MenuItem/661315289261","title":"Diwali Gift Hampers","type":"COLLECTION","resourceId":"gid://shopify/Collection/349642293421"},
+ {"id":"gid://shopify/MenuItem/581787910317","title":"Corporate Hampers","type":"COLLECTION","resourceId":"gid://shopify/Collection/330091004077"},
+ {"id":"gid://shopify/MenuItem/663152689325","title":"Wholesale & Corporate Gifting","type":"PAGE","resourceId":"gid://shopify/Page/166751240365"},
+ {"id":"gid://shopify/MenuItem/581787943085","title":"Wedding Gift Hamper","type":"COLLECTION","resourceId":"gid://shopify/Collection/321301938349"}]},
+{"id":"gid://shopify/MenuItem/581787680941","title":"THE COLLECTIONS","type":"SEARCH","url":"/search","items":[
+ {"id":"gid://shopify/MenuItem/581787746477","title":"The Tote Atelier","type":"COLLECTION","resourceId":"gid://shopify/Collection/318353309869"},
+ {"id":"gid://shopify/MenuItem/581787779245","title":"Wall Art & Décor","type":"COLLECTION","resourceId":"gid://shopify/Collection/319495078061"},
+ {"id":"gid://shopify/MenuItem/581787812013","title":"Storage & Organizers","type":"COLLECTION","resourceId":"gid://shopify/Collection/310934241453"},
+ {"id":"gid://shopify/MenuItem/581788762285","title":"Planters","type":"COLLECTION","resourceId":"gid://shopify/Collection/312259281069","items":[
+  {"id":"gid://shopify/MenuItem/663188701357","title":"Cane Planters","type":"COLLECTION","resourceId":"gid://shopify/Collection/320064192685"}]},
+ {"id":"gid://shopify/MenuItem/663188734125","title":"Shop by Material","type":"SEARCH","url":"/search","items":[
+  {"id":"gid://shopify/MenuItem/663188766893","title":"Sabai Grass","resourceId":"gid://shopify/Collection/330117316781"},
+  {"id":"gid://shopify/MenuItem/663188799661","title":"Kauna Grass","resourceId":"gid://shopify/Collection/330117185709"},
+  {"id":"gid://shopify/MenuItem/663188832429","title":"Madurkathi Mats","resourceId":"gid://shopify/Collection/330117513389"},
+  {"id":"gid://shopify/MenuItem/663188865197","title":"Cane","resourceId":"gid://shopify/Collection/330116792493"},
+  {"id":"gid://shopify/MenuItem/663188897965","title":"Water Hyacinth","resourceId":"gid://shopify/Collection/324730323117"},
+  {"id":"gid://shopify/MenuItem/663188930733","title":"Jute","resourceId":"gid://shopify/Collection/330117021869"},
+  {"id":"gid://shopify/MenuItem/663188963501","title":"Bamboo","resourceId":"gid://shopify/Collection/330116464813"},
+  {"id":"gid://shopify/MenuItem/663188996269","title":"Kash Grass","resourceId":"gid://shopify/Collection/330117644461"}]}]},
+{"id":"gid://shopify/MenuItem/582261080237","title":"The Earth Edit","type":"COLLECTION","resourceId":"gid://shopify/Collection/337080746157","items":[
+ {"id":"gid://shopify/MenuItem/582697156781","title":"Earth Edit — Carry","resourceId":"gid://shopify/Collection/337454629037"},
+ {"id":"gid://shopify/MenuItem/607233278125","title":"Earth Edit — Dining","resourceId":"gid://shopify/Collection/343065067693"},
+ {"id":"gid://shopify/MenuItem/582697189549","title":"Earth Edit — Keepsakes","resourceId":"gid://shopify/Collection/337454661805"},
+ {"id":"gid://shopify/MenuItem/582697091245","title":"Earth Edit — Living","resourceId":"gid://shopify/Collection/337454530733"},
+ {"id":"gid://shopify/MenuItem/582697124013","title":"Earth Edit — Storage","resourceId":"gid://shopify/Collection/337454596269"}]},
+{"id":"gid://shopify/MenuItem/581788598445","title":"LIFESTYLE","type":"SEARCH","url":"/search","items":[
+ {"id":"gid://shopify/MenuItem/581788631213","title":"Yoga & Wellness","resourceId":"gid://shopify/Collection/320064290989"}]},
+{"id":"gid://shopify/MenuItem/581788663981","title":"OUR HERITAGE","type":"SEARCH","url":"/search","items":[
+ {"id":"gid://shopify/MenuItem/581788696749","title":"Our Story","type":"PAGE","resourceId":"gid://shopify/Page/119828119725"},
+ {"id":"gid://shopify/MenuItem/581788729517","title":"Material Traceability","type":"PAGE","resourceId":"gid://shopify/Page/119830216877"},
+ {"id":"gid://shopify/MenuItem/583117734061","title":"Journal","type":"BLOG","resourceId":"gid://shopify/Blog/88509120685"},
+ {"id":"gid://shopify/MenuItem/581788795053","title":"About Grasscrafts","type":"PAGE","resourceId":"gid://shopify/Page/101703778477"},
+ {"id":"gid://shopify/MenuItem/581789614253","title":"About Owner","type":"PAGE","resourceId":"gid://shopify/Page/102210142381"}]},
+{"id":"gid://shopify/MenuItem/611959668909","title":"MAKHANA","type":"COLLECTION","resourceId":"gid://shopify/Collection/344132583597"}]}

@@ -1,0 +1,13 @@
+{%- comment -%} GrassCrafts: trust points under the buy buttons. Facts only. {%- endcomment -%}
+<ul class="gc-trust" role="list">
+  <li><span aria-hidden="true">✋</span> Handwoven by artisans in India</li>
+  <li><span aria-hidden="true">🚚</span> Free shipping in India above ₹1,300</li>
+  <li><span aria-hidden="true">🔒</span> Secure payment: UPI, cards, netbanking</li>
+  <li><span aria-hidden="true">💬</span> Questions? <a href="https://wa.me/916290744782?text={{ 'Hi GrassCrafts, I have a question about: ' | append: product.title | append: ' ' | append: shop.url | append: product.url | url_encode }}" target="_blank" rel="noopener">WhatsApp us</a></li>
+</ul>
+<style>
+  .gc-trust{list-style:none;margin:6px 0 4px;padding:12px 14px;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;background:#f8f5ef;border-radius:6px;font-size:1.3rem;color:#3e2723}
+  .gc-trust li{margin:0;line-height:1.35}
+  .gc-trust a{color:#3e2723;text-decoration:underline}
+  @media (max-width:420px){.gc-trust{grid-template-columns:1fr}}
+</style>

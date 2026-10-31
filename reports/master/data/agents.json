@@ -1,0 +1,102 @@
+[
+ {
+  "agent": "AI Search",
+  "schedule": "Mon/Wed/Fri 16:07",
+  "score": 76,
+  "status": "good",
+  "output": "AI answers naming GrassCrafts 1 -> 3 of 14; llms.txt fixed; 7 citation targets",
+  "impact": "ChatGPT sent 97 visits (27 to the wholesale page) and the Shweta Chitale B2B order (owner-reported). No verified website sale: the 3 GA4 'ChatGPT purchases' were the owner's voided test orders",
+  "issue": "Correction 30 Oct: earlier report credited it with 3 web orders; AEO tracking lacks platform, cited page and evidence URL",
+  "next": "Give it 1 on-site answer page per missing question per week (sabai, madur, corporate Diwali, wedding return gifts, makhana)"
+ },
+ {
+  "agent": "Website",
+  "schedule": "Mon/Wed/Fri 17:22",
+  "score": 70,
+  "status": "good",
+  "output": "Landing pages, 208-product audit, AEO on top 10, 7 blog articles, theme copy",
+  "impact": "Content live; 1,240 visits gave 0 verified orders in Oct (all 4 GA4 purchases voided). 27 ChatGPT visitors landed on the wholesale page",
+  "issue": "Output is content-heavy; backlinks plan (45 targets) not executed; 0 inbound links",
+  "next": "P1: audit and improve /pages/wholesale-corporate-gifting (CTA, mobile enquiry route, trust info), before/after evidence; then trust block (D7)"
+ },
+ {
+  "agent": "Data & SEO",
+  "schedule": "Mon/Thu 07:37",
+  "score": 64,
+  "status": "steady",
+  "output": "Runs on time; rank tracker, low-CTR rewrites, cannibalisation list",
+  "impact": "Clicks flat (167 vs 167), impressions -3%, position 7.5 -> 8.1",
+  "issue": "Cannibalisation (cane planters, sabai) found 3 runs in a row but not fixed",
+  "next": "Own the fix: one cannibalisation cluster per run (internal links + canonical copy), report the result next run"
+ },
+ {
+  "agent": "Email & Actions",
+  "schedule": "daily 10:22",
+  "score": 60,
+  "status": "needs focus",
+  "output": "616 unique B2B contacts, up to 100 a day, follow-ups in thread",
+  "impact": "15 warm/hot leads, 4 open deals, 0 orders from cold email yet; 0 genuine replies in the last 3 runs",
+  "issue": "Volume over quality; duplicate run on 28 Oct (25 repeat emails); Google One quota warning 27 Oct",
+  "next": "Cut to 50 a day, personalise first line per company, add a call list for Sristi on every opener who replied; track reply rate per segment"
+ },
+ {
+  "agent": "Lead Research",
+  "schedule": "Mon-Fri 08:07",
+  "score": 58,
+  "status": "needs focus",
+  "output": "299 leads in 12 segments; 4-8 per segment per run",
+  "impact": "Leads feed email, but segments are chosen by rotation, not by reply rate",
+  "issue": "Misses 8-per-segment target; Hunter has ~26 checks left until 16 Nov",
+  "next": "Weight segments by reply rate (hotels and gifting companies replied; watches and real estate have not); pause the two weakest segments"
+ },
+ {
+  "agent": "Social: Pinterest",
+  "schedule": "daily 13:41 (paused posts until 4 Nov)",
+  "score": 56,
+  "status": "mixed",
+  "output": "13 pins + 4 toran pins + 4 saves since 20 Oct",
+  "impact": "Impressions +28% month on month, but only 20 clicks to the site (0.04%) and saves -21%",
+  "issue": "Pins drive views, not visits",
+  "next": "Product pins with price in title, link to collections, 1 video pin a week; judge by outbound clicks, not impressions"
+ },
+ {
+  "agent": "Social: Facebook",
+  "schedule": "daily 13:41",
+  "score": 50,
+  "status": "mixed",
+  "output": "5 photo posts, 9 comment replies",
+  "impact": "Agent posts get 0 comments; Sristi's Lives get 52-77 comments with price asks",
+  "issue": "Comment permission blocker; ~110 Live comments unanswered",
+  "next": "Answer every Live price ask within a day (they are leads); suggest 1 Live a week to the owner"
+ },
+ {
+  "agent": "Social: Instagram",
+  "schedule": "daily 13:41",
+  "score": 45,
+  "status": "weak",
+  "output": "3 posts since 23 Oct (blocked 17-22 Oct)",
+  "impact": "2,848 followers; 28-day reach 2,843, 40 engaged, 17 link taps; 0 comments on last 12 posts",
+  "issue": "Single photos with no hook; no reels by the agent",
+  "next": "Switch to reels of real artisan/product footage and collab posts with gifting brands already in the lead list"
+ },
+ {
+  "agent": "Google Business",
+  "schedule": "Tue/Thu/Sat 11:14",
+  "score": 45,
+  "status": "weak",
+  "output": "8 posts across 2 listings",
+  "impact": "4.7 stars from 21 reviews, all replied to; only 1 new review in 2026 (June). Makhana listing has 0 reviews. 8 posts since 18 Oct",
+  "issue": "Review collection stalled; post views and calls still not readable (Supermetrics trial expired)",
+  "next": "Ask every recent buyer (Shweta Chitale order first, with Sristi's OK) for a Google review per outreach/REVIEW_KIT.md; UTM-tag every post link so GA4 shows its visits"
+ },
+ {
+  "agent": "Social: LinkedIn",
+  "schedule": "with Social",
+  "score": 35,
+  "status": "weak",
+  "output": "3 posts on Amit's profile",
+  "impact": "3 posts, 0 reactions so far (now readable)",
+  "issue": "Personal-profile posts reach few buyers; impressions not available from the API",
+  "next": "Lesson posts in Amit's voice (D16), UTM-tagged links; judge by reactions, link visits in GA4 and replies to Amit"
+ }
+]

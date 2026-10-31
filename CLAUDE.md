@@ -1,0 +1,32 @@
+# GrassCrafts growth agent team — start here
+
+Every new Claude session on this repo reads this file first. It is the memory of the work done so far (written 23 Oct 2026). Work on branch `claude/grassctafts-sales-growth-d8azah`; `git pull` before work, commit and push after.
+
+## Business
+- GrassCrafts / "GrassCrafts by Abalone", Kolkata. Handwoven Sabai, Kauna, Madurkathi, Sitalpati, Kash, cane, water hyacinth, bamboo, jute decor, baskets, bags, mats, hampers; Mithila makhana; dry flower torans (₹960, 3 ft; made to order, inventory untracked by owner decision 25 Oct).
+- Artisans (owner confirmed 29 Oct): over 200 women artisans, spread across different locations; community-based work, different communities make different products, skills passed down generation after generation; where a product is made depends on where its raw material comes from. NOT confirmed (never use): "living wages", wage premiums, percentages.
+- Owner: Amit Dey (amit2sap@gmail.com). Founder: Sristi Dey (sristi@grasscrafts.com, WhatsApp +91 62907 44782). Hot leads go to Sristi with Amit in CC.
+- Shopify store 605e40-ba (grasscrafts.com, INR). Facts: free shipping from ₹1,299, NO GST on any product ("Charge tax" off on every variant), Cash on Delivery on, ₹100 extra per COD order (owner, 24 Oct; Releasit COD app). Makhana packs (250 g ₹499, 500 g ₹849, 1 kg ₹1,599, 5 kg bulk ₹7,500; tag makhana-free-shipping) ship free with no minimum; the 100 g pack (₹199, price confirmed by owner 27 Oct) follows standard shipping; the makhana gift hamper follows standard shipping.
+
+## Hard rules (owner decisions)
+- Outreach: max 100 outbound emails/day (new + follow-ups + pitches); replies are never capped and answered same day. Only business emails published on the company's own site or Hunter "valid"; never guess; check outreach/sent_log.json (sent + do_not_send) first.
+- Never quote prices, discounts, MOQ, lead times or samples in outreach — except the Sristi-approved priced trade catalogue. Never accept partnerships or sign-ups: save a draft and flag.
+- Never invent facts, reviews, certifications, client names or numbers. No consumer profiling or follower scraping. Never auto-comment on other people's posts (owner approves via the actions page).
+- Website: back up before every change (backups/), log undo steps (seo/CHANGELOG-*.md). Theme edits only in an unpublished theme copy; the owner publishes. Never change prices, inventory, discounts, payments, checkout, shipping or apps without the owner.
+- Image generation is PAUSED (agents/lifestyle_images.md). Use only real photos. No GrassCrafts logo or wordmark on any image or collage the agents make (owner, 31 Oct).
+- Usage: Sonnet subagents for routine runs, one job at a time, no image viewing, small outputs.
+
+## Where things are
+- Rules per agent: agents/*.md (README.md = shared rules + schedule). Open tasks: reports/agents/handoff.md (lines starting "- [ ]"). Logs: reports/agents/*.md. Changes: seo/CHANGELOG-*.md.
+- CRM: Pipedrive is the ONE shared lead list for Claude and ChatGPT agents (owner, 28 Oct; agents/STRATEGY.md). Leads: outreach/leads/*.json, outreach/sent_log.json, outreach/DAILY_RUNBOOK.md, sales/b2b_targeting_playbook.md.
+- Daily actions page (owner approvals): https://claude.ai/artifact/T8hhYdcLaL545XpKfCCoZF (ArtifactData, collection "items").
+- Market map: https://claude.ai/artifact/FCLmZodrJBK1zNUhKHpwER. Trade catalogue (Moda): https://moda.app/canvas/8ffa7e7d-19d4-4579-b84f-b0778f1d3288.
+
+## Connections (Composio unless noted)
+Gmail gmail_movie-arab · Instagram instagram_basoid-oer (@grasscrafts.com_) · Facebook Page 142803116227246 · Pinterest pinterest_whosen-hoose · LinkedIn linkedin_lacca-cob (author urn:li:person:19s_VB0aGJ) · Search Console (sc-domain:grasscrafts.com) · GA4 · Bing Webmaster · Hunter · WhatsApp API whatsapp_guha-marko (WABA 28037860215843187, sender +91 81004 47884 "Gift Hamper", phone_number_id 1292616473939901; 12 approved templates; marketing only to customers with SMS/WhatsApp consent) · Google Business via Upload-Post upload_post_halide-drawly (GrassCrafts by Abalone locations/7612515921482745833, Makhana by GrassCrafts locations/12224672824102233760) · Gemini (no key). Shopify, Moda, Pipedrive, Jotform, Exa, Firecrawl, Lusha and Todoist (owner to-dos, project 6hrWjrHwPxWHV4rw) are claude.ai connectors (agents/TOOLS.md). Not working: Windsor (removed), Zapier (task limit), Google Drive/Sheets create (403), Pipedream (not signed in).
+
+## Scheduled tasks (IST)
+Data & SEO 07:37 Mon/Thu · Lead research 08:07 Mon–Fri · Email & Actions 10:22 daily · Google Business 11:14 Tue/Sat · Social 13:41 daily · AI Search 16:07 Mon/Wed/Fri · Reply watcher 19:07 (replies also answered in the 10:22 run) · Website 17:22 Mon/Wed/Fri · Master report 09:03 Mon/Thu (agents/master.md; dashboard https://claude.ai/artifact/W8mCBBXQJJ9SfDk9UMVS75). Each launches one Sonnet subagent with its agents/*.md playbook. From 4 Nov the growth playbook applies (agents/growth_playbook.md: reels from owner clips emailed with subject CLIPS, daily pins, collabs with owner approval).
+
+## Waiting on the owner (23 Oct)
+Live theme 189857562797 "PostHog analytics 29 Oct" (published 29 Oct by owner; PostHog receiving $pageview; undo = publish 189623959725) · Releasit COD ₹100 fee WORKING since 26 Oct (adds a "Cash on Delivery fee" ₹100 line item; verified on test orders #1044, #1045) · AVADA SEO app: add availability to its Product snippet or turn it off · Sristi: confirm real costs behind the makhana hamper (₹649/₹949) and bulk 5 kg (now ₹7,500, owner 27 Oct) prices, now live, priced-catalogue corrections, call the cane-stool hot lead, Shweta Chitale order (12 Nilachal dining sets, WON 27 Oct via ChatGPT search) is COMPLETE (owner, 30 Oct). GA4 purchases include voided test orders: report only Shopify-verified (not voided) sales (30 Oct: all 4 Oct GA4 purchases were voided; #1043, #1044, #1045 are owner test orders, confirmed by owner 30 Oct; customer order #1042 voided, ask Sristi why).
