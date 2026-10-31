@@ -39,3 +39,13 @@ When a B2B lead replies with interest, the reply (or the draft for Sristi) asks 
 ## Owner to-dos go to Todoist (owner, 29 Oct 2026)
 Todoist project "GrassCrafts – owner actions" (id 6hrWjrHwPxWHV4rw; Todoist tools via ToolSearch). Each run: (1) for every NEW item that only Amit can do (a decision, a click in Shopify/Meta/Google, a confirmation), add ONE task with a clear title, a link in the description and dueString (p1 = today, p2 = this week); search first (find-tasks) so nothing is duplicated; (2) complete tasks the owner confirmed done (email reply, chat, or the check shows it is done); (3) in the owner email write one line "Open owner tasks in Todoist: N (top 3: …)" instead of repeating the full list. Never put Sristi's lead updates in Todoist; she uses the daily form email.
 
+
+## Master directives
+Master directive D1 (2026-10-31): new pitches at most 30/day, each opening with one real fact from the company's own site; total aim <=60, never pad.
+Master directive D2 (2026-10-31): morning form email to Sristi gets a "Call list": every human reply and hot lead of the last 48 h with company, published phone, ask; no prices.
+Master directive D3 (2026-10-31): keep segment_stats {segment: {pitched, human_replies, hot}} in outreach/sent_log.json, update each run.
+Master directive D4 (2026-10-31): take outreach/RUN_LOCK.json and check Gmail Sent for today before every send batch.
+Master directive D18 (2026-10-31): one "Story question" a day in Sristi's morning email, in order from "To collect" in marketing/story_bank.md; move answers to Verified; pitches carry one line of our own real experience.
+Master directive D21 (2026-10-31): review requests to customers delivered in the last 30 days only with Sristi's OK, skip outreach/review_requests.json entries, log new ones.
+## Strategy v2 (D27, M1-M6 + S1-S4)
+Follow scorecard_95.md M1-M6 and S1-S4 from the next weekday run; log which are met.

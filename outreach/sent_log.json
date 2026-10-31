@@ -879,5 +879,13 @@
       "pitch_addresses": "sales@vanyararesort.com,reservations@fazlaninaturesnest.com,reservations@mountainshadows.in,reservations@vkation.com,bookings@cghearth.com,munish@theurbanjungle.in,hello@neoroots.design,kasturikundal@gmail.com,delhiwatchco@outlook.com,salesteam@gloradiamonds.com",
       "note": "Remaining 22 Oct batch first follow-ups (in-thread; Brij Tara held for owner approval, krwatches support inbox skipped, Treebo and Giving Tree not followed up). No genuine replies in 24h. New pitches: no prices/samples."
     }
-  }
+  },
+  "followups_log": [],
+  "brij_followup": {
+    "date": "2026-10-31",
+    "to": "reservations@brijhotels.com",
+    "thread": "1a16178dc3301880",
+    "message": "1a1904ea4fa6f65b"
+  },
+  "segment_stats": {}
 }

@@ -124,3 +124,6 @@
 - Held: Brij Tara follow-up (owner approval), krwatches.support@kr.om (support inbox). Skipped today: strategy update, tracker rebuild, Todoist sync (usage).
 - 30 Oct (manual, owner request, ~10:55 IST): Sristi morning email sent late (the 10:22 run skipped it): "Today's leads – 30 Oct 2026 – 11 to act on (+ Shweta order due 2 Nov)", Gmail 1a18b4515328c52b, CC Amit. Update button on every card; Spam/Promotions note included.
 - 30 Oct: first pitches to Swagloop, Dhananjay Foods, Drapednuts (owner-approved) NOT confirmed: Composio returned "Upstream MCP server error" on every send attempt and on the follow-up Gmail check. Last successful check (10:59 IST) showed none sent. Next run: check Gmail Sent for each address first (duplicate guard), then send if absent.
+
+## 2026-10-31 (Sat) email_actions
+Replies last 24h: 0 genuine (Jotform lead-update forms, bank, job, newsletter, bounce delays only). Hot leads: 0. Collab items approved: 0. Sent: 1 (in-thread follow-up to Brij Tara Ranthambore, no prices). D1-D4, D18, D21, D27 confirmed. Blockers: none; WhatsApp not needed. Pipedrive note for Brij not logged.
