@@ -276,3 +276,8 @@ Format: - [ ] YYYY-MM-DD from:<agent> to:<agent|owner> | item
 - [ ] 2026-10-30 from:website | Wholesale page FAQ says baskets "start under ₹500" and names past clients; confirm both are approved (D32 flag). Kauna collection had a stale "₹1,250" free-shipping line, now ₹1,299.
 
 - [x] OWNER APPROVED 30 Oct (Amit): wholesale page may keep "baskets start under ₹500" and the named past clients. Existing product-description claims written before 30 Oct (e.g. "saves 2,200 litres of water", carbon-offset figures, "fair artisan livelihoods" on Cane Planters) are approved as they stand; agents must not remove them. This is not a licence to add new claims of this kind: new copy still uses only facts confirmed in CLAUDE.md.
+
+## 31 Oct 2026: ChatGPT leads imported to Pipedrive (5 orgs, 6 people, 5 leads; no outreach)
+- [ ] Owner to approve (or not) first contact: Lemon Tree Hotels (only reservations@ published, not purchasing; buyer Naresh Kumar, VP Materials) and The Reward Store (sales@therewardstore.com). Email & Actions agent: do NOT email these until the owner approves.
+- The Den Bengaluru: already warm with Sristi (Materials Manager replied; our 22 Oct reply CC Sristi, Gmail 1a16293b8bab253f). No new pitch; Sristi follows up. New GM contact (Vinesh Gupta, BLROL_GM@hilton.com) recorded only.
+- Polo Hotel Kohima (sales@hotelpolotowers.com) and Gifting Needs (sales@giftingneeds.in): already pitched by 27 Oct, no reply. Normal follow-up rules only; never pitch info@giftingneeds.in as a second address.
