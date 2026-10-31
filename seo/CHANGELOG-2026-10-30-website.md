@@ -34,3 +34,8 @@ Undo: productUpdate(product:{id, descriptionHtml}) with the originals in backups
 - templates/index.json in the copy: hero image swapped, heading block enabled "Handcrafted Natural Fibre Home Décor & Gifts from India" (h1 size), overlay 20->30; buttons unchanged. Upload verified by MD5 match; preview renders heading + image, no Liquid error in HTML.
 - Preview: https://grasscrafts.com/?preview_theme_id=189922181293 . Owner publishes. Undo: keep/re-publish 189857562797. Backup: backups/2026-10-30-hero/.
 - Alt text updated (owner, 30 Oct): "Handwoven natural fibre table setting with grass baskets and artisan-made décor by GrassCrafts India" (file gid://shopify/MediaImage/46888934244525).
+
+## Hero text readability fix (31 Oct, owner: "Texts not visible properly ... Fix") — THEME COPY ONLY
+- Live theme now 189922181293 (owner published the hero). Fix made in new unpublished copy 189922410669 "Grasscrafts – hero text fix 31 Oct".
+- index.json changes: show_text_below true (mobile: heading + buttons below the image on plain background), show_text_box true (desktop: light box behind text), heading size h1 -> h2, overlay 30 -> 10. Uploaded file MD5 bc21d0b3... matches backups/2026-10-30-hero/index.hero-fix.json. Mobile screenshot verified readable.
+- Undo: keep 189922181293 live (or re-publish it).
