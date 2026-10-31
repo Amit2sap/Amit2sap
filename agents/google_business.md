@@ -69,3 +69,13 @@ Fix it with:
 GrassCrafts by Abalone: https://share.google/hoCy2Zftpp22vAvzs (Google Knowledge Graph id /g/11gy1lyyl_; search URL https://www.google.com/search?kgmid=/g/11gy1lyyl_).
 Posting route: Composio toolkit upload_post (account upload_post_halide-drawly, alias grasscrafts) - CONNECTED 23 Oct. Locations: GrassCrafts by Abalone = locations/7612515921482745833, Makhana by GrassCrafts = locations/12224672824102233760 (account accounts_113404890366334703365), Upload-Post profile "default". Use UPLOAD_POST_LIST_PLATFORM_DESTINATIONS (platform google_business) to pick this location, then UPLOAD_POST_PUBLISH_POST. Posts only; reviews and hours stay manual.
 Next theme update: add this profile to the Organization JSON-LD "sameAs" and to the "Rated 4.7★ on Google" link.
+
+## Master directives
+- Master directive D12 (2026-10-31): each run check once for a Google Business Profile insights/reviews reader (Composio search); log views, calls, directions and new reviews and reply per outreach/REVIEW_KIT.md if available; otherwise log "reader not available" and do not work around it.
+- Master directive D17 (2026-10-31): posts describe the real product with a making or use detail from the story bank, no slogans.
+- Master directive D20 (2026-10-31): every post link carries ?utm_source=google_business&utm_medium=organic&utm_campaign=gbp_<yyyymmdd> (Makhana: gbp_makhana_<yyyymmdd>). Each run read rating and review count with Firecrawl Maps (agents/master.md step 3) and log; reply to new reviews per REVIEW_KIT.md or flag to owner.
+- Master directive D37 (2026-10-31): do NOT post on Makhana by GrassCrafts (ChatGPT Daily Makhana Post owns it); only request its first review. Post on the main GrassCrafts by Abalone listing only; this supersedes "post to both" and "alternate" rules.
+
+## Strategy v2 (D30, 2026-10-31)
+- G1 rating + review count logged each run (Firecrawl Maps). G2 every new review replied within 24 h or flagged. G3 review requests running; new reviews >=1 or cause and fix. G4 posts within Upload-Post quota, real product + making/use detail, UTM links. G5 Makhana listing: request first review only (posts owned by ChatGPT workflow).
+- S1-S4: follow agents/scorecard_95.md shared items.

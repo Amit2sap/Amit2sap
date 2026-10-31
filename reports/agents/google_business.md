@@ -52,3 +52,9 @@
 
 ## 2026-10-27 (manual run)
 - Main (GrassCrafts by Abalone): localPosts/352132265279169205, Square Kauna grass gift hamper basket (Diwali gift basket, ₹380 as on product page), link in text /products/square-kauna-grass-gift-hamper-basket, real Shopify photo via s3key. Free shipping from ₹1,299, no GST, COD. Upload-Post usage 6/10 (reset 23 Oct).
+
+## 2026-10-31 (scheduled run)
+- Main (GrassCrafts by Abalone): localPosts/2324511025092510166, Hand-Woven Madurkathi Dining Suite (active, 32 in stock), link /products/madurkathi-dining-suite with UTM gbp_20261031, real Shopify photo via s3key. Women artisans / skill passed down (owner-confirmed); GI-registered craft (repo rule). No price, no phone. Free shipping from Rs 1,299, no GST, COD.
+- Makhana listing: not posted (D37, ChatGPT workflow owns it); alternation rule superseded.
+- Upload-Post usage 7/10 (reset 23 Oct 12:39 UTC; next reset about 23 Nov).
+- D12: reader not available (Composio google_business_profile has no active connection). D20 Firecrawl Maps rating/review count not read this run.
