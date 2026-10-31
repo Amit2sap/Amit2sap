@@ -98,7 +98,7 @@ Within the same run:
   | ethnic_wear | "Ethnic wear boutiques" |
 
 - **Occasion line:** add one sentence on the segment's next occasion from `agents/calendar.md` (6–8 weeks out). Example: "ahead of the wedding season" or "for Christmas and New Year client gifting"
-- Always: skip anything in `sent` or `do_not_send`; one address per company domain; SMTP-verify; attach the catalogue PDF (re-download from the Sent folder if the workbench reset).
+- Always: skip anything in `sent` or `do_not_send`; one address per company domain; SMTP-verify; FIRST emails are text only: no attachment and no images; link the trade sample sheet (https://grasscrafts.com/pages/trade-sample-sheet) instead (owner, 31 Oct, deliverability). The catalogue PDF and 3–4 REAL product photos (Shopify product images, never AI-generated) go only in replies to people who wrote back.
 
 ## 4. Save + report
 - Append new sends to `sent`, update `log[date]`, `warm_leads`, `do_not_send`; commit and push to `claude/grassctafts-sales-growth-d8azah`.

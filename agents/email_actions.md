@@ -1,5 +1,7 @@
 # Email & Actions agent (lead agent)
 
+**Attachments and images (owner, 31 Oct 2026):** first cold emails are text only (no PDF, no images) and link the trade sample sheet; the business-specific catalogue PDF and 3–4 real product photos chosen for the buyer's industry go only in replies to people who wrote back. Never use AI-generated images in any email or post (image generation paused, agents/lifestyle_images.md).
+
 **USPs and pitch (owner, 30 Oct 2026):** every B2B pitch, post and proposal uses the 8 USPs and the wording in `sales/grasscrafts_usp_pitch_2026-10-30.md` (made to order, brand customisation, artisan craftsmanship, natural fibres, premium presentation, reusable, versatile B2B range, artisan story). Segment templates in `outreach/templates.py` stay as the base; add the matching USP bullets and the segment hook from that file.
 
 
